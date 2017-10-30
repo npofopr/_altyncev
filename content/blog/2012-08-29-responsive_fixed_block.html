@@ -1,0 +1,37 @@
+---
+title: "Responsive fixed block"
+description: "Суть такая: нужен был fixed sidebar, но если блок fixed, то при уменьшении экрана по высоте он начинает «»съедаться», нужно было это как то решать."
+tags: ["html"]
+categories: ["web"]
+date: "2012-08-29"
+---
+
+<p>Ура ура! Как раз искал такое решение и оно нашлось :-)</p>
+<p>Суть такая: нужен был fixed sidebar, но если блок fixed, то при уменьшении экрана по высоте он начинает "съедаться", нужно было это как то решать.</p>
+
+
+<p>Есть 2 способа решения:</p>
+<ol>
+<li>С помощью @media screen;</li>
+<li>И с помощью jquery.</li>
+</ol>
+<p>C @media screen это будет примерно так:</p>
+<pre><code class="css">@media screen and (min-height: 768px) { }</code></pre>
+<p>А с jquery так:</p>
+<pre><code class="js">jQuery(document).ready(function($) {
+    $(document).ready(function () {
+         var setResponsive = function () {
+              if ($(window).height() > $(".sidebar").height() + 50) { // Is the window taller than the #adminmenuwrap by 50px or more?
+                  $('.sidebar').css('position', 'fixed'); // ...if so, make the #adminmenuwrap position:fixed
+              }
+              else {
+                  $('.sidebar').css('position', 'relative'); //...otherwise, leave it relative
+              }
+          }
+      $(window).resize(setResponsive);
+      setResponsive();
+    });
+  });</code></pre>
+<p>&nbsp;</p>
+<p>Мой примерчик можно глянуть тут: <a title="Responsive fixed sidebar" href="http://shadow.perm.ru/portfolio/Projects/fix_sidebar/">ссылка</a></p>
+<p style="text-align: right;">Ну и собственно пруф линк на оригинал: <a href="http://css-tricks.com/responsive-web-above-the-fold/">http://css-tricks.com/responsive-web-above-the-fold/</a></p>

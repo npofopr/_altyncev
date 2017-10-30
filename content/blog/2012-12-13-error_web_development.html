@@ -1,0 +1,59 @@
+---
+title: "Несколько ошибок и рекомендаций, которые должен знать веб-разработчик"
+description: "5 встречающихся ошибок, которые должен знать разработчик."
+tags: ["html"]
+categories: ["web"]
+date: "2012-12-13"
+---
+
+<p>5 встречающихся ошибок, которые должен знать разработчик.</p>
+
+<!-- Read more -->
+
+<h4>#1 Link outlines / highlights смещаются Kindle Fire</h4>
+<p><strong>Проблема:</strong></p>
+<p><img src="http://shadow.perm.ru/images/problem1.png"></p>
+<p><strong>Fix:</strong></p>
+<pre>text-rendering: optimizeLegibility;
+position: relative;
+-webkit-box-sizing: border-box;</pre>
+<hr>
+
+<h4>#2 Баг с зумом при смене ориентации на iOS</h4>
+<p><strong>Решение:</strong>
+<pre>(function(a){function m(){d.setAttribute("content",g),h=!0}function n(){d.setAttribute("content",f),h=!1}function o(b){l=b.accelerationIncludingGravity,i=Math.abs(l.x),j=Math.abs(l.y),k=Math.abs(l.z),(!a.orientation||a.orientation===180)&&(i>7||(k>6&&j5)?h&&n():h||m()}var b=navigator.userAgent;if(!(/iPhone|iPad|iPod/.test(navigator.platform)&&/OS [1-5]_[0-9_]* like Mac OS X/i.test(b)&&b.indexOf("AppleWebKit")>-1))return;var c=a.document;if(!c.querySelector)return;var d=c.querySelector("meta[name=viewport]"),e=d&&d.getAttribute("content"),f=e+",maximum-scale=1",g=e+",maximum-scale=10",h=!0,i,j,k,l;if(!d)return;a.addEventListener("orientationchange",m,!1),a.addEventListener("devicemotion",o,!1)})(this);</pre>
+<hr>
+
+<h4>#3 WebKit игнорирует цвет фона элемента при печати документа</h4>
+<p><strong>Решение:</strong></p>
+<pre>-webkit-print-color-adjust: exact;</pre>
+<hr>
+
+<h4>Oтключить диалоги, которые появляются при нажатии на элемент слишком долго на мобильных браузеров</h4>
+<p><strong>Проблема:</strong></p>
+<p>Если вы нажимаете на пункт слишком долго следующее диалоговое окно будет всплывать на мобильных устройствах:</p>
+<p><img src="http://shadow.perm.ru/images/problem5.png"></p>
+<p><strong>Чтобы убрать такое поведение добавтье:</strong>
+<pre>-webkit-touch-callout: none;
+-moz-touch-callout: none;
+touch-callout: none;</pre>
+<hr>
+
+<h4>#4 Настройка страницы при добавлении на главный экран iOS</h4>
+<p>Используйте следующие теги для настройки значка приложения:</p>
+<pre>&lt;link rel="apple-touch-icon" href="touch-icon-iphone.png" /&gt;
+&lt;link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" /&gt;
+&lt;link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png" /&gt;</pre>
+<p>Для настройки имени вашего приложения:</p>
+<pre>&lt;meta name="apple-mobile-web-app-title" content="CUSTOM SHORT NAME"&gt;</pre>
+<p>Для работы в полноэкранном режиме</p>
+<pre>&lt;meta name="apple-mobile-web-app-capable" content="yes" /&gt;</pre>
+<p>Настройка цвета строки состояния, когда ваше приложение активно:</p>
+<pre>&lt;meta name="apple-mobile-web-app-status-bar-style" content="black" /&gt;</pre>
+<p>Добавление заставки, при открытии приложения:</p>
+<pre>&lt;link rel="apple-touch-startup-image" href="/startup.png"&gt;</pre>
+<hr>
+
+<h4>#5 Снимаем пунктирные контуры полей выбора в Firefox</h4>
+<p><img src="http://shadow.perm.ru/images/problem6.png"></p>
+<pre>select:-moz-focusring { color: transparent; }</pre>

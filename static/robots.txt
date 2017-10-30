@@ -1,0 +1,4 @@
+Host: altyncev.ru
+
+User-Agent: *
+Disallow:

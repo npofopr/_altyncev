@@ -1,0 +1,24 @@
+---
+title: "Google mail и пустое пространство"
+tags: [ "it" ]
+categories: ["it"]
+date: "2012-07-17"
+---
+
+<p>Начнем с&nbsp;того, что на&nbsp;широкоформатке в&nbsp;google mail есть куча незанятого пространства. Вернее оно занято, но&nbsp;та&nbsp;информация, что там отображается мне совсем не&nbsp;нужна. Я&nbsp;даже толком не&nbsp;помню, что там, у&nbsp;меня видимо AdBlock содержимого &laquo;вырезает&raquo;. <del>То&nbsp;ли реклама там была, то&nbsp;ли</del> <nobr>что-то</nobr> про круги google+. Не&nbsp;суть.</p>
+<!-- Read more -->
+<p>В&nbsp;общем у&nbsp;меня выглядело это так:</p>
+<p><a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/07/Inbox-npofopr-gmail.com-Gmail.png"><img align="middle" class="aligncenter size-full wp-image-134" style="max-width: 100%;" title="Inbox gmail.com Gmail" src="http://shadow.perm.ru/wp-content/uploads/2012/07/Inbox-npofopr-gmail.com-Gmail.png" alt="Inbox gmail.com" /></a></p>
+<p>Справа куча пустоты. <nobr>Из-за</nobr> этого и&nbsp;видео обрезается, если из&nbsp;гмайла просматривать.</p>
+<p>Вылечить это можно так (пишу исключительно для Хрома):</p>
+<p>1. устанавливаем для хрома Stylebot из&nbsp;WebStoreChrome.</p>
+<p>2. Щёлкаем на&nbsp;появившемся <acronym title="Cascading Style Sheets" lang="en">css</acronym>, затем заходим в&nbsp;Настройки:</p>
+<p><a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/07/stylebot.png"><img align="middle" class="aligncenter size-full wp-image-135" style="max-width: 100%;" title="stylebot" src="http://shadow.perm.ru/wp-content/uploads/2012/07/stylebot.png" alt="stylebot" /></a></p>
+<p>3. В&nbsp;настройках Styles -&gt; Add a&nbsp;new style пишет для mail.google.com/ (http:// не&nbsp;надо писать) .</p>
+<p>Ну&nbsp;и&nbsp;внутри пишем:</p>
+<pre><code class="css">.ao8 td.Bu:last-child .nH {
+	display: none;
+}</code></pre>
+<p>Можете включить синхронизацию в&nbsp;третьей вкладке (Backup and Sync), не&nbsp;помешает.</p>
+<p>4. Выходим из&nbsp;настроек. Делаем F5 в&nbsp;google mail и&nbsp;вуаля, у&nbsp;нас блок с&nbsp;основным контентом расширился, и&nbsp;больше нет пустоты.</p>
+<p>И&nbsp;у&nbsp;stylebot на&nbsp;их&nbsp;сайте куча прикольных стилей. Пригрёб несколько для себя.</p>

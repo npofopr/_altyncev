@@ -1,0 +1,214 @@
+---
+title: "Git это просто. Запись №1. Знакомство с Git."
+description: "Что же такое Git?"
+tags: ["git"]
+categories: ["git"]
+date: "2012-09-24"
+---
+
+<h2>Что же такое Git?</h2>
+
+<p>Что такое управление версиями, и зачем оно вам нужно? Система управления версиями (СУВ) &mdash; это система, сохраняющая изменения в одном или нескольких файлах так, чтобы потом можно было восстановить определённые старые версии. Для примеров в этой книге мы будем использовать исходные коды программ, но на самом деле можно управлять версиями практически любых типов файлов.</p>
+<p>Если вы графический или веб-дизайнер и хотите хранить каждую версию изображения или макета &mdash; вот это вам наверняка нужно &mdash; то пользоваться системой управления версиями будет очень мудрым решением. Она позволяет вернуть файлы к прежнему виду, вернуть к прежнему состоянию весь проект, сравнить изменения с какого-то времени, увидеть, кто последним изменял модуль, который дал сбой, кто создал проблему, и так далее. Вообще, если, пользуясь СУВ, вы всё испортили или потеряли файлы, всё можно легко восстановить. Кроме того, издержки на всё это будут очень маленькими.</p>
+<h2>Git это просто</h2>
+<p><strong>У Git есть 3 состояния:</strong></p>
+<ol>
+<li>Зафиксированный - значит, что файл уже сохранён в вашей локальной базе</li>
+<li>Измененный - относятся файлы, которые поменялись, но ещё не были зафиксированы</li>
+<li>Подготовленный - изменённые файлы, отмеченные для включения в следующий коммит</li>
+</ol>
+<p>Таким образом, в проекте с использованием Git <strong>есть три части:</strong></p>
+<ol>
+<li>каталог Git (Git directory) - место, где Git хранит метаданные и базу данных объектов вашего проекта</li>
+<li>рабочий каталог (working directory) - это извлечённая из базы копия определённой версии проекта</li>
+<li>область подготовленных файлов (staging area) - это обычный файл, обычно хранящийся в каталоге Git, который содержит информацию о том, что должно войти в следующий коммит</li>
+</ol>
+<p>Дальше я опишу, как быстро начать с ним пользоваться.</p>
+<p><span><strong>Создаем репозиторий:</strong></span></p>
+<pre>$ mkdir /path/to/your/project
+$ cd /path/to/your/project
+$ git init
+$ git remote add origin https://user@bitbucket.org/user/name.git</pre>
+<p>Если вы хотите сделать <span><strong>импорт в Git</strong></span>, то все начинает с:</p>
+<pre>$ cd /path/to/my/repo
+$ git remote add origin https://user@bitbucket.org/user/name.git
+$ git push -u origin master # to push changes for the first time</pre>
+<p><span><strong>Вносим изменения:</strong></span></p>
+<pre>$ echo "# This is my README" >> README.md
+$ git add README.md
+$ git commit -m "First Commit. Adding a README."
+$ git push -u origin master</pre>
+<p><span><strong>Клонирование существующего репозитория:</strong></span></p>
+<pre>$ git clone git://github.com/schacon/grit.git   #команда создает каталог с именем &laquo;grit&raquo;
+$ git clone git://github.com/schacon/grit.git mygrit   #команда делает все то же самое, что и предыдущая, только результирующий каталог
+будет назван mygrit</pre>
+<p><span><strong>Определяем состояние файлов:</strong></span></p>
+<pre>$ git status
+
+# On branch master
+# Untracked files:
+# (use "git add ..." to include in what will be committed)
+#
+# README
+nothing added to commit but untracked files present (use "git add" to track)</pre>
+<p><span><strong>Отслеживание новых файлов:</strong></span></p>
+<p>Для того чтобы начать отслеживать (добавить под версионный контроль) новый файл,<br />используется команда git add</p>
+<pre>$ git add README</pre>
+<p>&nbsp;Проверить можно командой:</p>
+<pre>$ git status</pre>
+<p>&nbsp;Индексация измененных файлов происходит тоже командой $ git add README</p>
+<p><span><strong>Игнорирование файлов:</strong></span></p>
+<p>Зачастую, у вас имеется группа файлов, которые вы не только не хотите автоматически добавлять в репозиторий, но и видеть в списках неотслеживаемых. К таким файлам обычно относятся автоматически генерируемые файлы (различные логи, результаты сборки программ и т.п.). В таком случае, вы можете создать файл .gitignore с перечислением шаблонов соответствующих таким файлам. Вот пример файла .gitignore:</p>
+<pre>$ cat .gitignore
+*.[oa]
+*~</pre>
+<p>Первая строка предписывает Git-у игнорировать любые файлы заканчивающиеся на .o или .a &mdash; объектные и архивные файлы, которые могут появиться во время сборки кода. Вторая строка предписывает игнорировать все файлы заканчивающиеся на тильду ( ~), которая используется во многих текстовых редакторах, например Emacs, для обозначения временных файлов. Вы можете также включить каталоги log, tmp или pid; автоматически создаваемую документацию; и т.д. и т.п.</p>
+<p>Вот еще один пример файла .gitignore:</p>
+<pre># комментарий &mdash; эта строка игнорируется
+*.a # не обрабатывать файлы, имя которых заканчивается на .a
+!lib.a # НО отслеживать файл lib.a, несмотря на то, что мы игнорируем все .a файлы с помощью предыдущего правила
+/TODO # игнорировать только файл TODO находящийся в корневом каталоге, не относится к файлам вида subdir/
+TODO
+build/ # игнорировать все файлы в каталоге build/
+doc/*.txt # игнорировать doc/notes.txt, но не doc/server/arch.txt</pre>
+<p><span><strong>Просмотр индексированных и неиндексированных изменений:</strong></span></p>
+<p>Если результат работы команды git status недостаточно информативен для вас &mdash; вам хочется знать, что конкретно поменялось, а не только какие файлы были изменены &mdash; вы можете использовать команду git diff.</p>
+<p>Чтобы увидеть, что же вы изменили, но пока не проиндексировали, наберите git diff без аргументов:</p>
+<pre>$ git diff
+diff --git a/benchmarks.rb b/benchmarks.rb
+index 3cb747f..da65585 100644
+--- a/benchmarks.rb
++++ b/benchmarks.rb
+@@ -36,6 +36,10 @@ def main
+@commit.parents[0].parents[0].parents[0]
+end
++ run_code(x, 'commits 1') do
++ git.commits.size
++ end
++
+run_code(x, 'commits 2') do
+log = git.commits('master', 15)
+log.size</pre>
+<p>&nbsp;Эта команда сравнивает содержимое вашего рабочего каталога с содержимым индекса. Результат показывает еще не проиндексированные изменения.</p>
+<p>Если вы хотите посмотреть, что вы проиндексировали и что войдет в следующий коммит, вы можете выполнить git diff --cached. (В Git версии 1.6.1 и выше, вы также можете использовать git diff --staged, которая легче запоминается.) Эта команда сравнивает ваши индексированные изменения с последним коммитом:</p>
+<pre>$ git diff --cached
+diff --git a/README b/README
+new file mode 100644
+index 0000000..03902a1
+--- /dev/null
++++ b/README2
+@@ -0,0 +1,5 @@
++grit
++ by Tom Preston-Werner, Chris Wanstrath
++ http://github.com/mojombo/grit
++
++Grit is a Ruby library for extracting information from a Git repository</pre>
+<p>&nbsp;Важно отметить, что git diff сама по себе не показывает все изменения сделанные с последнего коммита &mdash; только те, что еще не проиндексированы. Такое поведение может сбивать с толку, так как если вы проиндексируете все свои изменения, то git diff ничего не вернет.</p>
+<p><span><strong>Фиксация изменений:</strong></span></p>
+<p>Теперь, когда ваш индекс настроен так, как вам и хотелось, вы можете зафиксировать ваши изменения. Запомните, всё, что до сих пор не проиндексировано &mdash; любые файлы, созданные или измененные вами, и для которых вы не выполнили git add после момента редактирования &mdash; не войдут в этот коммит.</p>
+<pre>$ git commit -m "Story 182: Fix benchmarks for speed"</pre>
+<p><span><strong>Удаление файлов:</strong></span></p>
+<p>Для того чтобы удалить файл из Git, вам необходимо удалить его из отслеживаемых файлов (точнее, удалить его из вашего индекса) а затем выполнить коммит.</p>
+<pre>$ git rm file</pre>
+<p>После следующего коммита файл исчезнет и больше не будет отслеживаться. Если вы изменили файл и уже проиндексировали его, вы должны использовать принудительное удаление с помощью параметра -f.</p>
+<p>Также вы можете захотеть оставить файл на вашем винчестере, и убрать его из-под бдительного ока Git-а.</p>
+<pre>$ git rm --cached readme.txt</pre>
+<p><strong><span>Переименование файла:</span></strong></p>
+<pre>$ git mv file_from file_to</pre>
+<p><strong><span>Просмотр истории коммитов:</span></strong></p>
+<pre>$ git log
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon
+Date: Mon Mar 17 21:52:11 2008 -0700
+changed the version number
+commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+Author: Scott Chacon
+Date: Sat Mar 15 16:40:33 2008 -0700
+removed unnecessary test code
+commit a11bef06a3f659402fe7563abf99ad00de2209e6
+Author: Scott Chacon
+Date: Sat Mar 15 10:31:28 2008 -0700
+first commit</pre>
+<p>&nbsp;</p>
+<p>По умолчанию, без аргументов, git log выводит список коммитов созданных в данном репозитории в обратном хронологическом порядке. То есть самые последние коммиты показываются первыми.<br />Существует превеликое множество параметров команды git log и их комбинаций, для того чтобы показать вам именно то, что вы ищете. Здесь мы покажем вам несколько наиболее часто применяемых.<br />Один из наиболее полезных параметров &mdash; это -p, который показывает дельту (разницу/diff), привнесенную каждым коммитом. Вы также можете использовать -2, что ограничит вывод до 2-х последних записей:</p>
+<pre>$ git log -p -2
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon
+Date: Mon Mar 17 21:52:11 2008 -0700
+changed the version number
+diff --git a/Rakefile b/Rakefile
+index a874b73..8f94139 100644
+--- a/Rakefile
++++ b/Rakefile
+@@ -5,7 +5,7 @@ require 'rake/gempackagetask'
+spec = Gem::Specification.new do |s|
+- s.version = "0.1.0"
++ s.version = "0.1.1"
+s.author = "Scott Chacon"
+commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+Author: Scott Chacon
+Date: Sat Mar 15 16:40:33 2008 -0700
+removed unnecessary test code
+diff --git a/lib/simplegit.rb b/lib/simplegit.rb
+index a0a60ae..47c6340 100644
+--- a/lib/simplegit.rb
++++ b/lib/simplegit.rb
+@@ -18,8 +18,3 @@ class SimpleGit
+end
+end
+-
+-if $0 == __FILE__
+- git = SimpleGit.new
+- puts git.show
+-end
+\ No newline at end of file</pre>
+<p>С командой git log вы также можете использовать группы суммирующих параметров. Например, если вы хотите получить некоторую краткую статистику по каждому коммиту, вы можете использовать параметр --stat:</p>
+<pre>$ git log --stat
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon
+Date: Mon Mar 17 21:52:11 2008 -0700
+changed the version number
+Rakefile | 2 +-
+1 files changed, 1 insertions(+), 1 deletions(-)
+commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+Author: Scott Chacon
+Date: Sat Mar 15 16:40:33 2008 -0700
+removed unnecessary test code
+lib/simplegit.rb | 5 -----
+1 files changed, 0 insertions(+), 5 deletions(-)
+commit a11bef06a3f659402fe7563abf99ad00de2209e6
+Author: Scott Chacon
+Date: Sat Mar 15 10:31:28 2008 -0700
+first commit
+README | 6 ++++++
+Rakefile | 23 +++++++++++++++++++++++
+lib/simplegit.rb | 25 +++++++++++++++++++++++++
+3 files changed, 54 insertions(+), 0 deletions(-)</pre>
+<p>&nbsp;Другой действительно полезный параметр &mdash; это --pretty. Он позволяет изменить формат вывода лога. Для вас доступны несколько предустановленных вариантов. Параметр oneline выводит каждый коммит в одну строку, что удобно если вы просматриваете большое количество коммитов. В дополнение к этому, параметры short, full, и fuller, практически не меняя формат вывода, позволяют выводить меньше или больше деталей соответственно:</p>
+<pre>$ git log --pretty=oneline
+ca82a6dff817ec66f44342007202690a93763949 changed the version number
+085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 removed unnecessary test code
+a11bef06a3f659402fe7563abf99ad00de2209e6 first commit</pre>
+<p>&nbsp;Наиболее интересный параметр &mdash; это format, который позволяет вам полностью создать собственный формат вывода лога. Это особенно полезно, когда вы создаете отчеты для автоматического разбора (парсинга) &mdash; поскольку вы явно задаете формат и уверены в том, что он не будет изменяться при обновлениях Git:</p>
+<pre>$ git log --pretty=format:"%h - %an, %ar : %s"
+ca82a6d - Scott Chacon, 11 months ago : changed the version number
+085bb3b - Scott Chacon, 11 months ago : removed unnecessary test code
+a11bef0 - Scott Chacon, 11 months ago : first commit</pre>
+<p><span><strong>Список наиболее полезных параметров формата.</strong></span></p>
+<p>Параметр Описание выводимых данных<br />`%H`Хеш коммита<br />`%h`Сокращенный хеш коммита<br />`%T`Хеш дерева<br />`%t`Сокращенный хеш дерева<br />`%P`Хеши родительских коммитов<br />`%p`Сокращенные хеши родительских коммитов<br />`%an`Имя автора<br />`%ae`Электронная почта автора<br />`%ad`Дата автора (формат соответствует параметру --date= )<br />`%ar`Дата автора, относительная (пр. "2 мес. назад")<br />`%cn`Имя коммитера<br />`%ce`Электронная почта коммитера<br />`%cd`Дата коммитера<br />`%cr`Дата коммитера, относительная<br />`%s`Комментарий</p>
+<p>Параметры oneline и format также полезны с другим параметром команды log &mdash; --graph. Этот параметр добавляет миленький ASCII граф, показывающий историю ветвлений и слияний.</p>
+<pre>$ git log --pretty=format:"%h %s" --graph
+* 2d3acf9 ignore errors from SIGCHLD on trap
+* 5e3ee11 Merge branch 'master' of git://github.com/dustin/grit
+|\
+| * 420eac9 Added a method for getting the current branch.
+* | 30e367c timeout code and tests
+* | 5a09431 add timeout protection to grit
+* | e1193f8 support for heads with slashes in them
+|/
+* d6016bc require time for xmlschema
+* 11d191e Merge branch 'defunkt' into local</pre>
+<p>Другие полезные параметры вместе с описанием того, как они влияют на вывод команды log:</p>
+<p>Параметр Описание<br />`-p`Выводит патч (заплатку/diff) внесенный каждым коммитом.<br />`--stat`Выводит статистику по файлам измененным в каждом коммите.<br />`--shortstat`Отображает только строку с changed/insertions/deletions от вывода команды `--stat`.<br />`--name-only`Выводит список измененных файлов после каждого коммита.<br />`--name-status`Выводит список файлов вместе с информацией о добавлении/изменении/удалении.<br />`--abbrev-commit`Выводит только первые несколько символов контрольной суммы SHA-1 вместо всех 40.<br />`--relative-date`Выводит дату в относительном формате (например, &ldquo;2 недели назад&rdquo;) вместо использования полного `--graph`Выводит ASCII граф истории ветвлений и слияний рядом с выводом лога.<br />`--pretty`Выводит коммиты в альтернативном формате. Параметры включают oneline, short, full, fuller, и format</p>
+<p>&nbsp;</p>
+<p>The end #1</p>

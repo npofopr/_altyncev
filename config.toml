@@ -1,0 +1,191 @@
+baseurl                = "https://altyncev.ru/"
+languageCode           = "en-us"
+title                  = "Vladislav Altyncev"
+theme                  = "hugo-future-imperfect"
+preserveTaxonomyNames  = true
+paginate               = 5
+disqusShortname        = ""
+googleAnalytics        = "UA-2789259-4"
+pluralizeListTitles    = false
+buildDrafts            = false
+canonifyURLs           = true
+defaultContentLanguage = "ru"
+enableRobotsTXT        = true
+enableEmoji            = true
+defaultExtension       = "html"
+defaultLayout          = "post"
+publishDir             = "public"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[mediaTypes]
+  [mediaTypes."text/html"]
+  suffix = "html"
+
+[params]
+  # Sets the meta tag description
+  description          = "Пишу о работе, жизни и обо всём, что понравится. PS: А я чё? Я ничё. Другие вон чё, и ничё, а я чуть чё, и сразу вон чё!"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Vladislav Altyncev"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog/"
+
+  domainVerification = "Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M"
+  YandexMetrika = "17143639"
+  googleVerification = "Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M"
+  yandexVerification = "496c60b178050fff"
+
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = false
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
+
+# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+# due to its ease of use. Feel free to check out both and decide what you would
+# prefer to use. See Staticman.yml for additional settings.
+[params.staticman]
+  # Sets Statiman to be active
+  staticman = false
+  # Sets the location for Staticman to connect to
+  username  = ""
+  repo      = ""
+  branch    = ""
+
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "Vladislav Altyncev"
+
+  paragraph = ""
+
+  about     = "Пишу о работе, жизни и обо всём, что понравится. PS: А я чё? Я ничё. Другие вон чё, и ничё, а я чуть чё, и сразу вон чё <i class='fa fa-hand-peace-o'></i>!"
+
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/images/bio-photo.jpg"
+    # Sets Image to be a cirlce
+    circle    = false
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = true
+    width     = ""
+    alt       = "Vladislav Altyncev Blog"
+
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 5
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+# [[menu.main]]
+#   name = ""
+#   url = "/"
+#   identifier = "fa fa-home"
+#   weight = 1
+
+[[menu.main]]
+  name = "Касательно меня"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
+  weight = 1
+
+[[menu.main]]
+  name = "Блог"
+  url = "/blog/"
+  identifier = "fa fa-newspaper-o"
+  weight = 2
+
+[[menu.main]]
+  name = "Дачные дела"
+  url = "/categories/cottage/"
+  identifier = "fa fa-list"
+  weight = 3
+
+# [[menu.main]]
+#   name = "Дачные дела"
+#   url = "/itemized/"
+#   identifier = "fa fa-list"
+#   weight = 4
+
+[[menu.main]]
+  name = "Категории"
+  url = "/categories/"
+  identifier = "fa fa-sitemap"
+  weight = 4
+
+[[menu.main]]
+  name = "Контакты"
+  url = "/contact/"
+  identifier = "fa fa-envelope-o"
+  weight = 5
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  github          = "npofopr/_altyncev"
+  #gitlab          = ""
+  stackoverflow   = "2174834" # User Number
+  bitbucket       = "npofopr"
+  #jsfiddle        = "npofopr"
+  #codepen         = "npofopr"
+  # Visual Art Communities
+  #deviantart      = ""
+  flickr          = "npofopr"
+  #behance         = ""
+  #dribbble        = ""
+  # Publishing Communities
+  #wordpress       = ""
+  #medium          = ""
+  # Professional/Business Oriented Communities
+  #linkedin        = "example"
+  #foursquare      = ""
+  #xing            = ""
+  #slideshare      = ""
+  # Social Networks
+  facebook        = "npofopr"
+  #googleplus      = ""
+  #reddit          = "example"
+  #youtube         = ""
+  #vimeo           = ""
+  whatsapp        = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat          = ""
+    qq              = "" # User ID Number
+  instagram       = "npofopr"
+  tumblr          = ""
+  twitter         = "npofopr"
+  skype           = ""
+  snapchat        = ""
+  pinterest       = "npofopr"
+  telegram        = "npofopr"
+  vine            = ""
+  # Email
+  #email           = "v[@]altyncev.ru"

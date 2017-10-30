@@ -1,0 +1,95 @@
+---
+title: "15 полезных htaccess трюков для улучшения работы веб-сайта"
+# description: ""
+tags: ["it"]
+categories: ["it"]
+date: "2012-08-27"
+---
+
+<h2>1. Защита от хотлинкинга &nbsp;с&nbsp;.htaccess</h2>
+<p>Сайты, которые крадут ваш контент могут весьма и весьма раздражать. К тому&nbsp;же они могут повредить рейтинг сайта, так как &nbsp;создают дублируемый в интернете контент. Но есть &nbsp;случаи и похуже&nbsp;&mdash; это сайты, которые не просто &laquo;тырят&raquo; ваш контент, но и&nbsp;не утруждают себя перелинковкой и загрузкой изображений на собственный сервак. А это уж совсем нехорошо.&nbsp;Загрузка изображений с вашего сервера называется хотлинкинг, &nbsp;и это значит, что в таком случае сайт-вор украл часть вашего драгоценного&nbsp;трафика.</p>
+
+<!-- Read more -->
+
+<p>Для профилактики людей от таких нехороших веб-мастеров можно включить следующие строки &nbsp;файл .htaccess (очевидно, заменяйте &laquo;<em>yoursite.com&raquo; на&nbsp;</em>&nbsp;адрес вашего&nbsp;сайта)</p>
+<blockquote><p><em>RewriteBase&nbsp;/&nbsp;</em><br />
+<em>RewriteCond% {HTTP_REFERER} ^&nbsp;$!&nbsp;</em><br />
+<em>RewriteCond% {HTTP_REFERER} ^ http:// (www.) yoursite.com / * $&nbsp;[NC]!?.&nbsp;</em><br />
+<em>RewriteRule (GIF | JPG | SWF | FLV | PNG). $ / подача /&nbsp;[R = 302, L]</em></p></blockquote>
+<h2>2.&nbsp;Предотвращение просмотра&nbsp;директорий и&nbsp;файлов</h2>
+<p>В то время как просмотр&nbsp;директорий и файлов &nbsp;может быть полезным, он также может вызвать некоторые проблемы с безопасностью.&nbsp;Чтобы сделать ваш сайт более безопасным, предотвратите такой просмотр , включив следующий сниппет в&nbsp;.htaccess.</p>
+<blockquote><p><em>Options All&nbsp;-Indexes</em></p></blockquote>
+<h2>3. 301 редирект &nbsp;- ведь это хорошо для&nbsp;SEO</h2>
+<p>Я использовал эту очень часто, почти на каждом сайте, где я изменил URL структуры &nbsp;при помощи редизайна&nbsp;или опций сервера. Чтобы перенаправить старые страницы на&nbsp;их новый адрес в удобном для пользователя виде, можно использовать &nbsp;сниппет&nbsp;в&nbsp;.htaccess:</p>
+<blockquote><p><em>Redirect 301 http://www.yoursite.com/article.html http://www.yoursite.com/archives/article</em></p></blockquote>
+<h2>4. &nbsp;Установить Email для администратора&nbsp;сайта</h2>
+<p>Используя данный код вы можете по умолчанию установить &nbsp;Using this code you can specifying the default email address for the server&nbsp;administrator.</p>
+<blockquote><p><em>ServerSignature&nbsp;EMail</em><br />
+<em>SetEnv SERVER_ADMIN&nbsp;default@domain.com</em></p></blockquote>
+<h2>5.&nbsp;Отображение страницы ошибки&nbsp;404</h2>
+<p>Когда посетитель пытается получить доступ к некоторым страницам вашего сайта, которых больше не существует, сервер отображает страницу с сообщением &laquo;404 файл не найден&raquo;.&nbsp;Некоторые CMS позволяет устанавливать &nbsp;специальные пользовательские страницы ошибки 404, но самый простой способ&nbsp;&mdash; включить следующую строку в файл&nbsp;.htaccess.</p>
+<blockquote><p><em>ErrorDocument 404 /&nbsp;404.html</em></p></blockquote>
+<h2>6.&nbsp;Настройки по умолчанию страницы&nbsp;каталога</h2>
+<p>Если по&nbsp;какой-то&nbsp;причине вам нужно cделать так, чтобы &nbsp;страницы каталога отличались. Сделать это очень легко при помощи .htaccess.&nbsp;Например, если вы хотите, чтобы файл default.html стал страницей по умолчанию, просто добавьте эту&nbsp;строку.</p>
+<blockquote><p><em>DirectoryIndex&nbsp;about.html</em></p></blockquote>
+<h2>7. &nbsp;Редирект со старого домена на&nbsp;новый</h2>
+<p>Используя .htaccess файл вы можете перенаправлять пользователей со старого домена на новый. Для этого достаточно использовать&nbsp;код:</p>
+<blockquote><p><em># redirect from old domain to new&nbsp;domain</em><br />
+<em>RewriteEngine&nbsp;On</em><br />
+<em>RewriteRule ^(.*)$ http://www.yourdomain.com/$1&nbsp;[R=301,L]</em></p></blockquote>
+<h2>8.&nbsp;Блок нежелательных&nbsp;посетителей</h2>
+<p>Xороший веб-мастер не станет блокировать трафик, а наоборот заинтересован в привлечении новых пользователей на сайт. Но если вы заметили, что сайт регулярно атакуют спамеры и тролли, не стоит долго ждать. Лучше сразу прописать следующий код и заблокировать потом спамеров с определенного доменного&nbsp;имени.</p>
+<blockquote><p><em>&lt;IfModule&nbsp;Mod_rewrite.c&gt;&nbsp;</em><br />
+<em>RewriteEngine на RewriteCond% {HTTP_REFERER} spamteam.com&nbsp;[NC, OR]&nbsp;</em><br />
+<em>RewriteCond% {HTTP_REFERER} trollteam.com&nbsp;[NC, OR]&nbsp;</em><br />
+<em>RewriteRule. *&nbsp;&mdash;&nbsp;[F]&nbsp;</em><br />
+<em>&lt;/ IfModule&gt; &nbsp;</em></p></blockquote>
+<h2>9.&nbsp;Укажите лимит загрузки файлов для PHP в&nbsp;Htaccess</h2>
+<p>Эта опция заслуживает внимания если вы используете &nbsp;Drupal на виртуальном хостинге. Мне пришлось сбросить лимит для загрузки файлов, чтобы мои клиенты могли загружать большие файлы.&nbsp;Первое &nbsp;изменение&nbsp;&mdash; это&nbsp;максимальный размер файла для загрузки, второе&nbsp;&mdash; максимальный размер отправленных данных, третье&nbsp;&mdash; максимальное время в секундах на обработку запроса. При этом скрип можно запускать до того, как заканчивает работу парсер. Самый последний код&nbsp;&mdash; это &nbsp;максимальное время в секундах для обработки &nbsp;сценария. &nbsp;Допускается для анализа входных данных, например, таких как загрузка файлов на сервер, POST и&nbsp;GET-данных.</p>
+<blockquote><p><em>php_value upload_max_filesize&nbsp;20M&nbsp;</em><br />
+<em>php_value post_max_size&nbsp;20M&nbsp;</em><br />
+<em>php_value max_execution_time&nbsp;200&nbsp;</em><br />
+<em>php_value max_input_time&nbsp;200</em></p></blockquote>
+<h2>10.&nbsp;Сжатие&nbsp;файлов</h2>
+<p>Скорость загрузки страницы можно увеличить при помощи сжатия файлов. Вот пример того, как этого&nbsp;добиться.</p>
+<blockquote><p><em>AddOutputFilterByType DEFLATE&nbsp;text/plain</em><br />
+<em>AddOutputFilterByType DEFLATE&nbsp;text/html</em><br />
+<em>AddOutputFilterByType DEFLATE&nbsp;text/xml</em><br />
+<em>AddOutputFilterByType DEFLATE&nbsp;text/css</em><br />
+<em>AddOutputFilterByType DEFLATE&nbsp;application/xml</em><br />
+<em>AddOutputFilterByType DEFLATE&nbsp;application/xhtml+xml</em><br />
+<em>AddOutputFilterByType DEFLATE&nbsp;application/rss+xml</em><br />
+<em>AddOutputFilterByType DEFLATE&nbsp;application/javascript</em><br />
+<em>AddOutputFilterByType DEFLATE&nbsp;application/x-javascript</em></p></blockquote>
+<h2>11.&nbsp;Кэш&nbsp;файлов</h2>
+<p>Чтобы оптимизировать скорость кэширования файлов используйте&nbsp;сниппет:</p>
+<blockquote><p><em>&lt;FilesMatch&nbsp;&ldquo;.(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$&rdquo;&gt;</em><br />
+<em>Header set Cache-Control&nbsp;&ldquo;max-age=2592000&Prime;</em><br />
+<em></FilesMatch></em></p></blockquote>
+<h2>12. Редирект пользователей на разные сайты за исключением нескольких&nbsp;IP-адресов</h2>
+<p>Ежели вы желаете отправить посетителей сайна на разные IP-адреса&nbsp;или же дать доступ к определенным IP-адресам, то можно использовать следующий&nbsp;код:</p>
+<blockquote><p><em>ErrorDocument 403&nbsp;http://www.youdomain.com</em><br />
+<em>Order&nbsp;deny,allow</em><br />
+<em>Deny from&nbsp;all</em><br />
+<em>Allow from&nbsp;124.34.48.165</em><br />
+<em>Allow from&nbsp;102.54.68.123</em></p></blockquote>
+<h2>13.&nbsp;&nbsp;Конечный&nbsp;слэш</h2>
+<p>Я не могу этого доказать, но я читал бесчисленное количество раз, что добавлять слеш в конце URL хорошо для SEO и загрузки страницы.&nbsp;Если вам также известно такое мнение, то можно добавить следующий сниппет в&nbsp;&nbsp;.htaccess.</p>
+<blockquote><p><em>&lt;IfModule&nbsp;Mod_rewrite.c&gt;&nbsp;</em><br />
+<em>RewriteCond% {REQUEST_URI} / + [^ \.]+&nbsp;$&nbsp;</em><br />
+<em>RewriteRule ^ (. + [^ /]) $% {REQUEST_URI} /&nbsp;[R = 301, L]&nbsp;</em><br />
+<em>&lt;/&nbsp;IfModule&gt;</em></p></blockquote>
+<h2>14. Не показывать запрос о загрузке&nbsp;файлов</h2>
+<p>Обычно, если вы собираетесь загрузить&nbsp;какой-либо&nbsp;файл, то сначала появляется запрос, спрашивающий вас&nbsp;&mdash; действительно&nbsp;ли Вы хотите загрузить тот&nbsp;или другой файл. Чтоб избежать лишней траты времени пользователей добавьте следующий код в &nbsp;&nbsp;.htaccess&nbsp;файл.</p>
+<blockquote><p><em>AddType application/octet-stream&nbsp;.pdf</em><br />
+<em>AddType application/octet-stream&nbsp;.zip</em><br />
+<em>AddType application/octet-stream .mov</em></p></blockquote>
+<h2>15. &nbsp;Изменяем тип&nbsp;файлов</h2>
+<p>Любые файлы можно переобразовать в одну группу. Будь то &nbsp;image.jpg, index.html,&nbsp;или default.cgi&nbsp;&mdash; все будут действовать как&nbsp;php</p>
+<blockquote><p><em>&lt;Files&nbsp;test&gt;</em><br />
+<em>ForceType&nbsp;application/x-httpd-php</em><br />
+<em>SetHandler&nbsp;application/x-httpd-php</em><br />
+<em>&lt;/Files&gt;</em></p></blockquote>
+<p>&nbsp;</p>
+<p style="text-align: right;">пруф:&nbsp;<a href="http://www.dejurka.ru/web-design/1-useful-htaccess-tricks-to-improve-your-website/">http://www.dejurka.ru/web-design/1-useful-htaccess-tricks-to-improve-your-website/</a></p>
+<p>&nbsp;</p>

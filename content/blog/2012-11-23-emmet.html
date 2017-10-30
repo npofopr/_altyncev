@@ -1,0 +1,268 @@
+---
+title: "Emmet"
+# description: ""
+tags: ["html"]
+categories: ["web"]
+date: "2012-11-23"
+---
+
+<p>Решил я тут взяться за <a href="http://github.com/sergeche/emmet-sublime">Emmet</a>, это продолжатель Zen-Coding.</p>
+<p>Хорошая штука в общем)</p>
+
+<!-- Read more -->
+
+<p><sub>PS: данный текст не служит мануалом или еще чем то, это просто черновик, для себя, чтобы не забыть.</sub></p>
+<h3>Горячие клавиши:</h3>
+<ul>
+<li><strong>Tab or Ctrl+E</strong> - развершуть аббревиатуру</li>
+<li><strong>Ctrl+Alt+Enter</strong> - интерактивное использование Эммета</li>
+<li><strong>Ctrl+, (PC)</strong> - выделение блоков</li>
+<li><strong>Ctrl+Alt+,</strong> - обратное выделение блоков)</li>
+<li><strong>Ctrl+Alt+J</strong> - перейти к начлу/концу блока</li>
+<li><strong>Shift+Ctrl+G</strong> - обернуть элемент в аббревиатуру</li>
+<li><strong>Shift+Ctrl+/</strong> - закомментировать</li>
+<li><strong>Shift+Ctrl+`</strong> - выделение начинающего и завершающего тэга, чтобы быстро сменить, например "p" на "span"</li>
+<li><strong>Shift+Ctrl+;</strong> - удаление тэга, не завтрагивая внутренностей (внутреннего содержимого)</li>
+<li><strong>Ctrl+U</strong> - обновление/задание размеров картинки</li>
+<li><strong>Shift+Ctrl+Y</strong> - вычисление математический операций ("2*6", "2 10\3", "20+10*4")</li>
+<li><strong>Shift+Ctrl+R</strong> - если в одном из префиксе изменить значение, то оно автоматом изменится во всех остальных. (если сменить border-radius:10px, нажать, то автоматом сменятся и -web- и -webkit-)</li>
+<li><strong>Ctrl+'</strong> - переводим img в data:URL формат</li>
+<li><strong>Shift+Ctrl+'</strong> - переименовываем тэг</li>
+</ul>
+<div><!--more--></div>
+<h3>Увеличиваем/уменьшаем значения:</h3>
+<ul>
+<li>увеличиваем на 1: Ctrl+↑</li>
+<li>уменьшаем на 1: Ctrl+↓</li>
+<li>увеличиваем на 0.1: Alt+↑</li>
+<li>уменьшаем на 0.1: Alt+↓</li>
+<li>увеличиваем на 10: Shift+Alt+↑</li>
+<li>уменьшаем на 10: Shift+Alt+↓</li>
+</ul>
+<h3>Сокращения</h3>
+<p><strong>div&gt;ul&gt;li</strong></p>
+<pre><code class="html">
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+</code></pre>
+<p><strong>div+p+bq</strong></p>
+<pre><code class="html">
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+</code></pre>
+<p><strong>div+div&gt;p&gt;span+em</strong></p>
+<pre><code class="html">
+	<div></div>
+	<div>
+	    <p><span></span><em></em></p>
+	</div>
+</code></pre>
+
+<p><strong>div+div&gt;p&gt;span+em^bq</strong></p>
+<pre><code class="html">
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+    <blockquote></blockquote>
+</div>
+</code></pre>
+
+<p><strong>div+div&gt;p&gt;span+em^^^bq</strong></p>
+<pre><code class="html">
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+</div>
+<blockquote></blockquote>
+</code></pre>
+
+<p><strong>ul&gt;li*5</strong></p>
+<pre><code class="html">
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+</code></pre>
+
+<p><strong>div&gt;(header&gt;ul&gt;li*2&gt;a)+footer&gt;p</strong></p>
+<pre><code class="html">
+<div>
+    <header>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+</code></pre>
+
+<p><strong>(div&gt;dl&gt;(dt+dd)*3)+footer&gt;p</strong></p>
+<pre><code class="html">
+<div>
+    <dl>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+</div>
+<footer>
+    <p></p>
+</footer>
+</code></pre>
+
+<p><strong>div#header+div.page+div#footer.class1.class2.class3</strong></p>
+<pre><code class="html">
+<div id="header"></div>
+<div class="page"></div>
+<div id="footer" class="class1 class2 class3"></div>
+</code></pre>
+
+<p><strong>td[title="Hello world!" colspan=3]</strong></p>
+<pre><code class="html">
+<td title="Hello world!" colspan="3"></td>
+</code></pre>
+
+<p><strong>ul&gt;li.item$*5</strong></p>
+<pre><code class="html">
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
+</code></pre>
+
+<p><strong>ul&gt;li.item$$$*5</strong></p>
+<pre><code class="html">
+<ul>
+    <li class="item001"></li>
+    <li class="item002"></li>
+    <li class="item003"></li>
+    <li class="item004"></li>
+    <li class="item005"></li>
+</ul>
+</code></pre>
+
+<p><strong>a{Click me}</strong></p>
+<pre><code class="html">
+<a href="">Click me</a>
+</code></pre>
+
+<p><strong>a{click}+b{here} and a&gt;{click}+b{here}</strong></p>
+<pre><code class="html">
+<!-- a{click}+b{here} -->
+<a href="">click</a><b>here</b>
+<!-- a>{click}+b{here} -->
+<a href="">click<b>here</b></a>
+</code></pre>
+
+<p><strong>p&gt;{Click }+a{here}+{ to continue}</strong></p>
+<pre><code class="html">
+<p>Click <a href="">here</a> to continue</p>
+</code></pre>
+
+<p><strong>p{Click }+a{here}+{ to continue}</strong></p>
+<pre><code class="html">
+<p>Click </p>
+<a href="">here</a> to continue
+</code></pre>
+
+<p>  </p>
+<h3>CSS сокращения</h3>
+<ul>
+<li>m10 → margin: 10px;</li>
+<li>m1.5 → margin: 1.5em;</li>
+<li>m10-20 → margin: 10px 20px;</li>
+<li>m-10--20 → margin: -10px -20px;</li>
+</ul>
+<ul>
+<li>p → %</li>
+<li>e → em</li>
+<li>x → ex</li>
+</ul>
+<ul>
+<li>w100p → width: 100%</li>
+<li>m10p30e5x → margin: 10% 30em 5ex</li>
+<li>lh2 → line-height: 2;</li>
+<li>fw400 → font-weight: 400;</li>
+<li>p!+m10e! → padding: !important; margin: 10em !important;</li>
+</ul>
+<p><em>Как я понял, посмотреть на большие возможности можно в snippets.json</em></p>
+<h3>Префиксы</h3>
+<p><strong>-bdrs</strong></p>
+<pre><code class="css">-webkit-border-radius: ;
+-moz-border-radius: ;
+border-radius: ;</code></pre>
+<p> <strong>-super-foo</strong></p>
+<pre><code class="css">-webkit-super-foo: ;
+-moz-super-foo: ;
+-ms-super-foo: ;
+-o-super-foo: ;
+super-foo: ;</code></pre>
+<p> <strong>-trf</strong></p>
+<pre><code class="css">transform</code></pre>
+<p>&nbsp;</p>
+<h3>Генератор “Lorem Ipsum”</h3>
+<p><strong>p*4&gt;lorem</strong></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+<p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae. Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
+<p>Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam odit quam beatae tempora quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at!</p>
+<p>Consequatur rerum amet fuga expedita sunt et tempora saepe? Iusto nihil explicabo perferendis quos provident delectus ducimus necessitatibus reiciendis optio tempora unde earum doloremque commodi laudantium ad nulla vel odio?</p>
+<p><strong>ul.generic-list&gt;lorem10.item*4</strong></p>
+<ul class="generic-list">
+<li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero.</li>
+<li class="item">Laboriosam quaerat sapiente minima nam minus similique illum architecto et!</li>
+<li class="item">Incidunt vitae quae facere ducimus nostrum aliquid dolorum veritatis dicta!</li>
+<li class="item">Tenetur laborum quod cum excepturi recusandae porro sint quas soluta!</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Неявные имена тэгов</h3>
+<p>Можно не писать имя тега, система интуитивно вставит нужное.</p>
+<ul>
+<li>li для ul и ol</li>
+<li>tr для table, tbody, thead и tfoot</li>
+<li>td для tr</li>
+<li>option для select и optgroup</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td>.wrap&gt;.content</td>
+<td>div.wrap&gt;div.content</td>
+</tr>
+<tr>
+<td>em&gt;.info</td>
+<td>em&gt;span.info</td>
+</tr>
+<tr>
+<td>ul&gt;.item*3</td>
+<td>ul&gt;li.item*3</td>
+</tr>
+<tr>
+<td>table&gt;#row$*4&gt;[colspan=2]</td>
+<td>table&gt;tr#row$*4&gt;td[colspan=2]</td>
+</tr>
+</tbody>
+</table>
+<h3>Yandex BEM/OOCSS</h3>
+<p>Да он еще умеет превращать в яндексовский БЭМ. Но у меня пока душа не лежит к нему, так что писать не буду, увы)</p>
+<h3>Настройка</h3>
+<p><strong>snippets.json</strong><br /> обновляем или добавляем сниппеты</p>
+<p><strong>preferences.json</strong><br /> меняем поведение некоторых фильтров и действий Эммета</p>
+<p><strong>syntaxProfiles.json</strong><br /> определяем, как должен выглядить сгенерированный html/xml</p>
+<p>&nbsp;</p>
+<p align="right">пруф линк <a href="http://docs.emmet.io/">http://docs.emmet.io/</a></p>

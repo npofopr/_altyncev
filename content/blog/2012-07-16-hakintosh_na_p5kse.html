@@ -1,0 +1,32 @@
+---
+title: "Теоретическая установка Хакинтоша (MacOSx Lion) на P5K SE"
+tags: [ "MacOS" ]
+categories: ["it"]
+date: "2012-07-16"
+---
+
+<p><a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/07/lion.png"><img class="alignleft size-thumbnail wp-image-123" title="lion" src="http://shadow.perm.ru/wp-content/uploads/2012/07/lion-150x150.png" alt="" width="150" height="150" /></a>Занялся я&nbsp;тут было на&nbsp;днях вопросом, а&nbsp;не&nbsp;поставить&nbsp;ли мне хакинтош на&nbsp;свой pc.</p>
+<p>Ну&nbsp;и&nbsp;оказалось не&nbsp;все так просто.</p>
+<p>Начнем все по&nbsp;порядку.</p>
+
+<!-- Read more -->
+
+<p>1. Нужно активировать AHCI режим контроллера на&nbsp;южном мосту (она всегда его имела, но&nbsp;он&nbsp;был заблокирован в&nbsp;более новых ревизиях биоса).</p>
+<p>Как это сделать подробно расписано на&nbsp;<a title="applelife" href="http://www.applelife.ru/threads/p5k-%D1%82%D0%B5%D0%BF%D0%B5%D1%80%D1%8C-%D1%81-ahci.10114/" target="_blank">applelife</a>. Хоть там и&nbsp;описано для платы P5K (без префикса SE), но&nbsp;пишут, что и&nbsp;для SE&nbsp;все так&nbsp;же проходит и&nbsp;работает.</p>
+<p>Прошивка происходит в&nbsp;досе. Как сделать загрузочную флешку можно посмотреть <a title="ddriver.ru" href="http://ddriver.ru/kms_catalog+stat+cat_id-8+page-1+nums-6.html" target="_blank">здесь</a>. Флоппи диска увы нет) Да&nbsp;и&nbsp;кто им&nbsp;пользовался в&nbsp;последнее время? :-)</p>
+<p>Но&nbsp;у&nbsp;меня разумеется ничего не&nbsp;получилось =) При попытке прошивки биос сругнулся:</p>
+<blockquote>
+<p>Waring! Do&nbsp;not turn off power during flash Bios<br />
+ Search nesessery information<br />
+ ERROR: Rom file ROMID is&nbsp;not compatible<br />
+ with existing Bios ROMID</p>
+</blockquote>
+<p>Погуглив нашёлся ещё один способ прошивки. Подробности на&nbsp;<a title="dwnld.net.ua" href="http://dwnld.net.ua/viewtopic.php?pg=1&amp;t=3522564&amp;start=30" target="_blank">dwnld.net.ua</a></p>
+<p>Кстати. Версию AMIBCP v3.46 нашёл на&nbsp;одном из&nbsp;<a title="www.bios.net.cn" href="http://www.bios.net.cn/e/DownSys/DownSoft/?classid=59&amp;id=460&amp;pathid=0" target="_blank">китайских сайтов</a>. Другие версии этой программы под Windows 7 64x вылетали. ASUS UPDATE вы&nbsp;и&nbsp;без моих ссылок легко найдете.</p>
+<p>Предположим у&nbsp;вас получилось прошиться и&nbsp;включить AHCI режим;-)</p>
+<p>Дальше все должно идти как по&nbsp;маслу) Во&nbsp;всяком случае так пишут.</p>
+<p>2. Скачиваем <a title="iAtkos L2 (OS X Lion 10.7.2)" href="http://rutracker.org/forum/viewtopic.php?t=3826338" target="_blank">iAtkos L2 (OS&nbsp;X&nbsp;Lion 10.7.2)</a> или <a title="Mac OS (для РС-Хакинтош)" href="http://rutracker.org/forum/viewtopic.php?t=3936738" target="_blank">другой</a> или какой найдете.</p>
+<p>Устанавливаете и&nbsp;все у&nbsp;вас должно быть супер)</p>
+<p>Дальше уже надо смотреть на&nbsp;кексы индивидуально для ваших pc. Я&nbsp;на&nbsp;это надеюсь:-)</p>
+<p>В&nbsp;помощь подойдёт сайт <a href="http://inmac.org/index.php">inmac.org</a>, тут много чтива и&nbsp;вкусностей.</p>
+<p>Ну&nbsp;и&nbsp;на&nbsp;этом все) Возможно и&nbsp;я&nbsp;<nobr>когда-нибудь</nobr> установлю Lion)</p>

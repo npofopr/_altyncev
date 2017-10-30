@@ -1,0 +1,27 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+	{{ partial "navbar" . }}
+	<!-- Main -->
+	<div id="main">
+
+		<ul class="posts">
+			<header>
+				<h1>{{ .Data.Plural }}</h1>
+			</header>
+			{{ $data := .Data }}
+            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                <li>
+                    <article>
+                        <header>
+							<a href="/tags/{{ $name | urlize }}" rel="{{ len $taxonomy }}">{{ $name }}</a>
+							<span style="float:right;">({{ len $taxonomy }})</span>
+                        </header>
+                    </article>
+                </li>
+			{{ end }}
+		</ul>
+	</div>
+
+	{{ partial "sidebar" . }}
+{{ partial "footer" . }}

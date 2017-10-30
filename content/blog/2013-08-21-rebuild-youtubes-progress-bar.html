@@ -1,0 +1,95 @@
+---
+title: "Делаем прогресс бар как на YouTube с помощью jQuery"
+# description: ""
+tags: [ "css", "jquery" ]
+categories: ["web"]
+date: "2013-08-21"
+---
+
+<p>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на <a href="https://medium.com/" rel="nofollow" target="_blank">medium.com</a></p>
+<!-- Read more -->
+
+<p data-height="268" data-theme-id="0" data-slug-hash="odJjA" data-user="npofopr" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/npofopr/pen/odJjA'>odJjA</a> by npofopr (<a href='http://codepen.io/npofopr'>@npofopr</a>) on <a href='http://codepen.io'>CodePen</a></p>
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
+
+<p><strong>HTML:</strong></p>
+<p>Прописывать в вашем html это не надо, все сгенерирует js</p>
+
+<pre><code>
+<div>
+	<dt></dt>
+	<dd></dd>
+</div>
+</code></pre>
+
+<p><strong>CSS:</strong></p>
+
+<pre><code class="css">
+#progress {
+	position: fixed;
+	z-index: 2147483647;
+	top: 0;
+	left: -6px;
+	width: 1%;
+	height: 2px;
+	background: #0088CC;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	-moz-transition: width 500ms ease-out,opacity 400ms linear;
+	-ms-transition: width 500ms ease-out,opacity 400ms linear;
+	-o-transition: width 500ms ease-out,opacity 400ms linear;
+	-webkit-transition: width 500ms ease-out,opacity 400ms linear;
+	transition: width 500ms ease-out,opacity 400ms linear;
+}
+
+#progress dd, #progress dt {
+	position: absolute;
+	top: 0;
+	height: 2px;
+	-moz-box-shadow: #0088CC 1px 0 6px 1px;
+	-ms-box-shadow: #0088CC 1px 0 6px 1px;
+	-webkit-box-shadow: #0088CC 1px 0 6px 1px;
+	box-shadow: #0088CC 1px 0 6px 1px;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+
+#progress dt {
+	opacity: .6;
+	width: 180px;
+	right: -80px;
+	clip: rect(-6px,90px,14px,-6px);
+}
+
+#progress dd {
+	opacity: .6;
+	width: 20px;
+	right: 0;
+	clip: rect(-6px,22px,14px,10px);
+}
+</code></pre>
+
+<p><strong>И немного магии Javascript:</strong></p>
+
+<pre><code>
+$(document).ajaxStart(function() {
+    //only add progress bar if added yet.
+    if ($("#progress").length === 0) {
+        $("body").append($("<div><dt/><dd/></div>").attr("id", "progress"));
+        $("#progress").width((50 + Math.random() * 30) + "%");
+    }
+});
+
+$(document).ajaxComplete(function() {
+    //End loading animation
+    $("#progress").width("101%").delay(200).fadeOut(400, function() {
+        $(this).remove();
+    });
+});
+</code></pre>
+
+<p align="right">Оригинал: <a href="http://blog.ynh.io/2013/05/24/rebuild-youtubes-progress-bar.html" rel="nofollow" target="_blank">Rebuild YouTube's mobile-like progress bar in jQuery</a></p>
+
+<p>Буквально только что увидел в твиттере <a href="http://ricostacruz.com/nprogress/" rel="nofollow" target="_blank">ещё один вариант</a></p>

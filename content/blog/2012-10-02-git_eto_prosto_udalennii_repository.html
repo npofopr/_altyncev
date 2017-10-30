@@ -1,0 +1,56 @@
+---
+title: "Git это просто. Запись №3. Работа с удалёнными репозиторями"
+description: "Совместная работа включает в себя управление удалёнными репозиториями и помещение (push) и получение (pull) данных в и из них тогда, когда нужно обменяться результатами работы."
+tags: ["git"]
+categories: ["git"]
+date: "2012-10-02"
+---
+
+<p>Совместная работа включает в себя управление удалёнными репозиториями и помещение (push) и получение (pull) данных в и из них тогда, когда нужно обменяться результатами работы. Управление удалёнными репозиториями включает умение добавлять удалённые репозитории, удалять те из них, которые больше не действуют, умение управлять различными удалёнными ветками и определять их как отслеживаемые (tracked) или нет и прочее.</p>
+
+<!-- Read more -->
+
+<p><strong><span style="text-decoration: underline;">Отображение удалённых репозиториев</span></strong></p>
+<p>Чтобы просмотреть, какие удалённые серверы у вас уже настроены, следует выполнить команду git remote. Она перечисляет список имён-сокращений для всех уже указанных удалённых дескрипторов. Если вы склонировали ваш репозиторий, у вас должен отобразиться, по крайней мере, origin &mdash; это имя по умолчанию, которое Git присваивает серверу, с которого вы склонировали:</p>
+<pre>$ git clone git://github.com/schacon/ticgit.git
+Initialized empty Git repository in /private/tmp/ticgit/.git/
+remote: Counting objects: 595, done.
+remote: Compressing objects: 100% (269/269), done.
+remote: Total 595 (delta 255), reused 589 (delta 253)
+Receiving objects: 100% (595/595), 73.31 KiB | 1 KiB/s, done.
+Resolving deltas: 100% (255/255), done.
+$ cd ticgit
+$ git remote
+origin</pre>
+<p>Чтобы посмотреть, какому URL соответствует сокращённое имя в Git, можно указать команде опцию -v:</p>
+<pre>$ git remote -v
+origin git://github.com/schacon/ticgit.git</pre>
+<p>Если у вас больше одного удалённого репозитория, команда покажет их все. Например, мой репозиторий Grit выглядит следующим образом.</p>
+<pre>$ cd grit
+$ git remote -v
+bakkdoor git://github.com/bakkdoor/grit.git
+cho45 git://github.com/cho45/grit.git
+defunkt git://github.com/defunkt/grit.git
+koke git://github.com/koke/grit.git
+origin git@github.com:mojombo/grit.git</pre>
+<p>Это означает, что мы легко можем получить изменения от любого из этих пользователей. Но, заметьте, что origin &mdash; это единственный удалённый сервер прописанный как SSH ссылка, поэтому он единственный, в который я могу помещать свои изменения.</p>
+<p><strong><span style="text-decoration: underline;">Добавление удалённых репозиториев</span></strong></p>
+<p>Чтобы добавить новый удалённый Git-репозиторий под именем-сокращением, к которому будет проще обращаться, выполните git remote add [сокращение] [url]:</p>
+<pre>$ git remote
+origin
+$ git remote add pb git://github.com/paulboone/ticgit.git
+$ git remote -v
+origin git://github.com/schacon/ticgit.git
+pb git://github.com/paulboone/ticgit.git</pre>
+<p>Теперь вы можете использовать в командной строке имя pb вместо полного URL. Например, если вы хотите извлечь (fetch) всю информацию, которая есть в репозитории Павла, но нет в вашем, вы можете выполнить git fetch pb:</p>
+<pre>$ git fetch pb
+remote: Counting objects: 58, done.
+remote: Compressing objects: 100% (41/41), done.
+remote: Total 44 (delta 24), reused 1 (delta 0)
+Unpacking objects: 100% (44/44), done.
+From git://github.com/paulboone/ticgit
+* [new branch] master -> pb/master
+* [new branch] ticgit -> pb/ticgit</pre>
+<p>Ветка master Павла теперь доступна локально как pb/master . Вы можете слить (merge) её в одну из своих веток или перейти на эту ветку, если хотите её проверить.</p>
+<p>&nbsp;</p>
+<p>The End #3</p>

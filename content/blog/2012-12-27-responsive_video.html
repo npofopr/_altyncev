@@ -1,0 +1,33 @@
+---
+title: "Масштабируемое видео"
+# description: ""
+tags: ["html"]
+categories: ["web"]
+date: "2012-12-27"
+---
+
+<p>Очень простой <acronym title="Cascading Style Sheets" lang="en">CSS</acronym> и&nbsp;<acronym title="HyperText Markup Language" lang="en">HTML</acronym>, и&nbsp;ваше <nobr>embed-видео</nobr> будет масштабироваться в&nbsp;соответствии с&nbsp;шириной страницы:</p>
+<!-- Read more -->
+<pre><code class="html">
+<div class="video">
+    <iframe src="http://player.vimeo.com/video/6929537"frameborder="0"></iframe>
+</div>
+</code></pre>
+<p><acronym title="Cascading Style Sheets" lang="en">css</acronym>:</p>
+<pre><code class="css">
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</code></pre>

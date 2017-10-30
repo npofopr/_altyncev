@@ -1,0 +1,24 @@
+/* TEAM */    
+	Author: Vladislav Altyncev.                  
+	Contact: v [at] altyncev.ru
+	Twitter: @npofopr
+	Location: Russia, Perm
+
+/* THANKS */
+	Theme Creator: Thomas Edison
+	Site: http://themes.pixelwars.org/impressivcard
+
+	Cat creator: bobuk, gornostal, syndicut
+	Site: http://kittycheck.com
+
+	Site engine: @daeq
+	Site: http://habrahabr.ru/post/160431
+
+	Site engine: devblog.the7bits.com
+	Site: http://devblog.the7bits.com/posts/article_01/
+
+/* SITE */
+	Language: Russian
+	Standards: html5, css3
+	Components: jQuery, etc.
+	Software: Sublime Text, Photoshop
