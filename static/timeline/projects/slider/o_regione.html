@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" >
+	<meta name="Description" content="Инвестиционный потенциал республики Дагестан" />
+	<meta name="author" content="" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	
+	<title>Invest Project</title>
+
+	<link href="css/global.css" type="text/css" rel="stylesheet" />
+	<link href="css/style.css" type="text/css" rel="stylesheet" />
+	<!--[if lte IE 7]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
+	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+</head>
+<body>
+	
+	<div class="absContainer">
+		<div id="container">
+			<div class="name_head">
+				<h1>Инвестиционный потенциал края</h1>
+			</div>
+			<div class="content">
+				<div class="gal_back">
+					<a href="#back">назад</a>
+				</div>
+				<div class="content_text">
+					<h3>Praesent dapibus</h3>
+					<h1>Praesent dapibus, neque id cursus faucibus</h1>
+				</div>
+				<div id="wrapper_main">
+					<div class="jscroll">
+						<div class="main_txt_two">
+							<h4>Уважаемые дамы и господа!<br>
+							Дорогие друзья!</h4>
+							<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</p>
+							<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</p>
+						</div>
+					</div>
+				</div>
+				<div class="button">
+					<a href="o_regione.html" class="button_min btn_descr active"><span><i>Описание</i></span><b></b></a>
+					<a href="index.html" class="button_min btn_gallery"><span><i>Фотогалерея</i></span><b></b></a>
+					<a href="obrachenie.html" class="button_min btn_d"><span><i>3D</i></span><b></b></a>
+				</div>
+			</div>
+			<div class="links_main">
+				<a class="links_btn btn1" href="#"></a>
+				<a class="links_btn btn2" href="#"></a>
+				<a class="links_btn btn3 active" href="#"></a>
+				<a class="links_btn btn4" href="#"></a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+	<!-- <script src="//code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script> -->
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --> 
+	<!--[if lt IE 9]>
+  	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.carouFredSel-5.6.0-packed.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="js/jquery.columnizer.min.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('#thumbs').carouFredSel({
+			synchronise: ['#images', false, true],
+			auto: false,
+			width: 66,
+			height: 263,
+			direction: "center",
+			items: {
+				visible: 5,
+				start: -2
+			},
+			scroll: {
+				onBefore: function(oldItems, newItems) {
+					oldItems.eq(2).removeClass('selected');
+					newItems.eq(2).addClass('selected');
+				}
+			},
+			wrapper: {
+				element: "div",
+				classname: "caroufredsel_wrapper"
+			},
+			prev: '#prev',
+			next: '#next'
+		});
+
+		$('#images').carouFredSel({
+			auto: false,
+			items: 1,
+			scroll: {
+				fx: 'fade'
+			}
+		});
+
+		$('#thumbs div').click(function() {
+			$('#thumbs').trigger( 'slideTo', [this, -2] );
+		});
+		$('#thumbs div:eq(2)').addClass('selected');
+	});
+	$(function(){
+		$('.main_text, .jscroll').jScrollPane({
+			verticalDragMinHeight: 23,
+			verticalDragMaxHeight: 23
+		});
+	});
+	$(function(){
+		$('.main_txt_two').columnize({columns: 2, lastNeverTallest: true});
+	});
+	
+	</script>
+
+</body>
+</html>

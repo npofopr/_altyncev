@@ -134,16 +134,22 @@ publishDir             = "public"
 #   weight = 4
 
 [[menu.main]]
+  name = "Портфолио"
+  url = "/portfolio/"
+  identifier = "fa fa-terminal"
+  weight = 4
+
+[[menu.main]]
   name = "Категории"
   url = "/categories/"
   identifier = "fa fa-sitemap"
-  weight = 4
+  weight = 5
 
 [[menu.main]]
   name = "Контакты"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 5
+  weight = 6
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop

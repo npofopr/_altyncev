@@ -1,0 +1,35 @@
+a{color:#ff9000;text-decoration:underline;}
+a:hover{color:#c57712;text-decoration:none;}
+a.dp-choose-date {background: url(../img/ico_datapicker_orange.gif) no-repeat;}
+.header_login a {color: #ff9000;}
+.header_login a span {border-bottom: 1px dotted #ff9000;}
+.header_search button, .header_search a {background: #FFF url(../img/ico_search_orange.png) no-repeat 0 0;}
+.main_slider_prev, .main_slider_next {background: url(../img/main_slider_btn_orange.gif) no-repeat 0 0;}
+.slider_sostav .main_slider_prev, .slider_sostav .main_slider_next {background: url(../img/main_slider_btn_orange.gif) no-repeat 0 0;}
+.text_slider .main_slider_prev, .text_slider .main_slider_next {background: url(../img/main_slider_btn_orange.gif) no-repeat 0 0;}
+.container .pagin_first a, .container .pagin_last a {background: url(../img/main_slider_btn_orange.gif) no-repeat 0 0;}
+.container .pagin_first.disabled, .container .pagin_last.disabled {background: url(../img/main_slider_btn_orange.gif) no-repeat 0 100% !important;}
+.menu_sd {background: url(../img/sd_menu_bg_orange.jpg) no-repeat center 99%;}
+.menu_sd ul {background: url(../img/sd_menu_bg_orange.jpg) no-repeat center 1px;}
+.menu_sd a {background: #ff9000;}
+.menu_sd a.active, .menu_sd a:hover {color: #ff9000;}
+.header_name h1 span {color: #ff9000;}
+.header_contact_direct p, .header_contact_priemn p {color: #ff9000;}
+.header_menu a:hover, .header_menu a.active {background: #ff9000;}
+.main_col1_block h5 {color: #ff9000;}
+.read_more {background: #ff9000;}
+.content h4 {color: #ff9000;}
+.ie7 .content h4 {color: #ff9000 !important;}
+.ie7 .slider_sostav h4 {color: #ff9000 !important;}
+.content .change_year a {color: #ff9000;}
+.content .change_year a:hover, .content .change_year a.active {background: #ff9000;}
+.content ol li:before {color: #ff9000;}
+.ie7 .content ol div {color: #ff9000;}
+.content blockquote em {background: #ff9000;}
+.legend {color: #ff9000;}
+.legend h5 {color: #ff9000;}
+.main_medal h5 {color: #ff9000;}
+.ie7 .main_medal h5 {color: #ff9000 !important;}
+.footer_menu_second dt a {color: #ff9000;}
+.fakeButton {background: url(../img/button_orange.jpg) no-repeat left top;}
+#activeBrowseButton {background: url(../img/button_orange.jpg) no-repeat left top;}
