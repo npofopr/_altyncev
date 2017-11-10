@@ -66,9 +66,25 @@ a.roll_link span:after {
 	transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
 }
 
+.easing {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.easing-long {
+	-webkit-transition: all 1.2s ease-out;
+	-moz-transition: all 1.2s ease-out;
+	-ms-transition: all 1.2s ease-out;
+	-o-transition: all 1.2s ease-out;
+	transition: all 1.2s ease-out;
+}
+
 span.label {
-  display: inline-block;
-  padding: 2px 6px;
+	display: inline-block;
+	padding: 2px 6px;
 }
 
 .history-group h3 {
@@ -77,21 +93,22 @@ span.label {
 	text-transform: none;
 	letter-spacing: normal;
 	font-weight: 500;
-
 }
 
 .history-group h3:first-child {
 	margin-top: 0;
 }
 
-ul.personal-info {
+#content ul.personal-info {
 	margin-top: 0;
 	padding-left: 0;
 	list-style: none;
+	margin-bottom: 60px;
 }
 
 ul.personal-info li {
 	margin-bottom: 10px;
+	padding-left: 0;
 }
 
 h2.caption span,
@@ -163,7 +180,9 @@ ul.personal-info.contact-form .title:after {
 
 .history-unit h4 {
 	margin-bottom: 0px;
-	font-weight: 400;
+	font-weight: 600;
+	text-transform: none;
+  letter-spacing: .1em;
 }
 
 .history-unit h4 .work-time {
@@ -180,6 +199,8 @@ ul.personal-info.contact-form .title:after {
 	padding-left: 9px;
 	border-width: 0 0 0 30px;
 	border-style: solid;
+	text-transform: none;
+  letter-spacing: normal;
 }
 
 .history-unit h5 span {
@@ -221,4 +242,35 @@ ul.personal-info .title:after {
 span.label.black {
 	color: #fff;
 	background-color: #000;
+}
+
+ul.personal-info .title,
+.bar .progress {
+	background: #C30;
+}
+
+.not_available,
+.available {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	margin: 0;
+	position: relative;
+	right: 7px;
+	top: -1px;
+}
+
+.not_available {
+	background: #ff0000;
+	-webkit-box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.75);
+	box-shadow: 0px 0px 7px rgba(255, 0, 0, 0.75);
+}
+
+.available {
+	background: #00ff00;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 255, 0, 0.75);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 255, 0, 0.75);
+	box-shadow: 0px 0px 7px rgba(0, 255, 0, 0.75);
 }
