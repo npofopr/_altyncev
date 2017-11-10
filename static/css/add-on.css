@@ -100,7 +100,7 @@ span.label {
 }
 
 #content ul.personal-info {
-	margin-top: 0;
+	margin-top: 60px;
 	padding-left: 0;
 	list-style: none;
 	margin-bottom: 60px;
@@ -182,7 +182,8 @@ ul.personal-info.contact-form .title:after {
 	margin-bottom: 0px;
 	font-weight: 600;
 	text-transform: none;
-  letter-spacing: .1em;
+	letter-spacing: .01em;
+	font-size: .9em;
 }
 
 .history-unit h4 .work-time {
