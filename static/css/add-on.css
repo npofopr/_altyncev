@@ -1,9 +1,111 @@
-/*
-  This css file is for individual users to restyle items for their personal site,
-  or for the implementation of features specifically for their site. Anything that
-  is an official part of the theme (ex. Pull Requests) should be included in main.css
-  within the formating given.
-*/
+.container {
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.row + .row {
+	margin-top: 4rem;
+}
+
+#content p:first-child {
+	margin-top: 0;
+}
+
+#content p:last-child {
+	margin-bottom: 0;
+}
+
+.align-items-start {
+	-ms-flex-align: start!important;
+	align-items: flex-start!important;
+}
+
+.align-items-center {
+	-ms-flex-align: center!important;
+	align-items: center!important;
+}
+
+.align-items-end {
+	-ms-flex-align: end!important;
+	align-items: flex-end!important;
+}
+
+.col {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.col,
+.col-6,
+.col-md-4 .col-md-5,
+.col-md-6,
+.col-md-8,
+.col-md-auto,
+.col-12 {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.col-12 {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+.col-md-auto {}
+
+@media (min-width: 768px) {
+	.col-md-auto {
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
+		width: auto;
+		max-width: none;
+	}
+	.col-md-4 {
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+	.col-md-5 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 41.666667%;
+		max-width: 41.666667%;
+	}
+	.col-md-6 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-md-8 {
+		-ms-flex: 0 0 66.666667%;
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+	}
+}
 
 a.roll_link {
 	display: inline-block;
@@ -100,10 +202,10 @@ span.label {
 }
 
 #content ul.personal-info {
-	margin-top: 60px;
+	margin-top: 0;
 	padding-left: 0;
 	list-style: none;
-	margin-bottom: 60px;
+	margin-bottom: 0;
 }
 
 ul.personal-info li {
@@ -201,7 +303,7 @@ ul.personal-info.contact-form .title:after {
 	border-width: 0 0 0 30px;
 	border-style: solid;
 	text-transform: none;
-  letter-spacing: normal;
+	letter-spacing: normal;
 }
 
 .history-unit h5 span {
