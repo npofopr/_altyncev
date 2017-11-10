@@ -38,6 +38,14 @@ a.btn:hover,
 	color: #fff;
 }
 
+ul.personal-info .title {
+  display: inline-block;
+  padding: 2px 8px;
+  position: relative;
+  font-size: 90%;
+  border-left: 1px solid rgba(0,0,0,.1);
+}
+
 ul.personal-info .title:after {
 	content: "";
 	position: absolute;
