@@ -26,7 +26,7 @@
                 {{ else }}
                   <form id="contact" action="//{{ .Params.emailservice }}" method="post" center width="300px">
                 {{ end }}
-                  <h4>Replies Typically Within 24 Hours.</h4>
+                  <h4>В течение 24ч. постараюсь ответить)</h4>
                   <fieldset>
                    <input placeholder="{{ .Params.contactname }}" type="text" name="name" tabindex="1" required autofocus>
                   </fieldset>
@@ -37,7 +37,7 @@
                    <textarea placeholder="{{ .Params.contactmessage}}" name="message" tabindex="3" required></textarea>
                   </fieldset>
                   <fieldset>
-                   <button name="submit" class="button" type="submit" id="contact-submit" tabindex="4">Submit</button>
+                   <button name="submit" class="button" type="submit" id="contact-submit" onclick="yaCounter17143639.reachGoal('btn-contact-submit17143639'); return true;" tabindex="4">Отправить</button>
                   </fieldset>
               </form>
             </div>
