@@ -60,7 +60,7 @@
 		font-weight: 400;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
-		margin-top: -1em;
+		margin: -1em 1em 0;
 		text-transform: uppercase;
 	}
 
@@ -115,7 +115,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #000000;
+		color: #333333;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
@@ -123,14 +123,6 @@
 	}
 
 		@media screen and (max-width: 1680px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -189,7 +181,7 @@
 			}
 
 	strong, b {
-		color: #000000;
+		color: #333333;
 		font-weight: 700;
 	}
 
@@ -215,6 +207,10 @@
 			color: inherit;
 			border-bottom: 0;
 		}
+
+    h1 {
+        font-size: 1.3em;
+    }
 
 	h2 {
 		font-size: 1.1em;
@@ -575,7 +571,7 @@
 		select:hover,
 		textarea:hover {
 			-webkit-transition:border-color 0.3s ease-in-out;
-			moz-transition:border-color 0.3s ease-in-out;
+			-moz-transition:border-color 0.3s ease-in-out;
 			transition:border-color 0.3s ease-in-out;
 			border-color: #2ebaae;
 		}
@@ -876,6 +872,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			margin-top: 1em;
 		}
 
 			ul.icons li {
@@ -1076,8 +1073,8 @@
 
 			ul.posts li {
 				border-top: dotted 1px rgba(160, 160, 160, 0.3);
-				margin: 1.5em 0 0 0;
-				padding: 1.5em 0 0 0;
+				margin: 0.5em 0 0 0;
+				padding: 0.5em 0 0 0;
 			}
 
 				ul.posts li:first-child {
@@ -1403,7 +1400,12 @@
 				padding: 0;
 			}
 
-				.post > footer .stats li {
+        .post > footer .stats li,
+        .post > footer .stats li ul {
+          margin: 0;
+          padding-left: 0;
+        }
+				.post > footer .stats li ul li {
 					border-left: solid 1px rgba(160, 160, 160, 0.3);
 					display: inline-block;
 					font-family: "Raleway", Helvetica, sans-serif;
@@ -1411,22 +1413,22 @@
 					font-weight: 400;
 					letter-spacing: 0.25em;
 					line-height: 1;
-					margin: 0 0 0 2em;
-					padding: 0 0 0 2em;
+					margin: 0 0 0 1em;
+					padding: 0 0 0 1em;
 					text-transform: uppercase;
 				}
 
-					.post > footer .stats li:first-child {
+					.post > footer .stats li ul li:first-child {
 						border-left: 0;
 						margin-left: 0;
 						padding-left: 0;
 					}
 
-					.post > footer .stats li .icon {
+					.post > footer .stats li ul li .icon {
 						border-bottom: 0;
 					}
 
-						.post > footer .stats li .icon:before {
+						.post > footer .stats li ul li .icon:before {
 							color: rgba(160, 160, 160, 0.3);
 							margin-right: 0.75em;
 						}
@@ -1582,7 +1584,7 @@
 					text-align: center;
 				}
 
-					.post > footer .stats li {
+					.post > footer .stats li ul li {
 						margin: 0 0 0 1.25em;
 						padding: 0 0 0 1.25em;
 					}
@@ -1919,7 +1921,7 @@
 	    article.post h2,
 	    article.post h3,
 	    article.post h4 {
-	        color: #000000;
+	        color: #333333;
 	        /* Theoretically for IE 8 & 9 (more valid) */
 	        /* ...but not required as filter works too */
 	        /* should come BEFORE filter */
@@ -2325,7 +2327,7 @@
 						position: relative;
 						text-indent: 4em;
 						width: 4em;
-						color: #000000;
+						color: #333333;
 						/* Theoretically for IE 8 & 9 (more valid) */
 						/* ...but not required as filter works too */
 						/* should come BEFORE filter */
@@ -2385,7 +2387,7 @@
 		}
 
 			#header #search input {
-				color: #000000;
+				color: #333333;
 				width: 12em;
 			}
 
@@ -2455,6 +2457,7 @@
 		opacity: 1;
 		padding: 4.5em;
 		width: 90em;
+		overflow: hidden;
 	}
 
 		body.is-menu-visible #wrapper {
@@ -2654,6 +2657,9 @@
 
 	#footer .icons {
 		color: #aaaaaa;
+		text-align: center;
+		margin-top: 0;
+		padding-top: 0
 	}
 
 	#footer .copyright {
