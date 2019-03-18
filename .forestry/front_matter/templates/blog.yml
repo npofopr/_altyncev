@@ -11,5 +11,5 @@ fields:
   name: description
   label: Description
 - type: file
-  name: image
-  label: Image
+  name: featured
+  label: Featured
