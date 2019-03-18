@@ -1,0 +1,12 @@
+---
+label: blog
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: description
+  label: Description
