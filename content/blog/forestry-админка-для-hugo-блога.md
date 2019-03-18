@@ -10,9 +10,11 @@ title = "Forestry админка для hugo блога"
 type = "post"
 
 +++
-Lorem ipsum :-) 
+Lorem ipsum :-)
 
 ![](/images/blog/80735.jpg)
+
+_<!-- Read more -->_
 
 > цитата
 
