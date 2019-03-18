@@ -38,3 +38,13 @@ fields:
 - type: file
   name: featured
   label: Featured
+  description: Картинка в заголовке
+- type: text
+  name: featuredalt
+  label: Featuredalt
+  description: Alt для картинки
+- type: text
+  name: featuredpath
+  label: Featuredpath
+  description: Путь до картинки
+  default: "/images/blog/"
