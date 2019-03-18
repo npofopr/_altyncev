@@ -31,10 +31,6 @@ fields:
   label: Сategories
   default:
   - cottage
-- type: boolean
-  name: draft
-  label: Draft
-  default: true
 - type: file
   name: featured
   label: Featured
@@ -48,3 +44,5 @@ fields:
   label: Featuredpath
   description: Путь до картинки
   default: "/images/blog/"
+pages:
+- content/blog/forestry-админка-для-hugo-блога.md
