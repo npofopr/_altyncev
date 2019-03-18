@@ -31,6 +31,10 @@ fields:
   label: Сategories
   default:
   - cottage
+- type: boolean
+  name: draft
+  label: Draft
+  default: true
 - type: file
   name: featured
   label: Featured
