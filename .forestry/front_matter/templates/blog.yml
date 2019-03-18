@@ -13,3 +13,9 @@ fields:
 - type: file
   name: featured
   label: Featured
+- type: datetime
+  label: Date
+  name: date
+  config:
+    date_format: YYYY-MM-DD
+    required: true
