@@ -16,6 +16,10 @@ fields:
   config:
     date_format: YYYY-MM-DD
     required: true
+- type: text
+  name: type
+  label: Type
+  default: post
 - type: tag_list
   label: Tags
   name: tags
