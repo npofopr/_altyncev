@@ -10,12 +10,23 @@ fields:
 - type: text
   name: description
   label: Description
-- type: file
-  name: featured
-  label: Featured
 - type: datetime
   label: Date
   name: date
   config:
     date_format: YYYY-MM-DD
     required: true
+- type: tag_list
+  label: Tags
+  name: tags
+  default:
+  - cottage
+  - баня
+- type: tag_list
+  name: categories
+  label: Сategories
+  default:
+  - cottage
+- type: file
+  name: featured
+  label: Featured
