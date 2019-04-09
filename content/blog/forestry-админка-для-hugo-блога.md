@@ -14,9 +14,11 @@ Lorem ipsum :-) Проверки пост
 
 ![](/images/blog/80735.jpg)
 
-<!--more-->
+<!-- more -->
 
 > цитата
+
+<!-- Read more -->
 
     <html>
       <head>
