@@ -2318,6 +2318,7 @@ body {
   padding: 0 0 0 1.5em;
   white-space: nowrap;
   min-width: 12.4em;
+  text-transform: uppercase;
 }
 
 #header h1 a {
@@ -2387,10 +2388,10 @@ body {
 
 #header .links ul li a {
   border-bottom: 0;
-  font-family: 'Gabriela', serif;
+  font-family: system, -apple-system, BlinkMacSystemFont, '.SFNSDisplay-Regular', 'Roboto', sans-serif;
   font-size: 0.7em;
   font-weight: 400;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
 }
 
@@ -3082,3 +3083,35 @@ body.is-share-visible #share-menu {
     padding: 1.5em;
   }
 }
+
+.no-src.lazyload,
+.no-src.lazyloading {
+	opacity: 0;
+}
+
+.no-src.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+
+[data-expand].lazyload {
+	opacity: 0;
+	transform: scale(0.8);
+}
+
+[data-expand].lazyloaded {
+	opacity: 1;
+	transition: all 700ms;
+	transform: scale(1);
+}
+
+/*.blur-up {*/
+	/*-webkit-filter: blur(4px);*/
+	/*filter: blur(4px);*/
+	/*transition: filter 400ms, -webkit-filter 400ms;*/
+/*}*/
+
+/*.blur-up.lazyloaded {*/
+	/*-webkit-filter: blur(0);*/
+	/*filter: blur(0);*/
+/*}*/

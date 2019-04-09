@@ -1,5 +1,3 @@
-{{ if .RSSLink }}
-    <li><a href="{{ .RSSLink }}" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
-{{ else }}
-    <li><a href="{{ .Site.RSSLink }}" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
-{{ end }}
+{{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<li><a href="%s" type="%s" target="_blank" title="%s" class="fa fa-rss"></a></li>` .Rel .MediaType.Type .Permalink | safeHTML }}
+{{ end -}}

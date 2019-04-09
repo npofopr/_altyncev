@@ -12,7 +12,8 @@ type = "post"
 +++
 Lorem ipsum :-) Проверки пост
 
-![](/images/blog/80735.jpg)
+<img data-src="/images/blog/80735.jpg" class="lazyload">
+
 <!--more-->
 
 > цитата

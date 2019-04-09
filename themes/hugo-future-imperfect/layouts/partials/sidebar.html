@@ -21,9 +21,7 @@
     {{ end }}
     {{ if .Site.Params.socialAppearAtTop }}
       <ul class="icons">
-        {{ if .Site.Params.rssAppearAtTop }}
-          {{ partial "rss-icon" . }}
-        {{ end }}
+        {{ partial "rss-icon" . }}
         {{ partial "social" . }}
       </ul>
     {{ end }}
