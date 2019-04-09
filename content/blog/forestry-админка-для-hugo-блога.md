@@ -14,7 +14,7 @@ Lorem ipsum :-)
 
 ![](/images/blog/80735.jpg)
 
-<!-- Read more -->
+<!--more-->
 
 > цитата
 
