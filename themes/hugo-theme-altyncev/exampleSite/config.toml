@@ -1,41 +1,23 @@
-baseurl                = "https://altyncev.ru/"
-languageCode           = "en-us"
-title                  = "Vladislav Altyncev"
-theme                  = "hugo-theme-altyncev"
-preserveTaxonomyNames  = true
-paginate               = 5
-disqusShortname        = "npofopr"
-googleAnalytics        = "UA-2789259-4"
-pluralizeListTitles    = false
-buildDrafts            = false
-canonifyURLs           = true
-defaultContentLanguage = "ru"
-enableRobotsTXT        = true
-enableEmoji            = true
-defaultExtension       = "html"
-defaultLayout          = "post"
-publishDir             = "public"
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-
-[mediaTypes]
-  [mediaTypes."text/html"]
-  suffixes = "html"
+baseurl = "/"
+languageCode = "en-us"
+title = "Hugo Future Imperfect"
+theme = "hugo-future-imperfect"
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = "shortname"
+googleAnalytics = ""
+pluralizeListTitles = false
+# Set the followings to true as part of your site SEO
+enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "Пишу о работе, жизни и обо всём, что понравится. PS: А я чё? Я ничё. Другие вон чё, и ничё, а я чуть чё, и сразу вон чё!"
+  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Vladislav Altyncev"
+  navbarTitle          = "Future Imperfect"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
-
-  domainVerification = "Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M"
-  YandexMetrika = "17143639"
-  googleVerification = "Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M"
-  yandexVerification = "496c60b178050fff"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -105,22 +87,22 @@ publishDir             = "public"
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Vladislav Altyncev"
+  header    = "Hugo Future Imperfect"
 
-  paragraph = ""
+  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
 
-  about     = "Пишу о работе, жизни и обо всём, что понравится. PS: А я чё? Я ничё. Другие вон чё, и ничё, а я чуть чё, и сразу вон чё <i class='fa fa-hand-peace-o'></i>!"
+  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/images/bio-photo.jpg"
+    src       = "/img/main/logo.jpg"
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
     width     = ""
-    alt       = "Vladislav Altyncev Blog"
+    alt       = "Hugo Future Imperfect"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -128,50 +110,38 @@ publishDir             = "public"
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
-# [[menu.main]]
-#   name = ""
-#   url = "/"
-#   identifier = "fa fa-home"
-#   weight = 1
-
 [[menu.main]]
-  name = "Касательно меня"
-  url = "/about/"
-  identifier = "fa fa-id-card-o"
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
   weight = 1
 
 [[menu.main]]
-  name = "Блог"
-  url = "/blog/"
-  identifier = "fa fa-newspaper-o"
+  name = "About"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
   weight = 2
 
 [[menu.main]]
-  name = "Дачные дела"
-  url = "/categories/cottage/"
-  identifier = "fa fa-list"
+  name = "Blog"
+  url = "/blog/"
+  identifier = "fa fa-newspaper-o"
   weight = 3
 
-# [[menu.main]]
-#   name = "Дачные дела"
-#   url = "/itemized/"
-#   identifier = "fa fa-list"
-#   weight = 4
-
 [[menu.main]]
-  name = "Портфолио"
-  url = "/portfolio/"
-  identifier = "fa fa-terminal"
+  name = "Itemized"
+  url = "/itemized/"
+  identifier = "fa fa-list"
   weight = 4
 
 [[menu.main]]
-  name = "Категории"
+  name = "Categories"
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
 
 [[menu.main]]
-  name = "Контакты"
+  name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
   weight = 6
@@ -181,42 +151,47 @@ publishDir             = "public"
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github          = "npofopr/_altyncev"
-  #gitlab          = ""
-  stackoverflow   = "2174834" # User Number
-  bitbucket       = "npofopr"
-  #jsfiddle        = "npofopr"
-  #codepen         = "npofopr"
+  github           = "jpescador/hugo-future-imperfect"
+  gitlab           = ""
+  stackoverflow    = "" # User Number
+  bitbucket        = ""
+  jsfiddle         = ""
+  codepen          = ""
   # Visual Art Communities
-  #deviantart      = ""
-  flickr          = "npofopr"
-  #behance         = ""
-  #dribbble        = ""
+  deviantart       = ""
+  flickr           = "example"
+  behance          = ""
+  dribbble         = ""
   # Publishing Communities
-  #wordpress       = ""
-  #medium          = ""
+  wordpress        = ""
+  medium           = ""
   # Professional/Business Oriented Communities
-  #linkedin        = "example"
-  #foursquare      = ""
-  #xing            = ""
-  #slideshare      = ""
+  linkedin         = "example"
+  linkedin_company = "examplebusiness"
+  foursquare       = ""
+  xing             = ""
+  slideshare       = ""
   # Social Networks
-  facebook        = "npofopr"
-  #googleplus      = ""
-  #reddit          = "example"
-  #youtube         = ""
-  #vimeo           = ""
-  whatsapp        = "" # WhatsApp Number
+  facebook         = "example"
+  googleplus       = ""
+  reddit           = "example"
+  quora            = ""
+  youtube          = ""
+  vimeo            = ""
+  whatsapp         = "" # WhatsApp Number
     # WeChat and QQ need testing.
-    wechat          = ""
-    qq              = "" # User ID Number
-  instagram       = "npofopr"
-  tumblr          = ""
-  twitter         = "npofopr"
-  skype           = ""
-  snapchat        = ""
-  pinterest       = "npofopr"
-  telegram        = "npofopr"
-  vine            = ""
+    wechat         = ""
+    qq             = "" # User ID Number
+  instagram        = "example"
+  tumblr           = ""
+  twitter          = "example"
+  skype            = ""
+  snapchat         = ""
+  pinterest        = "example"
+  telegram         = "example"
+  vine             = ""
+  googlescholar    = ""
+  orcid            = ""
+  researchgate     = "example"
   # Email
-  #email           = "v[@]altyncev.ru"
+  email            = "example"
