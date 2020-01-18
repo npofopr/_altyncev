@@ -1,7 +1,8 @@
 baseurl                = "https://altyncev.ru/"
 languageCode           = "en-us"
 title                  = "Vladislav Altyncev"
-theme                  = "hugo-theme-altyncev"
+# theme                  = "hugo-theme-altyncev"
+theme                  = "hugo-future-imperfect"
 preserveTaxonomyNames  = true
 paginate               = 5
 disqusShortname        = "npofopr"

@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-    Future Imperfect by HTML5 UP
-    html5up.net | @n33co
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
     <head>
         {{ partial "seo_schema" . }}
@@ -39,11 +34,11 @@
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
-		{{ template "_internal/schema.html" . }}
+        {{ template "_internal/schema.html" . }}
 
-		{{ with .OutputFormats.Get "rss" -}}
-			{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-		{{ end -}}
+        {{ with .OutputFormats.Get "rss" -}}
+            {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+        {{ end -}}
 
         {{ template "_internal/google_news.html" . }}
 
@@ -62,25 +57,22 @@
         <link rel="preconnect" href="//www.googletagmanager.com">
         <link rel="preconnect" href="//www.google-analytics.com">
         <link rel="preconnect" href="//mc.yandex.ru">
-
-        <!-- Code snippet to speed up Google Fonts rendering: googlefonts.3perf.com -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-        <link rel="preload" href="https://fonts.googleapis.com/css?family=Gabriela&amp;subset=cyrillic,cyrillic-ext" as="fetch" crossorigin="anonymous">
-        <script type="text/javascript">
-        !function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Gabriela&amp;subset=cyrillic,cyrillic-ext",r="__3perf_googleFonts_d49f9";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
-        </script>
-        <!-- End of code snippet for Google Fonts -->
+
+        <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap&subset=cyrillic" rel="stylesheet">
 
         <!-- If the value "default" is passed into the param then we will first
              load the standard css files associated with the theme -->
         {{ if or (in ($.Scratch.Get "cssFiles") "default") (eq ($.Scratch.Get "cssFiles") false) }}
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
-            <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+            <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+            <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css"> -->
+            <!-- <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
             <link rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
-            <link rel="stylesheet" href="{{ "css/academicons.min.css" | relURL }}">
+            <link rel="stylesheet" href="{{ "css/academicons.min.css" | relURL }}"> -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
         {{ end }}
 
         {{ if ne ($.Scratch.Get "cssFiles") false }}

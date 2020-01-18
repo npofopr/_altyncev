@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Мастер-класс. Профессия Верстальщик</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Разработка сайтов: HTML, CSS, jQuery</h1>
+        <p>Научитесь front-end разработке сайтов с нуля</p>
+    </header>
+
+    <section class="slide" id="cover">
+        <h2>Профессия HTML верстальщик</h2>
+        <figure>
+            <img class="cover" src="pictures/artem-sapegin-DErxVSSQNdM-unsplash.jpg" alt="Hands on the orange typewriter in a park">
+            <figcaption class="copyright right white">
+                <a href="https://unsplash.com/photos/DErxVSSQNdM">© sapegin</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover:after {
+                display: none;
+            }
+
+            #cover h2 {
+                margin: 0;
+                color: black;
+                text-align: center;
+                font-size: 70px;
+                text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: black;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: black;
+            }
+
+            #cover img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Разработчики</h2>
+        <p>
+            <img style="max-height:350px" src="pictures/extra-front-end-back-end-dribbble.png">
+        </figure>
+    </section>
+
+    <section class="slide" id="threshold">
+        <h2>Порог входа в профессию разработчика</h2>
+        <table>
+            <tr>
+                <th width="33%">HTML вёрстка</th>
+                <th width="33%">Frontend разработка</th>
+                <th width="33%">Backend разработка</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Язык HTML (30%)</li>
+                        <li>Язык CSS (60%)</li>
+                        <li>Общие знания Javascript/ jQuery (основы - 5-10%)</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="next">
+                        <li>Язык HTML (20%)</li>
+                        <li>Язык CSS (40%)</li>
+                        <li>Знания Javascript (80%)</li>
+                        <li>Знание популярных фреймворков (хотя бы одного на 70-80%)</li>
+                        <li>* Ract, Anuglar, Vue.js...</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="next">
+                        <li>Язык Javascript (80-90%)</li>
+                        <li>Язык PHP/Java/Ruby (80-90%)</li>
+                        <li>Язык SQL (80-90%)</li>
+                        <li>Знание популярных фреймворков (хотя бы 1 - 70-80%)</li>
+                        <li>* Bitrix, Laravel, Yii...</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><b class="next">Время на освоение: от 2-х месяцев</b></td>
+                <td><b class="next">Время на освоение: от 6-х месяцев</b></td>
+                <td><b class="next">Время на освоение: от 9-и месяцев</b></td>
+            </tr>
+        </table>
+
+        <style>
+            #threshold td {font-size: 14px; vertical-align: top;}
+            #threshold td li {padding-right: 25px}
+        </style>
+    </section>
+
+    <section class="slide" id="html">
+        <h2>Вёрстка</h2>
+        <table>
+            <tr>
+                <th width="50%">Плюсы</th>
+                <th width="50%">Минусы</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>возможность самостоятельного освоения профессии</li>
+                        <li>высокая востребованность на рынке труда</li>
+                        <li>необходимость постоянного совершенствования и обновления знаний</li>
+                        <li>возможность работать удаленно</li>
+                        <li>нечеткие границы между работой веб-дизайнера, веб-программиста и баннер-мейкера дают возможность работать в смежных областях</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="next">
+                        <li>присутствует доля рутинности и однообразия</li>
+                        <li>необходимость долговременного сидения за компьютером</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><b class="next">Время на освоение: от 2-х месяцев</b></td>
+                <td><b class="next">Время на освоение: от 6-х месяцев</b></td>
+            </tr>
+        </table>
+        
+        <style>
+            #html td {font-size: 14px; vertical-align: top;}
+            #html td li {padding-right: 25px}
+        </style>
+    </section>
+
+    <section class="slide" id="work">
+        <div>
+            <h2>Трудоустройство</h2>
+            <table>
+                <tr>
+                    <th width="50%"><span>Фриланс</span></th>
+                    <th width="50%"><span>Офис</span></th>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="padding-right:60px">
+                            <ul class="inline">
+                                <li>круто для отношений или семьи</li>
+                                <li>возможность проветривать, когда угодно</li>
+                                <li>самоорганизация/ самодисциплина</li>
+                                <li>совмещать с учёбой</li>
+                                <li>больше денег</li>
+                                <li>удобное место работы</li>
+                                <li>поиск заказов</li>
+                                <li>комуникация, общение с заказчиками</li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="padding-right:60px">
+                            <ul class="inline next">
+                                <li>часть команды</li>
+                                <li>неформальное общение с коллегами</li>
+                                <li>стабильность</li>
+                                <li>отпуск. больничный. пенсия</li>
+                                <li>постоянная практика</li>
+                                <li>наставники</li>
+                                <li>меньше денег</li>
+                                <li>привязка к рабочему месту</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- <figure>
+            <img class="cover" src="pictures/feelance.jfif">
+        </figure> -->
+        
+        <style>
+            /*#work:before {content: ''; width: 100%;height: 100%;background-color: rgba(0,0,0,.6);position: absolute;left: 0;top: 0;z-index: 0;}
+            #work > div {position: relative; z-index: 1}*/
+            /*#work,
+            #work h2 {color:#fff}*/
+            #work td {font-size: 18px; vertical-align: top;}
+            #work td p {padding-right: 25px}
+            #work img {width: 100%; height: 100%}
+        </style>
+    </section>
+
+    <section class="slide" id="calc">
+        <h2>Оплата труда</h2>
+
+        <p>
+            <b>X</b> = Стоимость часа работы * <b>500</b> ₽/час<br>
+            <b>Y</b> = Среднее количество часов работы в месяц <b>160</b> часов
+        </p>
+
+        <p>
+            Ваш доход = <b>X * Y = 80 000</b> ₽/месяц
+        </p>
+
+        <figure>
+            <img class="cover" src="pictures/1_r2_crQBm6aQFsgGdayPnHw.jpeg">
+        </figure>
+
+        <style>
+            #calc img {width: 100%; height: 100%;}
+        </style>
+    </section>
+
+    <section class="slide" id="step">
+        <h2>Последовательность разработки сайта</h2>
+
+        <table>
+            <tr>
+                <td>
+                    <ol>
+                        <li>Предпроектная подготовка</li>
+                        <li>Разработка и согласование дизайна</li>
+                        <li>Вёрстка</li>
+                        <li>Программная часть проекта</li>
+                        <li>Информационное наполнение сайта</li>
+                        <li>Тестирование сайта в Интернете</li>
+                        <li>Сдача сайта в эксплуатацию</li>
+                        <li>Продвижение сайта</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul class="next">
+                        <li>руководитель проекта,</li>
+                        <li>дизайнер,</li>
+                        <li>верстальщик,</li>
+                        <li>программист,</li>
+                        <li>контент-менеджер и копирайтер,</li>
+                        <li>SЕО-специалист,</li>
+                        <li>вебмастер.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <style>
+            #step td {font-size: 15px; vertical-align: top;}
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Предпроектная подготовка</h2>
+
+        <table>
+            <tr>
+                <td width="50%">
+                    <ol>
+                        <li>
+                            Предпроектные исследования
+                            <ul class="inline font-xs">
+                                <li>анализ бизнеса</li>
+                                <li>план работ</li>
+                                <li>бюджет</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Разработка технического задания
+                            <ul class="inline font-xs">
+                                <li>техническое задание</li>
+                                <li>карта сайта/ структура/ прототип</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td>
+                <td width="50%">
+                    <p>
+                        <img style="max-width: 400px;" src="pictures/prototipe.png">
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="slide">
+        <h2>Разработка и согласование дизайна</h2>
+        <table>
+            <tr>
+                <td width="50%">
+                    <ol>
+                        <li>
+                            Дизайн-концепция сайта (креативный дизайн)
+                        </li>
+                        <li>
+                            Технический дизайн
+                            <ul class="inline font-xs">
+                                <li>Photoshop, Figma, ...</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td>
+                <td width="50%">
+                    <p>
+                        <img style="max-width: 400px;" src="pictures/figma.jpg">
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="slide">
+        <h2>Вёрстка</h2>
+
+        <table>
+            <tr>
+                <td width="50%">
+                    <p>Вёрстка html-страниц сайта<br>на основе утвержденного дизайна типовых страниц.</p>
+                    <p>
+                        <img style="max-height:100px" src="pictures/psd-html5.png">
+                    </p>
+                </td>
+                <td width="50%" style="vertical-align: top;">
+                    <div class="next">
+                        <p>Текстовые редакторы</p>
+                        <ul class="inline" style="margin-left: 40px;">
+                            <li><a href="https://code.visualstudio.com/" target="_blank" rel="nofollow">Visual Studio Code</a></li>
+                            <li><a href="https://www.sublimetext.com/" target="_blank" rel="nofollow">Sublime Text 3</a></li>
+                            <li><a href="https://atom.io/" target="_blank" rel="nofollow">Atom</a></li>
+                            <li><a href="https://notepad-plus-plus.org/" target="_blank" rel="nofollow">Notepad++</a></li>
+                            <li><a href="http://brackets.io/" target="_blank" rel="nofollow">Brackets</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="slide">
+        <h2>Программная часть проекта</h2>
+        <table>
+            <tr>
+                <td>
+                    <ol>
+                        <li>
+                            Интеграция сайта с системой управления
+                            <ul class="inline font-xs">
+                                <li>
+                                    интеграция с системой управления
+                                </li>
+                                <li>
+                                    программирование
+                                </li>
+                                <li>
+                                    настройка сервера
+                                </li>
+                                <li>
+                                    обеспечение безопасности проекта
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Программирование, запуск проекта
+                            <ul class="inline font-xs">
+                                <li>дорабатывается функционал</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="slide">
+        <h2>Информационное наполнение сайта</h2>
+        <p>Наполнение сайта необходимыми фотографиями и контентом</p>
+        <p>
+            <img style="max-width: 650px;" src="pictures/content.jpg">
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Тестирование сайта в Интернете</h2>
+        <p>Тестирование работоспособности сайта на наличие ошибок, тестирование html-страниц на корректность работы в различных браузерах (Internet Explorer, Netscape, Opera, Safari).</p>
+
+        <p>
+            <img style="max-width: 350px;" src="pictures/test-site.png">
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Сдача сайта в эксплуатацию</h2>
+        <p>Размещению проекта в сети интернет на домене клиента</p>
+        <p>
+            <img style="max-width: 100%;" src="pictures/start-site.png">
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Продвижение сайта</h2>
+        <p>Продвижение сайта в поисковых системах и каталогах,<br>а также реклама в Интернете</p>
+        <p>
+            <img style="max-width: 450px" src="pictures/site-seo.jpg">
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Автоматизация разработки</h2>
+
+        <p>
+            <img style="max-height:200px" src="pictures/services.png">
+        </p>
+        <ul class="font-xs">
+            <li>Используйте заготовки (готовые наработки)</li>
+            <li>Онлайн инструменты (минификаторы, оптимизаторы)</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Самообразование</h2>
+
+        <ul class="inline font-xxs">
+            <li>бесплатно</li>
+            <li>долго</li>
+            <li>не всегда качественно</li>
+            <li>не системно</li>
+        </ul>
+
+        <table class="font-xxs no-border">
+            <tr>
+                <td width="50%">
+                    <p>
+                        <b>Знания</b>
+                    </p>
+                    <ul class="inline">
+                        <li><a href="https://roadmap.sh/frontend" target="_blank" rel="nofollow">https://roadmap.sh/frontend</a></li>
+                        <li><a href="https://webref.ru/" target="_blank" rel="nofollow">https://webref.ru/</a></li>
+                        <li><a href="https://devdocs.io/" target="_blank" rel="nofollow">https://devdocs.io/</a></li>
+                        <li><a href="https://learn.javascript.ru/" target="_blank" rel="nofollow">https://learn.javascript.ru/</a></li>
+                        <li><a href="https://caniuse.com/" target="_blank" rel="nofollow">https://caniuse.com/</a></li>
+                    </ul>
+                </td>
+                <td width="50%">
+                    <p>
+                        <b>Работа с макетами</b>
+                    </p>
+                    <ul class="inline">
+                        <li>
+                            <a href="https://www.figma.com" target="_blank" rel="nofollow">https://www.figma.com</a>
+                        </li>
+                        <li>
+                            <a href="https://www.flaticon.com/" target="_blank" rel="nofollow">https://www.flaticon.com/</a>
+                        </li>
+                        <li>
+                            <a href="https://avocode.com/" target="_blank" rel="nofollow">https://avocode.com/</a>
+                        </li>
+                        <li>
+                            <a href="https://zeplin.io/" target="_blank" rel="nofollow">https://zeplin.io/</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <b>Тестирование</b>
+                    </p>
+                    <ul class="inline">
+                        <li>
+                            <a href="https://www.browserstack.com/" target="_blank" rel="nofollow">https://www.browserstack.com/</a>
+                        </li>
+                        <li>
+                            <a href="https://jsfiddle.net/" target="_blank" rel="nofollow">https://jsfiddle.net/</a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/" target="_blank" rel="nofollow">https://codepen.io/</a>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <p>
+                        <b>Учет и хранение</b>
+                    </p>
+                    <ul class="inline">
+                        <li>
+                            <a href="https://github.com/" target="_blank" rel="nofollow">https://github.com/</a>
+                        </li>
+                        <li>
+                            <a href="https://www.toggl.com/" target="_blank" rel="nofollow">https://www.toggl.com/</a>
+                        </li>
+                        <li>
+                            <a href="https://wakatime.com/" target="_blank" rel="nofollow">https://wakatime.com/</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="slide">
+        <h2>Причины неудач</h2>
+
+        <table class="font-xs no-border">
+            <tr>
+                <td width="50%" style="vertical-align: top;">
+                    <p>
+                        <b>Сторонние</b>
+                    </p>
+                    <ul class="inline">
+                        <li>Очень курпные школы (дорого, автовэбинары, мало внимания студентам)</li>
+                        <li>Преподаватели с маленьким опытом практической работы</li>
+                        <li>Мнения «знающих» людей и мнения «разработчиков с плохим» опытом</li>
+                    </ul>
+                </td>
+                <td width="50%" style="vertical-align: top;">
+                    <p>
+                        <b>Личные</b>
+                    </p>
+                    <ul class="inline">
+                        <li>«Отговорки» когда не получается</li>
+                        <li>Отстуствие опытного «наставника»</li>
+                        <li>Много теории - мало практики</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="slide" id="study">
+        <h2>Чему мы можем вас научить?</h2>
+
+        <table class="font-xs no-border">
+            <tr>
+                <td width="33%" style="vertical-align: top; text-align: center;">
+                    <p>
+                        <img src="pictures/76b4ad5e27daf7675a7cfeb22d3445b5.png" style="max-height: 100px">
+                    </p>
+                    <p>
+                        Качественно верстать html страницы и создавать простые статичные сайты
+                    </p>
+                </td>
+                <td width="33%" style="vertical-align: top; text-align: center;">
+                    <p>
+                        <img src="pictures/3d7b24763fb8fc0c54f14a4cd493713d-752x404.jpeg" style="max-height: 100px">
+                    </p>
+                    <p>
+                        Создавать адаптивные сайты
+                    </p>
+                </td>
+                <td width="33%" style="vertical-align: top; text-align: center;">
+                    <div style="height:100px">
+                        <div class="loading" style="margin: 1em auto">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                    <p>
+                        Оживлять страницы с помощью css и javascript
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="33%" style="vertical-align: top; text-align: center;">
+                    <p>
+                        <img src="pictures/1564839-1559465198.jpg" style="max-height: 100px">
+                    </p>
+                    <p>
+                        Находить ошибки и исправлять верстку в разных браузерах
+                    </p>
+                </td>
+                <td width="33%" style="vertical-align: top; text-align: center;">
+                    <p>
+                        <img src="pictures/1_koWTUrJOWXAOWHuxmpfKRg.png" style="max-height: 100px">
+                    </p>
+                    <p>
+                        Понимать разницу между «хорошим» и «плохим» кодом
+                    </p>
+                </td>
+                <td width="33%" style="vertical-align: top; text-align: center;">
+                    <p>
+                        <img src="pictures/6-koncepciy-seo-1280x720.png" style="max-height: 100px">
+                    </p>
+                    <p>
+                        Пользоваться инструментами помогающими разрабатывать сайты быстро/ проще
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <style>
+            #study {line-height: 1.2}
+            .loading {
+                --loading-width: 45px;
+                position: relative;
+                width: var(--loading-width);
+                height: var(--loading-width);
+                transform: rotate(75deg);
+            }
+            .loading .bar {
+                position: absolute;
+                animation: 1.5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+            }
+            .loading .bar:nth-child(1) {
+                bottom: calc(var(--loading-width) / 3);
+                width: calc(var(--loading-width) / 3);
+                height: 100%;
+                background: #0984e3;
+                transform: scaleY(0);
+                transform-origin: bottom;
+                animation-name: slide-bottom-top;
+            }
+            .loading .bar:nth-child(2) {
+                left: calc(var(--loading-width) / 3);
+                width: 100%;
+                height: calc(var(--loading-width) / 3);
+                background: #d63031;
+                transform: scaleX(0);
+                transform-origin: left;
+                animation-name: slide-left-right;
+            }
+            .loading .bar:nth-child(3) {
+                top: calc(var(--loading-width) / 3);
+                right: 0;
+                width: calc(var(--loading-width) / 3);
+                height: 100%;
+                background: #fdcb6e;
+                transform: scaleY(0);
+                transform-origin: top;
+                animation-name: slide-top-bottom;
+            }
+            .loading .bar:nth-child(4) {
+                right: calc(var(--loading-width) / 3);
+                bottom: 0;
+                width: 100%;
+                height: calc(var(--loading-width) / 3);
+                background: #00b894;
+                transform: scaleX(0);
+                transform-origin: right;
+                animation-name: slide-right-left;
+            }
+            
+            @keyframes slide-bottom-top {
+                50% {
+                    transform: scaleY(1);
+                    transform-origin: bottom;
+                }
+                50.1% {
+                    transform-origin: top;
+                }
+                to {
+                    transform-origin: top;
+                }
+            }
+            @keyframes slide-left-right {
+                50% {
+                    transform: scaleX(1);
+                    transform-origin: left;
+                }
+                50.1% {
+                    transform-origin: right;
+                }
+                to {
+                    transform-origin: right;
+                }
+            }
+            @keyframes slide-top-bottom {
+                50% {
+                    transform: scaleY(1);
+                    transform-origin: top;
+                }
+                50.1% {
+                    transform-origin: bottom;
+                }
+                to {
+                    transform-origin: bottom;
+                }
+            }
+            @keyframes slide-right-left {
+                50% {
+                    transform: scaleX(1);
+                    transform-origin: right;
+                }
+                50.1% {
+                    transform-origin: left;
+                }
+                to {
+                    transform-origin: left;
+                }
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Результат курса</h2>
+
+        <ul class="font-xs">
+            <li>Настроенный «конвейер для вёрстки сайтов»</li>
+            <li>Способность верстать страницы «любой» сложности</li>
+            <li>Нaписание распространенных скриптов с использованием JavaScript/ jQuery</li>
+            <li>Подключение и настройка сторонних библиотек (css, jQuery)</li>
+            <li>Умение создавать анимации</li>
+            <li>Навыки работы с CMS (система управления сайтом)</li>
+            <li>Способность находить работу на 30 000+ ₽/месяц</li>
+        </ul>
+    </section>
+
+    <section class="slide" id="gifts">
+        <h2>Подарки участникам</h2>
+
+        <ul>
+            <li>доступ к личным заготовкам и настройкам для ускорения верстки</li>
+            <li>наставничество после окончания курса (для тарифа PRO неограниченное на комерческих проектах)</li>
+            <li>минимум 2 года экономии вашей жизни 😊</li>
+        </ul>
+
+        <style>
+            #gifts {
+                background-image: url(pictures/prodal-podarki_covder.prfwnssuulsl@0.5.png);
+                background-repeat: no-repeat;
+                background-size: 25%;
+                background-position: bottom right;
+            }
+        </style>
+    </section>
+
+    <section class="slide" >
+        <h2>Записывайтесь на курс</h2>
+
+        <table>
+            <tr>
+                <td width="65%" style="vertical-align: top; padding-right: 40px">
+                    <p><b>Старт 4-ого ноября</b></p>
+
+                    <p class="font-xs">
+                        Занятия по понедельникам и четвергам с 18 ч (время московское)<br>
+                        3 месяца, 24 занятия по 1,5-2 часа<br>
+                        Стоимость курса в рассрочку от <b style="color:red">1 321 ₽ в месяц</b>,<br>
+                        или <b style="color:red">от 10 800 ₽</b> одним платежом
+                    </p>
+                    <p class="font-xs">Забронировать место на курсе - <b style="color:red">2000 ₽</b></p>
+                </td>
+                <td width="45%" style="vertical-align: top;">
+                    <p><b>Записаться можно:</b></p>
+                    <p class="font-xs">
+                        🔗 <a href="https://vk.com/grampus_school" target="_blank" rel="nofollow">Написать в группу школы</a><br>
+                        🔗 <a href="https://vk.com/npofopr" target="_blank" rel="nofollow">Написать мне в личку в ВК</a><br>
+                        🔗 <a href="http://grampus-school.ru/frontend/online/" target="_blank" rel="nofollow">На сайте школы</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+    </section>
+
+    <!-- <footer class="badge">
+        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer> -->
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+</html>

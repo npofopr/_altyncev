@@ -1,0 +1,16 @@
+.inline li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.font-xs {
+  font-size: 1.1rem;
+}
+
+.font-xxs {
+  font-size: .9rem;
+}
+
+.no-border tr:not(:last-of-type) > * {
+  background-image: none;
+}
