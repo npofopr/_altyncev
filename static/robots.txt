@@ -1,4 +1,6 @@
-Host: altyncev.ru
-
 User-Agent: *
-Disallow:
+Disallow: /lection/
+Disallow: /timeline/
+Disallow: /admin/
+
+Host: altyncev.ru
