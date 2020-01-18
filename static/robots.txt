@@ -1,6 +1,7 @@
 User-Agent: *
-Disallow: /lection/
 Disallow: /timeline/
 Disallow: /admin/
+Crawl-delay: 1
 
 Host: altyncev.ru
+Sitemap: https://altyncev.ru/sitemap.xml

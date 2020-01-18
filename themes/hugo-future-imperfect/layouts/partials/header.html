@@ -39,11 +39,11 @@
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
-		{{ template "_internal/schema.html" . }}
+        {{ template "_internal/schema.html" . }}
 
-		{{ with .OutputFormats.Get "rss" -}}
-			{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-		{{ end -}}
+        {{ with .OutputFormats.Get "rss" -}}
+            {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+        {{ end -}}
 
         {{ template "_internal/google_news.html" . }}
 
@@ -62,15 +62,10 @@
         <link rel="preconnect" href="//www.googletagmanager.com">
         <link rel="preconnect" href="//www.google-analytics.com">
         <link rel="preconnect" href="//mc.yandex.ru">
-
-        <!-- Code snippet to speed up Google Fonts rendering: googlefonts.3perf.com -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-        <link rel="preload" href="https://fonts.googleapis.com/css?family=Gabriela&amp;subset=cyrillic,cyrillic-ext" as="fetch" crossorigin="anonymous">
-        <script type="text/javascript">
-        !function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Gabriela&amp;subset=cyrillic,cyrillic-ext",r="__3perf_googleFonts_d49f9";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
-        </script>
-        <!-- End of code snippet for Google Fonts -->
+
+        <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
 
         <!-- If the value "default" is passed into the param then we will first
              load the standard css files associated with the theme -->
@@ -120,7 +115,7 @@
     </head>
     <body>
 
-        <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter17143639 = new Ya.Metrika({ id:17143639, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/17143639" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+        <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(17143639, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/17143639" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 
         <!-- Wrapper -->
         <div id="wrapper">
