@@ -44,5 +44,3 @@ fields:
   label: Featuredpath
   description: Путь до картинки
   default: "/images/blog/"
-pages:
-- content/blog/forestry-админка-для-hugo-блога.md
