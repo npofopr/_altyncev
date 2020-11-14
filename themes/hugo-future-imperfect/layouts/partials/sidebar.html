@@ -31,7 +31,7 @@
   <section class="recent-posts">
     <div class="mini-posts">
       <header>
-        <h3>Из последнего</h3>
+        <h3>Recent posts</h3>
       </header>
       <div class="posts-container">
         {{ $.Scratch.Set "recentPosts" .Site.Pages }}
@@ -65,7 +65,7 @@
           {{ else }}
             "/post/"
           {{ end }}
-        class="button">Больше!</a>
+        class="button">View more posts</a>
       {{ end }}
     </div>
   </section>
@@ -75,10 +75,10 @@
   {{ if .Site.Params.showSidebarCategories  }}
   {{ if ne ($.Scratch.Get "showCategories") false }}
   <!-- Categories List -->
-    <section id="categories">
+    <section id="categories" class="categories-list">
       <header>
         <h3>
-          <a href="/categories/">Категории</a>
+          <a href="/categories/">Categories</a>
         </h3>
       </header>
         {{ if .Site.Params.categoriesByCount }}
@@ -87,21 +87,19 @@
           {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.Alphabetical }}
         {{ end }}
 
-        {{ range $key, $value := $.Scratch.Get "categories" }}
-        <p>
-          <article>
-            <header>
-              {{ if ne $value.Name "" }}
-                <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
-                <span style="float:right;">{{ $value.Count }}</span>
-              {{ else }}
-                Uncategorized
-                <span style="float:right;">{{ $value.Count }}</span>
-              {{ end }}
-            </header>
-          </article>
-        </p>
-        {{ end }}
+        <ul>
+			{{ range $key, $value := $.Scratch.Get "categories" }}
+			<li>
+				{{ if ne $value.Name "" }}
+				<a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
+				<span style="float:right;">{{ $value.Count }}</span>
+				{{ else }}
+				Uncategorized
+				<span style="float:right;">{{ $value.Count }}</span>
+				{{ end }}
+			</li>
+			{{ end }}
+		</ul>
     </section>
   {{ end }}
   {{ end }}
@@ -109,9 +107,9 @@
   <!-- About -->
   {{ with .Site.Params.intro.about }}
     <section id="mini-bio">
-      <h3>Касательно меня</h3>
+      <h3>About me</h3>
       <p>{{ . | safeHTML }}</p>
-      <a href="/about/" class="button">Хочу знать всё</a>
+      <a href="/about/" class="button">Learn more</a>
     </section>
   {{ end }}
 

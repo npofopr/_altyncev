@@ -2,8 +2,8 @@ baseurl                = "https://altyncev.ru/"
 languageCode           = "en-us"
 title                  = "Vladislav Altyncev"
 # theme                  = "hugo-theme-altyncev"
-theme                  = "hugo-future-imperfect"
-# theme                  = "anatole"
+# theme                  = "hugo-future-imperfect"
+theme                  = "anatole"
 preserveTaxonomyNames  = true
 paginate               = 5
 disqusShortname        = "npofopr"
@@ -123,7 +123,7 @@ publishDir             = "public"
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "images/profile.jpg"
+    src       = "/images/bio-photo.jpg"
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
@@ -145,19 +145,19 @@ publishDir             = "public"
 
 [menu]
   [[menu.main]]
-  name = "About me"
+  name = "Касательно меня"
   url = "/about/"
   identifier = "fa fa-id-card-o"
   weight = 1
 
   [[menu.main]]
-  name = "Blog"
+  name = "Блог"
   url = "/blog/"
   identifier = "fa fa-newspaper-o"
   weight = 2
 
   [[menu.main]]
-  name = "Handmade"
+  name = "Дачные дела"
   url = "/categories/cottage/"
   identifier = "fa fa-list"
   weight = 3
@@ -169,22 +169,22 @@ publishDir             = "public"
   #   weight = 4
 
   [[menu.main]]
-  name = "Portfolio"
+  name = "Портфолио"
   url = "/portfolio/"
   identifier = "fa fa-terminal"
   weight = 4
 
   [[menu.main]]
-  name = "Categories"
+  name = "Категории"
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
 
-#   [[menu.main]]
-#   name = "Contacts"
-#   url = "/contact/"
-#   identifier = "fa fa-envelope-o"
-#   weight = 6
+  [[menu.main]]
+  name = "Контакты"
+  url = "/contact/"
+  identifier = "fa fa-envelope-o"
+  weight = 6
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
