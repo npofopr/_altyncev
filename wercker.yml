@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
       version: "0.74.3"
-      theme: novela
+      theme: hugo-coder
       config: config.toml
       flags: --buildDrafts=false
 deploy:
