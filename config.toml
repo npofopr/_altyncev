@@ -40,7 +40,7 @@ yandexVerification = "496c60b178050fff"
   # Git Commit in Footer, uncomment the line below to enable it.
   commit = "https://github.com/npofopr/_altyncev/tree/"
 
-  footercontent = "Enter a text here."
+  footercontent = "Welcome."
   hideFooter = false
   hideCredits = false
   hideCopyright = false

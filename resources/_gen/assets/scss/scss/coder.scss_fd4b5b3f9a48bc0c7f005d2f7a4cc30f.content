@@ -9,8 +9,8 @@ html {
 
 body {
   color: #212121;
-  background-color: #fafafa;
-  font-family: system, -apple-system, BlinkMacSystemFont, "SFNSDisplay-Regular", "Roboto", sans-serif;
+  background-color: #FAFAFA;
+  font-family: system, -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", "Roboto", sans-serif;
   font-size: 1.6em;
   font-weight: 300;
   line-height: 1.8em; }
@@ -35,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gabriela", Lato, sans-serif;
+  font-family: "Gabriela", Lato, Helvetica, sans-serif;
   font-weight: 700;
   color: #000;
   margin: 6.4rem 0 3.2rem 0; }
@@ -93,7 +93,7 @@ b, strong {
 
 pre {
   display: block;
-  font-family: "JetBrains Mono", "Cascadia Code", "Cartograph CF", "Fira Code";
+  font-family: "JetBrains Mono", "Fira Code", "Source Code Pro", "Lucida Console", monospace;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
@@ -105,14 +105,14 @@ pre {
     color: inherit; }
 
 code {
-  font-family: "JetBrains Mono", "Cascadia Code", "Cartograph CF", "Fira Code";
+  font-family: "JetBrains Mono", "Fira Code", "Source Code Pro", "Lucida Console", monospace;
   font-size: 1.6rem;
   font-weight: 400;
-  background-color: #e0e0e0;
+  background-color: #E0E0E0;
   color: #212121; }
 
 blockquote {
-  border-left: 2px solid #e0e0e0;
+  border-left: 2px solid #E0E0E0;
   padding-left: 2.0rem;
   line-height: 2.2rem;
   font-weight: 400;
@@ -259,7 +259,7 @@ img.emoji {
       font-size: 1.8rem;
       flex: 2;
       color: #212121;
-      font-family: "Gabriela", Lato, sans-serif;
+      font-family: "Gabriela", Lato, Helvetica, sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
         color: #1565c0; }
@@ -326,7 +326,7 @@ img.emoji {
   .navigation a, .navigation span {
     display: inline;
     font-size: 1.6rem;
-    font-family: "Gabriela", Lato, sans-serif;
+    font-family: "Gabriela", Lato, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 6.0rem;
     color: #212121; }
@@ -351,9 +351,9 @@ img.emoji {
         padding: 0;
         max-height: 0;
         width: 100%;
-        background-color: #fafafa;
-        border-top: solid 2px #e0e0e0;
-        border-bottom: solid 2px #e0e0e0;
+        background-color: #FAFAFA;
+        border-top: solid 2px #E0E0E0;
+        border-bottom: solid 2px #E0E0E0;
         transition: opacity 0.25s, max-height 0.15s linear; } }
     .navigation .navigation-list .navigation-item {
       float: left;
@@ -389,7 +389,7 @@ img.emoji {
     display: none; }
     @media only screen and (max-width: 768px) {
       .navigation #menu-toggle:checked + label > i {
-        color: #e0e0e0; }
+        color: #E0E0E0; }
       .navigation #menu-toggle:checked + label + ul {
         visibility: visible;
         opacity: 1;
@@ -413,7 +413,7 @@ img.emoji {
 .pagination {
   margin-top: 6.0rem;
   text-align: center;
-  font-family: "Gabriela", Lato, sans-serif; }
+  font-family: "Gabriela", Lato, Helvetica, sans-serif; }
   .pagination li {
     display: inline;
     text-align: center;
@@ -449,7 +449,7 @@ img.emoji {
     width: 3.0rem;
     height: 3.0rem;
     color: #000;
-    background-color: #e0e0e0;
+    background-color: #E0E0E0;
     font-size: 2.0rem;
     border-radius: 0.5rem;
     opacity: 50%;
