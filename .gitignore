@@ -16,3 +16,4 @@ commit-gh-pages-files.sh
 publish_to_ghpages.sh
 public
 themes/hugo-future-imperfect/exampleSite
+resources/_gen/*
