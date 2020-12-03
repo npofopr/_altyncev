@@ -20,12 +20,14 @@ type: "post"
 
 > Какие бывают значения display? Расскажите как ведёт себя каждое свойство.
 
+```css
     display: block | inline | inline-block | inline-table |
     inline-flex | flex | list-item | none |
     run-in | table | table-caption | table-cell | table-column-group | table-column |
     table-footer-group | table-header-group | table-row | table-row-group
+```
 
-[Подробнее](https://webref.ru/css/display)
+<a href="https://webref.ru/css/display" target="_blank" rel="nofollow">Подробнее</a>
 
 <details>
 <summary>Спойлер статьи</summary>
@@ -125,7 +127,9 @@ none
 
 > Какие бывают значения у свойства position? Расскажите как ведёт себя каждое свойство.
 
+```css
     position: absolute | fixed | relative | static | sticky
+```
 
 [Подробнее](https://webref.ru/css/position)
 
@@ -243,7 +247,9 @@ none
 
 Выравнивает элемент по вертикали относительно своего родителя, окружающего текста или ячейки таблицы.
 
+```css
     vertical-align: baseline|bottom|middle|sub|super|text-bottom|text-top|top|
+```
 
 ---
 

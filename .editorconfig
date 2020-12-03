@@ -1,19 +1,21 @@
-# Универсальные настройки редактора
-#
-# http://editorconfig.org
-# https://habrahabr.ru/post/220131/
-# https://packagecontrol.io/packages/EditorConfig
-
-root = true
+#root = true
 
 [*]
-charset = utf-8
-indent_style = tab
-indent_size = 4
+indent_style = space
 end_of_line = lf
+charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+max_line_length = 100
+indent_size = 2
+
+[{*.html, *.php}]
+indent_style = space
+indent_size = 4
 
 [{package.json,.travis.yml}]
 indent_style = space
 indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false

@@ -1,55 +1,13 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-	<header id="header" class="header{{ if .Site.Params.cover }} has-cover{{ end }}">
-		<div class="inner">
-			<a class="header-title" href="{{ .Site.BaseURL }}">
-				<h1 class="header-name">Строим баню!</h1>
-				{{ if .Site.Params.Subtitle }}
-					<span class="header-description">{{ .Site.Params.Subtitle }}</span>
-				{{ end }}
-			</a>
-		</div>
-		{{ if .Site.Params.cover }}
-		<div class="header-cover blured-image" style="background-color: darkgreen; background-image: url(/images/cover.low.jpg)" data-src="{{ .Site.Params.cover }}"></div>
-		{{ end }}
-	</header>
+<section class="section narrow">
 
-	<div id="post-index" class="container">
+    {{ partial "page/hero.html" . }}
 
-		<main class="content" role="main">
+    <article  id="articleContent" class="post-content">
+        {{ .Content }}
+    </article>
 
-			<div class="post-list">
-				<div id="push">
+</section>
 
-					{{ $paginator := .Paginate (where .Data.Pages "Type" "cottage") }}
-
-					{{ range $index, $page := $paginator.Pages }}
-						{{ .Render "li" }}
-					{{ end }}
-
-				</div>
-			</div>
-
-			{{ partial "pagination.html" (dict "paginator" $paginator "site" .Site ) }}
-
-			<div class="b-money" style="margin:40px 0 0;width:100%;height:120px">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<style>ins{min-width:300px;min-height:120px}</style>
-				<!-- altyncev wide -->
-				<ins class="adsbygoogle"
-					style="display:block"
-					data-ad-client="ca-pub-3870279367209404"
-					data-ad-slot="9804049174"
-					data-ad-format="auto"></ins>
-				<script>
-					document.addEventListener("DOMContentLoaded", function() {
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					});
-				</script>
-			</div>
-
-		</main>
-
-	</div>
-
-{{ partial "footer.html" . }}
+{{ end }}

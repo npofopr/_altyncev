@@ -1,0 +1,98 @@
+baseURL = "https://altyncev.ru"
+buildDrafts = false
+canonifyURLs = true
+defaultContentLanguage = "ru"
+defaultExtension = "html"
+defaultLayout = "post"
+disqusShortname = "npofopr"
+enableEmoji = true
+enableRobotsTXT = true
+languageCode = "en-us"
+paginate = 6
+pluralizeListTitles = false
+preserveTaxonomyNames = true
+publishDir = "public"
+pygmentsstyle = 'monokai'
+theme = "novela"
+title = "Altyncev Vladislav"
+
+YandexMetrika = "17143639"
+domainVerification = "Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M"
+googleAnalytics = "UA-2789259-4"
+googleVerification = "Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M"
+yandexVerification = "496c60b178050fff"
+
+[params]
+author = "Vladislav Altyncev"
+avatar = "/images/profile.jpg"
+description = "Пишу о работе, жизни и обо всём, что понравится. PS: А я чё? Я ничё. Другие вон чё, и ничё, а я чуть чё, и сразу вон чё!"
+hero = "/images/profile.jpg"
+viewMorePostLink = "/blog/"
+
+[social]
+github = "https://github.com/npofopr"
+instagram = "https://www.instagram.com/npofopr/"
+twitter = "https://twitter.com/npofopr"
+# twitter: "https://twitter.com/narative"
+# github: "https://github.com/narative"
+# instagram: "https://instagram.com/narative.co"
+# linkedin: "https://www.linkedin.com/company/narative/"
+# dribbble: "https://dribbble.com/narativestudio"
+# youtube: "https://youtube.com"
+# facebook: ""
+# medium: ""
+# patreon: ""
+# paypal: ""
+# unsplash: ""
+
+[taxonomies]
+author = "Vladislav Altyncev"
+category = "categories"
+tag = "tags"
+
+[mediaTypes]
+[mediaTypes."text/html"]
+suffixes = "html"
+
+[menu]
+[[menu.main]]
+identifier = "fa fa-id-card-o"
+name = "Касательно меня"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "fa fa-newspaper-o"
+name = "Блог"
+url = "/blog/"
+weight = 2
+
+[[menu.main]]
+identifier = "fa fa-list"
+name = "Дачные дела"
+url = "/categories/cottage/"
+weight = 3
+
+# [[menu.main]]
+#   name = "Дачные дела"
+#   url = "/itemized/"
+#   identifier = "fa fa-list"
+#   weight = 4
+
+[[menu.main]]
+identifier = "fa fa-terminal"
+name = "Портфолио"
+url = "/portfolio/"
+weight = 4
+
+[[menu.main]]
+identifier = "fa fa-sitemap"
+name = "Категории"
+url = "/categories/"
+weight = 5
+
+[[menu.main]]
+identifier = "fa fa-envelope-o"
+name = "Контакты"
+url = "/contact/"
+weight = 6

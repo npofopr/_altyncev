@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: content/blog
@@ -40,12 +40,12 @@ build:
   publish_command: hugo -d public
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.54.0
+  - HUGO_VERSION=0.74.3
   publish_env:
   - HUGO_ENV=production
-  - HUGO_VERSION=0.54.0
+  - HUGO_VERSION=0.74.3
   preview_output_directory: public
   output_directory: public
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-version: 0.54.0
+version: 0.74.3
