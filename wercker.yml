@@ -1,7 +1,7 @@
 box: debian
 build:
   steps:
-    - arjen/hugo-build:
+    - arjen/hugo-build@2.14.0:
       version: "0.74.3"
       theme: hugo-coder
       config: config.toml
@@ -10,7 +10,7 @@ deploy:
   steps:
     - install-packages:
       packages: git ssh-client
-    - lukevivier/gh-pages:
+    - lukevivier/gh-pages@0.2.1:
       token: $GIT_TOKEN
       domain: altyncev.ru
       basedir: public
