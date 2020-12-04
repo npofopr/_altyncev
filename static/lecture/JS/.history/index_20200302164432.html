@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+        i.mark {
+            background-color: var(--color-yellow);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>JS</h1>
+    </header>
+
+    <section class="slide" id="cover">
+        <h2>Основы JS</h2>
+        <figure>
+            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
+            <figcaption class="copyright right white">
+                <a href="http://fiftyfootshadows.net/">© John Carey</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Зачем?</h2>
+        
+        <ul>
+            <li>взаимодействие с браузером</li>
+            <li>приложения, игры (unity), сверверная часть, управление умными домами</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Как?</h2>
+        
+        <p><img src="pictures/pic_htmltree.jpg" alt="dom дерево"></p>
+
+        <pre>
+            <code><i class="mark">document</i></code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Методы</h2>
+        
+        <pre>
+            <code><i class="mark">querySelector()</i> — поиск элементов</code>
+            <code><i class="mark">addEventListener()</i> — отлов событий</code>
+            <code><i class="mark">classList</i> — управление классами</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>querySelector()</h2>
+        
+        <pre style="margin-bottom:0">
+            <code><i class="mark">document.querySelector('.element');</i></code>
+        </pre>
+        <p>где, метод, что</p>
+        
+        <hr>
+
+        <pre style="margin-bottom:0">
+            <code>let link-auth = document.querySelector('.link-auth');</code>
+        </pre>
+
+        <pre style="margin-bottom:0; font-size:small">
+            <code>let link-auth = $('.link-auth');</code>
+        </pre>
+        <p>объявление переменной</p>
+    </section>
+
+    <section class="slide">
+        <h2>Переменные</h2>
+        
+        <pre style="font-size: 70%;">
+            <code><i class="mark">let</i> link = document.querySelector('.link'),</code>
+            <code>    string = 'руб.'</code>
+            <code>    a = 100,</code>
+            <code>    b = 3;</code>
+        </pre>
+
+        <hr class="next">
+
+        <pre style="font-size: 70%;" class="next">
+            <code><i class="mark">let</i> link = $('.link'),</code>
+            <code>    string = 'руб.'</code>
+            <code>    a = 100,</code>
+            <code>    b = 3;</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>addEventListener()</h2>
+        
+        <pre>
+            <code><i class="mark">document.querySelector('.element')</i></code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>classList</h2>
+        
+        <pre>
+            <code><i class="mark">document.querySelector('.element')</i></code>
+        </pre>
+    </section>
+
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
