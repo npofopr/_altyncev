@@ -3,6 +3,8 @@ title = "Altyncev Vladislav"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "ru"
+defaultExtension = "html"
+defaultLayout = "post"
 
 publishDir = "public"
 buildDrafts = false
