@@ -55,7 +55,7 @@ yandexVerification = "496c60b178050fff"
 
   enableTwemoji = true
 
-  colorsheme = "auto"
+  colorScheme = "auto"
   hidecolorschemetoggle = false
 
   viewMorePostLink = "/blog/"
