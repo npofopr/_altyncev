@@ -1,3 +1,0 @@
-{{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<li><a href="%s" type="%s" target="_blank" title="%s" class="fa fa-rss"></a></li>` .Rel .MediaType.Type .Permalink | safeHTML }}
-{{ end -}}
