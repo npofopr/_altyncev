@@ -10,6 +10,9 @@ publishDir = "public"
 buildDrafts = false
 canonifyURLs = true
 
+pluralizeListTitles = false
+preserveTaxonomyNames = true
+
 paginate = 20
 
 enableRobotsTXT = true
@@ -64,6 +67,10 @@ yandexVerification = "496c60b178050fff"
   series = "series"
   tag = "tags"
   author = "authors"
+
+[mediaTypes]
+  [mediaTypes."text/html"]
+    suffixes = "html"
 
 # Social links
 [[params.social]]
