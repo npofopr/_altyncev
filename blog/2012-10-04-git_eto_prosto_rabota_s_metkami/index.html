@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ru">
+
+    
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="preconnect" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://use.fontawesome.com">
+    <link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
+    <link rel="preconnect" href="//cdnjs.cloudflare.com">
+    <link rel="preconnect" href="//www.googletagmanager.com">
+    <link rel="preconnect" href="//www.google-analytics.com">
+    <link rel="preconnect" href="//mc.yandex.ru">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+
+    <meta name="author" content="Vladislav Altyncev">
+    <meta name="description" content="Как и большинство СУВ, Git имеет возможность помечать (tag) определённые моменты в истории как важные.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git это просто. Запись №5. Работа с метками"/>
+<meta name="twitter:description" content="Как и большинство СУВ, Git имеет возможность помечать (tag) определённые моменты в истории как важные."/>
+
+    <meta property="og:title" content="Git это просто. Запись №5. Работа с метками" />
+<meta property="og:description" content="Как и большинство СУВ, Git имеет возможность помечать (tag) определённые моменты в истории как важные." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://altyncev.ru/blog/2012-10-04-git_eto_prosto_rabota_s_metkami/" />
+<meta property="article:published_time" content="2012-10-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2012-10-04T00:00:00+00:00" />
+
+
+    <title>
+  Git это просто. Запись №5. Работа с метками · Altyncev Vladislav
+</title>
+
+    
+      <link rel="canonical" href="https://altyncev.ru/blog/2012-10-04-git_eto_prosto_rabota_s_metkami/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.min.css" integrity="sha512-9QjPqX/aCNwEQDyMqqMluNOSsHxTwOJNO3d4m5aUeNbyOPm8RcBA5hCUhvGmKFtSmQYGajqPopGtD60FWiWUwg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    
+      
+      
+      <link rel="stylesheet" href="https://altyncev.ru/css/coder.min.614ec27e30601480e6f78f576733a3757458d35b4ec53a05b9ac4dbe0dfc342d.css" integrity="sha256-YU7CfjBgFIDm949XZzOjdXRY01tOxToFuaxNvg38NC0=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://altyncev.ru/css/coder-dark.min.126ad3988d46bdae6217a11105b53c9662bca05f39d42d3c0fb366919d334620.css" integrity="sha256-EmrTmI1Gva5iF6ERBbU8lmK8oF851C08D7NmkZ0zRiA=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+      
+      
+        
+        <link rel="stylesheet" href="https://altyncev.ru/scss/custom.min.c80b4266c2e473bbcd265ff75587773f79318d2c22b98f94d66e006670afce2c.css" integrity="sha256-yAtCZsLkc7vNJl/3VYd3P3kxjSwiuY&#43;U1m4AZnCvziw=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    <link rel="icon" type="image/png" href="https://altyncev.ru/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://altyncev.ru/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://altyncev.ru/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://altyncev.ru/images/apple-touch-icon.png">
+
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/twemoji.min.js" integrity="sha512-panBjUGuKarjg0qxHggQULmRf9jB/YVCy238hmzBWUuLeOuwMSuJgJcUv3T+rwXUBZ9zeUvc49ZcCRH+EO0H8g==" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.74.3" />
+
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-5SXTLZK':true});</script>
+
+    <script>
+      var doNotTrack = false;
+      if (!doNotTrack) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-2789259-4', 'auto');
+        ga('require', 'GTM-5SXTLZK');
+        ga('send', 'pageview');
+      }
+    </script>
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+
+     <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(17143639, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/17143639" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://altyncev.ru/">
+      Altyncev Vladislav
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/blog/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/categories/cottage/">Handmade</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/portfolio/">Portfolio</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/categories/">Categories</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Git это просто. Запись №5. Работа с метками</h1>
+    </header>
+
+    
+<p>Как и большинство СУВ, Git имеет возможность помечать (tag) определённые моменты в истории как важные. Как правило, этот функционал используется для отметки моментов выпуска версий (v1.0, и т.п.). В этом разделе вы узнаете, как посмотреть имеющиеся метки (tag), как создать новые. А также вы узнаете, что из себя представляют разные типы меток.</p>
+
+<!-- Read more -->
+
+<p><strong><span style="text-decoration: underline;">Просмотр меток</span></strong></p>
+<p>Просмотр имеющихся меток (tag) в Git делается просто. Достаточно набрать git tag:</p>
+<pre title="Просмотр меток">$ git tag
+v0.1
+v1.3</pre>
+<p>Данная команда перечисляет метки в алфавитном порядке; порядок их появления не имеет значения.<br /> Для меток вы также можете осуществлять поиск по шаблону. Например, репозиторий Git содержит более 240 меток. Если вас интересует просмотр только выпусков 1.4.2, вы можете выполнить следующее:</p>
+<pre>$ git tag -l 'v1.4.2.*'
+v1.4.2.1
+v1.4.2.2
+v1.4.2.3
+v1.4.2.4</pre>
+<p><strong><span style="text-decoration: underline;">Создание меток</span></strong></p>
+<p>Git использует два основных типа меток: легковесные и аннотированные. Легковесная метка &mdash; это что-то весьма похожее на ветку, которая не меняется &mdash; это просто указатель на определённый коммит. А вот аннотированные метки хранятся в базе данных Git&rsquo;а как полноценные объекты. Они имеют контрольную сумму, содержат имя поставившего метку, e-mail и дату, имеют комментарий и могут быть подписаны и проверены с помощью GNU Privacy Guard (GPG). Обычно рекомендуется создавать аннотированные метки, чтобы иметь всю перечисленную информацию; но если вы хотите сделать временную метку или по какой-то причине не хотите сохранять остальную информацию, то для этого годятся и легковесные метки.</p>
+<p><strong><span style="text-decoration: underline;">Аннотированные метки</span></strong></p>
+<p>Создание аннотированной метки в Git выполняется легко. Самый простой способ это указать -a при выполнении команды tag:</p>
+<pre>$ git tag -a v1.4 -m 'my version 1.4'
+$ git tag
+v0.1
+v1.3
+v1.4</pre>
+<p>Опция -m задаёт меточное сообщение, которое будет храниться вместе с меткой. Если не указать сообщение для аннотированной метки, Git запустит редактор, чтоб вы смогли его ввести.</p>
+<p>Вы можете посмотреть данные метки вместе с коммитом, который был помечен, с помощью команды git show:</p>
+<pre>$ git show v1.4
+tag v1.4
+Tagger: Scott Chacon <schacon@gee-mail.com>
+Date: Mon Feb 9 14:45:11 2009 -0800
+my version 1.4
+commit 15027957951b64cf874c3557a0f3547bd83b3ff6
+Merge: 4a447f7... a6b4c97...
+Author: Scott Chacon <schacon@gee-mail.com>
+Date: Sun Feb 8 19:02:46 2009 -0800
+Merge branch 'experiment'</pre>
+<p>&nbsp;Она показывает иноформацию о выставившем метку, дату отметки коммита и аннотирующее сообщение перед информацией о коммите.</p>
+<p><strong><span style="text-decoration: underline;">Подписанные метки</span></strong></p>
+<p>Вы также можете подписывать свои метки с помощью GPG, конечно, если у вас есть ключ.<br /> Всё что нужно сделать, это использовать -s вместо -a:</p>
+<pre>$ git tag -s v1.5 -m 'my signed 1.5 tag'
+You need a passphrase to unlock the secret key for
+user: "Scott Chacon <schacon@gee-mail.com>"
+1024-bit DSA key, ID F721C45A, created 2009-02-09</pre>
+<p>Если вы выполните git show на этой метке, то увидите прикреплённую к ней GPG-подпись:</p>
+<pre>$ git show v1.5
+tag v1.5
+Tagger: Scott Chacon <schacon@gee-mail.com>
+Date: Mon Feb 9 15:22:20 2009 -0800
+my signed 1.5 tag
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.8 (Darwin)
+iEYEABECAAYFAkmQurIACgkQON3DxfchxFr5cACeIMN+ZxLKggJQf0QYiQBwgySN
+Ki0An2JeAVUCAiJ7Ox6ZEtK+NvZAj82/
+=WryJ
+-----END PGP SIGNATURE-----
+commit 15027957951b64cf874c3557a0f3547bd83b3ff6
+Merge: 4a447f7... a6b4c97...
+Author: Scott Chacon <schacon@gee-mail.com>
+Date: Sun Feb 8 19:02:46 2009 -0800
+Merge branch 'experiment'</pre>
+<p><strong><span style="text-decoration: underline;">Легковесные метки</span></strong></p>
+<p>Легковесная метка &mdash; это ещё один способ отметки коммитов. В сущности, это контрольная сумма коммита, сохранённая в файл &mdash; больше никакой информации не хранится. Для создания легковесной метки не передавайте опций -a, -s и -m:</p>
+<pre>$ git tag v1.4-lw
+$ git tag
+v0.1
+v1.3
+v1.4
+v1.4-lw
+v1.5</pre>
+<p>На этот раз при выполнении git show на этой метке вы не увидите дополнительной информации. Команда просто покажет помеченный коммит:</p>
+<pre>$ git show v1.4-lw
+commit 15027957951b64cf874c3557a0f3547bd83b3ff6
+Merge: 4a447f7... a6b4c97...
+Author: Scott Chacon <schacon@gee-mail.com>
+Date: Sun Feb 8 19:02:46 2009 -0800
+Merge branch 'experiment'</pre>
+<p><strong><span style="text-decoration: underline;">Верификация меток</span></strong></p>
+<p>Для верификации подписанной метки, используйте git tag -v [имя метки]. Эта команда использует GPG для верификации подписи. Вам нужен открытый ключ автора подписи, чтобы команда работала правильно:</p>
+<pre>$ git tag -v v1.4.2.1
+object 883653babd8ee7ea23e6a5c392bb739348b1eb61
+type commit
+tag v1.4.2.1
+tagger Junio C Hamano <junkio@cox.net> 1158138501 -0700
+GIT 1.4.2.1
+Minor fixes since 1.4.2, including git-mv and git-http with alternates.
+gpg: Signature made Wed Sep 13 02:08:25 2006 PDT using DSA key ID F3119B9A
+gpg: Good signature from "Junio C Hamano <junkio@cox.net>"
+gpg: aka "[jpeg image of size 1513]"
+Primary key fingerprint: 3565 2A26 2040 E066 C9A7 4A7D C0C6 D9A4 F311 9B9A</pre>
+<p>Если у вас нет открытого ключа автора подписи, вы вместо этого получите что-то подобное:</p>
+<pre>gpg: Signature made Wed Sep 13 02:08:25 2006 PDT using DSA key ID F3119B9A
+gpg: Can't check signature: public key not found
+error: could not verify the tag 'v1.4.2.1'</pre>
+<p><strong><span style="text-decoration: underline;">Выставление меток позже</span></strong></p>
+<p>Также возможно помечать уже пройденные коммиты. Предположим, что история коммитов выглядит следующим образом:</p>
+<pre>$ git log --pretty=oneline
+15027957951b64cf874c3557a0f3547bd83b3ff6 Merge branch 'experiment'
+a6b4c97498bd301d84096da251c98a07c7723e65 beginning write support
+0d52aaab4479697da7686c15f77a3d64d9165190 one more thing
+6d52a271eda8725415634dd79daabbc4d9b6008e Merge branch 'experiment'
+0b7434d86859cc7b8c3d5e1dddfed66ff742fcbc added a commit function
+4682c3261057305bdd616e23b64b0857d832627b added a todo file
+166ae0c4d3f420721acbb115cc33848dfcc2121a started write support
+9fceb02d0ae598e95dc970b74767f19372d61af8 updated rakefile
+964f16d36dfccde844893cac5b347e7b3d44abbc commit the todo
+8a5cbc430f1a9c3d00faaeffd07798508422908a updated readme</pre>
+<p>Теперь предположим, что вы забыли отметить версию проекта v1.2, которая была там, где находится коммит &laquo;updated rakefile&raquo;. Вы можете добавить метку апосля. Для отметки коммита укажите контрольную сумму коммита (или часть её) в конце команды:</p>
+<pre>$ git tag -a v1.2 9fceb02</pre>
+<p>Можете проверить, что коммит теперь отмечен:</p>
+<pre>$ git tag
+v0.1
+v1.2
+v1.3
+v1.4
+v1.4-lw
+v1.5
+$ git show v1.2
+tag v1.2
+Tagger: Scott Chacon <schacon@gee-mail.com>
+Date: Mon Feb 9 15:32:16 2009 -0800
+version 1.2
+commit 9fceb02d0ae598e95dc970b74767f19372d61af8
+Author: Magnus Chacon <mchacon@gee-mail.com>
+Date: Sun Apr 27 20:43:35 2008 -0700
+updated rakefile
+...</pre>
+<p><strong><span style="text-decoration: underline;">Обмен метками</span></strong></p>
+<p>По умолчанию, команда git push не отправляет метки на удалённые серверы. Необходимо явно отправить (push) метки на общий сервер после того, как вы их создали. Это делается так же, как и выкладывание в совместное пользование удалённых веток &mdash; нужно выполнить git push origin [имя метки].</p>
+<pre>$ git push origin v1.5
+Counting objects: 50, done.
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (44/44), 4.56 KiB, done.
+Total 44 (delta 18), reused 8 (delta 1)
+To git@github.com:schacon/simplegit.git
+* [new tag] v1.5 -> v1.5</pre>
+<p>Если у вас есть много меток, которые хотелось бы отправить все за один раз, можно использовать опцию --tags для команды git push. В таком случае все ваши метки отправятся на удалённый сервер (если только их уже там нет).</p>
+<pre>$ git push origin --tags
+Counting objects: 50, done.
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (44/44), 4.56 KiB, done.
+Total 44 (delta 18), reused 8 (delta 1)
+To git@github.com:schacon/simplegit.git
+* [new tag] v0.1 -> v0.1
+* [new tag] v1.2 -> v1.2
+* [new tag] v1.4 -> v1.4
+* [new tag] v1.4-lw -> v1.4-lw
+* [new tag] v1.5 -> v1.5</pre>
+<p>Теперь, если кто-то склонирует (clone) или выполнит git pull из вашего репозитория, то он получит вдобавок к остальному и ваши метки.</p>
+<p>&nbsp;</p>
+<p>The end #5</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Welcome.</p>
+      
+      
+        ©
+        
+          2012 -
+        
+        2020
+         Vladislav Altyncev 
+      
+      
+         · 
+        Работает на <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://altyncev.ru/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2789259-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+    
+
+    
+  </body>
+
+</html>

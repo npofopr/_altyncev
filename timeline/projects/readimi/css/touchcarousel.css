@@ -1,0 +1,512 @@
+/******************************************************\
+*
+*  Base TouchCarousel stylesheet
+*   
+*  Contents:
+*
+*   1. Main containers
+*   2. Carousel items
+*   3. Arrows(direction) navigation
+*   4. Paging navigation
+*   5. Scrollbar
+*   6. Cursors
+*
+\******************************************************/
+
+
+
+
+
+/******************************************************\
+*
+*  1. Main containers (carousel size, background)
+*
+\******************************************************/
+
+.touchcarousel {
+	position: relative;
+	width: 600px;
+	height: 400px;		
+	
+	/* style is removed after carousel is inited, use !important if you want to keep it*/
+	overflow: hidden; 
+}
+.touchcarousel .touchcarousel-container {
+	position: relative;    
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+	left: 0;
+}
+.touchcarousel .touchcarousel-wrapper {
+	position: relative;
+	overflow:hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.slider-n {
+	width: 449px !important;
+	height: auto !important;
+	padding: 0 0 60px;
+}
+
+.NewsCarouselWrap {
+	width: 900px;
+	height: auto;
+	background: url(../img/news_line_top.gif) repeat-x 0 0;
+}
+#NewsCarousel {
+	width: 770px !important;
+	height: auto !important;
+	margin: 0 auto;
+}
+#NewsCarousel .touchcarousel-item:first-child .news_main {
+	width: 310px;
+}
+#NewsCarousel .touchcarousel-item:nth-child(2) .news_main,
+#NewsCarousel .touchcarousel-item:nth-child(3) .news_main {
+	width: 230px;
+	padding: 0;
+}
+#NewsCarousel .news_main {
+	width: 192px;
+}
+#NewsCarousel .arrow-holder {
+	width: 32px;
+	height: 32px;
+	top: 0;
+}
+#NewsCarousel .arrow-holder:hover span {
+	cursor: pointer !important;
+}
+#NewsCarousel .arrow-holder.left {
+	left: -97px;
+}
+#NewsCarousel .arrow-holder.right {
+	right: -97px;
+}
+#NewsCarousel .arrow-icon {
+	width: 32px;
+	height: 32px;
+	margin: 0 !important;
+	background: url(../img/ico_news_nav_h.gif) no-repeat 0 0;
+	top: 0;
+}
+#NewsCarousel .arrow-icon.right {
+	background-position: 0 100%;	
+}
+#NewsCarousel .news_item_head {
+	font-family: 'Cambria';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+	text-transform: uppercase;
+	height: 23px;
+	line-height: 23px;
+	color: #f3f3f3;
+	padding: 0 20px;
+	margin-top: 5px;
+	border-left: 1px dotted #5c5d66;
+	/*border-right: 1px dotted #5c5d66;*/
+}
+#NewsCarousel li.last .news_item_head {
+	border-right: 1px dotted #5c5d66;
+}
+#NewsCarousel .news_item_head p {
+	margin: 0;
+}
+#NewsCarousel .news_item_head .cherta {
+	background: url(../img/ico_slider_text_min.png) no-repeat 0 47%;
+	padding: 0 0 0 13px;
+}
+#NewsCarousel .touchcarousel-item:first-child .news_item {
+	padding: 0 14px;
+}
+#NewsCarousel .news_item {
+	width: auto;
+	float: none;
+	padding: 0 10px;
+	position: relative;
+	margin: 65px 0 0;
+}
+#NewsCarousel .touchcarousel-item:first-child .news_item {
+	margin: 43px 0 0;
+}
+#NewsCarousel .news_item img {
+	float: right;
+	width: auto;
+	height: auto;
+	margin: 0 0 20px !important;
+}
+#NewsCarousel .touchcarousel-item:first-child .news_anons {
+	background: none;
+}
+#NewsCarousel .touchcarousel-item:first-child .news_anons:hover {
+	background: none;
+}
+#NewsCarousel .news_anons {
+	font: 12px Arial;
+	color: #60676e;
+	position: relative;
+	background: url(../img/ico_news_line.gif) repeat-x 0 0;
+}
+#NewsCarousel .news_anons:hover {
+	background: url(../img/ico_news_line_h.gif) repeat-x 0 0,
+				url(../img/ico_news_ugol.gif) no-repeat 50% 3px;
+}
+
+#NewsCarousel .news_anons a {
+	font-family: 'Cambria';
+	font-style: italic;
+	font-size: 14px;
+	color: #171a23;
+	text-decoration: none;
+}
+#NewsCarousel .news_anons a:hover span {
+	text-decoration: none;
+	color: #289cd2;
+	border-bottom: 1px dashed #289cd2;
+}
+#NewsCarousel .news_anons span i {
+	color: #289cd2;
+	text-decoration: underline;
+}
+#NewsCarousel .news_anons a:hover i {
+	text-decoration: none
+}
+#NewsCarousel .news_anons strong,
+#NewsCarousel .news_anons em {
+	color: #343b42;
+}
+#NewsCarousel .anons_date {
+	font-family: 'Cambria';
+	font-style: italic;
+	font-size: 11px;
+	color: #5c5c5c;
+	display: block;
+	padding: 0 0 0 12px;
+	background: url(../img/ico_news_all.gif) no-repeat 0 2px;
+	margin: 0 0 15px;
+}
+body:not(:-moz-handler-blocked) #NewsCarousel .anons_date { background-position: 0 3px; }
+#NewsCarousel .touchcarousel-item .news_anons {
+	padding: 15px 10px 30px;
+}
+#NewsCarousel .touchcarousel-item:first-child .news_anons {
+	padding: 0;
+	border-top: none;
+}
+#NewsCarousel .news_data {
+	font-family: 'Cambria';
+	font-style: italic;
+	font-size: 11px;
+	color: #5c5c5c;
+	display: block;
+}
+
+
+
+
+/******************************************************\
+*
+*  2. Carousel items (item styling, spacing between items)
+*
+\******************************************************/
+
+#main .touchcarousel .touchcarousel-item {
+	/* use margin-right for spacing between items */
+	margin: 0 0 0 0;
+	padding: 0;	
+	float: left;
+	background: none;
+	zoom: 1;
+	padding-bottom: 205px;
+	margin-bottom: -205px;
+}
+
+/* Last carousel item  */
+.touchcarousel .touchcarousel-item.last {
+	margin-right: 0 !important;
+}
+
+
+
+
+
+/******************************************************\
+*
+*  3. Arrows(direction) navigation
+*
+\******************************************************/
+
+/* arrow hitstate and icon holder */
+.touchcarousel .arrow-holder {
+	height: 100%;
+	width: 45px;
+	position: absolute;
+	/*top: 0;*/
+	display: block;
+	cursor: pointer;	
+	z-index: 125;	
+}
+.touchcarousel .arrow-holder.left {	
+	left: 0;	
+}
+.touchcarousel .arrow-holder.right {	
+	right: 0;
+}
+
+/* arrow icons */
+.touchcarousel .arrow-icon{		
+	width: 45px;
+	height: 90px;
+	top:50%;
+	margin-top:-45px;	
+	position: absolute;	
+	cursor: pointer;	
+}
+.touchcarousel .arrow-icon.left { }
+.touchcarousel .arrow-icon.right { }
+.touchcarousel .arrow-holder:hover .arrow-icon { }
+.touchcarousel .arrow-holder.disabled { cursor: default; }
+.touchcarousel .arrow-holder.disabled .arrow-icon { cursor: default; }
+
+#NewsCarousel .arrow-holder.disabled .arrow-icon {
+	background: url(../img/ico_news_nav.gif) no-repeat 0 0;
+}
+#NewsCarousel .arrow-holder.disabled .arrow-icon.right {
+	background-position: 0 100%;
+}
+
+.slider-n.touchcarousel .arrow-holder {
+	height: 44px;
+	width: 44px;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	cursor: pointer;	
+	z-index: 125;	
+}
+.slider-n.touchcarousel .arrow-holder.left {	
+	left: 142px;
+	background: url(../img/news_main_prev.png) no-repeat 0 0;
+}
+.slider-n.touchcarousel .arrow-holder.right {	
+	right: 148px;
+	background: url(../img/news_main_next.png) no-repeat 0 0;
+}
+
+/* arrow icons */
+.slider-n.touchcarousel .arrow-icon{		
+	width: 44px;
+	height: 44px;	
+	position: absolute;	
+	cursor: pointer;
+	margin-top:0;	
+}
+
+
+/******************************************************\
+*
+*  4. Paging navigation
+*
+\******************************************************/
+
+.touchcarousel .tc-paging-container {
+	width:100%;
+	overflow:hidden;
+	position:absolute;
+	margin-top:-20px;
+	z-index:25;
+}
+.slider-n.touchcarousel .tc-paging-container {
+	bottom: 17px;
+}
+.touchcarousel .tc-paging-centerer {	
+	float: left;
+	position: relative;
+	left: 50%;		
+}
+.touchcarousel .tc-paging-centerer-inside {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+
+/* Paging items */
+.touchcarousel .tc-paging-item {			
+	float:left;	
+	cursor:pointer;		
+	position:relative;
+	display:block;	
+	text-indent: -9999px;	
+}
+.touchcarousel .tc-paging-item.current { }
+.touchcarousel .tc-paging-item:hover { }
+
+.slider-n.touchcarousel .tc-paging-item {			
+	float:left;	
+	cursor:pointer;		
+	position:relative;
+	display:block;	
+	text-indent: -9999px;
+	width: 8px;
+	height: 8px;
+	background: url(../img/bg_control.png) no-repeat;	
+}
+.slider-n.touchcarousel .tc-paging-item.current {background-position: 0 -8px;}
+.slider-n.touchcarousel .tc-paging-item:hover {background-position: 0 -8px;}
+
+
+
+
+/******************************************************\
+*
+*  5. Scrollbar
+*
+\******************************************************/
+.touchcarousel .scrollbar-holder {
+	position: absolute;
+	z-index: 30;
+	left: 6px;
+	right: 6px;	
+	bottom: 5px;
+	height:4px;
+	overflow: hidden;
+}
+.touchcarousel .scrollbar {
+	position: absolute;
+	left:0;	
+	height:4px;
+	bottom: 0px;
+}
+.touchcarousel .scrollbar.dark {
+	background-color: rgb(130, 130, 130);	
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.touchcarousel .scrollbar.light {
+	background-color: rgb(210, 210, 210);	
+	background-color: rgba(255, 255, 255, 0.5);	
+}
+
+
+
+
+
+/******************************************************\
+*
+*  6. Cursors
+*
+\******************************************************/
+
+/* IE and Opera use "move", FF uses -moz-grab */
+.touchcarousel .grab-cursor{ cursor:url(../img/grab.png) 8 8, move; }
+.touchcarousel .grabbing-cursor{ cursor:url(../img/grabbing.png) 8 8, move; }
+
+/* Cursor that used when mouse drag is disabled */
+.touchcarousel .auto-cursor{ cursor:auto; }
+
+
+
+
+/* Copyright 2011, Dmitry Semenov, http://dimsemenov.com *//******************************************************\
+*
+*  Grey-Blue skin
+*
+*    1. Arrows(direction) navigation
+*    2. Paging navigation
+*
+\******************************************************/
+
+
+
+/******************************************************\
+*
+*  1. Arrows (direction) navigation
+*
+\******************************************************/
+.touchcarousel.grey-blue .arrow-icon {	
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	width: 11px;
+	height: 19px;	
+	margin-top: -9px;
+}
+.touchcarousel.grey-blue .arrow-holder {
+	width: 19px;
+	height: 100%;
+	-moz-opacity: 1;	
+	-webkit-opacity: 1;	
+	opacity: 1;	
+}
+.touchcarousel.grey-blue .arrow-holder.left {
+	left: -20px;
+}
+.touchcarousel.grey-blue .arrow-holder.right {	
+	right: -20px;
+}
+
+.touchcarousel.grey-blue .arrow-icon.left {
+	left: 0;
+	background-position: -6px -15px;
+}
+.touchcarousel.grey-blue .arrow-icon.right {
+	right: 0;
+	background-position: -186px -15px;
+}
+.touchcarousel.grey-blue .arrow-holder:hover .arrow-icon.left {
+	background-position: -36px -15px;
+}
+.touchcarousel.grey-blue .arrow-holder:hover .arrow-icon.right {
+	background-position: -156px -15px;
+}
+.touchcarousel.grey-blue .arrow-holder.disabled .arrow-icon.left {
+	background-position: -66px -15px;
+}
+.touchcarousel.grey-blue .arrow-holder.disabled .arrow-icon.right {
+	background-position: -126px -15px;
+}
+.touchcarousel.grey-blue .arrow-holder:hover {
+	-moz-opacity: 1;	
+	-webkit-opacity: 1;	
+	opacity: 1;	
+}
+.touchcarousel.grey-blue .arrow-holder:active .arrow-icon {
+	margin-top: -8px;
+}
+.touchcarousel.grey-blue .arrow-holder.disabled {
+	-moz-opacity: 1;	
+	-webkit-opacity: 1;	
+	opacity: 1;	
+}
+
+/******************************************************\
+*
+*  2. Paging navigation
+*
+\******************************************************/
+
+.touchcarousel.grey-blue .tc-paging-item {
+	background: url('../img/sprite.png') no-repeat -95px -4px;
+	
+	width: 16px;
+	height: 16px;	
+	
+	-moz-opacity: 0.8;	
+	-webkit-opacity: 0.8;	
+	opacity: 0.8;	
+}
+.touchcarousel.grey-blue .tc-paging-item.current {	
+	background: url('../img/sprite.png') no-repeat -95px -22px;
+}
+.touchcarousel.grey-blue .tc-paging-item:hover {		
+	-moz-opacity: 1;	
+	-webkit-opacity: 1;	
+	opacity: 1;		
+}
+
+
+
+
+

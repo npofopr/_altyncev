@@ -1,0 +1,66 @@
+.header {
+	background: #fe9501; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fe9501 0%, #f57e0a 28%, #e54f1a 90%, #e0411f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe9501), color-stop(28%,#f57e0a), color-stop(90%,#e54f1a), color-stop(100%,#e0411f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fe9501 0%,#f57e0a 28%,#e54f1a 90%,#e0411f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fe9501 0%,#f57e0a 28%,#e54f1a 90%,#e0411f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fe9501 0%,#f57e0a 28%,#e54f1a 90%,#e0411f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fe9501 0%,#f57e0a 28%,#e54f1a 90%,#e0411f 100%); /* W3C */
+
+
+	behavior: url(PIE.htc);
+	-pie-background: linear-gradient(#fe9501, #e0411f);
+}
+.login_btn {
+	background: #fd9202;
+	background: -moz-linear-gradient(top,  #fd9202 0%, #e0421f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fd9202), color-stop(100%,#e0421f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fd9202 0%,#e0421f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fd9202 0%,#e0421f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fd9202 0%,#e0421f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fd9202 0%,#e0421f 100%); /* W3C */
+
+	behavior: url(PIE.htc);
+	-pie-background: linear-gradient(#fd9202, #e0421f);
+
+	border-bottom: 1px solid #fd9c1a;
+}
+.header_adress,
+.header_adress a,
+.site_name {
+	color: #f7b796;
+}
+.sd_menu a:hover,
+.sd_menu a.active {
+	color: #e3481b;
+}
+.collectiv_mail a,
+.box_progress a {
+	color: #e34b1c;
+}
+.content .collectiv_page .active a {
+	background: #ee6811;
+}
+blockquote {
+	border-left: 3px solid #ed6512;
+}
+.zayavka_btn {
+	text-shadow: 0px -1px 1px rgba(226, 71, 29, 1);
+
+	background: #ff9900;
+	background: -moz-linear-gradient(top,  #ff9900 0%, #e1441e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9900), color-stop(100%,#e1441e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff9900 0%,#e1441e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff9900 0%,#e1441e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff9900 0%,#e1441e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff9900 0%,#e1441e 100%); /* W3C */
+	
+	behavior: url(PIE.htc);
+	-pie-background: linear-gradient(#ff9900, #e1441e);
+}
+.zayavka_btn:hover {
+	background: #e1441e;
+}
+
+
+

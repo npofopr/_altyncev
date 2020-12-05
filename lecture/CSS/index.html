@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+        i.mark {
+            background-color: var(--color-yellow);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>CSS</h1>
+    </header>
+
+    <section class="slide" id="cover">
+        <h2>Основы CSS</h2>
+        <figure>
+            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
+            <figcaption class="copyright right white">
+                <a href="http://fiftyfootshadows.net/">© John Carey</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Синтаксис CSS</h2>
+        <pre>
+            <code>селектор {</code>
+            <code>  свойство: значение;</code>
+            <code>  другое свойство: значение;</code>
+            <code>}</code>
+        </pre>
+
+        <p>
+            <a href="https://webref.ru/css" target="_blank" rel="nofollow">https://webref.ru/css</a>
+            <br>
+            <a href="https://html5book.ru/css-css3" target="_blank" rel="nofollow">https://html5book.ru/css-css3</a>
+            <br>
+            <a href="http://htmlbook.ru/samcss" target="_blank" rel="nofollow">http://htmlbook.ru/samcss</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Препроцессоры</h2>
+        <p><img src="pictures/preprocessors-opt.jpg" alt="препроцессоры" style="width:65%"></p>
+    </section>
+
+    <section class="slide">
+        <h2>Синтаксис SCSS</h2>
+        <pre>
+            <code><i class="mark">$</i>переменная = значение;</code>
+            <code>селектор {</code>
+            <code>    свойство: значение;</code>
+            <code>    другое свойство: значение;</code>
+            <code>    <i class="mark">&</i>селектор {</code>
+            <code>        свойство: <i class="mark">$</i>переменная;</code>
+            <code>    }</code>
+            <code>}</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Арифмитические операции</h2>
+        <p><img src="pictures/arithmetic.png" alt="Арифмитические операции" style="width:80%"></p>
+    </section>
+
+    <section class="slide">
+        <h2>Переменные</h2>
+        <p><img src="pictures/variables.png" alt="Переменные" style="width:80%"></p>
+    </section>
+
+    <section class="slide">
+        <h2>Функции</h2>
+        <p><img src="pictures/fuction.png" alt="Функции" style="width:80%"></p>
+    </section>
+
+    <section class="slide">
+        <h2>Примеси (mixins)</h2>
+        <p><img src="pictures/mixins.png" alt="mixins" style="width:80%"></p>
+    </section>
+
+    <section class="slide">
+        <h2>Примеси (mixins) с несколькими параметрами</h2>
+        <p><img src="pictures/mixins2.png" alt="mixins" style="width:80%"></p>
+    </section>
+
+    <section class="slide">
+        <h2>Циклы</h2>
+        <p><img src="pictures/for.png" alt="for" style="width:80%"></p>
+    </section>
+
+    <!-- <section class="slide">
+        <h2>Условия</h2>
+        <p><img src="pictures/else.png" alt="else" style="width:80%"></p>
+    </section> -->
+
+    <section class="slide">
+        <h2>Наследование</h2>
+        <p><img src="pictures/extend.png" alt="extend" style="width:80%"></p>
+    </section>
+
+    <section class="slide">
+        <h2>Импортирование</h2>
+        <p><img src="pictures/import.png" alt="Импортирование"></p>
+    </section>
+
+    <section class="slide">
+        <h2>CSS селекторы</h2>
+        <p><a href="pictures/Memo-record-selectors-to-CSS.png" target="_blank"><img src="pictures/Memo-record-selectors-to-CSS.png" alt="селекторы" style="width:100%"></a></p>
+        <p><a href="https://webref.ru/css#selectors" target="_blank" rel="nofollow">https://webref.ru/css#selectors</a></p>
+    </section>
+
+    <section class="slide">
+        <h2>Псевдоэлементы/ псевдоклассы</h2>
+        <p style="font-size:75%;line-height:1.3">Вставляются в DOM и могут рассматриваться как свободные элементы span, которые могут иметь текст, который исходит из CSS</p>
+        <p><img src="pictures/pseudo.jpg" alt="селекторы" style="max-width:100%"></p>
+        <p><a href="https://webref.ru/css#pseudo-class" target="_blank" rel="nofollow">https://webref.ru/css#pseudo-class</a></p>
+    </section>
+
+    <section class="slide">
+        <h2>CSS правила</h2>
+        <ul class="columns two">
+            <li>@charset</li>
+            <!-- <li>@document</li> -->
+            <li>@font-face (<a href="https://fonts.google.com/" target="_blank" rel="nofollow" style="font-size:60%">google fonts</a>, <a href="https://fontstorage.com/" target="_blank" rel="nofollow" style="font-size:60%">fontstorage</a>)</li>
+            <li>@import</li>
+            <li>@keyframes</li>
+            <li>@media</li>
+            <!-- <li>@page</li> -->
+            <li>@supports</li>
+            <!-- <li>@viewport</li> -->
+        </ul>
+        <p><a href="https://webref.ru/css#@" target="_blank" rel="nofollow">https://webref.ru/css#@</a></p>
+    </section>
+
+    <section class="slide">
+        <h2>Приоритетность</h2>
+        <p><img src="pictures/priority.png" alt="приоритет"></p>
+        <p><a href="https://webref.ru/css#@" target="_blank" rel="nofollow">https://webref.ru/css#@</a></p>
+    </section>
+
+    <section class="slide">
+        <h2>Разновидности CSS свойств</h2>
+        <ul class="columns two">
+            <li>цвет</li>
+            <li>фон и границы</li>
+            <li>текст</li>
+            <li>списки</li>
+            <li>анимация</li>
+            <li>трансформация</li>
+            <li>переходные эффекты</li>
+            <li>изображения</li>
+            <li>отступы внетренние и внешние</li>
+            <li>позиционирование</li>
+            <li>размер</li>
+            <li>тени и прозрачность</li>
+            <li>таблицы</li>
+            <li>блочность/ поток элементов</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Отображение элементов</h2>
+        <p>Свойство <strong>display</strong>:</p>
+        <pre>
+            <code>block</code>
+            <code>inline</code>
+            <code>inline-block</code>
+            <code>table</code>
+            <code>flex</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Позиционирование</h2>
+        <p>Свойство <strong>position</strong>:</p>
+        <pre>
+            <code>static</code>
+            <code>relative</code>
+            <code>absolute</code>
+            <code>fixed</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Обтекание элементов (float)</h2>
+        <table>
+            <tr>
+                <td style="width:50%;">
+                    <p>Элементы выпадают из потока</p>
+                    <p>Свойство <strong>float</strong>:</p>
+                    <pre>
+                        <code>left</code>
+                        <code>right</code>
+                        <code>none</code>
+                    </pre>
+                    <p><small>* обёртка теряет свою высоту</small></p>
+                </td>
+                <td style="width:50%">
+                    <p><img src="pictures/float.png" style="width:100%"></p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="slide">
+        <h2>Отступы/ <a href="https://webref.ru/layout/learn-html-css/box-model" target="_blank" rel="nofollow">Блочная модель</a></h2>
+        <table>
+            <tr>
+                <td style="width:50%;vertical-align:top;">
+                    <p style="margin:0;line-height:1.2">внутренние — <strong>padding</strong></p>
+                    <p style="margin:0;line-height:1.2">внешние — <strong>margin</strong></p>
+                    <p><small>* значения задаются по часовой стрелке</small></p>
+                </td>
+                <td style="width:50%;vertical-align:top;">
+                    <p><img src="pictures/box-model.jpg" style="width:88%"></p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="slide">
+        <h2>Кроссбраузерность</h2>
+        <p><img src="pictures/browser.png"></p>
+    </section>
+
+    <section class="slide">
+        <h2>Преффиксы</h2>
+        <ul>
+            <li><strong>-webkit-</strong>: браузеры Chrome, Safari</li>
+            <li><strong>-moz-</strong>: браузер Mozilla Firefox</li>
+            <li><strong>-ms-</strong>: браузер Internet Explorer</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2><a href="https://learn.javascript.ru/css-format" target="_blank" rel="nofollow">Правила написания стилей</a></h2>
+        <ul>
+            <li>Пишите css-код в одном стиле</li>
+            <li>Аккуратно пользуйтесь приоритетностью в стилях</li>
+            <li>Используйте шаблонность</li>
+            <li>Используйте комментарии</li>
+            <li>Используйте файл сброса*</li>
+        </ul>
+
+        <p><small>* <a href="https://necolas.github.io/normalize.css/" target="_blank" rel="nofollow">normalize</a></small></p>
+    </section>
+
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+</html>

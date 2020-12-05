@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About me on Altyncev Vladislav</title>
+    <link>https://altyncev.ru/about/</link>
+    <description>Recent content in About me on Altyncev Vladislav</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://altyncev.ru/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>update on Altyncev Vladislav</title>
+    <link>https://altyncev.ru/tags/update/</link>
+    <description>Recent content in update on Altyncev Vladislav</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://altyncev.ru/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Мыши плакали, кололись, но продолжали грызть кактус</title>
+      <link>https://altyncev.ru/blog/2017-04-11-hugo-update/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2017-04-11-hugo-update/</guid>
+      <description>Теперь бложик оживает благодаря Hugo:fire:
+А собирается и деплоится во имя Wercker:expressionless:
+И всё также всё лежит на Гитхабе:fist:
+Хвала лунной магии! :boom:</description>
+    </item>
+    
+    <item>
+      <title>Небольшие обновления сайта</title>
+      <link>https://altyncev.ru/blog/2013-04-13-update_site/</link>
+      <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-04-13-update_site/</guid>
+      <description>Убрал много личнего js и куча стилей.
+Есть конечно еще куда расти и что чистить&amp;hellip; Но грузиться должно чуточку быстрее.
+В очередной раз пересортировал статьи. Теперь все лежит по папочкам, а не в куче, как раньше. По-моему так удобнее.
+И самое важное :-) Сделал еще один бложик oleg.altyncev.ru. Сделан, исключительно для того, чтобы потом было, что вспомнить :-)
+Что предвидится:
+ добавление тегов возможно легкий редизайн.  </description>
+    </item>
+    
+    <item>
+      <title>Обновление сайта</title>
+      <link>https://altyncev.ru/blog/2013-01-25-update_site_2/</link>
+      <pubDate>Fri, 25 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-25-update_site_2/</guid>
+      <description>Внёс кое-какие правки, в&amp;nbsp;основном в&amp;nbsp;css.
+Добавил ссылку на&amp;nbsp;свой гитхаб, сверху, справа. Дабы вдруг, кто захочет форкнуть или того больше зафоловить :DПереоформил вывод статей в&amp;nbsp;бложике. Теперь вроде посимпотичнее выглядит. И&amp;nbsp;вроде не&amp;nbsp;тормозит. Задачи на&amp;nbsp;будущее:
+&amp;mdash;&amp;nbsp;Добавить кнопку фоловинга в&amp;nbsp;твиттер
+&amp;mdash;&amp;nbsp;Починить все-таки пейджинг)
+&amp;mdash;&amp;nbsp;Посмотреть на&amp;nbsp;всевозможные шрифты, дабы стало четабельнее, и&amp;nbsp;текст чтобы различался. Дата, заголовок, анонс.
+&amp;mdash;&amp;nbsp;добавить к&amp;nbsp;ФИ&amp;nbsp;ссылочку и&amp;nbsp;линк на&amp;nbsp;главную.
+&amp;mdash;&amp;nbsp;Фотографию добавить вертящуюся
+&amp;mdash;&amp;nbsp;Попробовать препроцессоры css, stylus например, ну&amp;nbsp;и&amp;nbsp;scss все-таки попробовать подключить.</description>
+    </item>
+    
+    <item>
+      <title>Update сайта</title>
+      <link>https://altyncev.ru/blog/2013-01-08-update_site/</link>
+      <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-08-update_site/</guid>
+      <description>**Поздравляю всех** с&amp;nbsp;наступившим Новым Годом, годом змеи) Посмотрим, что он&amp;nbsp;нам подкинет&amp;hellip;
+Добавил на&amp;nbsp;сайтик:
+&amp;mdash;&amp;nbsp;sitemap
+&amp;mdash;&amp;nbsp;humans.txt
+&amp;mdash;&amp;nbsp;цвяточек аленькой
+&amp;mdash;&amp;nbsp;хотел поиск, но&amp;nbsp;не&amp;nbsp;вышло
+&amp;mdash;&amp;nbsp;вникся в&amp;nbsp;гугл / яндекс вебмастеры их
+Зима скоро закончится, поэтому сменил счётчик на&amp;nbsp;весну) Будем ждать теперь весны.</description>
+    </item>
+    
+    <item>
+      <title>Под Новый Год добавил подсветку синтаксиса</title>
+      <link>https://altyncev.ru/blog/2012-12-31-add_highlight_to_post/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-31-add_highlight_to_post/</guid>
+      <description>Подключил библиотеку отечественного производства для подсветки синтаксиса.
+Не&amp;nbsp;все статьи подсвечены, но&amp;nbsp;будущие обязательно будут.
+Немного ReadMe:
+Весь код на&amp;nbsp;странице, обрамлённый в&amp;nbsp;теги `&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt; . &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;` будет автоматически подсвечен. Если вы&amp;nbsp;используете другие теги или хотите подсвечивать блоки кода динамически, читайте &amp;laquo;Инициализацию вручную&amp;raquo; ниже.
+	Вы&amp;nbsp;можете скачать собственную версию &amp;laquo;highlight.pack.js&amp;raquo; или сослаться на&amp;nbsp;захостенный файл, как описано на&amp;nbsp;странице загрузки	Стилевые темы можно найти в&amp;nbsp;загруженном архиве или также использовать захостенные. Чтобы сделать собственный стиль для своего сайта, вам будет полезен справочник классов в&amp;nbsp;файле classref.</description>
+    </item>
+    
+    <item>
+      <title>Markdown? Нет не слышал</title>
+      <link>https://altyncev.ru/blog/2012-12-28-markdown/</link>
+      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-28-markdown/</guid>
+      <description>Примеры синтаксиса Это не&amp;nbsp;полное руководство, а&amp;nbsp;всего лишь выдержка из&amp;nbsp;википедии. Полное руководство можете найти на&amp;nbsp;офф. сайте
+Текст с&amp;nbsp;выделением или логическим ударением:
+ *выделение* (например, курсив) **сильное выделение** (например, полужирное начертание)  Программный код:
+`какой_то_программный_код($аргумент)` какой_то_программный_код_с_отступом_от_начала_строки_4_знака Списки:
+ * элемент маркированного списка - ещё один элемент ненумерованного списка + буллеты элементов могут быть разными   1. Элемент нумерованного списка 2. Элемент №2 того же списка 9. Элемент №3 списка — элементы нумеруются по порядку, цифра в начале строки не имеет значения  Заголовки:</description>
+    </item>
+    
+    <item>
+      <title>Обновления сайта на 28.12.2012</title>
+      <link>https://altyncev.ru/blog/2012-12-28-update_site_2/</link>
+      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-28-update_site_2/</guid>
+      <description> 	Закрыл от&amp;nbsp;индексации кое-какие ссылки	Добавил в&amp;nbsp;блок &amp;laquo;Спасибо&amp;raquo; ссылку на&amp;nbsp;автора самого &amp;laquo;ядра&amp;raquo;	Добавил статью	Сделал экспорт своих закладок по&amp;nbsp;css/html, пусть будут)	Обновил само ядрышко	Добавил rss (осталось только красиво стилизовать)  </description>
+    </item>
+    
+    <item>
+      <title>Переезд complited</title>
+      <link>https://altyncev.ru/blog/2012-12-04-update_site/</link>
+      <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-04-update_site/</guid>
+      <description>Ура, ура, ура!
+Переехал в&amp;nbsp;облака:-)
+Теперь сайтик весит на&amp;nbsp;github и&amp;nbsp;крутится с&amp;nbsp;благословения heroku.
+Старый wordress действует и&amp;nbsp;доступен на&amp;nbsp;shadow.perm.ru
+Shadow буду использовать как файлохранилище, он&amp;nbsp;в&amp;nbsp;свою очередь висит на&amp;nbsp;фришном hostinger
+Куда не&amp;nbsp;плюнь, кругом халява:-) Только вот за&amp;nbsp;имя платить надо.
+Теперь надо по-тихоньку менять стилизацию и&amp;nbsp;все такое. Хотелось&amp;nbsp;бы еще тэги выводить)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Altyncev Vladislav</title>
+    <link>https://altyncev.ru/</link>
+    <description>Recent content on Altyncev Vladislav</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://altyncev.ru/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Вопросы и ответы для собеседования на верстальщика</title>
+      <link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid>
+      <description>&lt;p&gt;Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://altyncev.ru/img/2017/11/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif&#34; alt=&#34;Когда на собеседовании тебе показали кто тут Senior&#34;&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;вопросы&#34;&gt;Вопросы&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Какие бывают значения display? Расскажите как ведёт себя каждое свойство.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;block&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;inline&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;inline-block&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;inline-table&lt;/span&gt; |
+    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;inline-flex&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;flex&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;list-item&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;none&lt;/span&gt; |
+    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;run-in&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-caption&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-cell&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-column-group&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-column&lt;/span&gt; |
+    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-footer-group&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-header-group&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-row&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-row-group&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Подробнее&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;block&#34;&gt;block&lt;/h3&gt;
+&lt;p&gt;Элемент показывается как блочный. Применение этого значения для строчных элементов, например &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого.&lt;/p&gt;
+&lt;h3 id=&#34;inline&#34;&gt;inline&lt;/h3&gt;
+&lt;p&gt;Элемент отображается как строчный. Использование блочных элементов, таких, как &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; и &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, автоматически создаёт перенос и показывает их содержимое с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.&lt;/p&gt;
+&lt;h3 id=&#34;inline-block&#34;&gt;inline-block&lt;/h3&gt;
+&lt;p&gt;Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно строчному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как строчный.&lt;/p&gt;
+&lt;h3 id=&#34;inline-table&#34;&gt;inline-table&lt;/h3&gt;
+&lt;p&gt;Определяет, что элемент является таблицей, как при использовании &lt;code&gt;&amp;lt;table&amp;gt;&lt;/code&gt;, но при этом таблица является строчным элементом и происходит её обтекание другими элементами, например, текстом.&lt;/p&gt;
+&lt;h3 id=&#34;inline-flex&#34;&gt;inline-flex&lt;/h3&gt;
+&lt;p&gt;Элемент ведёт себя как строчный и выкладывает содержимое согласно флекс-модели.&lt;/p&gt;
+&lt;h3 id=&#34;flex&#34;&gt;flex&lt;/h3&gt;
+&lt;p&gt;Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.&lt;/p&gt;
+&lt;h3 id=&#34;list-item&#34;&gt;list-item&lt;/h3&gt;
+&lt;p&gt;Элемент выводится как блочный и добавляется маркер списка.
+none
+Временно удаляет элемент из документа. Занимаемое им место не резервируется, и веб-страница формируется так, словно элемента и не было. Изменить значение и сделать вновь видимым элемент можно с помощью скриптов, обращаясь к свойствам через объектную модель. В этом случае происходит переформатирование данных на странице с учётом вновь добавленного элемента.&lt;/p&gt;
+&lt;h3 id=&#34;run-in&#34;&gt;run-in&lt;/h3&gt;
+&lt;p&gt;Устанавливает элемент как блочный или строчный, в зависимости от контекста.&lt;/p&gt;
+&lt;h3 id=&#34;table&#34;&gt;table&lt;/h3&gt;
+&lt;p&gt;Определяет, что элемент является блочной таблицей, подобно использованию &lt;code&gt;&amp;lt;table&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;table-caption&#34;&gt;table-caption&lt;/h3&gt;
+&lt;p&gt;Задаёт заголовок таблицы, подобно применению &lt;code&gt;&amp;lt;caption&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;table-cell&#34;&gt;table-cell&lt;/h3&gt;
+&lt;p&gt;Указывает, что элемент представляет собой ячейку таблицы (&lt;code&gt;&amp;lt;td&amp;gt;&lt;/code&gt; или &lt;code&gt;&amp;lt;th&amp;gt;&lt;/code&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;table-column&#34;&gt;table-column&lt;/h3&gt;
+&lt;p&gt;Назначает элемент колонкой таблицы, словно был добавлен &lt;code&gt;&amp;lt;col&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;table-column-group&#34;&gt;table-column-group&lt;/h3&gt;
+&lt;p&gt;Определяет, что элемент является группой одной или более колонок таблицы, как при использовании &lt;code&gt;&amp;lt;colgroup&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;table-footer-group&#34;&gt;table-footer-group&lt;/h3&gt;
+&lt;p&gt;Используется для хранения одной или нескольких строк ячеек, которые отображаются в самом низу таблицы. По своему действию сходно с работой &lt;code&gt;&amp;lt;tfoot&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;table-header-group&#34;&gt;table-header-group&lt;/h3&gt;
+&lt;p&gt;Элемент предназначен для хранения одной или нескольких строк ячеек, которые представлены вверху таблицы. По своему действию сходно с работой &lt;code&gt;&amp;lt;thead&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;table-row&#34;&gt;table-row&lt;/h4&gt;
+&lt;p&gt;Элемент отображается как строка таблицы (&lt;code&gt;&amp;lt;tr&amp;gt;&lt;/code&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;table-row-group&#34;&gt;table-row-group&lt;/h3&gt;
+&lt;p&gt;Создаёт структурный блок, состоящий из нескольких строк таблицы, аналогично действию &lt;code&gt;&amp;lt;tbody&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Мыши плакали, кололись, но продолжали грызть кактус</title>
+      <link>https://altyncev.ru/blog/2017-04-11-hugo-update/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2017-04-11-hugo-update/</guid>
+      <description>Теперь бложик оживает благодаря Hugo:fire:
+А собирается и деплоится во имя Wercker:expressionless:
+И всё также всё лежит на Гитхабе:fist:
+Хвала лунной магии! :boom:</description>
+    </item>
+    
+    <item>
+      <title>Точно сделал задачу?</title>
+      <link>https://altyncev.ru/blog/2016-11-17-task_complited/</link>
+      <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2016-11-17-task_complited/</guid>
+      <description>Лучший ответ на задачу</description>
+    </item>
+    
+    <item>
+      <title>Сделал таску</title>
+      <link>https://altyncev.ru/blog/2016-10-25-task_complite/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2016-10-25-task_complite/</guid>
+      <description>Сделал таску, отправил на code review и &amp;hellip; завернули обратно</description>
+    </item>
+    
+    <item>
+      <title>This - «ðɪs» Откуда взялась «З»?</title>
+      <link>https://altyncev.ru/blog/2015-11-27-english_this/</link>
+      <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-11-27-english_this/</guid>
+      <description>Тут больше мысли вслух...
+Наверно, часто замечали, что некоторые произносят this как зис? Вот мне всё интересно, откуда это пошло? От индусов? От иммигрантов? :confused:
+Ну и да, конечно же там звук не «В», но я просто не знаю, как его написать)
+ амер.&amp;nbsp;|ðɪs| Тег audio не поддерживается вашим браузером.      брит.&amp;nbsp;|ðɪs| Тег audio не поддерживается вашим браузером.      А самое фееричное, когда three произносят как сри :imp:</description>
+    </item>
+    
+    <item>
+      <title>Sublime Text 3 плагины для фронтэнд-разработчика</title>
+      <link>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</guid>
+      <description>Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.
+Package Control всея всего.
+AdvancedNewFile - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.
+Alignment - Для выравнивания
+AutoFileName - Автозаполнение имени файлов.
+Better CoffeeScript - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.
+Bootstrap 3 Jade Snippets - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться.</description>
+    </item>
+    
+    <item>
+      <title>Проверка заливки</title>
+      <link>https://altyncev.ru/blog/2015-10-10-proverka_zalivki/</link>
+      <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-10-10-proverka_zalivki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Долгожданная и тяжёлая заливка фундаментов</title>
+      <link>https://altyncev.ru/blog/2015-10-07-zalivka/</link>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-10-07-zalivka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Лучшие (и бесплатные) онлайн-курсы по программированию</title>
+      <link>https://altyncev.ru/blog/2015-10-04-online_learn/</link>
+      <pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-10-04-online_learn/</guid>
+      <description>Список сайтов, на которых вы можете пройти бесплатные курсы по разным языкам программирования, и список книг, с которыми будет гораздо проще учиться.
+JavaScript  hexlet Современный учебник JavaScript ArtSorax/videos JavaScript-Garden Code Academy Codewars Learn Street Khan Academy Code Combat Code Avengers Let’s Code: Test-Driven JavaScript   udemy - HTML and CSS course Html Academy Code Academy Learn to Code Advanced - HTML &amp;amp; CSS Don’t Fear The Internet Tutsplus Learn Layout Dash Web Accessibility   Цикл статей «jQuery для начинающих» Учебник: jQuery для начинающих Справка по API jQuery Code Academy Tutsplus Code School   Питон на русском Code Academy Google Learn Street Python Tutor IHeartPY   Code Academy TryRubyCode Learn Railscasts Rubymonk Learn Street   Самые основы.</description>
+    </item>
+    
+    <item>
+      <title>Заканчиваем с вторым фундаментом</title>
+      <link>https://altyncev.ru/blog/2015-09-29-konec_fundamenta/</link>
+      <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-09-29-konec_fundamenta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Завершение одного и начало нового фундамента)</title>
+      <link>https://altyncev.ru/blog/2015-09-26-opalubka/</link>
+      <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-09-26-opalubka/</guid>
+      <description>Начало нового дня:</description>
+    </item>
+    
+    <item>
+      <title>Фундамент</title>
+      <link>https://altyncev.ru/blog/2015-09-19-fundament/</link>
+      <pubDate>Sat, 19 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-09-19-fundament/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Распахивание поля. Начало фундамента</title>
+      <link>https://altyncev.ru/blog/2015-09-06-pashnya/</link>
+      <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-09-06-pashnya/</guid>
+      <description>Клумба под цвета
+Разметил границы фундамента. Дальше, силами бабушек были вырыты траншеи, примерно в 0.5 метра. Дальше там уже вода шла.</description>
+    </item>
+    
+    <item>
+      <title>Чудо лопата</title>
+      <link>https://altyncev.ru/blog/2015-09-04-lopata/</link>
+      <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-09-04-lopata/</guid>
+      <description>PS 2018: Хрень короче) Не для нашей глины. Толком ей не пользуемся. Лежит себе и слежит. Может ещё придёт её час.</description>
+    </item>
+    
+    <item>
+      <title>Первый урожай</title>
+      <link>https://altyncev.ru/blog/2015-08-29-urojai/</link>
+      <pubDate>Sat, 29 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-08-29-urojai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Радуга</title>
+      <link>https://altyncev.ru/blog/2015-08-15-raduga/</link>
+      <pubDate>Sat, 15 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-08-15-raduga/</guid>
+      <description>Просто радуга)</description>
+    </item>
+    
+    <item>
+      <title>Туалет. Продолжаем строить)</title>
+      <link>https://altyncev.ru/blog/2015-08-09_tualet/</link>
+      <pubDate>Sun, 09 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-08-09_tualet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Каркас туалета</title>
+      <link>https://altyncev.ru/blog/2015-08-02-karkas_tualeta/</link>
+      <pubDate>Sun, 02 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-08-02-karkas_tualeta/</guid>
+      <description>Медленно, но верно собрали туалет.
+Почти готово :-)</description>
+    </item>
+    
+    <item>
+      <title>Заготовки под первую постройку</title>
+      <link>https://altyncev.ru/blog/2015-07-24-bochka/</link>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-07-24-bochka/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Начало работ</title>
+      <link>https://altyncev.ru/blog/2015-07-19-nachalo_rabot/</link>
+      <pubDate>Sun, 19 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-07-19-nachalo_rabot/</guid>
+      <description>Выбран был участок №143 </description>
+    </item>
+    
+    <item>
+      <title>Разведка местности</title>
+      <link>https://altyncev.ru/blog/2015-06-18-start/</link>
+      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-06-18-start/</guid>
+      <description>2015. Старт! В мае 2015 жене пришла мысль обзавестись клочком земли. И в июне мысль по-тихоньку начала материлизовываться :-)
+Выбор пал на Ильинский район, вблизи посёлка Филатово.
+Ну и в общем то немного панорам:
+Ну и в общем то сразу было решено покупать. Рядом заливчик, купаться тоже можно, плохо, но можно)) Ну и лес под боком. Все условия, для существования :-)</description>
+    </item>
+    
+    <item>
+      <title>Руководство по оформлению HTML/CSS кода от Google</title>
+      <link>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</guid>
+      <description>Введение Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры.
+Это относится к рабочим версиям файлов использующих HTML, CSS и GSS
+Разрешается использовать любые инструменты для минификации компиляции или обфускации кода, при условии, что общее качество кода будет сохранено. 
+Общие правила оформления &amp;nbsp;
+Протокол  Не указывайте протокол при включении ресурсов на страницу.</description>
+    </item>
+    
+    <item>
+      <title>Борьба с вирусами</title>
+      <link>https://altyncev.ru/blog/2015-04-12-antivirus/</link>
+      <pubDate>Sun, 12 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-04-12-antivirus/</guid>
+      <description>Очень часто многие спрашивают, какой антивирусник поставить. Да в общем то и я сам иногда интересуюсь, кто чем пользуется.
+Для начала рекомендую ознакомиться с этой статьей. Там как раз тестируются несколько бесплатных антивирусников. Если статья не открывается, то собственно вот результат:
+Все антивирусы имели последние обновления программы и баз, настройки по умолчанию. Использовались найденные старые паки вирусов за 2010-2012 года в количестве 8983, и 944 которых удалось скачать по списку за 2012-2014 года с malwaredomainlist.</description>
+    </item>
+    
+    <item>
+      <title>Новая машина - Suzuki SX4 New</title>
+      <link>https://altyncev.ru/blog/2014-08-05-suzuki_sx4_new/</link>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2014-08-05-suzuki_sx4_new/</guid>
+      <description>Махнули не глядя свою Chevrolet Aveo 2012г. на Suzuki SX4 New.
+Прошлая Aveo: Выбор был тяжелым. И как и у многих, на Suzuki совсем не смотрели по началу. Зато когда узнали про эту марку и почитали обзоры, то выбор стал очевидным. По сравнению с остальными марками авто, в такой же ценовой категории, Suzuki смотрите выйгрышнее.
+Сперва смотрели на Opel Mokka, но после того, как мастер из автосалона рассказал, что и как у нее начинает отпадывать, включая заклинивающую крышку у бензобака, то всё желание рассматривать дальше эту машину, отпало.</description>
+    </item>
+    
+    <item>
+      <title>Первый укус Клеща</title>
+      <link>https://altyncev.ru/blog/2014-08-02-mite/</link>
+      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2014-08-02-mite/</guid>
+      <description>Как обычно, на выходные приехали в деревню, ну и естественно решили сходить проверить грибы, тем более, что до этого шли дожди.
+Как оказалось, дожди были только в городе, в Елово, как обычно, дождей совсем не было.
+В лес собрались я, жена, моя мама и сын. Т.к. август месяц на дворе, о клещах особо не думали, обычно в это время их уже и нет.
+Про то, что по радио и телевизору объявляли, что начался второй сезон нападения клещей, все забыли.</description>
+    </item>
+    
+    <item>
+      <title>Обкатка новой машины</title>
+      <link>https://altyncev.ru/blog/2014-06-20-running_car/</link>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2014-06-20-running_car/</guid>
+      <description>Советы по обкатке новой машины не является догмой, а именно рекомендацией с учетом МАХ пользы и MIN вреда для машины.
+Единственный агрегат, требующий повышенного внимания в период обкатки —
+Двигатель Тут действительно есть чему притираться, несмотря на очень приличное качество комплектующих и сборки наших машин . Большие нагрузки на двигатель в начальный период эксплуатации могут существенно сократить срок его здоровой жизни.
+ Под большой нагрузкой подразумевается вспышка богатой смеси в цилиндре при относительно медленном движении поршня вниз.</description>
+    </item>
+    
+    <item>
+      <title>Знакомство с Gulp. Gulpfile.js</title>
+      <link>https://altyncev.ru/blog/2014-02-01-gulpfile/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2014-02-01-gulpfile/</guid>
+      <description>После статьи на Хабре, решил собрать свой простой gulpfile, для html и css.
+Как устанавливать node я вам не буду рассказывать, об этом уже много где сказано. И найти информацию об этом вас не затруднит.
+Перейду к самому главному. Мой &amp;ldquo;рабочий&amp;rdquo; проект, для сборки простенького сайта лежит здесь.
+А теперь, чуть чуть по подробнее :-)
+Основная задача этого gulpfile собирать html из jade шаблонов и css из stylus. Ну и разумеется обычные html и css тоже должно уметь.</description>
+    </item>
+    
+    <item>
+      <title>Стишок о тентаклях</title>
+      <link>https://altyncev.ru/blog/2013-12-29-tentakli/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-12-29-tentakli/</guid>
+      <description>&amp;nbsp;
+ Тентакли очень хороши –
+Для тела, да и для души,
+Они так весело растут
+И успевают там и тут. Они хватают все подряд,
+Сорвут мгновенно твой наряд,
+Проникнут в разные места –
+Их привлекает нагота.
+Такие гладкие они
+И поразительной длины.
+Тентаклей кожа так нежна,
+Им смазка вовсе не нужна,
+Их сочной, влажной красотой
+Не восхитится лишь больной.
+Случается, они невольно
+Сжимают так, что станет больно,
+Подобно сотням жадных рук</description>
+    </item>
+    
+    <item>
+      <title>Как самому сделать сайт</title>
+      <link>https://altyncev.ru/blog/2013-10-13-how_made_site/</link>
+      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-10-13-how_made_site/</guid>
+      <description>Постараюсь описать процесс создания сайта. Как магазина, так и обычного информационного.
+Самое первое, с чего стоит начать, это задаться вопросом: А надо ли мне оно вообще?. Если вы всё хорошо обдумали и оно того стоит, то для начала всегда стоит смотреть в сторону &amp;ldquo;уже готового&amp;rdquo;.
+Я не буду здесь описывать такие &amp;ldquo;генераторы&amp;rdquo; как ucoz и тому подобное. Люди и там делают, вполне вменяемые сайты, но меня от таких чуть-чуть подташнивает :-)</description>
+    </item>
+    
+    <item>
+      <title>Женщины. 18&#43;</title>
+      <link>https://altyncev.ru/blog/2013-10-10-woman/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-10-10-woman/</guid>
+      <description>Да. Мальчики намеренно, если вы на каблуках и в тесной юбке, делают шаг шире, когда вы идете вместе. Девушки при этом так смешно семенят. Мальчики вообще любят наблюдать за девочками.   Девушки не умеют заниматься оральным сексом. И большинство мальчиков терпят это, чтобы показать, как они ценят то, что вы им не отгрызаете головку пениса, а только цепляете своими зубами, неловко шлепаете языком и так далее. И потом всегда есть шанс, что со временем вы научитесь делать это хорошо.</description>
+    </item>
+    
+    <item>
+      <title>Делаем прогресс бар как на YouTube с помощью jQuery</title>
+      <link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link>
+      <pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid>
+      <description>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на medium.com
+See the Pen odJjA by npofopr (@npofopr) on CodePen
+ HTML:
+Прописывать в вашем html это не надо, все сгенерирует js
+      CSS:
+#progress { position: fixed; z-index: 2147483647; top: 0; left: -6px; width: 1%; height: 2px; background: #0088CC; -moz-border-radius: 1px; -webkit-border-radius: 1px; border-radius: 1px; -moz-transition: width 500ms ease-out,opacity 400ms linear; -ms-transition: width 500ms ease-out,opacity 400ms linear; -o-transition: width 500ms ease-out,opacity 400ms linear; -webkit-transition: width 500ms ease-out,opacity 400ms linear; transition: width 500ms ease-out,opacity 400ms linear; } #progress dd, #progress dt { position: absolute; top: 0; height: 2px; -moz-box-shadow: #0088CC 1px 0 6px 1px; -ms-box-shadow: #0088CC 1px 0 6px 1px; -webkit-box-shadow: #0088CC 1px 0 6px 1px; box-shadow: #0088CC 1px 0 6px 1px; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; } #progress dt { opacity: .</description>
+    </item>
+    
+    <item>
+      <title>css вкусности на неделю</title>
+      <link>https://altyncev.ru/blog/2013-07-19-css_likes/</link>
+      <pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-07-19-css_likes/</guid>
+      <description>Всё то, что мне приглянулось и понравилось за текущую неделю
+ Разнообразные css3 эффекты  Всем смотреть обязательно, интересные эффекты, как для кнопок, так и для всей страницы, и всё это в одном css)
+  Генератор тени  Легким движением ползунков генерируем трендовые тенюшки)
+  Выдержки из codepen.io, то, что я налайкал:   Timeline Navigation Text Looping Transition Playful signup buttons Switches Minion Pure CSS Solar System    Сам делает ReadMore ссылку  Задаётся высота, а всё что ниже будет попадать под ReadMore.</description>
+    </item>
+    
+    <item>
+      <title>День рождения сына :-)</title>
+      <link>https://altyncev.ru/blog/2013-07-12-birthday/</link>
+      <pubDate>Fri, 12 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-07-12-birthday/</guid>
+      <description>Вот и настал 3 год жизни великого человека :-)
+Мы с @lionsmommy поздравляем своего любимого сыночка с днем рождения! :-)
+          &amp;nbsp;
+Кричит с Днем рождения! :-)
+ &amp;nbsp;
+ oleg.altyncev.ru</description>
+    </item>
+    
+    <item>
+      <title>Небольшая записка css. Чтобы помнить</title>
+      <link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid>
+      <description>Расширяем свой reset.css и зарещаем масштабирование сайта.
+Расширьте reset.css
+К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив
+*:not(html) { -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }  Запрещайте масштабирование
+Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.
+&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Happy Birthday 2013</title>
+      <link>https://altyncev.ru/blog/2013-06-22-happy_birthday/</link>
+      <pubDate>Sat, 22 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-06-22-happy_birthday/</guid>
+      <description>Да да... Снова о поездке в деревню)
+Итоги своего дня рождения мне подводить не хочется. Я вообще редко думаю о том, сколько мне лет. Вообще стукнуло 25, но на языке всегда вертится 23 :-) Ну или приходится считать, хотя сейчас запомнить легко будет.
+Как всегда 25 выехали после работы... С собой взяли брата) По дороге успели заблудиться, вернее проехали поворот в Юго-Камске и уехали на переправу. Не так страшно, но потеряли минут 20.</description>
+    </item>
+    
+    <item>
+      <title>Дорога в деревню</title>
+      <link>https://altyncev.ru/blog/2013-06-05-road_of_the_village/</link>
+      <pubDate>Wed, 05 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-06-05-road_of_the_village/</guid>
+      <description>Хорошей привычкой стало на каждые выходные ездить в деревню, к родителям.
+От поездок тут сразу несколько польз:
+ и родителям чем нибудь, как нибудь помочь; и мелкому отдых, воздух там свежий и без примесей) ну и самим отдохнуть, порыбалить, позагорать)  И в общем то всё бы хорошо, но бл%, когда же наконец сделают дорогу? При выезде из Перми, после Б.Савина как делали дорогу, так её и делают, и ладно бы делали, а то даже ни техники ни людей никогда не встретишь.</description>
+    </item>
+    
+    <item>
+      <title>Отпуск в Турции</title>
+      <link>https://altyncev.ru/blog/2013-05-26-turkey/</link>
+      <pubDate>Sun, 26 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-05-26-turkey/</guid>
+      <description>Дело было в мае, взяв недельку отпуска, решили слетать отдохнуть в Турцию. Не то, чтобы туда рвались, а просто других мест не было.
+Приобрели путёвку и через 2 дня уже вылет.
+Про наш пермский аэропорт наверно не стоит говорить? ^_^ Не то, чтобы совсем плохо... Но стоит желать лучшего :-)
+Летел я в первый раз, но всё обошлось хорошо) При посадке в Турции правда сильно уши заложило, но не беда.</description>
+    </item>
+    
+    <item>
+      <title>Отпуск</title>
+      <link>https://altyncev.ru/blog/2013-05-18-vacation/</link>
+      <pubDate>Sat, 18 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-05-18-vacation/</guid>
+      <description>Охох&amp;hellip; Решили скататься в отпуск :-)
+В общем, с 20 по 26 мая буду в отпуске.
+Поедем в Турцию, Сиде. В отель Laphetos Beach Resort &amp;amp; SPA 5*.
+Отель вроде как на отшибе) Кругом ничего не должно быть.
+Печаль, что прав международных нет. Надо бы сделать. Можно было бы мотик, наверно, какой нибудь арендовать и самим кругом ездить) Если конечно такое там пропагандируется и ездить не далеко.</description>
+    </item>
+    
+    <item>
+      <title>Как я стал верстальщиком</title>
+      <link>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</link>
+      <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</guid>
+      <description>Как я до такого докатился?
+Я очень часто бываю на форуме htmlbook.ru, даже отслеживаю все новые сообщения, не ради того, чтобы скорее бежать помогать и набивать репутацию, а чтобы, возможно, найти решения, от своих проблем, которые иногда возникают, да и вообще, там много знающих людей и порой бывает интересно почитать их комментарии.
+Версткой я занялся, учась в колледже, то ли курсовую делал, то ли диплом, точно не помню. Но началось все именно от туда.</description>
+    </item>
+    
+    <item>
+      <title>Поездка в деревню</title>
+      <link>https://altyncev.ru/blog/2013-05-03-a_trip_to_the_countryside/</link>
+      <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-05-03-a_trip_to_the_countryside/</guid>
+      <description>Праздников выдалось уйма и так как в городе делать нечего, мы решили махнуть в деревню.
+Тем более, что начался сезон огородных работ, и надо помочь родителям.
+Погода выдалась кстати более менее. Хотя бы не было дождя. Но опять таки сильный ветер мешал отдыху :(
+Ездили кстати всей семьей. О приключениях Олега можно у него и почитать.
+По пути в деревню, преодолели предел скорости :-) Wife разогналась до 120км/ч. После чего машина пикнула и испугавшись, начали снижаться.</description>
+    </item>
+    
+    <item>
+      <title>Приобрел megafon-Логин</title>
+      <link>https://altyncev.ru/blog/2013-05-01-megafon_login/</link>
+      <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-05-01-megafon_login/</guid>
+      <description>Купил, кругом пропиаренный megafon-Логин. И совсем не жалею)
+Моей nokia e51 он все равно лучше, разве что нокия служит дольше.
+На форуме с первых же дней образовалось массовое обсуждение&amp;hellip; Как только я его купил, вечером уже появилась кастомная прошивка и теперь их уже не одна)
+Главные его минусы:
+ быстро садится; не работает пока что инстаграм, хотя там камера никакущая :-) экран конечно же.  Плюсы:
+ экран по размерам самое то) хоть и хочется большего разрешения, хотя бы 400х800; android 4.</description>
+    </item>
+    
+    <item>
+      <title>Коллекция полезных css-снипетов</title>
+      <link>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</link>
+      <pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</guid>
+      <description>Не начинайте ваш проект с пустой таблицы стилей. Есть много интересных сниппетов, которые могут облегчить вам жизнь и ускорить веб-разработку.
+Часто используемые классы Самые распространённые:
+.float-left /* прижимаем блок влево */ { float: left; } .float-right /* прижимаем блок вправо */ { float: right; } .hide /* прячем блок */ { display: none; } .show /* показываем блок */ { display: block; }  Думаю, разъяснять тут ничего не надо. Это базовые стили, и их каждый должен знать и использовать.</description>
+    </item>
+    
+    <item>
+      <title>Docpad для разворачивания сайтиков</title>
+      <link>https://altyncev.ru/blog/2013-04-19-docpad_fast_site/</link>
+      <pubDate>Fri, 19 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-04-19-docpad_fast_site/</guid>
+      <description>Наконец таки взял docpad, убрал все лишнее и вот&amp;hellip;
+При верстве больших сайтов, когда накапливается огромное количество страниц, порой бывает тяжко сделать изменения в тех же футере или шапке. У меня конечно все структурировано и обычно замена текста проходит удачно, но бывают исключения.
+Тут же от этого можно будет избавиться. Все стили и скрипты в одном месте.
+ можно шаблончики сделать, страницы же часто однотипные есть.  Ну и в скоре подключу дополнительные &amp;ldquo;плагинчики&amp;rdquo; и будет совсем все хорошо, надеюсь таким образом и с препроцессорами быстрее разберусь.</description>
+    </item>
+    
+    <item>
+      <title>Собаки</title>
+      <link>https://altyncev.ru/blog/2013-04-17-dogs/</link>
+      <pubDate>Wed, 17 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-04-17-dogs/</guid>
+      <description>Нет я не хочу покупать собаку :-)
+Вчера шёл себе спокойно на работу, впереди шла женщина, метрах в 50. И справа от неё сидела, грелась стайка собак.
+Женщине, вдруг вздумалось перейти улицу рядом с ними. Она естественно остановилась&amp;hellip; И тут понеслось. Собаки видимо почуяли опасность. Возможно там были взрослые щенки, потому как одна собака лежала, а вот те, что были рядом вскочили и начали лаять, пытаясь подойти к женщине. Та конечно же испугалась, я бы тут и сам дёру дал.</description>
+    </item>
+    
+    <item>
+      <title>Небольшие обновления сайта</title>
+      <link>https://altyncev.ru/blog/2013-04-13-update_site/</link>
+      <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-04-13-update_site/</guid>
+      <description>Убрал много личнего js и куча стилей.
+Есть конечно еще куда расти и что чистить&amp;hellip; Но грузиться должно чуточку быстрее.
+В очередной раз пересортировал статьи. Теперь все лежит по папочкам, а не в куче, как раньше. По-моему так удобнее.
+И самое важное :-) Сделал еще один бложик oleg.altyncev.ru. Сделан, исключительно для того, чтобы потом было, что вспомнить :-)
+Что предвидится:
+ добавление тегов возможно легкий редизайн.  </description>
+    </item>
+    
+    <item>
+      <title>Всех Веб-Мастеров с праздником! 404!</title>
+      <link>https://altyncev.ru/blog/2013-04-04-web_404/</link>
+      <pubDate>Thu, 04 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-04-04-web_404/</guid>
+      <description>Сегодня 4.04, день веб-мастера.
+Поздравляю Всех веб-девелоперов, верстальщиков, веб-дизайнеров, и всех-всех-всех, кто так, или иначе связан с этой сферой.
+Желаю вам удачных проектов, хороших заказчиков, больше интересных задач!</description>
+    </item>
+    
+    <item>
+      <title>СССР в анимешных картинках</title>
+      <link>https://altyncev.ru/blog/2013-04-03-ussr_anime_pics/</link>
+      <pubDate>Wed, 03 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-04-03-ussr_anime_pics/</guid>
+      <description> Ряд картинкой в стиле аниме про наш любимый ССС
+                                    </description>
+    </item>
+    
+    <item>
+      <title>Открыл категорию В</title>
+      <link>https://altyncev.ru/blog/2013-03-24-car_driving/</link>
+      <pubDate>Sun, 24 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-03-24-car_driving/</guid>
+      <description>Сдал таки экзамен по вождению.
+Первая попытка сдачи обернулась на удачей. Преградой оказалась фура, и когда перестраивался с правой полосы на левую (была односторонняя дорога), откуда не возьмись сзади вылезла машина. Видимо хотела быстро меня обогнать, ну и типа я не уступил дорогу. И все.
+Прошла неделя и пошёл на пересдачу. В этот раз, как и в первый выдалась более менее тёплая погода. Но мне это не помогло :-) Если находится на улице, то все хорошо, тепло.</description>
+    </item>
+    
+    <item>
+      <title>Компьютерные очки</title>
+      <link>https://altyncev.ru/blog/2013-03-20-glasses/</link>
+      <pubDate>Wed, 20 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-03-20-glasses/</guid>
+      <description>Приобрел компьютерные очки. И гложат меня сомнения&amp;hellip;
+Они вообще приносят какую то пользу?))
+Вот собственно они: Сейчас же мониторы это не старые здоровенные ящики на столе) И если сидеть на правильном расстоянии, то ничего и не будет.
+В общем то посидел я в них и сижу дома вечерами. И вроде как глаза меньше устают. Но не знаю, самовнушение это или все же все равно они какой то эффект дают.
+Ведь чтобы яркий свет монитора не резал глаза можно воспользоваться программулькой flux и глазам тоже будет лучше.</description>
+    </item>
+    
+    <item>
+      <title>Визуальный css transition</title>
+      <link>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</link>
+      <pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</guid>
+      <description>Смотрим css3 анимацию &amp;ldquo;online&amp;rdquo; на cssglue.com
+И еще пару ссылок с визуальным представлением css транформаций
+ http://learn.shayhowe.com/advanced-html-css/transitions-animations http://darsa.in/motio/ http://leaverou.github.com/animatable/ http://www.jcsml.com http://maccman.github.com/gfx/  </description>
+    </item>
+    
+    <item>
+      <title>Полезные техники HTML, CSS</title>
+      <link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link>
+      <pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid>
+      <description>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.
+1. Google Chrome Frame Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, Google Chrome Frame стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий -тэг в тэге нашего сайта.</description>
+    </item>
+    
+    <item>
+      <title>Несколько хороших покупок</title>
+      <link>https://altyncev.ru/blog/2013-03-04-buy/</link>
+      <pubDate>Mon, 04 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-03-04-buy/</guid>
+      <description>Приобрел себе несколько мини подарков)
+В общем то все полезное и приятное) Ну и как всегда несколько фото:
+Компьютерные очки
+Стали побаливать глаза, от частых посиделок за монитором, ну и вот решил попробовать. Капельки тоже иногда капаю. Должны же они как то защищать, хотя с виду только делают &amp;ldquo;картинку&amp;rdquo; чуть &amp;ldquo;темнее&amp;rdquo; - &amp;ldquo;мягче&amp;rdquo;.
+Клавиатура rapoo e9050
+Беспроводная клавиатура, давно хотел избавить от проводов. Теперь из таких устройств три: мышь, наушники ну и клавиатура.</description>
+    </item>
+    
+    <item>
+      <title>Блог на Docpad. Минимум усилий. Docpad blogging</title>
+      <link>https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/</link>
+      <pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/</guid>
+      <description>Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
+И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox.</description>
+    </item>
+    
+    <item>
+      <title>Маленькие приятности</title>
+      <link>https://altyncev.ru/blog/2013-02-12-pasport/</link>
+      <pubDate>Tue, 12 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-02-12-pasport/</guid>
+      <description>Сегодня день прошел более менее хорошо&amp;hellip; А началось все с поездки в ГАИ.
+Всё было бы хорошо, если бы в ГАИ не пришлось торчать ~3 часа. А что самое смешное, зря. 3 часа &amp;ldquo;отдыха&amp;rdquo; :-)
+Зато теперь у меня есть бумажка: разрешение для сдачи экзамена в пермском ГАИ, которую можно было бы запросто скачать в интернете и заполнить, а не ездить.
+Вторая приятность, я наконец таки забрал загран паспорт :-) Теперь могу ехать куда угодно) Главное было бы на что уехать)</description>
+    </item>
+    
+    <item>
+      <title>Переход на yandex почту</title>
+      <link>https://altyncev.ru/blog/2013-02-08-yandex_mail/</link>
+      <pubDate>Fri, 08 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-02-08-yandex_mail/</guid>
+      <description>Сей сказ про то, как я переходил на yandex почту.
+Решил я зарегистрировать для своего домена почту, ну не совсем я решил, брат навел на мысль, хоть я тоже когда то думал об этом.
+И хотел было я сперва в гугл полезить, за почтой, но оказывается он с некоторых пор совсем перестал бесплатно её предоставлять. Ну и бог с ним, не нам судить.
+Яндексом я давно не пользовался, но с недавних пор все больше на него смотрю.</description>
+    </item>
+    
+    <item>
+      <title>Разговор на тему секса и смысла жизни</title>
+      <link>https://altyncev.ru/blog/2013-02-06-razgovor_na_temu_seksa_i_smisla_jizni/</link>
+      <pubDate>Wed, 06 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-02-06-razgovor_na_temu_seksa_i_smisla_jizni/</guid>
+      <description>В&amp;nbsp;2009 году Дмитрий Чернышев (mi3ch) и&amp;nbsp;Григорий Крамской (kramskoy) прочитали для народа (в&amp;nbsp;основном, молодёжи), прекрасную лекцию о&amp;nbsp;сексе и&amp;nbsp;смысле жизни. AdMe.ru, зачитывающийся блогом Митрича, предлагает всем ознакомиться с&amp;nbsp;ее&amp;nbsp;гениальным содержанием.
+—&amp;nbsp;Мы&amp;nbsp;хотели посмотреть на&amp;nbsp;жизнь человека с&amp;nbsp;точки зрения физики&amp;nbsp;— рассмотреть те&amp;nbsp;силы, которые влияют на&amp;nbsp;мужчину и&amp;nbsp;женщину и&amp;nbsp;двигают их&amp;nbsp;в&amp;nbsp;ту&amp;nbsp;или иную сторону. А&amp;nbsp;также подумать, что может человек этим силам противопоставить.
+Мы&amp;nbsp;будем говорить не&amp;nbsp;конкретно о&amp;nbsp;вас, а&amp;nbsp;о&amp;nbsp;неком абстрактном человеке. Мы&amp;nbsp;верим, что вы&amp;nbsp;никогда не&amp;nbsp;воровали мелочь у&amp;nbsp;родителей и&amp;nbsp;занимались сексом только по&amp;nbsp;любви.</description>
+    </item>
+    
+    <item>
+      <title>Вождение. День №6</title>
+      <link>https://altyncev.ru/blog/2013-01-30-driving_3/</link>
+      <pubDate>Wed, 30 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-30-driving_3/</guid>
+      <description>&amp;hellip;чтобы не&amp;nbsp;сбить со&amp;nbsp;счета занятий.
+До&amp;nbsp;судного дня остаётся всё меньше.
+Потренировался дома заезжать в&amp;nbsp;горку, стало куда лучше получаться. Сегодня не&amp;nbsp;разу не&amp;nbsp;заглох на&amp;nbsp;подъёме, один раз и&amp;nbsp;то&amp;nbsp;не&amp;nbsp;понятно почему, но&amp;nbsp;было:-)
+Основные ошибки:
+не&amp;nbsp;включаю повороты, когда что-то надо объехать, по&amp;nbsp;типу высунувшуюся припаркованную машинуне&amp;nbsp;увидел один раз пешехода, вернее увидел уже в&amp;nbsp;зеркало заднего видатороплюсь, надо медленнее ездить:-) Ну&amp;nbsp;и&amp;nbsp;в&amp;nbsp;общем то&amp;nbsp;все.</description>
+    </item>
+    
+    <item>
+      <title>Вождение. День №5</title>
+      <link>https://altyncev.ru/blog/2013-01-26-driving_2/</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-26-driving_2/</guid>
+      <description>Пост носит чисто информативный характер, для самого себя. Чтобы не&amp;nbsp;сбить со&amp;nbsp;счета занятий.
+Вчера был 5 урок вождения. Прошёл на&amp;nbsp;пол часа меньше. Но&amp;nbsp;и&amp;nbsp;этого хватило.
+Потренировали повороты. Ездили по&amp;nbsp;ул.&amp;nbsp;Старцева&amp;nbsp;&amp;mdash; б. Гагарина. Ну&amp;nbsp;и&amp;nbsp;по&amp;nbsp;бульвару туда обратно.
+Заезжали ещё в&amp;nbsp;ГАИ, посмотрел на&amp;nbsp;площадку. Толком ничего не&amp;nbsp;увидел) Но&amp;nbsp;оно и&amp;nbsp;все равно:-)
+И&amp;nbsp;как всегда я&amp;nbsp;глохну, трогаясь с&amp;nbsp;места:-(
+Но&amp;nbsp;у&amp;nbsp;меня и&amp;nbsp;с&amp;nbsp;мотоциклом так было, далеко не&amp;nbsp;сразу научился нормально трогаться с&amp;nbsp;места.
+Бросаю сцепление и&amp;nbsp;все тут:-(
+На&amp;nbsp;этом всё)</description>
+    </item>
+    
+    <item>
+      <title>Обновление сайта</title>
+      <link>https://altyncev.ru/blog/2013-01-25-update_site_2/</link>
+      <pubDate>Fri, 25 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-25-update_site_2/</guid>
+      <description>Внёс кое-какие правки, в&amp;nbsp;основном в&amp;nbsp;css.
+Добавил ссылку на&amp;nbsp;свой гитхаб, сверху, справа. Дабы вдруг, кто захочет форкнуть или того больше зафоловить :DПереоформил вывод статей в&amp;nbsp;бложике. Теперь вроде посимпотичнее выглядит. И&amp;nbsp;вроде не&amp;nbsp;тормозит. Задачи на&amp;nbsp;будущее:
+&amp;mdash;&amp;nbsp;Добавить кнопку фоловинга в&amp;nbsp;твиттер
+&amp;mdash;&amp;nbsp;Починить все-таки пейджинг)
+&amp;mdash;&amp;nbsp;Посмотреть на&amp;nbsp;всевозможные шрифты, дабы стало четабельнее, и&amp;nbsp;текст чтобы различался. Дата, заголовок, анонс.
+&amp;mdash;&amp;nbsp;добавить к&amp;nbsp;ФИ&amp;nbsp;ссылочку и&amp;nbsp;линк на&amp;nbsp;главную.
+&amp;mdash;&amp;nbsp;Фотографию добавить вертящуюся
+&amp;mdash;&amp;nbsp;Попробовать препроцессоры css, stylus например, ну&amp;nbsp;и&amp;nbsp;scss все-таки попробовать подключить.</description>
+    </item>
+    
+    <item>
+      <title>Вождение</title>
+      <link>https://altyncev.ru/blog/2013-01-24-driving_1/</link>
+      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-24-driving_1/</guid>
+      <description>Собрался я&amp;nbsp;выучиться на&amp;nbsp;права, вернее меня как всегда подтолкнули, ибо на&amp;nbsp;&amp;laquo;свершения&amp;raquo; я&amp;nbsp;не&amp;nbsp;горазд. Ну&amp;nbsp;и&amp;nbsp;в&amp;nbsp;общем по&amp;nbsp;2 раза в&amp;nbsp;неделю катаюсь с&amp;nbsp;инструктором. Сам экзамен будет 6&amp;nbsp;марта, а&amp;nbsp;накатать надо 30 часов, в&amp;nbsp;общем то&amp;nbsp;по&amp;nbsp;времени ещё достаточно много.
+Сам маршрут был таким:
+ Создано с&amp;nbsp;помощью инструментов Яндекс. Карт function fid_1359001490244849764651(ymaps) {var map = new ymaps.Map(&#34;ymaps-map-id_1359001490244849764651&#34;, {center: [56.23895897638394, 57.994153092913585], zoom: 13, type: &#34;yandex#map&#34;});map.controls.add(&#34;zoomControl&#34;).add(&#34;mapTools&#34;).add(new ymaps.control.TypeSelector([&#34;yandex#map&#34;, &#34;yandex#satellite&#34;, &#34;yandex#hybrid&#34;, &#34;yandex#publicMap&#34;]));map.geoObjects.add(new ymaps.Placemark([56.2752360792122, 58.00410485875508], {balloonContent: &#34;Старт. Автошкола.&#34;, iconContent: &#34;1&#34;}, {preset: &#34;twirl#redIcon&#34;})).add(new ymaps.Placemark([56.25961795473967, 58.00096953593721], {balloonContent: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Не зря я не люблю людей</title>
+      <link>https://altyncev.ru/blog/2013-01-23-life_winter/</link>
+      <pubDate>Wed, 23 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-23-life_winter/</guid>
+      <description>Да, я&amp;nbsp;не&amp;nbsp;очень то&amp;nbsp;люблю находиться в&amp;nbsp;крупном обществе, где куча народа и&amp;nbsp;все куда-то идут или что-то делают.
+Пример этому пляж, наверно стадионы, клубы тем более, да&amp;nbsp;и&amp;nbsp;всевозможные сборища.
+Но&amp;nbsp;в&amp;nbsp;принципе я&amp;nbsp;со&amp;nbsp;всем могу смириться и&amp;nbsp;стерпеть, даже эти толпища.
+Но&amp;nbsp;то, что творится при остановке автобуса, на&amp;nbsp;первой остановке. Это УЖАС, это ПЗДЦ&amp;hellip; Особенно 53&amp;nbsp;маршрут на&amp;nbsp;Гайву.
+И&amp;nbsp;я&amp;nbsp;бы не&amp;nbsp;сказал, что автобусы туда ходят редко, но&amp;nbsp;да, ехать далеко и&amp;nbsp;народу после рабочего дня бывает очень много. Но&amp;nbsp;так, как они лезут в&amp;nbsp;автобус не&amp;nbsp;поддается ни&amp;nbsp;какому объяснению.</description>
+    </item>
+    
+    <item>
+      <title>Windows или Linux? Что меня держит на винде?</title>
+      <link>https://altyncev.ru/blog/2013-01-16-windows_or_linux/</link>
+      <pubDate>Wed, 16 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-16-windows_or_linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Мой user settings в sublime text</title>
+      <link>https://altyncev.ru/blog/2013-01-11-sublime_user_settings/</link>
+      <pubDate>Fri, 11 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-11-sublime_user_settings/</guid>
+      <description>Будучи в&amp;nbsp;интернете наткнулся на&amp;nbsp;настройки user конфига в&amp;nbsp;sublime text и&amp;nbsp;решил кое-что добавить в&amp;nbsp;свой user setting.
+Вот собственно мой:
+  { &#34;color_scheme&#34;: &#34;Packages/daylerees-themes/Darkside.tmTheme&#34;, &#34;default_encoding&#34;: &#34;Cyrillic (Windows 1251)&#34;, &#34;detect_slow_plugins&#34;: false, &#34;fallback_encoding&#34;: &#34;Cyrillic (Windows 1251)&#34;, &#34;font_face&#34;: &#34;Consolas&#34;, &#34;font_size&#34;: 8, &#34;tab_size&#34;: 4, &#34;translate_tabs_to_spaces&#34;: false, &#34;ignored_packages&#34;: [ &#34;Vintage&#34; ], &#34;soda_classic_tabs&#34;: true, &#34;theme&#34;: &#34;Soda Light.sublime-theme&#34;, &#34;word_wrap&#34;: true, &#34;caret_style&#34;: &#34;phase&#34;, &#34;highlight_line&#34;: true, &#34;line_padding_bottom&#34;: 0, &#34;line_padding_top&#34;: 0, &#34;fade_fold_buttons&#34;: false, &#34;bold_folder_labels&#34;: true }   Немного описания (всего описывать не&amp;nbsp;буду, оно и&amp;nbsp;так понятно, да&amp;nbsp;и&amp;nbsp;при добавления в&amp;nbsp;свой user settings настройки ежесукундно начинают работать):</description>
+    </item>
+    
+    <item>
+      <title>Музыка, скачать и послушать</title>
+      <link>https://altyncev.ru/blog/2013-01-09-music_2013_01/</link>
+      <pubDate>Wed, 09 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-09-music_2013_01/</guid>
+      <description>После просмотра Бабкиных Яиц
+Заинтересовали меня пару групп.
+	Hot and Cold	Marble Boy	Fairies Scream	The Teslas  В&amp;nbsp;последнее время вообще мне нравятся женские коллективы, не&amp;nbsp;знаю от&amp;nbsp;чего) Видимо недостаток)
+ 1. Hot and Cold&amp;nbsp;&amp;mdash; не&amp;nbsp;оправдал надежды
+Я&amp;nbsp;то&amp;nbsp;думал полноценная группа, а&amp;nbsp;оказалось это кавер группа, хотя мне и&amp;nbsp;нравится, как поют
+А&amp;nbsp;судя по&amp;nbsp;группе в&amp;nbsp;нашем любимом vk.com, то&amp;nbsp;у&amp;nbsp;них не&amp;nbsp;так много песен.
+Спросил в&amp;nbsp;группе, где можно скачать их&amp;nbsp;творчество, прислали mp3&amp;rsquo;шечку на&amp;nbsp;послушать в&amp;nbsp;сообщения) +1, молодцы)</description>
+    </item>
+    
+    <item>
+      <title>Update сайта</title>
+      <link>https://altyncev.ru/blog/2013-01-08-update_site/</link>
+      <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-01-08-update_site/</guid>
+      <description>**Поздравляю всех** с&amp;nbsp;наступившим Новым Годом, годом змеи) Посмотрим, что он&amp;nbsp;нам подкинет&amp;hellip;
+Добавил на&amp;nbsp;сайтик:
+&amp;mdash;&amp;nbsp;sitemap
+&amp;mdash;&amp;nbsp;humans.txt
+&amp;mdash;&amp;nbsp;цвяточек аленькой
+&amp;mdash;&amp;nbsp;хотел поиск, но&amp;nbsp;не&amp;nbsp;вышло
+&amp;mdash;&amp;nbsp;вникся в&amp;nbsp;гугл / яндекс вебмастеры их
+Зима скоро закончится, поэтому сменил счётчик на&amp;nbsp;весну) Будем ждать теперь весны.</description>
+    </item>
+    
+    <item>
+      <title>Под Новый Год добавил подсветку синтаксиса</title>
+      <link>https://altyncev.ru/blog/2012-12-31-add_highlight_to_post/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-31-add_highlight_to_post/</guid>
+      <description>Подключил библиотеку отечественного производства для подсветки синтаксиса.
+Не&amp;nbsp;все статьи подсвечены, но&amp;nbsp;будущие обязательно будут.
+Немного ReadMe:
+Весь код на&amp;nbsp;странице, обрамлённый в&amp;nbsp;теги `&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt; . &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;` будет автоматически подсвечен. Если вы&amp;nbsp;используете другие теги или хотите подсвечивать блоки кода динамически, читайте &amp;laquo;Инициализацию вручную&amp;raquo; ниже.
+	Вы&amp;nbsp;можете скачать собственную версию &amp;laquo;highlight.pack.js&amp;raquo; или сослаться на&amp;nbsp;захостенный файл, как описано на&amp;nbsp;странице загрузки	Стилевые темы можно найти в&amp;nbsp;загруженном архиве или также использовать захостенные. Чтобы сделать собственный стиль для своего сайта, вам будет полезен справочник классов в&amp;nbsp;файле classref.</description>
+    </item>
+    
+    <item>
+      <title>Итоги 2012 года</title>
+      <link>https://altyncev.ru/blog/2012-12-30-results_2012/</link>
+      <pubDate>Sun, 30 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-30-results_2012/</guid>
+      <description>Подошел к&amp;nbsp;концу 2012 год.
+В&amp;nbsp;общем то&amp;nbsp;год как год, ничего интересного.
+Начнем с&amp;nbsp;плохого, неудачи этого года:
+	После армии восстановился на&amp;nbsp;учебу и&amp;nbsp;снова бросил) Причина? Не, не&amp;nbsp;слышал. Не&amp;nbsp;нравится, не&amp;nbsp;мое, во&amp;nbsp;всяком случае пока что. Хочу, но&amp;nbsp;пока не&amp;nbsp;получается:-(	Конца света как всегда не&amp;nbsp;было(	Поработать / захватить мир тоже пока не&amp;nbsp;получается.  Вроде и&amp;nbsp;не&amp;nbsp;было больше ничего плохого&amp;hellip; Может потом еще допишу чуток.
+Ну&amp;nbsp;и&amp;nbsp;хорошее:
+	Теперь семейный человек.	Взяли на&amp;nbsp;старую работу и&amp;nbsp;даже быстро вспомнил, что как делается)	Подтолкнули открыть категорию В, до&amp;nbsp;февраля 2013, а&amp;nbsp;потом новые правила / законы, вот скоро вождение начнется.</description>
+    </item>
+    
+    <item>
+      <title>Markdown? Нет не слышал</title>
+      <link>https://altyncev.ru/blog/2012-12-28-markdown/</link>
+      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-28-markdown/</guid>
+      <description>Примеры синтаксиса Это не&amp;nbsp;полное руководство, а&amp;nbsp;всего лишь выдержка из&amp;nbsp;википедии. Полное руководство можете найти на&amp;nbsp;офф. сайте
+Текст с&amp;nbsp;выделением или логическим ударением:
+ *выделение* (например, курсив) **сильное выделение** (например, полужирное начертание)  Программный код:
+`какой_то_программный_код($аргумент)` какой_то_программный_код_с_отступом_от_начала_строки_4_знака Списки:
+ * элемент маркированного списка - ещё один элемент ненумерованного списка + буллеты элементов могут быть разными   1. Элемент нумерованного списка 2. Элемент №2 того же списка 9. Элемент №3 списка — элементы нумеруются по порядку, цифра в начале строки не имеет значения  Заголовки:</description>
+    </item>
+    
+    <item>
+      <title>Обновления сайта на 28.12.2012</title>
+      <link>https://altyncev.ru/blog/2012-12-28-update_site_2/</link>
+      <pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-28-update_site_2/</guid>
+      <description> 	Закрыл от&amp;nbsp;индексации кое-какие ссылки	Добавил в&amp;nbsp;блок &amp;laquo;Спасибо&amp;raquo; ссылку на&amp;nbsp;автора самого &amp;laquo;ядра&amp;raquo;	Добавил статью	Сделал экспорт своих закладок по&amp;nbsp;css/html, пусть будут)	Обновил само ядрышко	Добавил rss (осталось только красиво стилизовать)  </description>
+    </item>
+    
+    <item>
+      <title>Масштабируемое видео</title>
+      <link>https://altyncev.ru/blog/2012-12-27-responsive_video/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-27-responsive_video/</guid>
+      <description> Очень простой CSS и&amp;nbsp;HTML, и&amp;nbsp;ваше embed-видео будет масштабироваться в&amp;nbsp;соответствии с&amp;nbsp;шириной страницы:
+   css:
+.video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; } .video iframe, .video object, .video embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }  </description>
+    </item>
+    
+    <item>
+      <title>Sumire Uesaka &amp; Hisako Kanemoto - Katyusha</title>
+      <link>https://altyncev.ru/blog/2012-12-24-sumire_uesaka_hisako_kanemoto_katyusha/</link>
+      <pubDate>Mon, 24 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-24-sumire_uesaka_hisako_kanemoto_katyusha/</guid>
+      <description> Это прекрасно)
+Tank team &#39;Pravda&#39; (&#39;Truth&#39;) from anime &#39;Girls und Panzer&#39; singing old russian soldier&#39;s song &#39;Katyusha&#39;. In russian! With heavy accent, actually, but cute nevertheless ^__^
+ </description>
+    </item>
+    
+    <item>
+      <title>Делаем «3D» ссылки</title>
+      <link>https://altyncev.ru/blog/2012-12-16-3d_links/</link>
+      <pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-16-3d_links/</guid>
+      <description>Сделать вот такую красивую ссылку достаточно просто.
+Скажу сразу, работает только в Chrome и FF, ну и почти в IE10, Opera отказалась.
+1. Делаем конструкцию &amp;lt;a&amp;gt;&amp;lt;span data-title=&amp;#34;название ссылки&amp;#34;&amp;gt;название ссылки&amp;lt;&amp;#47;span&amp;gt;&amp;lt;&amp;#47;a&amp;gt;
+2. Добавляем в css следущее:
+Для тега &amp;lt;a&amp;gt;:
+a { display: inline-block; overflow: hidden; vertical-align: top; -webkit-perspective: 600px; -moz-perspective: 600px; -ms-perspective: 600px; perspective: 600px; -webkit-perspective-origin: 50% 50%; -moz-perspective-origin: 50% 50%; -ms-perspective-origin: 50% 50%; perspective-origin: 50% 50%; }  Для тега &amp;lt;span&amp;gt;:</description>
+    </item>
+    
+    <item>
+      <title>Несколько ошибок и рекомендаций, которые должен знать веб-разработчик</title>
+      <link>https://altyncev.ru/blog/2012-12-13-error_web_development/</link>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-13-error_web_development/</guid>
+      <description>5 встречающихся ошибок, которые должен знать разработчик.
+#1 Link outlines / highlights смещаются Kindle Fire Проблема:
+Fix:
+text-rendering: optimizeLegibility; position: relative; -webkit-box-sizing: border-box;  #2 Баг с зумом при смене ориентации на iOS Решение: (function(a){function m(){d.setAttribute(&#34;content&#34;,g),h=!0}function n(){d.setAttribute(&#34;content&#34;,f),h=!1}function o(b){l=b.accelerationIncludingGravity,i=Math.abs(l.x),j=Math.abs(l.y),k=Math.abs(l.z),(!a.orientation||a.orientation===180)&amp;&amp;(i7||(k6&amp;&amp;j5)?h&amp;&amp;n():h||m()}var b=navigator.userAgent;if(!(/iPhone|iPad|iPod/.test(navigator.platform)&amp;&amp;/OS [1-5]_[0-9_]* like Mac OS X/i.test(b)&amp;&amp;b.indexOf(&#34;AppleWebKit&#34;)-1))return;var c=a.document;if(!c.querySelector)return;var d=c.querySelector(&#34;meta[name=viewport]&#34;),e=d&amp;&amp;d.getAttribute(&#34;content&#34;),f=e+&#34;,maximum-scale=1&#34;,g=e+&#34;,maximum-scale=10&#34;,h=!0,i,j,k,l;if(!d)return;a.addEventListener(&#34;orientationchange&#34;,m,!1),a.addEventListener(&#34;devicemotion&#34;,o,!1)})(this);  #3 WebKit игнорирует цвет фона элемента при печати документа Решение:
+-webkit-print-color-adjust: exact;  Oтключить диалоги, которые появляются при нажатии на элемент слишком долго на мобильных браузеров Проблема:</description>
+    </item>
+    
+    <item>
+      <title>Правдивая история любви</title>
+      <link>https://altyncev.ru/blog/2012-12-13-love_story/</link>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-13-love_story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Переезд complited</title>
+      <link>https://altyncev.ru/blog/2012-12-04-update_site/</link>
+      <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-12-04-update_site/</guid>
+      <description>Ура, ура, ура!
+Переехал в&amp;nbsp;облака:-)
+Теперь сайтик весит на&amp;nbsp;github и&amp;nbsp;крутится с&amp;nbsp;благословения heroku.
+Старый wordress действует и&amp;nbsp;доступен на&amp;nbsp;shadow.perm.ru
+Shadow буду использовать как файлохранилище, он&amp;nbsp;в&amp;nbsp;свою очередь висит на&amp;nbsp;фришном hostinger
+Куда не&amp;nbsp;плюнь, кругом халява:-) Только вот за&amp;nbsp;имя платить надо.
+Теперь надо по-тихоньку менять стилизацию и&amp;nbsp;все такое. Хотелось&amp;nbsp;бы еще тэги выводить)</description>
+    </item>
+    
+    <item>
+      <title>Emmet</title>
+      <link>https://altyncev.ru/blog/2012-11-23-emmet/</link>
+      <pubDate>Fri, 23 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-11-23-emmet/</guid>
+      <description>
+&lt;p&gt;Решил я тут взяться за &lt;a href=&#34;http://github.com/sergeche/emmet-sublime&#34;&gt;Emmet&lt;/a&gt;, это продолжатель Zen-Coding.&lt;/p&gt;
+&lt;p&gt;Хорошая штука в общем)&lt;/p&gt;
+
+&lt;!-- Read more --&gt;
+
+&lt;p&gt;&lt;sub&gt;PS: данный текст не служит мануалом или еще чем то, это просто черновик, для себя, чтобы не забыть.&lt;/sub&gt;&lt;/p&gt;
+&lt;h3&gt;Горячие клавиши:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tab or Ctrl+E&lt;/strong&gt; - развершуть аббревиатуру&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ctrl+Alt+Enter&lt;/strong&gt; - интерактивное использование Эммета&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ctrl+, (PC)&lt;/strong&gt; - выделение блоков&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ctrl+Alt+,&lt;/strong&gt; - обратное выделение блоков)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ctrl+Alt+J&lt;/strong&gt; - перейти к начлу/концу блока&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shift+Ctrl+G&lt;/strong&gt; - обернуть элемент в аббревиатуру&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shift+Ctrl+/&lt;/strong&gt; - закомментировать&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shift+Ctrl+`&lt;/strong&gt; - выделение начинающего и завершающего тэга, чтобы быстро сменить, например &#34;p&#34; на &#34;span&#34;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shift+Ctrl+;&lt;/strong&gt; - удаление тэга, не завтрагивая внутренностей (внутреннего содержимого)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ctrl+U&lt;/strong&gt; - обновление/задание размеров картинки&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shift+Ctrl+Y&lt;/strong&gt; - вычисление математический операций (&#34;2*6&#34;, &#34;2 10\3&#34;, &#34;20+10*4&#34;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shift+Ctrl+R&lt;/strong&gt; - если в одном из префиксе изменить значение, то оно автоматом изменится во всех остальных. (если сменить border-radius:10px, нажать, то автоматом сменятся и -web- и -webkit-)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ctrl+&#39;&lt;/strong&gt; - переводим img в data:URL формат&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shift+Ctrl+&#39;&lt;/strong&gt; - переименовываем тэг&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Термины из современного английского языка</title>
+      <link>https://altyncev.ru/blog/2012-10-12-termini_iz_sovrem_english/</link>
+      <pubDate>Fri, 12 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-10-12-termini_iz_sovrem_english/</guid>
+      <description>Термины из&amp;nbsp;современного английского языка, которые обозначают ещё не&amp;nbsp;описанные, но&amp;nbsp;уже существующие в&amp;nbsp;России явления.
+Сценический звонок (Stage-phoning)&amp;nbsp;&amp;mdash; попытка произвести впечатление на&amp;nbsp;стоящих рядом людей разговором по&amp;nbsp;мобильному.
+Рефрижераторное право (Refrigerator rights)&amp;nbsp;&amp;mdash; синоним очень близких отношений; в&amp;nbsp;буквальном смысле право залезть в&amp;nbsp;холодильник без спроса.
+Кресло гетеросексуалов (I&amp;rsquo;m not gay seat)&amp;nbsp;&amp;mdash; пустое место в&amp;nbsp;кинотеатре, которое оставляют между собой два молодых человека, давая окружающим понять, что они не&amp;nbsp;педерасты.
+Менопорш (Menoporsche&amp;nbsp;&amp;mdash; от&amp;nbsp;менопауза и&amp;nbsp;Porsche)&amp;nbsp;&amp;mdash; страх перед старостью у&amp;nbsp;некоторых мужчин среднего возраста, характеризующийся покупкой спортивного автомобиля и&amp;nbsp;встречами с&amp;nbsp;совсем молодыми девушками.</description>
+    </item>
+    
+    <item>
+      <title>Разные формы на CSS</title>
+      <link>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</link>
+      <pubDate>Mon, 08 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</guid>
+      <description>Рассмотрим следующий код, чтобы сделать формы на CSS.
+Браузеры, которые поддерживают: IE9, Chrome, Safari, Firefox, Opera.
+&amp;nbsp;
+Квадрат
+
+#square { width: 100px; height: 100px; background: #000; } Прямоугольник
+
+#rectangle { width: 200px; height: 100px; background: #000; } Круг
+
+#circle { width: 100px; height: 100px; background: #000; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; } &amp;nbsp;Овал
+
+#oval { width: 200px; height: 100px; background: #000; -moz-border-radius: 100px / 50px; -webkit-border-radius: 100px / 50px; border-radius: 100px / 50px; } Треугольник</description>
+    </item>
+    
+    <item>
+      <title>Git это просто. Запись №5. Работа с метками</title>
+      <link>https://altyncev.ru/blog/2012-10-04-git_eto_prosto_rabota_s_metkami/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-10-04-git_eto_prosto_rabota_s_metkami/</guid>
+      <description>Как и большинство СУВ, Git имеет возможность помечать (tag) определённые моменты в истории как важные. Как правило, этот функционал используется для отметки моментов выпуска версий (v1.0, и т.п.). В этом разделе вы узнаете, как посмотреть имеющиеся метки (tag), как создать новые. А также вы узнаете, что из себя представляют разные типы меток.
+Просмотр меток
+Просмотр имеющихся меток (tag) в Git делается просто. Достаточно набрать git tag:
+$ git tag v0.</description>
+    </item>
+    
+    <item>
+      <title>Git это просто. Запись №4. Fetch и Pull</title>
+      <link>https://altyncev.ru/blog/2012-10-03-git_eto_prosto_fetch_and_pull/</link>
+      <pubDate>Wed, 03 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-10-03-git_eto_prosto_fetch_and_pull/</guid>
+      <description>Здесь мы научимся пушить и пулить.
+Как вы только что узнали, для получения данных из удалённых проектов, следует выполнить:
+$ git fetch [remote-name] Данная команда связывается с указанным удалённым проектом и забирает все те данные проекта, которых у вас ещё нет. После того как вы выполнили команду, у вас должны появиться ссылки на все ветки из этого удалённого проекта. Теперь эти ветки в любой момент могут быть просмотрены или слиты.</description>
+    </item>
+    
+    <item>
+      <title>Git это просто. Запись №3. Работа с удалёнными репозиторями</title>
+      <link>https://altyncev.ru/blog/2012-10-02-git_eto_prosto_udalennii_repository/</link>
+      <pubDate>Tue, 02 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-10-02-git_eto_prosto_udalennii_repository/</guid>
+      <description>Совместная работа включает в себя управление удалёнными репозиториями и помещение (push) и получение (pull) данных в и из них тогда, когда нужно обменяться результатами работы. Управление удалёнными репозиториями включает умение добавлять удалённые репозитории, удалять те из них, которые больше не действуют, умение управлять различными удалёнными ветками и определять их как отслеживаемые (tracked) или нет и прочее.
+Отображение удалённых репозиториев
+Чтобы просмотреть, какие удалённые серверы у вас уже настроены, следует выполнить команду git remote.</description>
+    </item>
+    
+    <item>
+      <title>Git это просто. Запись №2. Отмена изменений</title>
+      <link>https://altyncev.ru/blog/2012-10-01-git_eto_prosto_otmena_izmenenii/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-10-01-git_eto_prosto_otmena_izmenenii/</guid>
+      <description>На любой стадии может возникнуть необходимость что-либо отменить. Здесь мы рассмотрим несколько основных инструментов для отмены произведённых изменений. Будьте осторожны, ибо не всегда можно отменить сами отмены.
+Изменение последнего коммита
+Одна из типичных отмен происходит тогда, когда вы делаете коммит слишком рано, забыв добавить какие-то файлы, или напутали с комментарием к коммиту. Если вам хотелось бы сделать этот коммит ещё раз, вы можете выполнить commit с опцией --amend:
+$ git commit --amend &amp;nbsp;Для примера, если после совершения коммита вы осознали, что забыли проиндексировать изменения в файле, которые хотели добавить в этот коммит, вы можете сделать что-то подобное:</description>
+    </item>
+    
+    <item>
+      <title>Английские сокращения и их значения</title>
+      <link>https://altyncev.ru/blog/2012-09-26-english_sokrasheniya/</link>
+      <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-09-26-english_sokrasheniya/</guid>
+      <description>Табличка английских сокращений
+  сокращение &amp;nbsp; значение   ))) smiles for all улыбки для всех)   &amp;nbsp;&amp;amp; &amp;nbsp; &amp;nbsp;и   &amp;nbsp;@ &amp;nbsp; в, при, на&amp;nbsp;   &amp;nbsp;24/7 &amp;nbsp; круглосуточно&amp;nbsp;   404&amp;nbsp; &amp;nbsp; не знаю&amp;nbsp;   AAMOF&amp;nbsp; &amp;nbsp; по сути&amp;nbsp;   AFAIK&amp;nbsp; &amp;nbsp; насколько знаю&amp;nbsp;   BTW&amp;nbsp; By the way кстати&amp;nbsp;   CCC hugs for people you can&amp;rsquo;t quite reach around объятия для людей,   CU&amp;nbsp; &amp;nbsp; увидимся&amp;nbsp;   DILLIGAF Do I look like I give a fuck я что похож на того кто дает.</description>
+    </item>
+    
+    <item>
+      <title>Git это просто. Запись №1. Знакомство с Git.</title>
+      <link>https://altyncev.ru/blog/2012-09-24-git_eto_prosto_znakomstvo_s_git/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-09-24-git_eto_prosto_znakomstvo_s_git/</guid>
+      <description>Что же такое Git? Что такое управление версиями, и зачем оно вам нужно? Система управления версиями (СУВ) &amp;mdash; это система, сохраняющая изменения в одном или нескольких файлах так, чтобы потом можно было восстановить определённые старые версии. Для примеров в этой книге мы будем использовать исходные коды программ, но на самом деле можно управлять версиями практически любых типов файлов.
+Если вы графический или веб-дизайнер и хотите хранить каждую версию изображения или макета &amp;mdash; вот это вам наверняка нужно &amp;mdash; то пользоваться системой управления версиями будет очень мудрым решением.</description>
+    </item>
+    
+    <item>
+      <title>Stylebot - Gmail - картинки</title>
+      <link>https://altyncev.ru/blog/2012-09-24-stylebot_gmail_picture/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-09-24-stylebot_gmail_picture/</guid>
+      <description>Окно с&amp;nbsp;gmail&amp;rsquo;ом у&amp;nbsp;меня всегда открыто и&amp;nbsp;открыто оно не&amp;nbsp;на&amp;nbsp;широкоформатке, поэтому все очень стиснуто.
+К&amp;nbsp;тому&amp;nbsp;же я&amp;nbsp;пользуюсь разделением по&amp;nbsp;вертикали (Настройки&amp;nbsp;&amp;mdash; Лаборатория&amp;nbsp;&amp;mdash; Область просмотра).
+Проблема в&amp;nbsp;том, что порой в&amp;nbsp;тело письма вставляют большие картинки и&amp;nbsp;окно с&amp;nbsp;письмом разъезжается по&amp;nbsp;ширине, а&amp;nbsp;кнопка отправки письма у&amp;nbsp;нас справа с&amp;nbsp;краю, ну&amp;nbsp;и&amp;nbsp;конечно&amp;nbsp;же приходится скролить.
+Добавление в&amp;nbsp;Stylebot пару строк меня вроде пока что избавили от&amp;nbsp;этой проблемы.
+Возможно есть более &amp;laquo;элегантное&amp;raquo; решение, но&amp;nbsp;мне пока хватает такого. Лишнего оно вроде ничего не&amp;nbsp;ломает.
+.hx .ii img, img.</description>
+    </item>
+    
+    <item>
+      <title>Responsive fixed block</title>
+      <link>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</link>
+      <pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</guid>
+      <description>Ура ура! Как раз искал такое решение и оно нашлось :-)
+Суть такая: нужен был fixed sidebar, но если блок fixed, то при уменьшении экрана по высоте он начинает &#34;съедаться&#34;, нужно было это как то решать.
+Есть 2 способа решения:
+ С помощью @media screen; И с помощью jquery.  C @media screen это будет примерно так:
+@media screen and (min-height: 768px) { } А с jquery так:
+jQuery(document).ready(function($) { $(document).</description>
+    </item>
+    
+    <item>
+      <title>15 полезных htaccess трюков для улучшения работы веб-сайта</title>
+      <link>https://altyncev.ru/blog/2012-08-27-15_pravil_htaccess/</link>
+      <pubDate>Mon, 27 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-08-27-15_pravil_htaccess/</guid>
+      <description>1. Защита от хотлинкинга &amp;nbsp;с&amp;nbsp;.htaccess Сайты, которые крадут ваш контент могут весьма и весьма раздражать. К тому&amp;nbsp;же они могут повредить рейтинг сайта, так как &amp;nbsp;создают дублируемый в интернете контент. Но есть &amp;nbsp;случаи и похуже&amp;nbsp;&amp;mdash; это сайты, которые не просто &amp;laquo;тырят&amp;raquo; ваш контент, но и&amp;nbsp;не утруждают себя перелинковкой и загрузкой изображений на собственный сервак. А это уж совсем нехорошо.&amp;nbsp;Загрузка изображений с вашего сервера называется хотлинкинг, &amp;nbsp;и это значит, что в таком случае сайт-вор украл часть вашего драгоценного&amp;nbsp;трафика.</description>
+    </item>
+    
+    <item>
+      <title>О гиках</title>
+      <link>https://altyncev.ru/blog/2012-08-22-about_geeks/</link>
+      <pubDate>Wed, 22 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-08-22-about_geeks/</guid>
+      <description>Слова не мои, ссылка на оригинал внизу. Этот текст я перепечатываю раз в год-два, для того, чтобы напомнить о нем людям. Если вы его сейчас наблюдаете &amp;mdash; значит я его опять перепечатал
+Ах, этот волшебный гик...
+
+Его нужды необычны и тем самым привлекательны ему самому. В его голове существует прекрасный, правильный мир, к которому причастен он. Каждый гик знает &amp;mdash; он &amp;laquo;продвинутый пользователь&amp;raquo;, тем самым как бы опуская пользователя не продвинутого на уровень табуретки.</description>
+    </item>
+    
+    <item>
+      <title>110 реальных фактов о России</title>
+      <link>https://altyncev.ru/blog/2012-08-21-110_faktov_o_russia/</link>
+      <pubDate>Tue, 21 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-08-21-110_faktov_o_russia/</guid>
+      <description>1. В&amp;nbsp;России по&amp;nbsp;улицам не&amp;nbsp;ходят цыгане с&amp;nbsp;медведями, и&amp;nbsp;не&amp;nbsp;все русские пьяные и&amp;nbsp;всё время пьют водку.
+2. В&amp;nbsp;России очень холодно. Если место, в&amp;nbsp;котором вы&amp;nbsp;живете кажется вам недостаточно холодным, то&amp;nbsp;вы&amp;nbsp;всегда найдёте более холодное место.
+3. Лето в&amp;nbsp;России очень короткое. Россияне очень ждут лета, так как летом лучше, чем зимой.
+4. Новый год в&amp;nbsp;России празднуют две недели. За&amp;nbsp;это время алкогольная промышленность делает себе год.
+5. В&amp;nbsp;России два новых года, к&amp;nbsp;общепринятому справляется ещё и&amp;nbsp;старый новый год.</description>
+    </item>
+    
+    <item>
+      <title>10 невероятных уроков Альберта Эйнштейна</title>
+      <link>https://altyncev.ru/blog/2012-08-20-uroki_ot_enshteina/</link>
+      <pubDate>Mon, 20 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-08-20-uroki_ot_enshteina/</guid>
+      <description>1. Следуйте своему любопытству &amp;laquo;У&amp;nbsp;меня нет какого-то особого таланта. Я&amp;nbsp;просто страсть как любопытен&amp;raquo;.
+ Что вызывает у&amp;nbsp;вас наибольшее любопытство? Например, мне интересно серийное предпринимательство и&amp;nbsp;принципы создания успешных компаний. Об&amp;nbsp;этом я&amp;nbsp;могу читать часами. Со&amp;nbsp;временем моё любопытство переросло в&amp;nbsp;несколько онлайн компаний и&amp;nbsp;решение покинуть наёмную сферу. Однажды посеяв зерно любопытства, я&amp;nbsp;вырастил из&amp;nbsp;него большое дерево, в&amp;nbsp;тени которого я&amp;nbsp;хочу находиться.
+2. Будьте настойчивыми &amp;laquo;Все это так не&amp;nbsp;потому, что я&amp;nbsp;такой умный. Это все из-за того, что я&amp;nbsp;долго не&amp;nbsp;сдаюсь при решении задачи&amp;raquo;.</description>
+    </item>
+    
+    <item>
+      <title>Опознаем язык</title>
+      <link>https://altyncev.ru/blog/2012-07-22-opoznaem_yazik/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-07-22-opoznaem_yazik/</guid>
+      <description>картинка кликабельна
+
+взято с @habrahabr</description>
+    </item>
+    
+    <item>
+      <title>Расшифровываем кракозяблы</title>
+      <link>https://altyncev.ru/blog/2012-07-22-rasshifrovka_krakozyabl/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-07-22-rasshifrovka_krakozyabl/</guid>
+      <description>Картинка кликабельна
+
+спасибо @habrahabr</description>
+    </item>
+    
+    <item>
+      <title>Маленький лайфхак против запутанных наушников</title>
+      <link>https://altyncev.ru/blog/2012-07-18-lh_haushniki/</link>
+      <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-07-18-lh_haushniki/</guid>
+      <description>спасибо @ru_lh</description>
+    </item>
+    
+    <item>
+      <title>Google mail и пустое пространство</title>
+      <link>https://altyncev.ru/blog/2012-07-17-google-mail-and-pustota/</link>
+      <pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-07-17-google-mail-and-pustota/</guid>
+      <description>Начнем с&amp;nbsp;того, что на&amp;nbsp;широкоформатке в&amp;nbsp;google mail есть куча незанятого пространства. Вернее оно занято, но&amp;nbsp;та&amp;nbsp;информация, что там отображается мне совсем не&amp;nbsp;нужна. Я&amp;nbsp;даже толком не&amp;nbsp;помню, что там, у&amp;nbsp;меня видимо AdBlock содержимого &amp;laquo;вырезает&amp;raquo;. То&amp;nbsp;ли реклама там была, то&amp;nbsp;ли что-то про круги google+. Не&amp;nbsp;суть.
+В&amp;nbsp;общем у&amp;nbsp;меня выглядело это так:
+
+Справа куча пустоты. Из-за этого и&amp;nbsp;видео обрезается, если из&amp;nbsp;гмайла просматривать.
+Вылечить это можно так (пишу исключительно для Хрома):
+1. устанавливаем для хрома Stylebot из&amp;nbsp;WebStoreChrome.</description>
+    </item>
+    
+    <item>
+      <title>Теоретическая установка Хакинтоша (MacOSx Lion) на P5K SE</title>
+      <link>https://altyncev.ru/blog/2012-07-16-hakintosh_na_p5kse/</link>
+      <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-07-16-hakintosh_na_p5kse/</guid>
+      <description>Занялся я&amp;nbsp;тут было на&amp;nbsp;днях вопросом, а&amp;nbsp;не&amp;nbsp;поставить&amp;nbsp;ли мне хакинтош на&amp;nbsp;свой pc.
+Ну&amp;nbsp;и&amp;nbsp;оказалось не&amp;nbsp;все так просто.
+Начнем все по&amp;nbsp;порядку.
+1. Нужно активировать AHCI режим контроллера на&amp;nbsp;южном мосту (она всегда его имела, но&amp;nbsp;он&amp;nbsp;был заблокирован в&amp;nbsp;более новых ревизиях биоса).
+Как это сделать подробно расписано на&amp;nbsp;applelife. Хоть там и&amp;nbsp;описано для платы P5K (без префикса SE), но&amp;nbsp;пишут, что и&amp;nbsp;для SE&amp;nbsp;все так&amp;nbsp;же проходит и&amp;nbsp;работает.
+Прошивка происходит в&amp;nbsp;досе. Как сделать загрузочную флешку можно посмотреть здесь. Флоппи диска увы нет) Да&amp;nbsp;и&amp;nbsp;кто им&amp;nbsp;пользовался в&amp;nbsp;последнее время?</description>
+    </item>
+    
+    <item>
+      <title>megafon V9&#43;</title>
+      <link>https://altyncev.ru/blog/2012-05-22-megafon-v9&#43;/</link>
+      <pubDate>Tue, 22 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-05-22-megafon-v9&#43;/</guid>
+      <description>Решил тут попробовать продать свой планшет, вернее посмотреть, кто откликнется.
+Обзор его собственно можно посмотреть здесь. На&amp;nbsp;удивление очень неплохой планшет. Жаль что пока, что не&amp;nbsp;нашлось добровольцев, энтузиастов, которые&amp;nbsp;бы прикрутили к&amp;nbsp;нему ICS.
+Ну&amp;nbsp;и&amp;nbsp;вот собственно мои тесты производительности (включены wi-fi, обновление [ну&amp;nbsp;вы&amp;nbsp;поняли наверно, когда сразу выводит полученную почту или твиты] + Ram Manager Pro на&amp;nbsp;опции Hard Multitasking):
+
+Antutu
+
+NenaMark 2
+
+Quadrant Standart
+
+SmartBench 2012</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://altyncev.ru/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/about/</guid>
+      <description>Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui.
+Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+Nulla vitae elit libero, a pharetra augue.</description>
+    </item>
+    
+  </channel>
+</rss>

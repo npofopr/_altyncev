@@ -1,0 +1,60 @@
+header {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	padding: 15px 20px;
+	width: 98%;
+}
+header a.link_back {
+	color: #FFF;
+	padding: 6px 12px;
+	background: rgba(0, 0, 0, 0.3);
+	text-decoration: none;
+	float: left;
+}
+.counter {
+	float: right;
+}
+#timeline-embed,
+.vmm-timeline {
+ 	background: url('../img/page_bg.jpg') repeat #191919 !important;
+ }
+.timenav-interval-background {
+	background: #525657;
+}
+.slider .slider-item .content .content-container {
+	margin: 0 auto;
+}
+#timeline-embed .slider-item:nth-child(1) h2 {
+	font: normal 40px/1 'Antic Slab','Segoe UI',sans-serif;
+	background: rgba(0, 0, 0, 0.3);
+	white-space: nowrap;
+	padding: 10px 20px 10px 20px;
+	position: relative;
+	z-index: 10;
+	width: auto !important;
+}
+#timeline-embed .slider-item:nth-child(1) p i {
+	font: normal 20px 'Antic Slab','Segoe UI',sans-serif;
+	background: rgba(0, 0, 0, 0.3);
+	white-space: nowrap;
+	padding: 5px 20px;
+	position: relative;
+	z-index: 10;
+}
+#timeline-embed .slider-item:nth-child(1) p .c1 {
+	color: #1BDFF0;
+}
+#timeline-embed .slider-item:nth-child(1) p .c2 {
+	color: #C92FE6;
+}
+.slider .slider-item .content .content-container .media {
+	min-width: 40% !important;
+}
+.slider .slider-item .content .content-container .text {
+	max-width: 60% !important;
+}
+.link_coz a {
+	color: #ccc !important;
+}

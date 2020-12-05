@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ru">
+
+    
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="preconnect" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://use.fontawesome.com">
+    <link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
+    <link rel="preconnect" href="//cdnjs.cloudflare.com">
+    <link rel="preconnect" href="//www.googletagmanager.com">
+    <link rel="preconnect" href="//www.google-analytics.com">
+    <link rel="preconnect" href="//mc.yandex.ru">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+
+    <meta name="author" content="Vladislav Altyncev">
+    <meta name="description" content="Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Руководство по оформлению HTML/CSS кода от Google"/>
+<meta name="twitter:description" content="Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры."/>
+
+    <meta property="og:title" content="Руководство по оформлению HTML/CSS кода от Google" />
+<meta property="og:description" content="Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/" />
+<meta property="article:published_time" content="2015-05-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-05-09T00:00:00+00:00" />
+
+
+    <title>
+  Руководство по оформлению HTML/CSS кода от Google · Altyncev Vladislav
+</title>
+
+    
+      <link rel="canonical" href="https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.min.css" integrity="sha512-9QjPqX/aCNwEQDyMqqMluNOSsHxTwOJNO3d4m5aUeNbyOPm8RcBA5hCUhvGmKFtSmQYGajqPopGtD60FWiWUwg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    
+      
+      
+      <link rel="stylesheet" href="https://altyncev.ru/css/coder.min.614ec27e30601480e6f78f576733a3757458d35b4ec53a05b9ac4dbe0dfc342d.css" integrity="sha256-YU7CfjBgFIDm949XZzOjdXRY01tOxToFuaxNvg38NC0=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://altyncev.ru/css/coder-dark.min.126ad3988d46bdae6217a11105b53c9662bca05f39d42d3c0fb366919d334620.css" integrity="sha256-EmrTmI1Gva5iF6ERBbU8lmK8oF851C08D7NmkZ0zRiA=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+      
+      
+        
+        <link rel="stylesheet" href="https://altyncev.ru/scss/custom.min.c80b4266c2e473bbcd265ff75587773f79318d2c22b98f94d66e006670afce2c.css" integrity="sha256-yAtCZsLkc7vNJl/3VYd3P3kxjSwiuY&#43;U1m4AZnCvziw=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    <link rel="icon" type="image/png" href="https://altyncev.ru/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://altyncev.ru/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://altyncev.ru/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://altyncev.ru/images/apple-touch-icon.png">
+
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/twemoji.min.js" integrity="sha512-panBjUGuKarjg0qxHggQULmRf9jB/YVCy238hmzBWUuLeOuwMSuJgJcUv3T+rwXUBZ9zeUvc49ZcCRH+EO0H8g==" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.74.3" />
+
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-5SXTLZK':true});</script>
+
+    <script>
+      var doNotTrack = false;
+      if (!doNotTrack) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-2789259-4', 'auto');
+        ga('require', 'GTM-5SXTLZK');
+        ga('send', 'pageview');
+      }
+    </script>
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+
+     <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(17143639, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/17143639" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://altyncev.ru/">
+      Altyncev Vladislav
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/blog/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/categories/cottage/">Handmade</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/portfolio/">Portfolio</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/categories/">Categories</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Руководство по оформлению HTML/CSS кода от Google</h1>
+    </header>
+
+    
+<h3>Введение</h3>
+<p>Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры.</p>
+
+<!-- Read more -->
+
+<p>Это относится к рабочим версиям файлов использующих<span><strong> HTML</strong></span>, <span><strong>CSS</strong></span> и <span><strong>GSS</strong></span></p>
+<p>Разрешается использовать любые инструменты для минификации компиляции или обфускации кода, при условии, что общее качество кода будет сохранено. <a name="habracut"></a><br /></p>
+<h3>Общие правила оформления</h3>
+<p>&nbsp;</p>
+<h4>Протокол</h4>
+<p><strong> Не указывайте протокол при включении ресурсов на страницу. </strong></p>
+<p>Опускайте название протокола (<span><strong>http:</strong></span>, <span><strong>https:</strong></span>) в ссылках на картинки или другие медиа-ресурсы, файлы стилей или скрипты, конечно, если эти файлы доступны по обоим протоколам.</p>
+<p>Отсутствие протокола делает ссылку относительной, что предотвращает смешивание ресурсов из разных протоколов и незначительно уменьшает размер файлов.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"http://www.google.com/js/gweb/analytics/autotrack.js"</span>&gt;</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"//www.google.com/js/gweb/analytics/autotrack.js"</span>&gt;</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></code></pre>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="class">.example</span> <span class="rules">{ <span class="rule"><span class="attribute">background</span>:<span class="value"> <span class="function">url(http://www.google.com/images/example)</span></span>;</span> <span class="rule">}</span></span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html css"> <span class="class">.example</span> <span class="rules">{ <span class="rule"><span class="attribute">background</span>:<span class="value"> <span class="function">url(//www.google.com/images/example)</span></span>;</span> <span class="rule">}</span></span></code></pre>
+<h3>Общее форматирование</h3>
+<p>&nbsp;</p>
+<h4>Отступы</h4>
+<p><strong> Всегда используйте для отступа два пробела. </strong></p>
+<p>Не используйте табуляцию и не смешивайте табуляцию с пробелами.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">ul</span>&gt;</span> <span class="tag">&lt;<span class="title">li</span>&gt;</span>Пять <span class="tag">&lt;<span class="title">li</span>&gt;</span>Погулять <span class="tag">&lt;/<span class="title">ul</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html css"> <span class="class">.example</span> <span class="rules">{ <span class="rule"><span class="attribute">color</span>:<span class="value"> blue</span>;</span> <span class="rule">}</span></span></code></pre>
+<h4>Регистр</h4>
+<p><strong> Всегда пишите в нижнем регистре. </strong></p>
+<p>Весь код должен быть написан в нижнем регистре: Это относится к названиям элементов, названиям атрибутов, значениям атрибутов (кроме текста/<span><strong>CDATA</strong></span>), селекторам, свойствам и их значениям (кроме текста).</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">A</span> <span class="attribute">HREF</span>=<span class="value">"/"</span>&gt;</span>Домой<span class="tag">&lt;/<span class="title">A</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"google.png"</span> <span class="attribute">alt</span>=<span class="value">"Google"</span>&gt;</span></code></pre>
+<h4>Пробелы в конце строки</h4>
+<p><strong> Убирайте пробелы в конце строки. </strong></p>
+<p>Пробелы в конце строк не обязательны и усложняют использование diff.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">p</span>&gt;</span>Что?_</code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">p</span>&gt;</span>Вот так.</code></pre>
+<h3>Общие мета правила</h3>
+<p>&nbsp;</p>
+<h4>Кодировка</h4>
+<p><strong> Используйте UTF-8 (без BOM). </strong></p>
+<p>Убедитесь, что ваш редактор использует кодировку UTF-8 без метки порядка байтов (BOM).</p>
+<p>Указывайте кодировку в HTML шаблонах и документах с помощью <span><strong>&lt;meta charset="utf-8"&gt;</strong></span>. Опускайте кодировку для сss-файлов: для них UTF-8 задана по умолчанию.</p>
+<p>(Вы можете узнать больше о кодировках, и о том, как их использовать, по этой ссылке: <a href="http://www.w3.org/International/tutorials/tutorial-char-enc/en/all.html"> Наборы символов и кодировки в XHTML, HTML CSS (англ.)</a>.)</p>
+<h4>Комментарии</h4>
+<p><strong> По возможности поясняйте свой код, где это необходимо. </strong></p>
+<p>Используйте комментарии, чтобы пояснить свой код: что он делает, за что отвечает, и почему используется выбранное решение.</p>
+<p>(Этот пункт не обязателен, потому что нет смысла ожидать, что код всегда будет хорошо задокументирован. Полезность комментирования зависит от сложности проекта и может различаться для HTML и CSS кода. )</p>
+<h4>Задачи</h4>
+<p><strong> Отмечайте задачи для списка дел с помощью <span><strong>TODO</strong></span>. </strong></p>
+<p>Отмечайте задачи с помощью ключевого слова <span><strong>TODO</strong></span>. не используйте другие часто встречающиеся форматы, такие как <span><strong>@@</strong></span>.</p>
+<p>Заключайте контакты (имя пользователя или список адресатов) в круглые скобки: <span><strong>TODO(контакт)</strong></span>.</p>
+<p>Описывайте задачу после двоеточия, например: <span><strong>TODO: Задача</strong></span>.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html django"> <span class="template_comment">{# TODO(Ivan Ivanov): Разобраться с центровкой #}</span> <span class="tag">&lt;<span class="title">center</span>&gt;</span>Тест<span class="tag">&lt;/<span class="title">center</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="comment">&lt;!-- TODO: Убрать необязательные теги --&gt;</span> <span class="tag">&lt;<span class="title">ul</span>&gt;</span> <span class="tag">&lt;<span class="title">li</span>&gt;</span>Огурцы<span class="tag">&lt;/<span class="title">li</span>&gt;</span> <span class="tag">&lt;<span class="title">li</span>&gt;</span>Помидоры<span class="tag">&lt;/<span class="title">li</span>&gt;</span> <span class="tag">&lt;/<span class="title">ul</span>&gt;</span></code></pre>
+<h3>Правила оформления HTML</h3>
+<p>&nbsp;</p>
+<h4>Тип документа</h4>
+<p><strong> Используйте HTML5. </strong></p>
+<p>HTML5 (HTML синтаксис) рекомендуется для всех html-документов: <span><strong>&lt;!DOCTYPE html&gt;</strong></span>.</p>
+<p>(Рекомендуется использовать HTML с типом контента <span><strong>text/html</strong></span>. Не используйте XHTML, так как <a href="http://hixie.ch/advocacy/xhtml">application/xhtml+xml (англ.)</a>, хуже поддерживается браузерами и ограничивает возможность оптимизации. )</p>
+<h4>Валидность HTML</h4>
+<p><strong> По возможности используйте валидный HTML. </strong></p>
+<p>Используйте валидный HTML код, кроме случаев, когда использование не позволяет достичь размера файла, необходимого для нужного уровня производительности.</p>
+<p>Используйте такие инструменты как <a href="http://validator.w3.org/nu/">W3C HTML validator (англ.)</a> чтобы проверить валидность кода.</p>
+<p>Валидность — это важное и при этом измеряемое качество кода. Написание валидного HTML способствует изучению технических требований и ограничений и обеспечивает правильное использование HTML.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">title</span>&gt;</span>Проверка<span class="tag">&lt;/<span class="title">title</span>&gt;</span> <span class="tag">&lt;<span class="title">article</span>&gt;</span>Просто проверка</code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="doctype">&lt;!DOCTYPE html&gt;</span> <span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">"utf-8"</span>&gt;</span> <span class="tag">&lt;<span class="title">title</span>&gt;</span>Проверка<span class="tag">&lt;/<span class="title">title</span>&gt;</span> <span class="tag">&lt;<span class="title">article</span>&gt;</span>Просто проверка.<span class="tag">&lt;/<span class="title">article</span>&gt;</span></code></pre>
+<h4>Семантика</h4>
+<p><strong> Используйте HTML так, как это было задумано. </strong></p>
+<p>Используйте элементы (Иногда неверно называемые “тегами”) по назначению: заголовки для заголовков, <span><strong>p</strong></span> для абзацев, <span><strong>a</strong></span> для ссылок и т.д.</p>
+<p>Это облегчает чтение, редактирование и поддержку кода.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">div</span> <span class="attribute">onclick</span>=<span class="value">"goToRecommendations();"</span>&gt;</span>All recommendations<span class="tag">&lt;/<span class="title">div</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"recommendations/"</span>&gt;</span>All recommendations<span class="tag">&lt;/<span class="title">a</span>&gt;</span></code></pre>
+<h4>Альтернатива для мультимедиа</h4>
+<p><strong> Всегда указывайте альтернативное содержимое для мультимедиа. </strong></p>
+<p>Постарайтесь указать альтернативное содержимое для мультимедиа: например для картинок, видео или анимаций, заданных с помощью <span><strong>canvas</strong></span>. Для картинок это осмысленный альтернативный текст (<span><strong>alt</strong></span>), а для видео и аудио расшифровки текста и подписи если это возможно.</p>
+<p>Альтернативное содержимое может помочь людям с с ограниченными возможностями. Например человеку со слабым зрением сложно понять, что на картинке если для нее не задан <span><strong>@alt</strong></span>. Другим людям может быть тяжело понять о чем говорится в видео или аудио записи.</p>
+<p>(Если для картинки <span><strong>alt</strong></span> избыточен, или она используется только в декоративных целях в местах, где нельзя использовать CSS, используйте пустой альтернативный текст <span><strong>alt=""</strong></span>)</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"spreadsheet.png"</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"spreadsheet.png"</span> <span class="attribute">alt</span>=<span class="value">"Spreadsheet screenshot."</span>&gt;</span></code></pre>
+<h4>Разделение ответственности</h4>
+<p><strong> Разделяйте структуру, оформление и поведение. </strong></p>
+<p>Держите структуру (разметка), оформление (стили) и поведение (скрипты) раздельно и постарайтесь свести взаимодействие между ними к минимуму.</p>
+<p>Убедитесь, что документы и шаблоны содержат только HTML, и что HTML служит только для задания структуры документа. Весь код, отвечающий за оформление, перенесите в файлы стилей, а код отвечающий за поведение — в скрипты.</p>
+<p>Старайтесь сократить их пересечения к минимуму, включая в шаблоны минимальное количество файлов стилей и скриптов.</p>
+<p>Отделение структуры от представления и поведения помогает облегчить поддержку кода. Изменение шаблонов и HTML-документов всегда занимает больше времени чем изменение файлов стилей или скриптов.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="doctype">&lt;!DOCTYPE html&gt;</span> <span class="tag">&lt;<span class="title">title</span>&gt;</span>HTML sucks<span class="tag">&lt;/<span class="title">title</span>&gt;</span> <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"base.css"</span> <span class="attribute">media</span>=<span class="value">"screen"</span>&gt;</span> <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"grid.css"</span> <span class="attribute">media</span>=<span class="value">"screen"</span>&gt;</span> <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"print.css"</span> <span class="attribute">media</span>=<span class="value">"print"</span>&gt;</span> <span class="tag">&lt;<span class="title">h1</span> <span class="attribute">style</span>=<span class="value">"font-size: 1em;"</span>&gt;</span>HTML Отстой<span class="tag">&lt;/<span class="title">h1</span>&gt;</span> <span class="tag">&lt;<span class="title">p</span>&gt;</span>Я об этом и раньше где-то читал, но теперь точно все ясно: <span class="tag">&lt;<span class="title">u</span>&gt;</span>HTML - полная фигня!!1<span class="tag">&lt;/<span class="title">u</span>&gt;</span> <span class="tag">&lt;<span class="title">center</span>&gt;</span>Не могу поверить, что для того чтобы изменить оформление, нужно каждый раз все переделывать заново. <span class="tag">&lt;/<span class="title">center</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="doctype">&lt;!DOCTYPE html&gt;</span> <span class="tag">&lt;<span class="title">title</span>&gt;</span>My first CSS-only redesign<span class="tag">&lt;/<span class="title">title</span>&gt;</span> <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"default.css"</span>&gt;</span> <span class="tag">&lt;<span class="title">h1</span>&gt;</span>Мой новый CSS дизайн<span class="tag">&lt;/<span class="title">h1</span>&gt;</span> <span class="tag">&lt;<span class="title">p</span>&gt;</span>Я читал об этом и раньше, но наконец-то сделал сам: Использую принцип разделения ответственности и не пихаю оформление в HTML <span class="tag">&lt;<span class="title">p</span>&gt;</span>Как круто!</code></pre>
+<h4>Ссылки-мнемоники</h4>
+<p><strong> Не используйте ссылки-мнемоники. </strong></p>
+<p>Нет смысла использовать ссылки-мнемоники, такие как <span><strong>&amp;mdash;</strong></span>, <span><strong>&amp;rdquo;</strong></span>, или <span><strong>&amp;#x263a;</strong></span>, когда все команды в файлах, редакторах используют одну кодировку (UTF-8)</p>
+<p>Единственное исключение из этого правила — служебные символы HTML (например <span><strong>&lt;</strong></span> и <span><strong>&amp;</strong></span>) а так же вспомогательные и “невидимые” символы (например неразрывный пробел).</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> Валютный знак евро: &amp;<span class="tag">ldquo</span>;&amp;<span class="tag">eur</span>;&amp;<span class="tag">rdquo</span>;.</code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> Валютный знак евро: “€”.</code></pre>
+<h4>Необязательные теги</h4>
+<p><strong> Не используйте необязательные теги. <span style="color: gray;"><strong> (не обязательно)</strong></span> </strong></p>
+<p>Для уменьшения размера файлов и лучшей читаемости кода можно опускать необязательные теги. В спецификации <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/syntax.html#syntax-tag-omission">HTML5 (англ.)</a> есть список необязательных тегов.</p>
+<p>(Может потребоваться некоторое время для того, чтобы этот подход начал использоваться повсеместно, потому что это сильно отличается от того, чему обычно учат веб-разработчиков. С точки зрения, согласованности, и простоты кода лучше всего опускать все необязательные теги, а не некоторые из них).</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="doctype">&lt;!DOCTYPE html&gt;</span> <span class="tag">&lt;<span class="title">html</span>&gt;</span> <span class="tag">&lt;<span class="title">head</span>&gt;</span> <span class="tag">&lt;<span class="title">title</span>&gt;</span>Тратим байты - тратим деньги.<span class="tag">&lt;/<span class="title">title</span>&gt;</span> <span class="tag">&lt;/<span class="title">head</span>&gt;</span> <span class="tag">&lt;<span class="title">body</span>&gt;</span> <span class="tag">&lt;<span class="title">p</span>&gt;</span>Вот.<span class="tag">&lt;/<span class="title">p</span>&gt;</span> <span class="tag">&lt;/<span class="title">body</span>&gt;</span> <span class="tag">&lt;/<span class="title">html</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="doctype">&lt;!DOCTYPE html&gt;</span> <span class="tag">&lt;<span class="title">title</span>&gt;</span>Байты-деньги!<span class="tag">&lt;/<span class="title">title</span>&gt;</span> <span class="tag">&lt;<span class="title">p</span>&gt;</span>Так-то</code></pre>
+<h4>Атрибут 'type'</h4>
+<p><strong> Не указывайте атрибут <span><strong>type</strong></span> при подключении стилей и скриптов в документ. </strong></p>
+<p>Не используйте атрибут <span><strong>type</strong></span> при подключении стилей (кроме вариантов когда используется что-то кроме CSS) и скриптов (кроме вариантов когда это не JavaScript).</p>
+<p>Указывать атрибут <span><strong>type</strong></span> в данном случае не обязательно потому что HTML5 использует <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#attr-style-type">text/css (англ.)</a> и <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting-1.html#attr-script-type">text/javascript (англ.)</a> по умолчанию. Это будет работать даже в старых браузерах.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"//www.google.com/css/maia.css"</span> <span class="attribute">type</span>=<span class="value">"text/css"</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"//www.google.com/css/maia.css"</span>&gt;</span></code></pre>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"//www.google.com/js/gweb/analytics/autotrack.js"</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span>&gt;</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"//www.google.com/js/gweb/analytics/autotrack.js"</span>&gt;</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></code></pre>
+<h3>Правила форматирования HTML</h3>
+<p>&nbsp;</p>
+<h4>Форматирование</h4>
+<p><strong> Выделяйте новую строку для каждого блочного, табличного или списочного элемента и ставьте отступы для каждого дочернего элемента. </strong></p>
+<p>Независимо от стилей заданных для элемента (CSS позволяет изменить поведение элемента с помощью свойства <span><strong>display</strong></span>), переносите каждый блочный или табличный элемент на новую строку.</p>
+<p>Также ставьте отступы для всех элементов вложенных в блочный или табличный элемент.</p>
+<p>(Если у вас возникнут сложности из-за пробельных символов между списочными элементами, допускается поместить все <span><strong>li</strong></span> элементы в одну строку. Линту [утилита для проверки качества кода прим. пер.] рекомендуется в данном случае выдавать предупреждение вместо ошибки.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">blockquote</span>&gt;</span> <span class="tag">&lt;<span class="title">p</span>&gt;</span><span class="tag">&lt;<span class="title">em</span>&gt;</span>Space<span class="tag">&lt;/<span class="title">em</span>&gt;</span>, the final frontier.<span class="tag">&lt;/<span class="title">p</span>&gt;</span> <span class="tag">&lt;/<span class="title">blockquote</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">ul</span>&gt;</span> <span class="tag">&lt;<span class="title">li</span>&gt;</span>Маша <span class="tag">&lt;<span class="title">li</span>&gt;</span>Глаша <span class="tag">&lt;<span class="title">li</span>&gt;</span>Чебураша <span class="tag">&lt;/<span class="title">ul</span>&gt;</span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="html xml"> <span class="tag">&lt;<span class="title">table</span>&gt;</span> <span class="tag">&lt;<span class="title">thead</span>&gt;</span> <span class="tag">&lt;<span class="title">tr</span>&gt;</span> <span class="tag">&lt;<span class="title">th</span> <span class="attribute">scope</span>=<span class="value">"col"</span>&gt;</span>Прибыль <span class="tag">&lt;<span class="title">th</span> <span class="attribute">scope</span>=<span class="value">"col"</span>&gt;</span>Налоги <span class="tag">&lt;<span class="title">tbody</span>&gt;</span> <span class="tag">&lt;<span class="title">tr</span>&gt;</span> <span class="tag">&lt;<span class="title">td</span>&gt;</span>$ 5.00 <span class="tag">&lt;<span class="title">td</span>&gt;</span>$ 4.50 <span class="tag">&lt;/<span class="title">table</span>&gt;</span></code></pre>
+<h3>Правила оформления CSS</h3>
+<p>&nbsp;</p>
+<h4>Валидность CSS</h4>
+<p><strong> По возможности используйте валидный CSS-код. </strong></p>
+<p>Кроме случаев, где необходим браузеро-зависимый код, или ошибок валидатора, используйте валидный CSS код.</p>
+<p>Используйте такие инструменты как <a href="http://jigsaw.w3.org/css-validator/">W3C CSS Валидатор (англ.)</a> для проверки своего кода.</p>
+<p>Валидность — это важное и при этом измеряемое качество кода. Написание валидного CSS помогает избавиться от избыточного кода и обеспечивает правильное использование таблиц стилей…</p>
+<h4>Идентификаторы и названия классов</h4>
+<p><strong> Используйте шаблонные или имеющие смысл имена классов и идентификаторы. </strong></p>
+<p>Вместо использования шифров, или описания внешнего вида элемента, попробуйте в имени класса или идентификатора выразить смысл его создания, или дайте ему шаблонное имя…</p>
+<p>рекомендуется выбирать имена, отражающие сущность класса, потому что их проще понять и, скорее всего, не понадобится менять в будущем.</p>
+<p>Шаблонные имена — это просто вариант названия для элементов, у которых нет специального предназначения или которые не отличаются от своих братьев и сестер. Обычно они необходимы в качестве “Помощников.”</p>
+<p>Использование функциональных или шаблонных имен уменьшает необходимость ненужных изменений в документа или шаблонах.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Не рекомендуется: не имеет смысла */</span> <span class="id">#yee-1901</span> <span class="rules">{<span class="rule">}</span></span> <span class="comment">/* Не рекомендуется: описание внешнего вида */</span> <span class="class">.button-green</span> <span class="rules">{<span class="rule">}</span></span> <span class="class">.clear</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Рекомендуется: точно и по делу */</span> <span class="id">#gallery</span> <span class="rules">{<span class="rule">}</span></span> <span class="id">#login</span> <span class="rules">{<span class="rule">}</span></span> <span class="class">.video</span> <span class="rules">{<span class="rule">}</span></span> <span class="comment">/* Рекомендуется: шаблонное имя */</span> <span class="class">.aux</span> <span class="rules">{<span class="rule">}</span></span> <span class="class">.alt</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<h4>Названия идентификаторов и классов</h4>
+<p><strong> Для идентификаторов и классов используйте настолько длинные имена, насколько нужно, но настолько короткие, насколько возможно. </strong></p>
+<p>Попробуйте сформулировать, что именно должен делать данный элемент, при этом будьте кратки насколько возможно.</p>
+<p>Такое использование классов и идентификаторов вносит свой вклад в облегчение понимания и увеличение эффективности кода.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Не рекомендуется */</span> <span class="id">#navigation</span> <span class="rules">{<span class="rule">}</span></span> <span class="class">.atr</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Рекомендуется */</span> <span class="id">#nav</span> <span class="rules">{<span class="rule">}</span></span> <span class="class">.author</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<h4>Селекторы типа</h4>
+<p><strong> Избегайте использование имен классов или идентификаторов с селекторами типа (тега) элемента. </strong></p>
+<p>Кроме случаев когда это не обходимо (например с классами-помощниками), не используйте названия элементов с именами классов или идентификаторами.</p>
+<p>Это повышает <a href="http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/">Производительность (англ.)</a>.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Не рекомендуется */</span> <span class="tag">ul</span><span class="id">#example</span> <span class="rules">{<span class="rule">}</span></span> <span class="tag">div</span><span class="class">.error</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Рекомендуется */</span> <span class="id">#example</span> <span class="rules">{<span class="rule">}</span></span> <span class="class">.error</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<h4>Сокращенные формы записи свойств</h4>
+<p><strong> Используйте сокращенные формы записи свойств, где возможно. </strong></p>
+<p>CSS предлагает множество различных <a href="http://www.w3.org/TR/CSS21/about.html#shorthand">сокращенных (англ.)</a> форм записи (например <span><strong>font</strong></span>), которые рекомендуется использовать везде где это возможно, даже если задается только одно из значений.</p>
+<p>Использование сокращенной записи свойств полезно для большей эффективности и лучшего понимания кода.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Не рекомендуется */</span> <span class="tag">border</span>-<span class="tag">top</span>-<span class="tag">style</span>: <span class="tag">none</span>; <span class="tag">font</span>-<span class="tag">family</span>: <span class="tag">palatino</span>, <span class="tag">georgia</span>, <span class="tag">serif</span>; <span class="tag">font</span>-<span class="tag">size</span>: 100%; <span class="tag">line</span>-<span class="tag">height</span>: 1<span class="class">.6</span>; <span class="tag">padding</span>-<span class="tag">bottom</span>: 2<span class="tag">em</span>; <span class="tag">padding</span>-<span class="tag">left</span>: 1<span class="tag">em</span>; <span class="tag">padding</span>-<span class="tag">right</span>: 1<span class="tag">em</span>; <span class="tag">padding</span>-<span class="tag">top</span>: 0;</code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> /* Рекомендуется */ border-top: 0; font: 100%/1.6 palatino, georgia, serif; padding: 0 1em 2em;</code></pre>
+<h4>0 и единицы измерения</h4>
+<p><strong> Не указывайте единицы измерения для нулевых значений </strong></p>
+<p>Не указывайте единицы измерения для нулевых значений если на это нет причины.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="tag">margin</span>: 0; <span class="tag">padding</span>: 0;</code></pre>
+<h4>0 в целой части дроби</h4>
+<p><strong> Не ставьте “0” в целой части дробных чисел. </strong></p>
+<p>Не ставьте <span><strong>0</strong></span> в целой части в значениях между -1 и 1.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="tag">font</span>-<span class="tag">size</span>: <span class="class">.8em</span>;</code></pre>
+<h4>Кавычки в ссылках</h4>
+<p><strong> Не используйте кавычки в ссылках </strong></p>
+<p>Не используйте кавычки (<span><strong>""</strong></span>, <span><strong>''</strong></span>) с <span><strong>url()</strong></span>.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="at_rule">@<span class="keyword">import</span> <span class="function">url(//www.google.com/css/go.css)</span></span>;</code></pre>
+<h4>Шестнадцатеричные названия цветов</h4>
+<p><strong> Используйте трехсимвольную шестнадцатеричную запись где это возможно. </strong></p>
+<p>Трехсимвольная шестнадцатиричная запись для цветов короче и занимает меньше места.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Не рекомендуется */</span> <span class="tag">color</span>: <span class="id">#eebbcc</span>;</code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Рекомендуется */</span> <span class="tag">color</span>: <span class="id">#ebc</span>;</code></pre>
+<h4>Префиксы</h4>
+<p><strong> Предваряйте селекторы уникальными для текущего приложения префиксами. <span style="color: gray;"><strong>(не обязательно)</strong></span> </strong></p>
+<p>В больших проектах, а так же в коде, который будет использоваться для других проектов или в других сайтах, используйте префиксы (в качестве пространств имен) для идентификаторов и имен классов. Используйте короткие уникальные названия с последующим дефисом.</p>
+<p>Использование пространств имен позволяет предотвратить конфликты имен и может облегчить обслуживание сайта. Например при поиске и замене.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="class">.adw-help</span> <span class="rules">{<span class="rule">}</span></span> <span class="comment">/* AdWords */</span> <span class="id">#maia-note</span> <span class="rules">{<span class="rule">}</span></span> <span class="comment">/* Maia */</span></code></pre>
+<h4>Разделители в классах и идентификаторах</h4>
+<p><strong> Разделяйте слова в идентификаторах и именах классов с помощью дефиса. </strong></p>
+<p>Не используйте ничего, кроме дефиса, для соединения слов и сокращений в селекторах, чтобы повысить удобство чтения и легкость понимания кода.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Не рекомендуется: слова “demo” и “image” не разделены */</span> <span class="class">.demoimage</span> <span class="rules">{<span class="rule">}</span></span> <span class="comment">/* Не рекомендуется: используется подчеркивание вместо дефиса */</span> <span class="class">.error_status</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Рекомендуется */</span> <span class="id">#video-id</span> <span class="rules">{<span class="rule">}</span></span> <span class="class">.ads-sample</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<h4>Хаки</h4>
+<p><strong> Избегайте использования информации о версии браузеров, или CSS “хаков”— сперва попробуйте другие способы. </strong></p>
+<p>Кажется заманчивым бороться с различиями в работе разных браузеров с помощью CSS-фильтров, хаков или прочих обходных путей. Все эти подходы могут быть рассмотрены лишь в качестве последнего средства, если вы хотите получить эффективную и легко поддерживаемую кодовую базу. Проще говоря, допущение хаков и определения браузера повредит проекту в долгосрочной перспективе, так как это означает, что проект идет по пути наименьшего сопротивления. Что облегчает использование хаков и позволяет использовать их все чаще и чаще, что в результате приведет к слишком частому их использованию.</p>
+<h3>Правила форматирования CSS</h3>
+<p>&nbsp;</p>
+<h4>Упорядочивание объявлений</h4>
+<p><strong> Сортируйте объявления по алфавиту. </strong></p>
+<p>Задавайте объявления в алфавитном порядке, чтобы получить согласованный код, с которым легко работать.</p>
+<p>При сортировке игнорируйте браузерные префиксы. При этом, если для одного свойства используются несколько браузерных префиксов, они также должны быть отсортированы (например <span><strong>-moz</strong></span> должен быть перед <span><strong>--webkit</strong></span>)</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="tag">background</span>: <span class="tag">fuchsia</span>; <span class="tag">border</span>: 1<span class="tag">px</span> <span class="tag">solid</span>; -<span class="tag">moz</span>-<span class="tag">border</span>-<span class="tag">radius</span>: 4<span class="tag">px</span>; -<span class="tag">webkit</span>-<span class="tag">border</span>-<span class="tag">radius</span>: 4<span class="tag">px</span>; <span class="tag">border</span>-<span class="tag">radius</span>: 4<span class="tag">px</span>; <span class="tag">color</span>: <span class="tag">black</span>; <span class="tag">text</span>-<span class="tag">align</span>: <span class="tag">center</span>; <span class="tag">text</span>-<span class="tag">indent</span>: 2<span class="tag">em</span>;</code></pre>
+<h4>Отступы в блоках.</h4>
+<p><strong> Всегда ставьте отступы для содержимого блоков. </strong></p>
+<p>Всегда ставьте отступы для любого <a href="http://www.w3.org/TR/CSS21/syndata.html#block">блочного содержимого (англ.)</a>, Например для правил внутри правил или объявлений, чтобы отобразить иерархию и облегчить понимание кода.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="at_rule">@<span class="keyword">media</span> screen, projection </span>{ <span class="tag">html</span> <span class="rules">{ <span class="rule"><span class="attribute">background</span>:<span class="value"> <span class="hexcolor">#fff</span></span>;</span> <span class="rule"><span class="attribute">color</span>:<span class="value"> <span class="number">#444</span></span>;</span> <span class="rule">}</span></span> }</code></pre>
+<h4>После объявлений</h4>
+<p><strong> Ставьте точку с запятой после каждого объявления. </strong></p>
+<p>После каждого объявления ставьте точку с запятой для согласованности кода и облегчения добавления новых свойств.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="class">.test</span> <span class="rules">{ <span class="rule"><span class="attribute">display</span>:<span class="value"> block</span>;</span> <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">100</span>px </span>}</span></span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="class">.test</span> <span class="rules">{ <span class="rule"><span class="attribute">display</span>:<span class="value"> block</span>;</span> <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">100</span>px</span>;</span> <span class="rule">}</span></span></code></pre>
+<h4>После названий свойств</h4>
+<p><strong> Используйте пробелы после двоеточий в объявлениях. </strong></p>
+<p>Всегда используйте один пробел после двоеточия (но не до) в объявлениях, для порядка в коде.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="tag">h3</span> <span class="rules">{ <span class="rule"><span class="attribute">font-weight</span>:<span class="value">bold</span>;</span> <span class="rule">}</span></span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="tag">h3</span> <span class="rules">{ <span class="rule"><span class="attribute">font-weight</span>:<span class="value"> bold</span>;</span> <span class="rule">}</span></span></code></pre>
+<h4>Отделение селектора и объявления</h4>
+<p><strong> Отделяйте селекторы и объявления переносом строки. </strong></p>
+<p>Начинайте каждый селектор или объявление с новой строки.</p>
+<p><strong><span style="color: red;">Не рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="tag">a</span><span class="pseudo">:focus</span>, <span class="tag">a</span><span class="pseudo">:active</span> <span class="rules">{ <span class="rule"><span class="attribute">position</span>:<span class="value"> relative</span>;</span> <span class="rule"><span class="attribute">top</span>:<span class="value"> <span class="number">1</span>px</span>;</span> <span class="rule">}</span></span></code></pre>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="tag">h1</span>, <span class="tag">h2</span>, <span class="tag">h3</span> <span class="rules">{ <span class="rule"><span class="attribute">font-weight</span>:<span class="value"> normal</span>;</span> <span class="rule"><span class="attribute">line-height</span>:<span class="value"> <span class="number">1.2</span></span>;</span> <span class="rule">}</span></span></code></pre>
+<h4>Разделение правил</h4>
+<p><strong> Разделяйте правила переносом строки. </strong></p>
+<p>Всегда ставьте перенос строки между правилами.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="tag">html</span> <span class="rules">{ <span class="rule"><span class="attribute">background</span>:<span class="value"> <span class="hexcolor">#fff</span></span>;</span> <span class="rule">}</span></span> <span class="tag">body</span> <span class="rules">{ <span class="rule"><span class="attribute">margin</span>:<span class="value"> auto</span>;</span> <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">50</span>%</span>;</span> <span class="rule">}</span></span></code></pre>
+<h3>Мета правила CSS</h3>
+<p>&nbsp;</p>
+<h4>Группировка правил</h4>
+<p><strong> Группируйте правила и обозначайте группы комментарием. <span style="color: gray;"><strong>(не обязательно)</strong></span> </strong></p>
+<p>По возможности объединяйте правила в группы. Обозначайте группы комментариями и разделяйте переносом строки.</p>
+<p><strong><span style="color: green;">Рекомендуется:</span></strong></p>
+<pre><code class="css"> <span class="comment">/* Header */</span> <span class="id">#adw-header</span> <span class="rules">{<span class="rule">}</span></span> <span class="comment">/* Footer */</span> <span class="id">#adw-footer</span> <span class="rules">{<span class="rule">}</span></span> <span class="comment">/* Gallery */</span> <span class="class">.adw-gallery</span> <span class="rules">{<span class="rule">}</span></span></code></pre>
+<h3>Заключение</h3>
+<p><em>Будьте последовательны</em></p>
+<p>Если вы редактируете код, потратьте несколько минут, чтобы разобраться в том, как он написан. Если математические операторы обособлены пробелами, делайте то же самое. Если комментарии окружены скобочками или черточками, сделайте то же со своими комментариями.</p>
+<p>Идея этого руководства в том, чтобы создать общий словарь, который позволил бы разработчикам сконцентрироваться на том <strong>что</strong> они хотят выразить, а не на том, <strong>как</strong>.</p>
+<p>Мы предлагаем единые правила оформления позволяющие писать код в одном стиле, но стиль кода, уже используемый в проекте, также важен.</p>
+<p>Если ваш код будет сильно отличаться от существующего, это может сбить читающего с ритма и затруднить чтение. Постарайтесь этого избежать.</p>
+<p>взято с <a title="habra" href="http://habrahabr.ru/post/143452/" target="_blank">habra</a></p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Welcome.</p>
+      
+      
+        ©
+        
+          2012 -
+        
+        2020
+         Vladislav Altyncev 
+      
+      
+         · 
+        Работает на <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://altyncev.ru/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2789259-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+    
+
+    
+  </body>
+
+</html>

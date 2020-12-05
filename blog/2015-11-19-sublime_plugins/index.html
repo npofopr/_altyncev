@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ru">
+
+    
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="preconnect" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://use.fontawesome.com">
+    <link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
+    <link rel="preconnect" href="//cdnjs.cloudflare.com">
+    <link rel="preconnect" href="//www.googletagmanager.com">
+    <link rel="preconnect" href="//www.google-analytics.com">
+    <link rel="preconnect" href="//mc.yandex.ru">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+
+    <meta name="author" content="Vladislav Altyncev">
+    <meta name="description" content="Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.
+Package Control всея всего.
+AdvancedNewFile - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.
+Alignment - Для выравнивания
+AutoFileName - Автозаполнение имени файлов.
+Better CoffeeScript - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.
+Bootstrap 3 Jade Snippets - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sublime Text 3 плагины для фронтэнд-разработчика"/>
+<meta name="twitter:description" content="Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.
+Package Control всея всего.
+AdvancedNewFile - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.
+Alignment - Для выравнивания
+AutoFileName - Автозаполнение имени файлов.
+Better CoffeeScript - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.
+Bootstrap 3 Jade Snippets - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться."/>
+
+    <meta property="og:title" content="Sublime Text 3 плагины для фронтэнд-разработчика" />
+<meta property="og:description" content="Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.
+Package Control всея всего.
+AdvancedNewFile - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.
+Alignment - Для выравнивания
+AutoFileName - Автозаполнение имени файлов.
+Better CoffeeScript - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.
+Bootstrap 3 Jade Snippets - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://altyncev.ru/blog/2015-11-19-sublime_plugins/" />
+<meta property="article:published_time" content="2015-11-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-11-19T00:00:00+00:00" />
+
+
+    <title>
+  Sublime Text 3 плагины для фронтэнд-разработчика · Altyncev Vladislav
+</title>
+
+    
+      <link rel="canonical" href="https://altyncev.ru/blog/2015-11-19-sublime_plugins/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.min.css" integrity="sha512-9QjPqX/aCNwEQDyMqqMluNOSsHxTwOJNO3d4m5aUeNbyOPm8RcBA5hCUhvGmKFtSmQYGajqPopGtD60FWiWUwg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    
+      
+      
+      <link rel="stylesheet" href="https://altyncev.ru/css/coder.min.614ec27e30601480e6f78f576733a3757458d35b4ec53a05b9ac4dbe0dfc342d.css" integrity="sha256-YU7CfjBgFIDm949XZzOjdXRY01tOxToFuaxNvg38NC0=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://altyncev.ru/css/coder-dark.min.126ad3988d46bdae6217a11105b53c9662bca05f39d42d3c0fb366919d334620.css" integrity="sha256-EmrTmI1Gva5iF6ERBbU8lmK8oF851C08D7NmkZ0zRiA=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+      
+      
+        
+        <link rel="stylesheet" href="https://altyncev.ru/scss/custom.min.c80b4266c2e473bbcd265ff75587773f79318d2c22b98f94d66e006670afce2c.css" integrity="sha256-yAtCZsLkc7vNJl/3VYd3P3kxjSwiuY&#43;U1m4AZnCvziw=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    <link rel="icon" type="image/png" href="https://altyncev.ru/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://altyncev.ru/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://altyncev.ru/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://altyncev.ru/images/apple-touch-icon.png">
+
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/twemoji.min.js" integrity="sha512-panBjUGuKarjg0qxHggQULmRf9jB/YVCy238hmzBWUuLeOuwMSuJgJcUv3T+rwXUBZ9zeUvc49ZcCRH+EO0H8g==" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.74.3" />
+
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-5SXTLZK':true});</script>
+
+    <script>
+      var doNotTrack = false;
+      if (!doNotTrack) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-2789259-4', 'auto');
+        ga('require', 'GTM-5SXTLZK');
+        ga('send', 'pageview');
+      }
+    </script>
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+
+     <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(17143639, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/17143639" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://altyncev.ru/">
+      Altyncev Vladislav
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/blog/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/categories/cottage/">Handmade</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/portfolio/">Portfolio</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://altyncev.ru/categories/">Categories</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Sublime Text 3 плагины для фронтэнд-разработчика</h1>
+    </header>
+
+    <p>Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.</p>
+<!-- raw HTML omitted -->
+<p><a href="https://packagecontrol.io/installation">Package Control</a> всея всего.</p>
+<p><a href="https://packagecontrol.io/packages/AdvancedNewFile">AdvancedNewFile</a> - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.</p>
+<p><a href="https://packagecontrol.io/packages/Alignment">Alignment</a> - Для выравнивания</p>
+<p><a href="https://packagecontrol.io/packages/AutoFileName">AutoFileName</a> - Автозаполнение имени файлов.</p>
+<p><a href="https://packagecontrol.io/packages/Better%20CoffeeScript">Better CoffeeScript</a> - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.</p>
+<p><a href="https://packagecontrol.io/packages/Bootstrap%203%20Jade%20Snippets">Bootstrap 3 Jade Snippets</a> - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться.</p>
+<p><a href="https://packagecontrol.io/packages/Bootstrap%203%20Snippets">Bootstrap 3 Snippets</a> - Незаменимая вещь, кто часто пользуется фреймворком.</p>
+<p><a href="https://packagecontrol.io/packages/BracketHighlighter">BracketHighlighter</a> - Добавляет значки скобочек, тегов и т.д.) Тут лучше скриншот посмотреть:</p>
+<p><img src="https://packagecontrol.io/readmes/img/2c23129492d6d74b8f9139711578e9ad0d1115a0.png" alt="BracketHighlighter" title="BracketHighlighter"></p>
+<p>Color Highlighter</p>
+<p>Comment-Snippets</p>
+<p>CSS Format</p>
+<p>CSS Media Query Snippets</p>
+<p>CSS Snippets</p>
+<p>CSS3</p>
+<p>EasyMotion</p>
+<p>EditorConfig</p>
+<p>Emmet</p>
+<p>FileDiffs</p>
+<p>Git</p>
+<p>GitGutter</p>
+<p>Gitignore</p>
+<p>GitSavvy</p>
+<p>HTML5</p>
+<p>HTMLAttributes</p>
+<p>HTMLBeautify</p>
+<p>Icon Fonts</p>
+<p>jQuery</p>
+<p>JSON Reindent</p>
+<p>JSONLint</p>
+<p>Material Theme</p>
+<p><a href="https://github.com/max-mykhailenko/memTask">memTask</a> - Учёт времени.</p>
+<p>Modific</p>
+<p>Monokai Extended</p>
+<p>Monokai JSON+</p>
+<p>Path Tools</p>
+<p>Placeholders</p>
+<p>Pretty JSON</p>
+<p>PureCSS</p>
+<p>SideBarEnhancements</p>
+<p>SideBarFolders</p>
+<p>SideBarGit</p>
+<p>Stylus</p>
+<p>SublimeLinter-contrib-htmlhint</p>
+<p>SublimeLinter-csslint</p>
+<p>SVG Icons</p>
+<p>SVG-Snippets</p>
+<p>Syntax Highlighting for PostCSS</p>
+<p>TabsExtra</p>
+<p>Text Pastry</p>
+<p>Themr</p>
+<p>Zen Tabs</p>
+<h2 id="мой-конфиг">Мой конфиг:</h2>
+<pre><code>{
+    &quot;always_show_minimap_viewport&quot;: true,
+    &quot;bold_folder_labels&quot;: true,
+    &quot;caret_extra_width&quot;: 2,
+    &quot;caret_style&quot;: &quot;solid&quot;,
+    &quot;color_scheme&quot;: &quot;Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme&quot;,
+    &quot;copy_with_empty_selection&quot;: false,
+    &quot;detect_indentation&quot;: true,
+    &quot;detect_slow_plugins&quot;: false,
+    &quot;drag_text&quot;: false,
+    &quot;draw_minimap_border&quot;: true,
+    &quot;draw_shadows&quot;: false,
+    &quot;enable_tab_scrolling&quot;: false,
+    &quot;fade_fold_buttons&quot;: false,
+    &quot;fallback_encoding&quot;: &quot;Cyrillic (Windows 1251)&quot;,
+    &quot;find_selected_text&quot;: true,
+    &quot;findreplace_small&quot;: true,
+    &quot;flatland_sidebar_tree_small&quot;: true,
+    &quot;flatland_square_tabs&quot;: true,
+    &quot;font_face&quot;: &quot;Consolas&quot;,
+    &quot;font_options&quot;:
+    [
+        &quot;subpixel_antialias&quot;,
+        &quot;no_round&quot;
+    ],
+    &quot;font_size&quot;: 11,
+    &quot;git_gutter_live_mode&quot;: true,
+    &quot;high_visibility_color&quot;: &quot;__bracket__&quot;,
+    &quot;high_visibility_style&quot;: &quot;outline&quot;,
+    &quot;highlight_line&quot;: true,
+    &quot;highlight_modified_tabs&quot;: true,
+    &quot;ignored_packages&quot;:
+    [
+        &quot;Emmet Css Snippets&quot;,
+        &quot;Markdown&quot;,
+        &quot;Path Tools&quot;,
+        &quot;Vintage&quot;
+    ],
+    &quot;itg_scrollbar_small&quot;: true,
+    &quot;itg_sidebar_tree_small&quot;: true,
+    &quot;itg_small_tabs&quot;: true,
+    &quot;line_padding_bottom&quot;: 1,
+    &quot;line_padding_top&quot;: 1,
+    &quot;match_brackets_content&quot;: false,
+    &quot;match_selection&quot;: false,
+    &quot;match_tags&quot;: false,
+    &quot;material_theme_disable_fileicons&quot;: false,
+    &quot;material_theme_disable_folder_animation&quot;: true,
+    &quot;material_theme_small_statusbar&quot;: true,
+    &quot;material_theme_small_tab&quot;: true,
+    &quot;open_files_in_new_window&quot;: false,
+    &quot;overlay_scroll_bars&quot;: &quot;enabled&quot;,
+    &quot;preview_on_click&quot;: true,
+    &quot;remember_open_files&quot;: true,
+    &quot;scroll_past_end&quot;: true,
+    &quot;scroll_speed&quot;: 5.0,
+    &quot;show_encoding&quot;: true,
+    &quot;show_full_path&quot;: true,
+    &quot;sidebar_small&quot;: true,
+    &quot;soda_classic_tabs&quot;: true,
+    &quot;soda_folder_icons&quot;: true,
+    &quot;tab_height_short&quot;: true,
+    &quot;tab_size&quot;: 4,
+    &quot;tabs_small&quot;: true,
+    &quot;theme&quot;: &quot;Material-Theme.sublime-theme&quot;,
+    &quot;translate_tabs_to_spaces&quot;: false,
+    &quot;trim_trailing_white_space_on_save&quot;: true,
+    &quot;use_simple_full_screen&quot;: true,
+    &quot;wide_caret&quot;: true,
+    &quot;word_separators&quot;: &quot;./\\()\&quot;'-:,.;&lt;&gt;~!@#$%^&amp;*|+=[]{}`~?&quot;,
+    &quot;word_wrap&quot;: true
+}
+</code></pre>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Welcome.</p>
+      
+      
+        ©
+        
+          2012 -
+        
+        2020
+         Vladislav Altyncev 
+      
+      
+         · 
+        Работает на <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="https://altyncev.ru/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2789259-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+    
+
+    
+  </body>
+
+</html>

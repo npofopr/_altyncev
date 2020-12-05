@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>virus on Altyncev Vladislav</title>
+    <link>https://altyncev.ru/tags/virus/</link>
+    <description>Recent content in virus on Altyncev Vladislav</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Apr 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://altyncev.ru/tags/virus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Борьба с вирусами</title>
+      <link>https://altyncev.ru/blog/2015-04-12-antivirus/</link>
+      <pubDate>Sun, 12 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-04-12-antivirus/</guid>
+      <description>Очень часто многие спрашивают, какой антивирусник поставить. Да в общем то и я сам иногда интересуюсь, кто чем пользуется.
+Для начала рекомендую ознакомиться с этой статьей. Там как раз тестируются несколько бесплатных антивирусников. Если статья не открывается, то собственно вот результат:
+Все антивирусы имели последние обновления программы и баз, настройки по умолчанию. Использовались найденные старые паки вирусов за 2010-2012 года в количестве 8983, и 944 которых удалось скачать по списку за 2012-2014 года с malwaredomainlist.</description>
+    </item>
+    
+  </channel>
+</rss>

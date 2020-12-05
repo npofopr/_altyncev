@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sublime on Altyncev Vladislav</title>
+    <link>https://altyncev.ru/tags/sublime/</link>
+    <description>Recent content in sublime on Altyncev Vladislav</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://altyncev.ru/tags/sublime/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sublime Text 3 плагины для фронтэнд-разработчика</title>
+      <link>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</guid>
+      <description>Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.
+Package Control всея всего.
+AdvancedNewFile - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.
+Alignment - Для выравнивания
+AutoFileName - Автозаполнение имени файлов.
+Better CoffeeScript - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.
+Bootstrap 3 Jade Snippets - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться.</description>
+    </item>
+    
+  </channel>
+</rss>

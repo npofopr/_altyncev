@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docpad on Altyncev Vladislav</title>
+    <link>https://altyncev.ru/tags/docpad/</link>
+    <description>Recent content in docpad on Altyncev Vladislav</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Apr 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://altyncev.ru/tags/docpad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docpad для разворачивания сайтиков</title>
+      <link>https://altyncev.ru/blog/2013-04-19-docpad_fast_site/</link>
+      <pubDate>Fri, 19 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-04-19-docpad_fast_site/</guid>
+      <description>Наконец таки взял docpad, убрал все лишнее и вот&amp;hellip;
+При верстве больших сайтов, когда накапливается огромное количество страниц, порой бывает тяжко сделать изменения в тех же футере или шапке. У меня конечно все структурировано и обычно замена текста проходит удачно, но бывают исключения.
+Тут же от этого можно будет избавиться. Все стили и скрипты в одном месте.
+ можно шаблончики сделать, страницы же часто однотипные есть.  Ну и в скоре подключу дополнительные &amp;ldquo;плагинчики&amp;rdquo; и будет совсем все хорошо, надеюсь таким образом и с препроцессорами быстрее разберусь.</description>
+    </item>
+    
+    <item>
+      <title>Блог на Docpad. Минимум усилий. Docpad blogging</title>
+      <link>https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/</link>
+      <pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/</guid>
+      <description>Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
+И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox.</description>
+    </item>
+    
+  </channel>
+</rss>

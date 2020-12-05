@@ -1,0 +1,13 @@
+.absContainer {
+	
+}
+#container {
+	margin-top: expression((
+	document.documentElement.offsetHeight/2)
+	-(parseInt(offsetHeight)/2) <0 ? "0" :
+	(document.documentElement.offsetHeight/2)
+	-(parseInt(offsetHeight)/2) +'px') ;
+}
+#thumbs div.selected {
+    right: 13px;
+}
