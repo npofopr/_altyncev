@@ -6,6 +6,8 @@ defaultcontentlanguage = "ru"
 defaultExtension = "html"
 defaultLayout = "post"
 
+disableKinds = ['taxonomy', 'term', 'section', 'home', 'page']
+
 publishDir = "public"
 buildDrafts = false
 canonifyURLs = true
