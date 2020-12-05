@@ -19,7 +19,7 @@ paginate = 20
 
 enableRobotsTXT = true
 
-pygmentsstyle = "bw"
+pygmentsstyle = "native"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
