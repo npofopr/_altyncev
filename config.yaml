@@ -1,0 +1,137 @@
+baseurl: https://altyncev.ru
+languageCode: en-us
+theme: hugo-theme-stack
+paginate: 5
+title: Altyncev Vladislav
+
+publishDir: public
+buildDrafts: false
+canonifyURLs: true
+
+pluralizeListTitles: false
+preserveTaxonomyNames: true
+
+enableRobotsTXT: true
+
+# Change it to your Disqus shortname before using
+disqusShortname: npofopr
+
+# GA Tracking ID
+googleAnalytics: UA-2789259-4
+YandexMetrika: 17143639
+domainVerification: Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M
+googleVerification: Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M
+yandexVerification: 496c60b178050fff
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl
+DefaultContentLanguage: ru
+
+permalinks:
+  # post: /blog/:slug/
+  post: /blog/:filename/
+  # page: /:slug/
+  page: /:filename/
+
+params:
+  mainSections:
+    - post
+  featuredImageField: image
+  rssFullContent: true
+  favicon: /favicon-16x16.png
+
+  footer:
+    since: 2012
+    customText:
+
+  dateFormat:
+    published: Jan 02, 2006
+    lastUpdated: Jan 02, 2006 15:04 MST
+
+  sidebar:
+    emoji: 🍥
+    subtitle: 'Жизнь, работа, открытия'
+    avatar:
+      local: false
+      src: /images/profile.jpg
+
+  article:
+    math: false
+    toc: true
+    license:
+      enabled: false
+      default: Licensed under CC BY-NC-SA 4.0
+
+  comments:
+    enabled: false
+    provider: disqus
+
+  widgets:
+    enabled:
+      - search
+      - archives
+      - tag-cloud
+
+    archives:
+      limit: 5
+
+    tagCloud:
+      limit: 10
+
+  opengraph:
+    twitter:
+      # Your Twitter username
+      site: npofopr
+
+      # Available values: summary, summary_large_image
+      card: summary_large_image
+
+  defaultImage:
+    opengraph:
+      enabled: false
+      local: false
+      src: /images/profile.jpg
+
+  colorScheme:
+    # Display toggle
+    toggle: true
+
+    # Available values: auto, light, dark
+    default: auto
+
+  imageProcessing:
+    cover:
+      enabled: true
+    content:
+      enabled: true
+
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: -100
+      pre: home
+
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+
+    - name: categories
+      weight: 200
+
+markup:
+  tableOfContents:
+    endLevel: 4
+    ordered: true
+    startLevel: 2
+
+  highlight:
+    noClasses: false
