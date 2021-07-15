@@ -5,6 +5,7 @@ categories: [ "cottage" ]
 date: "2015-10-10"
 type: "post"
 tags: ["cottage", "баня"]
+image: IMG_20151010_153954.jpg
 ---
 
 ![Зима пришла, зиме дорогу!](IMG_20151010_150101.jpg)  ![](IMG_20151010_150105.jpg)

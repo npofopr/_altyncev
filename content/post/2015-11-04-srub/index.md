@@ -5,6 +5,7 @@ categories: [ "cottage" ]
 date: "2015-11-04"
 type: "post"
 tags: ["cottage", "баня"]
+image: IMG_20151104_170638.jpg
 ---
 
 ### Зимние просторы
