@@ -117,6 +117,19 @@ menu:
       weight: -100
       pre: home
 
+    - identifier: Handmade
+      name: Handmade
+      url: /categories/cottage/
+      weight: -90
+      # pre: woodhouse
+
+    # - identifier: Portfolio
+    #   name: Portfolio
+    #   url: /portfolio/
+    #   weight: -80
+      # pre: briefcase
+
+
 related:
   includeNewer: true
   threshold: 60
