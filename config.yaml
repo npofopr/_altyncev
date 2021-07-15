@@ -7,7 +7,15 @@ title: Altyncev Vladislav
 publishDir: public
 buildDrafts: false
 canonifyURLs: true
+
 defaultExtension: html
+
+disableKinds:
+  - taxonomy
+  - term
+  - section
+  - home
+  - page
 
 pluralizeListTitles: false
 preserveTaxonomyNames: true
