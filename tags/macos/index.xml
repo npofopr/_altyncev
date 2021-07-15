@@ -1,6 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MacOS on Altyncev Vladislav</title><link>https://altyncev.ru/tags/macos/</link><description>Recent content in MacOS on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Jul 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>Теоретическая установка Хакинтоша (MacOSx Lion) на P5K SE</title><link>https://altyncev.ru/blog/2012-07-16-hakintosh_na_p5kse/</link><pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-07-16-hakintosh_na_p5kse/</guid><description>Занялся я&amp;nbsp;тут было на&amp;nbsp;днях вопросом, а&amp;nbsp;не&amp;nbsp;поставить&amp;nbsp;ли мне хакинтош на&amp;nbsp;свой pc.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on Altyncev Vladislav</title>
+    <link>https://altyncev.ru/tags/macos/</link>
+    <description>Recent content in MacOS on Altyncev Vladislav</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jul 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Теоретическая установка Хакинтоша (MacOSx Lion) на P5K SE</title>
+      <link>https://altyncev.ru/blog/2012-07-16-hakintosh_na_p5kse/</link>
+      <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2012-07-16-hakintosh_na_p5kse/</guid>
+      <description>Занялся я&amp;nbsp;тут было на&amp;nbsp;днях вопросом, а&amp;nbsp;не&amp;nbsp;поставить&amp;nbsp;ли мне хакинтош на&amp;nbsp;свой pc.
 Ну&amp;nbsp;и&amp;nbsp;оказалось не&amp;nbsp;все так просто.
 Начнем все по&amp;nbsp;порядку.
 1. Нужно активировать AHCI режим контроллера на&amp;nbsp;южном мосту (она всегда его имела, но&amp;nbsp;он&amp;nbsp;был заблокирован в&amp;nbsp;более новых ревизиях биоса).
 Как это сделать подробно расписано на&amp;nbsp;applelife. Хоть там и&amp;nbsp;описано для платы P5K (без префикса SE), но&amp;nbsp;пишут, что и&amp;nbsp;для SE&amp;nbsp;все так&amp;nbsp;же проходит и&amp;nbsp;работает.
-Прошивка происходит в&amp;nbsp;досе. Как сделать загрузочную флешку можно посмотреть здесь. Флоппи диска увы нет) Да&amp;nbsp;и&amp;nbsp;кто им&amp;nbsp;пользовался в&amp;nbsp;последнее время?</description></item></channel></rss>
+Прошивка происходит в&amp;nbsp;досе. Как сделать загрузочную флешку можно посмотреть здесь. Флоппи диска увы нет) Да&amp;nbsp;и&amp;nbsp;кто им&amp;nbsp;пользовался в&amp;nbsp;последнее время?</description>
+    </item>
+    
+  </channel>
+</rss>
