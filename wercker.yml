@@ -2,9 +2,9 @@ box: debian
 build:
   steps:
     - arjen/hugo-build@2.14.0:
-      version: "0.78"
+      version: "0.85"
       theme: hugo-theme-stack
-      config: config.toml
+      config: config.yaml
       flags: --buildDrafts=false
 deploy:
   steps:
