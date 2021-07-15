@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>css on Altyncev Vladislav</title><link>https://altyncev.ru/tags/css/</link><description>Recent content in css on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
+&lt;p>&lt;img src="https://altyncev.ru/img/2017/11/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" alt="Когда на собеседовании тебе показали кто тут Senior">&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="вопросы">Вопросы&lt;/h2>
+&lt;blockquote>
+&lt;p>Какие бывают значения display? Расскажите как ведёт себя каждое свойство.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-css" data-lang="css"> &lt;span class="nt">display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">block&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline-block&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline-table&lt;/span> &lt;span class="o">|&lt;/span>
+&lt;span class="nt">inline-flex&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">flex&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">list-item&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">none&lt;/span> &lt;span class="o">|&lt;/span>
+&lt;span class="nt">run-in&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-caption&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-cell&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-column-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-column&lt;/span> &lt;span class="o">|&lt;/span>
+&lt;span class="nt">table-footer-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-header-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-row&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-row-group&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;!-- raw HTML omitted -->Подробнее&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="block">block&lt;/h3>
+&lt;p>Элемент показывается как блочный. Применение этого значения для строчных элементов, например &lt;code>&amp;lt;span&amp;gt;&lt;/code>, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого.&lt;/p>
+&lt;h3 id="inline">inline&lt;/h3>
+&lt;p>Элемент отображается как строчный. Использование блочных элементов, таких, как &lt;code>&amp;lt;div&amp;gt;&lt;/code> и &lt;code>&amp;lt;p&amp;gt;&lt;/code>, автоматически создаёт перенос и показывает их содержимое с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.&lt;/p>
+&lt;h3 id="inline-block">inline-block&lt;/h3>
+&lt;p>Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно строчному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде &lt;code>&amp;lt;img&amp;gt;&lt;/code>). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как строчный.&lt;/p>
+&lt;h3 id="inline-table">inline-table&lt;/h3>
+&lt;p>Определяет, что элемент является таблицей, как при использовании &lt;code>&amp;lt;table&amp;gt;&lt;/code>, но при этом таблица является строчным элементом и происходит её обтекание другими элементами, например, текстом.&lt;/p>
+&lt;h3 id="inline-flex">inline-flex&lt;/h3>
+&lt;p>Элемент ведёт себя как строчный и выкладывает содержимое согласно флекс-модели.&lt;/p>
+&lt;h3 id="flex">flex&lt;/h3>
+&lt;p>Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.&lt;/p>
+&lt;h3 id="list-item">list-item&lt;/h3>
+&lt;p>Элемент выводится как блочный и добавляется маркер списка.
+none
+Временно удаляет элемент из документа. Занимаемое им место не резервируется, и веб-страница формируется так, словно элемента и не было. Изменить значение и сделать вновь видимым элемент можно с помощью скриптов, обращаясь к свойствам через объектную модель. В этом случае происходит переформатирование данных на странице с учётом вновь добавленного элемента.&lt;/p>
+&lt;h3 id="run-in">run-in&lt;/h3>
+&lt;p>Устанавливает элемент как блочный или строчный, в зависимости от контекста.&lt;/p>
+&lt;h3 id="table">table&lt;/h3>
+&lt;p>Определяет, что элемент является блочной таблицей, подобно использованию &lt;code>&amp;lt;table&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-caption">table-caption&lt;/h3>
+&lt;p>Задаёт заголовок таблицы, подобно применению &lt;code>&amp;lt;caption&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-cell">table-cell&lt;/h3>
+&lt;p>Указывает, что элемент представляет собой ячейку таблицы (&lt;code>&amp;lt;td&amp;gt;&lt;/code> или &lt;code>&amp;lt;th&amp;gt;&lt;/code>).&lt;/p>
+&lt;h3 id="table-column">table-column&lt;/h3>
+&lt;p>Назначает элемент колонкой таблицы, словно был добавлен &lt;code>&amp;lt;col&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-column-group">table-column-group&lt;/h3>
+&lt;p>Определяет, что элемент является группой одной или более колонок таблицы, как при использовании &lt;code>&amp;lt;colgroup&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-footer-group">table-footer-group&lt;/h3>
+&lt;p>Используется для хранения одной или нескольких строк ячеек, которые отображаются в самом низу таблицы. По своему действию сходно с работой &lt;code>&amp;lt;tfoot&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-header-group">table-header-group&lt;/h3>
+&lt;p>Элемент предназначен для хранения одной или нескольких строк ячеек, которые представлены вверху таблицы. По своему действию сходно с работой &lt;code>&amp;lt;thead&amp;gt;&lt;/code>.&lt;/p>
+&lt;h4 id="table-row">table-row&lt;/h4>
+&lt;p>Элемент отображается как строка таблицы (&lt;code>&amp;lt;tr&amp;gt;&lt;/code>).&lt;/p>
+&lt;h3 id="table-row-group">table-row-group&lt;/h3>
+&lt;p>Создаёт структурный блок, состоящий из нескольких строк таблицы, аналогично действию &lt;code>&amp;lt;tbody&amp;gt;&lt;/code>.&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на medium.com
+See the Pen odJjA by npofopr (@npofopr) on CodePen
+HTML:
+Прописывать в вашем html это не надо, все сгенерирует js
+CSS:
+#progress { position: fixed; z-index: 2147483647; top: 0; left: -6px; width: 1%; height: 2px; background: #0088CC; -moz-border-radius: 1px; -webkit-border-radius: 1px; border-radius: 1px; -moz-transition: width 500ms ease-out,opacity 400ms linear; -ms-transition: width 500ms ease-out,opacity 400ms linear; -o-transition: width 500ms ease-out,opacity 400ms linear; -webkit-transition: width 500ms ease-out,opacity 400ms linear; transition: width 500ms ease-out,opacity 400ms linear; } #progress dd, #progress dt { position: absolute; top: 0; height: 2px; -moz-box-shadow: #0088CC 1px 0 6px 1px; -ms-box-shadow: #0088CC 1px 0 6px 1px; -webkit-box-shadow: #0088CC 1px 0 6px 1px; box-shadow: #0088CC 1px 0 6px 1px; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; } #progress dt { opacity: .</description></item><item><title>css вкусности на неделю</title><link>https://altyncev.ru/blog/2013-07-19-css_likes/</link><pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-19-css_likes/</guid><description>Всё то, что мне приглянулось и понравилось за текущую неделю
+Разнообразные css3 эффекты Всем смотреть обязательно, интересные эффекты, как для кнопок, так и для всей страницы, и всё это в одном css)
+  Генератор тени Легким движением ползунков генерируем трендовые тенюшки)
+  Выдержки из codepen.io, то, что я налайкал: Timeline Navigation Text Looping Transition Playful signup buttons Switches Minion Pure CSS Solar System   Сам делает ReadMore ссылку Задаётся высота, а всё что ниже будет попадать под ReadMore.</description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid><description>Расширяем свой reset.css и зарещаем масштабирование сайта.
+Расширьте reset.css
+К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив
+*:not(html) { -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0); } Запрещайте масштабирование
+Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.
+&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;</description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid><description>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.
+1. Google Chrome Frame Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, Google Chrome Frame стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий -тэг в тэге нашего сайта.</description></item></channel></rss>
