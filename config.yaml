@@ -4,11 +4,14 @@ theme: hugo-theme-stack
 paginate: 5
 title: Altyncev Vladislav
 
+# disableKinds: ['search', 'page', 'archives', 'taxonomy', 'term', 'home']
+
 publishDir: public
 buildDrafts: false
 canonifyURLs: true
 timeout: 60000
 defaultExtension: html
+defaultLayout: post
 
 pluralizeListTitles: false
 preserveTaxonomyNames: true

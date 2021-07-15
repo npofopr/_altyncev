@@ -1,0 +1,36 @@
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+{{- $description := partialCached "data/description" . .RelPermalink -}}
+<meta name='description' content='{{ $description }}'>
+
+{{- $title := partialCached "data/title" . .RelPermalink -}}
+<title>{{ $title }}</title>
+
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="preconnect" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="https://use.fontawesome.com">
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
+<link rel="preconnect" href="//cdnjs.cloudflare.com">
+<link rel="preconnect" href="//www.googletagmanager.com">
+<link rel="preconnect" href="//www.google-analytics.com">
+<link rel="preconnect" href="//mc.yandex.ru">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+
+<link rel='canonical' href='{{ .Permalink }}'>
+
+{{- partial "head/style.html" . -}}
+{{- partial "head/script.html" . -}}
+{{- partial "head/opengraph/include.html" . -}}
+
+{{- range .AlternativeOutputFormats -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{- end -}}
+
+{{ with .Site.Params.favicon }}
+    <link rel="shortcut icon" href="{{ . }}" />
+{{ end }}
+
+{{- template "_internal/google_analytics.html" . -}}
+{{- partial "head/custom.html" . -}}
