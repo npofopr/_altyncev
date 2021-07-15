@@ -7,19 +7,8 @@ type: "post"
 tags: ["cottage", "баня"]
 ---
 
-<div class="gallery-item">
+![](20150809_185048.jpg)  ![](20150809_185058.jpg)
 
-<figure><a data-fancybox="gallery" href='/img/2015/08/20150809_185048.jpg'><img src='/img/2015/08/20150809_185048.jpg' /></a></figure>
+![](20150809_185105.jpg)  ![Видок из туалета, что надо)](20150809_185120.jpg)
 
-<figure><a data-fancybox="gallery" href='/img/2015/08/20150809_185058.jpg'><img src='/img/2015/08/20150809_185058.jpg' /></a></figure>
-
-<figure><a data-fancybox="gallery" href='/img/2015/08/20150809_185105.jpg'><img src='/img/2015/08/20150809_185105.jpg' /></a></figure>
-
-<figure>
-<a data-fancybox="gallery" href='/img/2015/08/20150809_185120.jpg'><img src='/img/2015/08/20150809_185120.jpg' /></a>
-<figcaption>Видок из туалета, что надо)</figcaption>
-</figure>
-
-<figure><a data-fancybox="gallery" href='/img/2015/08/20150809_185907.jpg'><img src='/img/2015/08/20150809_185907.jpg' /></a></figure>
-
-</div>
+![](20150809_185907.jpg)

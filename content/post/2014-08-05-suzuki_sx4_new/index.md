@@ -4,14 +4,15 @@ title: "Новая машина - Suzuki SX4 New"
 tags: ["car"]
 categories: ["life"]
 date: "2014-08-05"
-image: "/images/blog/suzuki_sx4_new_2.jpg"
+image: "suzuki_sx4_new_2.jpg"
 ---
 
 Махнули не глядя свою Chevrolet Aveo 2012г. на Suzuki SX4 New.
 <!-- Read more -->
 
 Прошлая Aveo:
-![Aveo 2012](/images/blog/aveo.jpg)
+
+![Aveo 2012](aveo.jpg)
 
 Выбор был тяжелым.
 И как и у многих, на Suzuki совсем не смотрели по началу. Зато когда узнали про эту марку и почитали обзоры, то выбор стал очевидным. По сравнению с остальными марками авто, в такой же ценовой категории, Suzuki смотрите выйгрышнее.
@@ -20,7 +21,7 @@ image: "/images/blog/suzuki_sx4_new_2.jpg"
 
 Вообще машину сравнивают, в большинстве своём, с Skoda Yeti, Nissan Qashqai, Opel Mokka, Mitsubishi ASX, Peugeot 3008, я бы добавил ещё Subaru XV и KIA Soul.
 
-![suzuki sx4 new](/images/blog/suzuki_sx4_new_3.jpg)
+![suzuki sx4 new](suzuki_sx4_new_3.jpg)
 
 **Не буду многословен, просто прокомментирую две статьи.**
 
@@ -57,7 +58,7 @@ image: "/images/blog/suzuki_sx4_new_2.jpg"
 Пепельница? Бросайте это гиблое дело, по крайней мере в машине.
 Медиасистема, наверно да, у нас ее нет. Но все на неё ругаются.
 
-![suzuki sx4 new](/images/blog/suzuki_sx4_new_1.jpg)
+![suzuki sx4 new](suzuki_sx4_new_1.jpg)
 
 > Зеркала имеют функцию складывания, но полностью к бокам кузова не прижимаются, выступая на несколько сантиметров.
 
