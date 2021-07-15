@@ -1,24 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>fun on Altyncev Vladislav</title>
-    <link>https://altyncev.ru/tags/fun/</link>
-    <description>Recent content in fun on Altyncev Vladislav</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://altyncev.ru/tags/fun/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Стишок о тентаклях</title>
-      <link>https://altyncev.ru/blog/2013-12-29-tentakli/</link>
-      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2013-12-29-tentakli/</guid>
-      <description>&amp;nbsp;
- Тентакли очень хороши –
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fun on Altyncev Vladislav</title><link>https://altyncev.ru/tags/fun/</link><description>Recent content in fun on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 29 Dec 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/fun/index.xml" rel="self" type="application/rss+xml"/><item><title>Стишок о тентаклях</title><link>https://altyncev.ru/blog/2013-12-29-tentakli/</link><pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-12-29-tentakli/</guid><description>&amp;nbsp;
+Тентакли очень хороши –
 Для тела, да и для души,
 Они так весело растут
 И успевают там и тут. Они хватают все подряд,
@@ -33,8 +14,4 @@
 Не восхитится лишь больной.
 Случается, они невольно
 Сжимают так, что станет больно,
-Подобно сотням жадных рук</description>
-    </item>
-    
-  </channel>
-</rss>
+Подобно сотням жадных рук</description></item></channel></rss>

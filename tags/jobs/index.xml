@@ -1,73 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>jobs on Altyncev Vladislav</title>
-    <link>https://altyncev.ru/tags/jobs/</link>
-    <description>Recent content in jobs on Altyncev Vladislav</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://altyncev.ru/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Вопросы и ответы для собеседования на верстальщика</title>
-      <link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link>
-      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid>
-      <description>&lt;p&gt;Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://altyncev.ru/img/2017/11/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif&#34; alt=&#34;Когда на собеседовании тебе показали кто тут Senior&#34;&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;вопросы&#34;&gt;Вопросы&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Какие бывают значения display? Расскажите как ведёт себя каждое свойство.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;block&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;inline&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;inline-block&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;inline-table&lt;/span&gt; |
-    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;inline-flex&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;flex&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;list-item&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;none&lt;/span&gt; |
-    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;run-in&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-caption&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-cell&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-column-group&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-column&lt;/span&gt; |
-    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-footer-group&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-header-group&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-row&lt;/span&gt; | &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;table-row-group&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Подробнее&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h3 id=&#34;block&#34;&gt;block&lt;/h3&gt;
-&lt;p&gt;Элемент показывается как блочный. Применение этого значения для строчных элементов, например &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого.&lt;/p&gt;
-&lt;h3 id=&#34;inline&#34;&gt;inline&lt;/h3&gt;
-&lt;p&gt;Элемент отображается как строчный. Использование блочных элементов, таких, как &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; и &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, автоматически создаёт перенос и показывает их содержимое с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.&lt;/p&gt;
-&lt;h3 id=&#34;inline-block&#34;&gt;inline-block&lt;/h3&gt;
-&lt;p&gt;Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно строчному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как строчный.&lt;/p&gt;
-&lt;h3 id=&#34;inline-table&#34;&gt;inline-table&lt;/h3&gt;
-&lt;p&gt;Определяет, что элемент является таблицей, как при использовании &lt;code&gt;&amp;lt;table&amp;gt;&lt;/code&gt;, но при этом таблица является строчным элементом и происходит её обтекание другими элементами, например, текстом.&lt;/p&gt;
-&lt;h3 id=&#34;inline-flex&#34;&gt;inline-flex&lt;/h3&gt;
-&lt;p&gt;Элемент ведёт себя как строчный и выкладывает содержимое согласно флекс-модели.&lt;/p&gt;
-&lt;h3 id=&#34;flex&#34;&gt;flex&lt;/h3&gt;
-&lt;p&gt;Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.&lt;/p&gt;
-&lt;h3 id=&#34;list-item&#34;&gt;list-item&lt;/h3&gt;
-&lt;p&gt;Элемент выводится как блочный и добавляется маркер списка.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>jobs on Altyncev Vladislav</title><link>https://altyncev.ru/tags/jobs/</link><description>Recent content in jobs on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/jobs/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
+&lt;p>&lt;img src="https://altyncev.ru/img/2017/11/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" alt="Когда на собеседовании тебе показали кто тут Senior">&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="вопросы">Вопросы&lt;/h2>
+&lt;blockquote>
+&lt;p>Какие бывают значения display? Расскажите как ведёт себя каждое свойство.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-css" data-lang="css"> &lt;span class="nt">display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">block&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline-block&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline-table&lt;/span> &lt;span class="o">|&lt;/span>
+&lt;span class="nt">inline-flex&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">flex&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">list-item&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">none&lt;/span> &lt;span class="o">|&lt;/span>
+&lt;span class="nt">run-in&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-caption&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-cell&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-column-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-column&lt;/span> &lt;span class="o">|&lt;/span>
+&lt;span class="nt">table-footer-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-header-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-row&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-row-group&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;!-- raw HTML omitted -->Подробнее&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="block">block&lt;/h3>
+&lt;p>Элемент показывается как блочный. Применение этого значения для строчных элементов, например &lt;code>&amp;lt;span&amp;gt;&lt;/code>, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого.&lt;/p>
+&lt;h3 id="inline">inline&lt;/h3>
+&lt;p>Элемент отображается как строчный. Использование блочных элементов, таких, как &lt;code>&amp;lt;div&amp;gt;&lt;/code> и &lt;code>&amp;lt;p&amp;gt;&lt;/code>, автоматически создаёт перенос и показывает их содержимое с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.&lt;/p>
+&lt;h3 id="inline-block">inline-block&lt;/h3>
+&lt;p>Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно строчному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде &lt;code>&amp;lt;img&amp;gt;&lt;/code>). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как строчный.&lt;/p>
+&lt;h3 id="inline-table">inline-table&lt;/h3>
+&lt;p>Определяет, что элемент является таблицей, как при использовании &lt;code>&amp;lt;table&amp;gt;&lt;/code>, но при этом таблица является строчным элементом и происходит её обтекание другими элементами, например, текстом.&lt;/p>
+&lt;h3 id="inline-flex">inline-flex&lt;/h3>
+&lt;p>Элемент ведёт себя как строчный и выкладывает содержимое согласно флекс-модели.&lt;/p>
+&lt;h3 id="flex">flex&lt;/h3>
+&lt;p>Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.&lt;/p>
+&lt;h3 id="list-item">list-item&lt;/h3>
+&lt;p>Элемент выводится как блочный и добавляется маркер списка.
 none
-Временно удаляет элемент из документа. Занимаемое им место не резервируется, и веб-страница формируется так, словно элемента и не было. Изменить значение и сделать вновь видимым элемент можно с помощью скриптов, обращаясь к свойствам через объектную модель. В этом случае происходит переформатирование данных на странице с учётом вновь добавленного элемента.&lt;/p&gt;
-&lt;h3 id=&#34;run-in&#34;&gt;run-in&lt;/h3&gt;
-&lt;p&gt;Устанавливает элемент как блочный или строчный, в зависимости от контекста.&lt;/p&gt;
-&lt;h3 id=&#34;table&#34;&gt;table&lt;/h3&gt;
-&lt;p&gt;Определяет, что элемент является блочной таблицей, подобно использованию &lt;code&gt;&amp;lt;table&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;table-caption&#34;&gt;table-caption&lt;/h3&gt;
-&lt;p&gt;Задаёт заголовок таблицы, подобно применению &lt;code&gt;&amp;lt;caption&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;table-cell&#34;&gt;table-cell&lt;/h3&gt;
-&lt;p&gt;Указывает, что элемент представляет собой ячейку таблицы (&lt;code&gt;&amp;lt;td&amp;gt;&lt;/code&gt; или &lt;code&gt;&amp;lt;th&amp;gt;&lt;/code&gt;).&lt;/p&gt;
-&lt;h3 id=&#34;table-column&#34;&gt;table-column&lt;/h3&gt;
-&lt;p&gt;Назначает элемент колонкой таблицы, словно был добавлен &lt;code&gt;&amp;lt;col&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;table-column-group&#34;&gt;table-column-group&lt;/h3&gt;
-&lt;p&gt;Определяет, что элемент является группой одной или более колонок таблицы, как при использовании &lt;code&gt;&amp;lt;colgroup&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;table-footer-group&#34;&gt;table-footer-group&lt;/h3&gt;
-&lt;p&gt;Используется для хранения одной или нескольких строк ячеек, которые отображаются в самом низу таблицы. По своему действию сходно с работой &lt;code&gt;&amp;lt;tfoot&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;table-header-group&#34;&gt;table-header-group&lt;/h3&gt;
-&lt;p&gt;Элемент предназначен для хранения одной или нескольких строк ячеек, которые представлены вверху таблицы. По своему действию сходно с работой &lt;code&gt;&amp;lt;thead&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;table-row&#34;&gt;table-row&lt;/h4&gt;
-&lt;p&gt;Элемент отображается как строка таблицы (&lt;code&gt;&amp;lt;tr&amp;gt;&lt;/code&gt;).&lt;/p&gt;
-&lt;h3 id=&#34;table-row-group&#34;&gt;table-row-group&lt;/h3&gt;
-&lt;p&gt;Создаёт структурный блок, состоящий из нескольких строк таблицы, аналогично действию &lt;code&gt;&amp;lt;tbody&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+Временно удаляет элемент из документа. Занимаемое им место не резервируется, и веб-страница формируется так, словно элемента и не было. Изменить значение и сделать вновь видимым элемент можно с помощью скриптов, обращаясь к свойствам через объектную модель. В этом случае происходит переформатирование данных на странице с учётом вновь добавленного элемента.&lt;/p>
+&lt;h3 id="run-in">run-in&lt;/h3>
+&lt;p>Устанавливает элемент как блочный или строчный, в зависимости от контекста.&lt;/p>
+&lt;h3 id="table">table&lt;/h3>
+&lt;p>Определяет, что элемент является блочной таблицей, подобно использованию &lt;code>&amp;lt;table&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-caption">table-caption&lt;/h3>
+&lt;p>Задаёт заголовок таблицы, подобно применению &lt;code>&amp;lt;caption&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-cell">table-cell&lt;/h3>
+&lt;p>Указывает, что элемент представляет собой ячейку таблицы (&lt;code>&amp;lt;td&amp;gt;&lt;/code> или &lt;code>&amp;lt;th&amp;gt;&lt;/code>).&lt;/p>
+&lt;h3 id="table-column">table-column&lt;/h3>
+&lt;p>Назначает элемент колонкой таблицы, словно был добавлен &lt;code>&amp;lt;col&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-column-group">table-column-group&lt;/h3>
+&lt;p>Определяет, что элемент является группой одной или более колонок таблицы, как при использовании &lt;code>&amp;lt;colgroup&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-footer-group">table-footer-group&lt;/h3>
+&lt;p>Используется для хранения одной или нескольких строк ячеек, которые отображаются в самом низу таблицы. По своему действию сходно с работой &lt;code>&amp;lt;tfoot&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="table-header-group">table-header-group&lt;/h3>
+&lt;p>Элемент предназначен для хранения одной или нескольких строк ячеек, которые представлены вверху таблицы. По своему действию сходно с работой &lt;code>&amp;lt;thead&amp;gt;&lt;/code>.&lt;/p>
+&lt;h4 id="table-row">table-row&lt;/h4>
+&lt;p>Элемент отображается как строка таблицы (&lt;code>&amp;lt;tr&amp;gt;&lt;/code>).&lt;/p>
+&lt;h3 id="table-row-group">table-row-group&lt;/h3>
+&lt;p>Создаёт структурный блок, состоящий из нескольких строк таблицы, аналогично действию &lt;code>&amp;lt;tbody&amp;gt;&lt;/code>.&lt;/p>
+&lt;!-- raw HTML omitted --></description></item></channel></rss>

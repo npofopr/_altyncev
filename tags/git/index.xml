@@ -1,71 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>git on Altyncev Vladislav</title>
-    <link>https://altyncev.ru/tags/git/</link>
-    <description>Recent content in git on Altyncev Vladislav</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 04 Oct 2012 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://altyncev.ru/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Git это просто. Запись №5. Работа с метками</title>
-      <link>https://altyncev.ru/blog/2012-10-04-git_eto_prosto_rabota_s_metkami/</link>
-      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-10-04-git_eto_prosto_rabota_s_metkami/</guid>
-      <description>Как и большинство СУВ, Git имеет возможность помечать (tag) определённые моменты в истории как важные. Как правило, этот функционал используется для отметки моментов выпуска версий (v1.0, и т.п.). В этом разделе вы узнаете, как посмотреть имеющиеся метки (tag), как создать новые. А также вы узнаете, что из себя представляют разные типы меток.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on Altyncev Vladislav</title><link>https://altyncev.ru/tags/git/</link><description>Recent content in git on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 04 Oct 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Git это просто. Запись №5. Работа с метками</title><link>https://altyncev.ru/blog/2012-10-04-git_eto_prosto_rabota_s_metkami/</link><pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-10-04-git_eto_prosto_rabota_s_metkami/</guid><description>Как и большинство СУВ, Git имеет возможность помечать (tag) определённые моменты в истории как важные. Как правило, этот функционал используется для отметки моментов выпуска версий (v1.0, и т.п.). В этом разделе вы узнаете, как посмотреть имеющиеся метки (tag), как создать новые. А также вы узнаете, что из себя представляют разные типы меток.
 Просмотр меток
 Просмотр имеющихся меток (tag) в Git делается просто. Достаточно набрать git tag:
-$ git tag v0.</description>
-    </item>
-    
-    <item>
-      <title>Git это просто. Запись №4. Fetch и Pull</title>
-      <link>https://altyncev.ru/blog/2012-10-03-git_eto_prosto_fetch_and_pull/</link>
-      <pubDate>Wed, 03 Oct 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-10-03-git_eto_prosto_fetch_and_pull/</guid>
-      <description>Здесь мы научимся пушить и пулить.
+$ git tag v0.</description></item><item><title>Git это просто. Запись №4. Fetch и Pull</title><link>https://altyncev.ru/blog/2012-10-03-git_eto_prosto_fetch_and_pull/</link><pubDate>Wed, 03 Oct 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-10-03-git_eto_prosto_fetch_and_pull/</guid><description>Здесь мы научимся пушить и пулить.
 Как вы только что узнали, для получения данных из удалённых проектов, следует выполнить:
-$ git fetch [remote-name] Данная команда связывается с указанным удалённым проектом и забирает все те данные проекта, которых у вас ещё нет. После того как вы выполнили команду, у вас должны появиться ссылки на все ветки из этого удалённого проекта. Теперь эти ветки в любой момент могут быть просмотрены или слиты.</description>
-    </item>
-    
-    <item>
-      <title>Git это просто. Запись №3. Работа с удалёнными репозиторями</title>
-      <link>https://altyncev.ru/blog/2012-10-02-git_eto_prosto_udalennii_repository/</link>
-      <pubDate>Tue, 02 Oct 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-10-02-git_eto_prosto_udalennii_repository/</guid>
-      <description>Совместная работа включает в себя управление удалёнными репозиториями и помещение (push) и получение (pull) данных в и из них тогда, когда нужно обменяться результатами работы. Управление удалёнными репозиториями включает умение добавлять удалённые репозитории, удалять те из них, которые больше не действуют, умение управлять различными удалёнными ветками и определять их как отслеживаемые (tracked) или нет и прочее.
+$ git fetch [remote-name] Данная команда связывается с указанным удалённым проектом и забирает все те данные проекта, которых у вас ещё нет. После того как вы выполнили команду, у вас должны появиться ссылки на все ветки из этого удалённого проекта. Теперь эти ветки в любой момент могут быть просмотрены или слиты.</description></item><item><title>Git это просто. Запись №3. Работа с удалёнными репозиторями</title><link>https://altyncev.ru/blog/2012-10-02-git_eto_prosto_udalennii_repository/</link><pubDate>Tue, 02 Oct 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-10-02-git_eto_prosto_udalennii_repository/</guid><description>Совместная работа включает в себя управление удалёнными репозиториями и помещение (push) и получение (pull) данных в и из них тогда, когда нужно обменяться результатами работы. Управление удалёнными репозиториями включает умение добавлять удалённые репозитории, удалять те из них, которые больше не действуют, умение управлять различными удалёнными ветками и определять их как отслеживаемые (tracked) или нет и прочее.
 Отображение удалённых репозиториев
-Чтобы просмотреть, какие удалённые серверы у вас уже настроены, следует выполнить команду git remote.</description>
-    </item>
-    
-    <item>
-      <title>Git это просто. Запись №2. Отмена изменений</title>
-      <link>https://altyncev.ru/blog/2012-10-01-git_eto_prosto_otmena_izmenenii/</link>
-      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-10-01-git_eto_prosto_otmena_izmenenii/</guid>
-      <description>На любой стадии может возникнуть необходимость что-либо отменить. Здесь мы рассмотрим несколько основных инструментов для отмены произведённых изменений. Будьте осторожны, ибо не всегда можно отменить сами отмены.
+Чтобы просмотреть, какие удалённые серверы у вас уже настроены, следует выполнить команду git remote.</description></item><item><title>Git это просто. Запись №2. Отмена изменений</title><link>https://altyncev.ru/blog/2012-10-01-git_eto_prosto_otmena_izmenenii/</link><pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-10-01-git_eto_prosto_otmena_izmenenii/</guid><description>На любой стадии может возникнуть необходимость что-либо отменить. Здесь мы рассмотрим несколько основных инструментов для отмены произведённых изменений. Будьте осторожны, ибо не всегда можно отменить сами отмены.
 Изменение последнего коммита
 Одна из типичных отмен происходит тогда, когда вы делаете коммит слишком рано, забыв добавить какие-то файлы, или напутали с комментарием к коммиту. Если вам хотелось бы сделать этот коммит ещё раз, вы можете выполнить commit с опцией --amend:
-$ git commit --amend &amp;nbsp;Для примера, если после совершения коммита вы осознали, что забыли проиндексировать изменения в файле, которые хотели добавить в этот коммит, вы можете сделать что-то подобное:</description>
-    </item>
-    
-    <item>
-      <title>Git это просто. Запись №1. Знакомство с Git.</title>
-      <link>https://altyncev.ru/blog/2012-09-24-git_eto_prosto_znakomstvo_s_git/</link>
-      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-09-24-git_eto_prosto_znakomstvo_s_git/</guid>
-      <description>Что же такое Git? Что такое управление версиями, и зачем оно вам нужно? Система управления версиями (СУВ) &amp;mdash; это система, сохраняющая изменения в одном или нескольких файлах так, чтобы потом можно было восстановить определённые старые версии. Для примеров в этой книге мы будем использовать исходные коды программ, но на самом деле можно управлять версиями практически любых типов файлов.
-Если вы графический или веб-дизайнер и хотите хранить каждую версию изображения или макета &amp;mdash; вот это вам наверняка нужно &amp;mdash; то пользоваться системой управления версиями будет очень мудрым решением.</description>
-    </item>
-    
-  </channel>
-</rss>
+$ git commit --amend &amp;nbsp;Для примера, если после совершения коммита вы осознали, что забыли проиндексировать изменения в файле, которые хотели добавить в этот коммит, вы можете сделать что-то подобное:</description></item><item><title>Git это просто. Запись №1. Знакомство с Git.</title><link>https://altyncev.ru/blog/2012-09-24-git_eto_prosto_znakomstvo_s_git/</link><pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-09-24-git_eto_prosto_znakomstvo_s_git/</guid><description>Что же такое Git? Что такое управление версиями, и зачем оно вам нужно? Система управления версиями (СУВ) &amp;mdash; это система, сохраняющая изменения в одном или нескольких файлах так, чтобы потом можно было восстановить определённые старые версии. Для примеров в этой книге мы будем использовать исходные коды программ, но на самом деле можно управлять версиями практически любых типов файлов.
+Если вы графический или веб-дизайнер и хотите хранить каждую версию изображения или макета &amp;mdash; вот это вам наверняка нужно &amp;mdash; то пользоваться системой управления версиями будет очень мудрым решением.</description></item></channel></rss>
