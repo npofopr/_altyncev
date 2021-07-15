@@ -14,7 +14,18 @@
       
       <guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid>
       <description>&lt;p&gt;Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://altyncev.ru/img/2017/11/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif&#34; alt=&#34;Когда на собеседовании тебе показали кто тут Senior&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 126; flex-basis: 303px&#34;&gt;
+		&lt;a href=&#34;https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif&#34; data-size=&#34;450x356&#34;&gt;&lt;img src=&#34;https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif&#34;
+				srcset=&#34;https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu278683c3ac01480bf2e3e16794b648c5_195215_480x0_resize_box.gif 480w, https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu278683c3ac01480bf2e3e16794b648c5_195215_1024x0_resize_box.gif 1024w&#34;
+				width=&#34;450&#34;
+				height=&#34;356&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Когда на собеседовании тебе показали кто тут Senior&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Когда на собеседовании тебе показали кто тут Senior&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;вопросы&#34;&gt;Вопросы&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -96,6 +107,34 @@ none
     </item>
     
     <item>
+      <title>Мембрана. Продолжаем</title>
+      <link>https://altyncev.ru/blog/2016-04-17-membrana_prodoljaem/</link>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2016-04-17-membrana_prodoljaem/</guid>
+      <description>Прибиваем дальше мембрану.
+Закончили уже к вечеру, поэтому так (ну и темнее быстро):</description>
+    </item>
+    
+    <item>
+      <title>Мембрана под обрешётку</title>
+      <link>https://altyncev.ru/blog/2016-04-09-membrana/</link>
+      <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2016-04-09-membrana/</guid>
+      <description>Проложили мембрану Tyvek. С ветром то ещё занятие(</description>
+    </item>
+    
+    <item>
+      <title>Начало нового года или Зимняя проверка сруба</title>
+      <link>https://altyncev.ru/blog/2016-01-31-winter_test/</link>
+      <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2016-01-31-winter_test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>This - «ðɪs» Откуда взялась «З»?</title>
       <link>https://altyncev.ru/blog/2015-11-27-english_this/</link>
       <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
@@ -120,6 +159,15 @@ Alignment - Для выравнивания
 AutoFileName - Автозаполнение имени файлов.
 Better CoffeeScript - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.
 Bootstrap 3 Jade Snippets - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться.</description>
+    </item>
+    
+    <item>
+      <title>Перекидывание досок</title>
+      <link>https://altyncev.ru/blog/2015-11-14-doski/</link>
+      <pubDate>Sat, 14 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://altyncev.ru/blog/2015-11-14-doski/</guid>
+      <description>ляпота</description>
     </item>
     
     <item>
@@ -203,8 +251,7 @@ JavaScript  hexlet Современный учебник JavaScript ArtSorax/vid
       <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://altyncev.ru/blog/2015-09-26-opalubka/</guid>
-      <description>Сливная яма 
- На фото не передать, но закаты здесь бежественные)   
+      <description>Сливная яма   На фото не передать, но закаты здесь бежественные)   
    
 Начало нового дня:
  Оббили опалубку рубероидом   Дозакладываем арматуру 
@@ -219,10 +266,12 @@ JavaScript  hexlet Современный учебник JavaScript ArtSorax/vid
       <pubDate>Sat, 19 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://altyncev.ru/blog/2015-09-19-fundament/</guid>
-      <description>Горох при!   
- Закопали трубу для водоотвода   Продолжаем собирать опалубку 
-   
-   Арматура композитная. Быстрее, легче, проще.</description>
+      <description>Тесты гороха
+ Горох при!   
+Труба для будущего стока воды.
+ Закопали трубу для водоотвода     
+Сразу арматуру прокладываем.
+   Арматура композитная. Быстрее, легче, удобнее.</description>
     </item>
     
     <item>
@@ -232,7 +281,7 @@ JavaScript  hexlet Современный учебник JavaScript ArtSorax/vid
       
       <guid>https://altyncev.ru/blog/2015-09-06-pashnya/</guid>
       <description>Клумба под цвета
-     Вот такая пушистая земля 
+   Вот такая пушистая земля 
 Разметил границы фундамента. Дальше, силами бабушек были вырыты траншеи, примерно в 0.5 метра. Дальше там уже вода шла.</description>
     </item>
     
@@ -242,7 +291,7 @@ JavaScript  hexlet Современный учебник JavaScript ArtSorax/vid
       <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://altyncev.ru/blog/2015-09-04-lopata/</guid>
-      <description>PS 2018: Хрень короче) Не для нашей глины. Толком ей не пользуемся. Лежит себе и слежит. Может ещё придёт её час.</description>
+      <description>UPD: 2018: Хрень короче) Не для нашей глины. Толком ей не пользуемся. Лежит себе и слежит. Может ещё придёт её час.</description>
     </item>
     
     <item>
