@@ -1,7 +1,7 @@
 baseurl: https://altyncev.ru
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 5
+paginate: 10
 title: Altyncev Vladislav
 
 # disableKinds: ['search', 'page', 'archives', 'taxonomy', 'term', 'home']
@@ -126,7 +126,7 @@ menu:
       name: Handmade
       url: /categories/cottage/
       weight: -90
-      # pre: woodhouse
+      pre: woodcarving
 
     # - identifier: Portfolio
     #   name: Portfolio
