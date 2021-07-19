@@ -5,7 +5,7 @@
 <meta name='description' content='{{ $description }}'>
 
 {{- $title := partialCached "data/title" . .RelPermalink -}}
-<title>{{ $title }}</title>
+<title>{{ $title }} · {{ .Site.Title }}</title>
 
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="preconnect" href="//ajax.googleapis.com">

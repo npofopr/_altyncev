@@ -6,7 +6,7 @@
 {{- $title := partialCached "data/title" . .RelPermalink -}}
 {{- $description := partialCached "data/description" . .RelPermalink -}}
 
-<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:title" content="{{ $title }} · {{ .Site.Title }}">
 <meta name="twitter:description" content="{{ $description }}">
 
 {{- $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" -}}
