@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Сколотили небольшую дачную кухню"
 description: ""
 categories: [ "cottage" ]
 date: "2021-07-18"
