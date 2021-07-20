@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://altyncev.ru/blog/2021-07-18-kitchen/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://altyncev.ru/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://altyncev.ru/categories/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://altyncev.ru/tags/cottage/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://altyncev.ru/post/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://altyncev.ru/tags/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://altyncev.ru/categories/cottage/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://altyncev.ru/tags/%D0%B1%D0%B0%D0%BD%D1%8F/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://altyncev.ru/archives/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
@@ -14,9 +35,6 @@
     <loc>https://altyncev.ru/about/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://altyncev.ru/categories/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://altyncev.ru/tags/css/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,12 +42,6 @@
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://altyncev.ru/tags/jobs/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://altyncev.ru/post/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://altyncev.ru/tags/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://altyncev.ru/categories/web/</loc>
@@ -59,16 +71,13 @@
     <loc>https://altyncev.ru/blog/2016-10-25-task_complite/</loc>
     <lastmod>2016-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://altyncev.ru/tags/cottage/</loc>
-    <lastmod>2016-05-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://altyncev.ru/categories/cottage/</loc>
+    <loc>https://altyncev.ru/tags/garden/</loc>
     <lastmod>2016-05-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://altyncev.ru/blog/2016-05-31-ogorod/</loc>
     <lastmod>2016-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://altyncev.ru/tags/%D0%B1%D0%B0%D0%BD%D1%8F/</loc>
+    <loc>https://altyncev.ru/blog/2021-07-18-garden/</loc>
     <lastmod>2016-05-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://altyncev.ru/blog/2016-05-21-fronton-2/</loc>
