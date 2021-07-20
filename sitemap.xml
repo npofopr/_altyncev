@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://altyncev.ru/blog/2021-07-18-kitchen/</loc>
-    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://altyncev.ru/</loc>
     <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -21,6 +18,9 @@
     <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://altyncev.ru/categories/cottage/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://altyncev.ru/blog/2021-07-18-kitchen/</loc>
     <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://altyncev.ru/tags/%D0%B1%D0%B0%D0%BD%D1%8F/</loc>
