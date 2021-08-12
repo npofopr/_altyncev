@@ -10,5 +10,4 @@ type: "post"
 
 Лучший ответ на задачу
 
-![task](http://static.devli.ru/public/images/gifs/201611/db425257-823b-4d4b-8472-0cef0d43c6aa.gif)
-
+![task](db425257-823b-4d4b-8472-0cef0d43c6aa.gif)

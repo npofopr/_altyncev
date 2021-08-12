@@ -16,6 +16,6 @@ type: "post"
 
 И всё также всё лежит на <a rel="nofollow" href="https://github.com/npofopr/_altyncev" target="_blank">Гитхабе</a> :fist:
 
-![Мыши плакали, кололись, но продолжали грызть кактус](http://static.devli.ru/public/images/gifs/201704/73db630c-a223-4464-a936-1258f09a4911.gif)
+![Мыши плакали, кололись, но продолжали грызть кактус](73db630c-a223-4464-a936-1258f09a4911.gif)
 
 Хвала лунной магии! :boom:
