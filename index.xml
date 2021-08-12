@@ -636,7 +636,18 @@ none
         <description>&lt;p&gt;Теперь бложик оживает благодаря &lt;!-- raw HTML omitted --&gt;Hugo&lt;!-- raw HTML omitted --&gt; 🔥&lt;/p&gt;
 &lt;p&gt;А собирается и деплоится во имя &lt;!-- raw HTML omitted --&gt;Wercker&lt;!-- raw HTML omitted --&gt; 😑&lt;/p&gt;
 &lt;p&gt;И всё также всё лежит на &lt;!-- raw HTML omitted --&gt;Гитхабе&lt;!-- raw HTML omitted --&gt; ✊&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://static.devli.ru/public/images/gifs/201704/73db630c-a223-4464-a936-1258f09a4911.gif&#34; alt=&#34;Мыши плакали, кололись, но продолжали грызть кактус&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 177; flex-basis: 427px&#34;&gt;
+		&lt;a href=&#34;https://altyncev.ru/blog/2017-04-11-hugo-update/73db630c-a223-4464-a936-1258f09a4911.gif&#34; data-size=&#34;500x281&#34;&gt;&lt;img src=&#34;https://altyncev.ru/blog/2017-04-11-hugo-update/73db630c-a223-4464-a936-1258f09a4911.gif&#34;
+				srcset=&#34;https://altyncev.ru/blog/2017-04-11-hugo-update/73db630c-a223-4464-a936-1258f09a4911_hu0028f4ddf1ba391ce68419c0b1f579c8_903604_480x0_resize_box.gif 480w, https://altyncev.ru/blog/2017-04-11-hugo-update/73db630c-a223-4464-a936-1258f09a4911_hu0028f4ddf1ba391ce68419c0b1f579c8_903604_1024x0_resize_box.gif 1024w&#34;
+				width=&#34;500&#34;
+				height=&#34;281&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Мыши плакали, кололись, но продолжали грызть кактус&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Мыши плакали, кололись, но продолжали грызть кактус&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Хвала лунной магии! 💥&lt;/p&gt;
 </description>
         </item>
@@ -647,7 +658,18 @@ none
         
         <guid>https://altyncev.ru/blog/2016-11-17-task_complited/</guid>
         <description>&lt;p&gt;Лучший ответ на задачу&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://static.devli.ru/public/images/gifs/201611/db425257-823b-4d4b-8472-0cef0d43c6aa.gif&#34; alt=&#34;task&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 181; flex-basis: 436px&#34;&gt;
+		&lt;a href=&#34;https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa.gif&#34; data-size=&#34;400x220&#34;&gt;&lt;img src=&#34;https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa.gif&#34;
+				srcset=&#34;https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa_hu1fedf69b3724bfe26cfe973391aedfe6_2707570_480x0_resize_box.gif 480w, https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa_hu1fedf69b3724bfe26cfe973391aedfe6_2707570_1024x0_resize_box.gif 1024w&#34;
+				width=&#34;400&#34;
+				height=&#34;220&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;task&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;task&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -657,7 +679,18 @@ none
         
         <guid>https://altyncev.ru/blog/2016-10-25-task_complite/</guid>
         <description>&lt;p&gt;Сделал таску, отправил на code review и &amp;hellip; завернули обратно&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://static.devli.ru/public/images/gifs/201610/9764c1c4-b2d1-4e3c-a97b-b933b5368431.gif&#34; alt=&#34;task&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 129; flex-basis: 311px&#34;&gt;
+		&lt;a href=&#34;https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431.gif&#34; data-size=&#34;480x370&#34;&gt;&lt;img src=&#34;https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431.gif&#34;
+				srcset=&#34;https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431_hu36c05a26206fef61ee9b5d6ace816dc3_2089782_480x0_resize_box.gif 480w, https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431_hu36c05a26206fef61ee9b5d6ace816dc3_2089782_1024x0_resize_box.gif 1024w&#34;
+				width=&#34;480&#34;
+				height=&#34;370&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;task&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;task&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
