@@ -23,7 +23,8 @@ enableEmoji: true
 disqusShortname: npofopr
 
 # GA Tracking ID
-googleAnalytics: UA-2789259-4
+# googleAnalytics: UA-2789259-4
+googleAnalytics: 287374258
 YandexMetrika: 17143639
 domainVerification: Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M
 googleVerification: Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M
