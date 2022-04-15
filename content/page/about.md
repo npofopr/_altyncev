@@ -20,7 +20,7 @@ menu:
 
 ### На кофе
 
-![на кофе](/img/qr_tinkoff.jpg)
+![на кофе](/img/tinkoff_qr.jpg)
 
 ---
 
