@@ -18,4 +18,10 @@ menu:
 
 ---
 
+### На кофе
+
+![на кофе](/img/qr_tinkoff.jpg)
+
+---
+
 Удобный способ связаться: [tg: @npofopr](https://t.me/npofopr)
