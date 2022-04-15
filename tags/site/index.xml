@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>site on Altyncev Vladislav</title>
-    <link>https://altyncev.ru/tags/site/</link>
-    <description>Recent content in site on Altyncev Vladislav</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 13 Oct 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/site/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Как самому сделать сайт</title>
-      <link>https://altyncev.ru/blog/2013-10-13-how_made_site/</link>
-      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2013-10-13-how_made_site/</guid>
-      <description>Постараюсь описать процесс создания сайта. Как магазина, так и обычного информационного.
- сделать сайт 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>site on Altyncev Vladislav</title><link>https://altyncev.ru/tags/site/</link><description>Recent content in site on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 13 Oct 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Как самому сделать сайт</title><link>https://altyncev.ru/blog/2013-10-13-how_made_site/</link><pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-10-13-how_made_site/</guid><description>Постараюсь описать процесс создания сайта. Как магазина, так и обычного информационного.
+сделать сайт
 Самое первое, с чего стоит начать, это задаться вопросом: А надо ли мне оно вообще?. Если вы всё хорошо обдумали и оно того стоит, то для начала всегда стоит смотреть в сторону &amp;ldquo;уже готового&amp;rdquo;.
-Я не буду здесь описывать такие &amp;ldquo;генераторы&amp;rdquo; как ucoz и тому подобное. Люди и там делают, вполне вменяемые сайты, но меня от таких чуть-чуть подташнивает :-)</description>
-    </item>
-    
-  </channel>
-</rss>
+Я не буду здесь описывать такие &amp;ldquo;генераторы&amp;rdquo; как ucoz и тому подобное. Люди и там делают, вполне вменяемые сайты, но меня от таких чуть-чуть подташнивает :-)</description></item></channel></rss>

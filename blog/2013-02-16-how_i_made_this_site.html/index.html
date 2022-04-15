@@ -1,181 +1,16 @@
-<!DOCTYPE html>
-<html lang="en-us">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
-И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox.'><title>Блог на Docpad. Минимум усилий. Docpad blogging · Altyncev Vladislav</title>
-
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="preconnect" href="https://ajax.googleapis.com">
-<link rel="dns-prefetch" href="https://use.fontawesome.com">
-<link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
-<link rel="preconnect" href="https://cdnjs.cloudflare.com">
-<link rel="preconnect" href="https://www.googletagmanager.com">
-<link rel="preconnect" href="https://www.google-analytics.com">
-<link rel="preconnect" href="https://mc.yandex.ru">
-<link rel="dns-prefetch" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-
-<link rel='canonical' href='https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/'>
-
-<link rel="stylesheet" href="https://altyncev.ru/scss/style.min.css"><meta property='og:title' content='Блог на Docpad. Минимум усилий. Docpad blogging · Altyncev Vladislav'>
-<meta property='og:description' content='Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
-И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox.'>
-<meta property='og:url' content='https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/'>
-<meta property='og:site_name' content='Altyncev Vladislav'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='docpad' /><meta property='article:published_time' content='2013-02-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2013-02-16T00:00:00&#43;00:00'/>
-<meta name="twitter:site" content="@npofopr">
-    <meta name="twitter:creator" content="@npofopr"><meta name="twitter:title" content="Блог на Docpad. Минимум усилий. Docpad blogging · Altyncev Vladislav">
-<meta name="twitter:description" content="Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
-И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox.">
-    <link rel="shortcut icon" href="https://altyncev.ru/favicon-16x16.png" />
- <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(17143639, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/17143639" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
-
-    </head>
-    <body class="
-    article-page has-toc
-">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
-
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
-
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<div class="container main-container flex 
-    
-        extended
-    
-">
-    
-        <div id="article-toolbar">
-            <a href="https://altyncev.ru" class="back-home">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="15 6 9 12 15 18" />
-</svg>
-
-
-
-                <span>Назад</span>
-            </a>
-        </div>
-    
-<main class="main full-width">
-    <article class="main-article">
-    <header class="article-header">
-
-    <div class="article-details">
-    
-    <header class="article-category">
-        
-            <a href="https://altyncev.ru/categories/web/" >
-                web
-            </a>
-        
-    </header>
-    
-
-    <h2 class="article-title">
-        <a href="https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/">Блог на Docpad. Минимум усилий. Docpad blogging</a>
-    </h2>
-
-    
-
-    
-    <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Feb 16, 2013</time>
-            </div>
-        
-
-        
-    </footer>
-    
-</div>
-</header>
-
-    <section class="article-content">
-    <p>Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много.
-В большинстве случаев сайты я делал на популярных cms&rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.</p>
-<!-- raw HTML omitted -->
-<p>И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &ldquo;сайтик&rdquo;, а храниться он будет, допустим прямо в вашем dropbox. Очень круто и удобно я считаю. Но там особо не разбежишься с дизайном. Чаще всего вам предоставляют уже готовый шаблон. Но для кого то и это будет достаточно.</p>
-<p>Вот и мне захотелось попробовать нечто такое. Тем более, что информации в интернетах, по этому поводу, стало ходить все больше. Правда в большинстве случаев на английском.</p>
-<p>Вдохновившись статьёй с хабра про <a class="link" href="http://habrahabr.ru/post/160431/"  title="Сайт для программиста"
-     target="_blank" rel="noopener"
-    >Сайт для программиста</a> и намного позже прочитанной статьёй <a class="link" href="http://devblog.the7bits.com/posts/article_01/"  title="Пишем блогодвижок на Docpad"
-     target="_blank" rel="noopener"
-    >Пишем блогодвижок на Docpad</a> завёл себе свой, подобный бложик на Docpad.</p>
-<p>Ну а теперь все по порядку&hellip; Будем делать сайтик на движке <a class="link" href="http://docpad.org/"  title="Docpad"
-     target="_blank" rel="noopener"
-    >Docpad</a>, который в свою очередь использует для работы <a class="link" href="http://nodejs.org/"  title="node.js"
-     target="_blank" rel="noopener"
-    >node.js</a>.</p>
-<p>Для начала <strong>создадим</strong> <a class="link" href="http://github.com/new"  title="Новый git репозиторий"
-     target="_blank" rel="noopener"
-    >Git репозиторий</a>, где и будем хранить все исходники. Можно это сделать и на <a class="link" href="https://bitbucket.org/repo/create"  title="Новый bitbucket репозиторий"
-     target="_blank" rel="noopener"
-    >Bitbucket</a>. Нет разницы.</p>
-<p>Как создать можно прочитать <a class="link" href="http://altyncev.ru/posts/2012-09-24-git_eto_prosto_znakomstvo_s_git"  title="Создание репозитория"
-     target="_blank" rel="noopener"
-    >здесь же</a>.</p>
-<p>Второе, что нам потребуется, это <strong>установить</strong> <a class="link" href="http://nodejs.org/"  target="_blank" rel="noopener"
-    >node.js</a> и затем сам движок <a class="link" href="http://docpad.org/docs/install"  title="Установка docpad"
-     target="_blank" rel="noopener"
-    >Docpad</a>.</p>
-<h3 id="далее-создадим-структуру">Далее создадим структуру:</h3>
-<pre><code>src /
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
+И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox."><title>Блог на Docpad. Минимум усилий. Docpad blogging · Altyncev Vladislav</title><meta http-equiv=x-dns-prefetch-control content="on"><link rel=preconnect href=https://ajax.googleapis.com><link rel=dns-prefetch href=https://use.fontawesome.com><link rel=preconnect href=https://use.fontawesome.com crossorigin><link rel=preconnect href=https://cdnjs.cloudflare.com><link rel=preconnect href=https://www.googletagmanager.com><link rel=preconnect href=https://www.google-analytics.com><link rel=preconnect href=https://mc.yandex.ru><link rel=dns-prefetch href=https://fonts.gstatic.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin=anonymous><link rel=canonical href=https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/><link rel=stylesheet href=https://altyncev.ru/scss/style.min.css><meta property="og:title" content="Блог на Docpad. Минимум усилий. Docpad blogging · Altyncev Vladislav"><meta property="og:description" content="Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
+И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox."><meta property="og:url" content="https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/"><meta property="og:site_name" content="Altyncev Vladislav"><meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="docpad"><meta property="article:published_time" content="2013-02-16T00:00:00+00:00"><meta property="article:modified_time" content="2013-02-16T00:00:00+00:00"><meta name=twitter:site content="@npofopr"><meta name=twitter:creator content="@npofopr"><meta name=twitter:title content="Блог на Docpad. Минимум усилий. Docpad blogging · Altyncev Vladislav"><meta name=twitter:description content="Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
+И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox."><link rel="shortcut icon" href=https://altyncev.ru/favicon-16x16.png><script type=text/javascript>(function(e,o,i,a,t,n,s){e[t]=e[t]||function(){(e[t].a=e[t].a||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym"),ym(17143639,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0,trackHash:!0})</script><noscript><div><img src=https://mc.yandex.ru/watch/17143639 style=position:absolute;left:-9999px alt></div></noscript></head><body class="article-page has-toc"><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex
+extended"><div id=article-toolbar><a href=https://altyncev.ru class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg><span>Назад</span></a></div><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><header class=article-category><a href=https://altyncev.ru/categories/web/>web</a></header><h2 class=article-title><a href=https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/>Блог на Docpad. Минимум усилий. Docpad blogging</a></h2><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg><time class=article-time--published>Feb 16, 2013</time></div></footer></div></header><section class=article-content><p>Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много.
+В большинстве случаев сайты я делал на популярных cms&rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.</p><p>И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &ldquo;сайтик&rdquo;, а храниться он будет, допустим прямо в вашем dropbox. Очень круто и удобно я считаю. Но там особо не разбежишься с дизайном. Чаще всего вам предоставляют уже готовый шаблон. Но для кого то и это будет достаточно.</p><p>Вот и мне захотелось попробовать нечто такое. Тем более, что информации в интернетах, по этому поводу, стало ходить все больше. Правда в большинстве случаев на английском.</p><p>Вдохновившись статьёй с хабра про <a class=link href=http://habrahabr.ru/post/160431/ title="Сайт для программиста" target=_blank rel=noopener>Сайт для программиста</a> и намного позже прочитанной статьёй <a class=link href=http://devblog.the7bits.com/posts/article_01/ title="Пишем блогодвижок на Docpad" target=_blank rel=noopener>Пишем блогодвижок на Docpad</a> завёл себе свой, подобный бложик на Docpad.</p><p>Ну а теперь все по порядку&mldr; Будем делать сайтик на движке <a class=link href=http://docpad.org/ title=Docpad target=_blank rel=noopener>Docpad</a>, который в свою очередь использует для работы <a class=link href=http://nodejs.org/ title=node.js target=_blank rel=noopener>node.js</a>.</p><p>Для начала <strong>создадим</strong> <a class=link href=http://github.com/new title="Новый git репозиторий" target=_blank rel=noopener>Git репозиторий</a>, где и будем хранить все исходники. Можно это сделать и на <a class=link href=https://bitbucket.org/repo/create title="Новый bitbucket репозиторий" target=_blank rel=noopener>Bitbucket</a>. Нет разницы.</p><p>Как создать можно прочитать <a class=link href=http://altyncev.ru/posts/2012-09-24-git_eto_prosto_znakomstvo_s_git title="Создание репозитория" target=_blank rel=noopener>здесь же</a>.</p><p>Второе, что нам потребуется, это <strong>установить</strong> <a class=link href=http://nodejs.org/ target=_blank rel=noopener>node.js</a> и затем сам движок <a class=link href=http://docpad.org/docs/install title="Установка docpad" target=_blank rel=noopener>Docpad</a>.</p><h3 id=далее-создадим-структуру>Далее создадим структуру:</h3><pre><code>src /
     documents /
         scripts
         styles
     files /
         vendor
     layouts
-</code></pre>
-<p><strong>Назначение папок:</strong></p>
-<ul>
-<li>documents - содержит файлы с документами (статьи в блоге, статические страницы)</li>
-<li>documents/scripts - клиентские скрипты</li>
-<li>documents/styles - файлы с описанием стилей</li>
-<li>files - статические сайты, тут же я храню библиотеки, стили и подобное)</li>
-<li>layouts - шаблоны описывающие вёрстку страниц</li>
-</ul>
-<p>Сам сайт вы можете сделать хоть полностью сами, хоть взять какой нибудь фреймворк, у меня используется <a class="link" href="http://twitter.github.com/bootstrap/"  target="_blank" rel="noopener"
-    >bootstrap</a> и шаблон я брал <a class="link" href="http://themes.pixelwars.org/impressivcard/"  target="_blank" rel="noopener"
-    >этот</a>, т.к. сделать, что то самому&hellip; получается всегда весьма плохо.</p>
-<p>Подключаете <a class="link" href="http://jquery.com/"  target="_blank" rel="noopener"
-    >jquery</a> и все остальное, что хотите, что душа велит :-)</p>
-<p>Писать стили есть 2 варианта, или обычным css или с помощью препроцессора <a class="link" href="http://lesscss.ru/"  target="_blank" rel="noopener"
-    >LESS</a> или <a class="link" href="http://learnboost.github.com/stylus/"  target="_blank" rel="noopener"
-    >Stylus</a>. У меня все обычным css&rsquo;ом, но в скоре перепишу на stylus.</p>
-<h3 id="давайте-теперь-создадим-наш-первый-и-основной-шаблон">Давайте теперь создадим наш первый и основной шаблон</h3>
-<p>Обзавем его <code>src/layouts/default.html.eco</code>, я не буду выкладывать свой шаблон, выложу просто обычный html, этого вполне достаточно, создаётся он с использованием шаблонизатора <a class="link" href="https://github.com/sstephenson/eco"  target="_blank" rel="noopener"
-    >Eco</a>:</p>
-<pre><code>&lt;!DOCTYPE html&gt;
+</code></pre><p><strong>Назначение папок:</strong></p><ul><li>documents - содержит файлы с документами (статьи в блоге, статические страницы)</li><li>documents/scripts - клиентские скрипты</li><li>documents/styles - файлы с описанием стилей</li><li>files - статические сайты, тут же я храню библиотеки, стили и подобное)</li><li>layouts - шаблоны описывающие вёрстку страниц</li></ul><p>Сам сайт вы можете сделать хоть полностью сами, хоть взять какой нибудь фреймворк, у меня используется <a class=link href=http://twitter.github.com/bootstrap/ target=_blank rel=noopener>bootstrap</a> и шаблон я брал <a class=link href=http://themes.pixelwars.org/impressivcard/ target=_blank rel=noopener>этот</a>, т.к. сделать, что то самому&mldr; получается всегда весьма плохо.</p><p>Подключаете <a class=link href=http://jquery.com/ target=_blank rel=noopener>jquery</a> и все остальное, что хотите, что душа велит :-)</p><p>Писать стили есть 2 варианта, или обычным css или с помощью препроцессора <a class=link href=http://lesscss.ru/ target=_blank rel=noopener>LESS</a> или <a class=link href=http://learnboost.github.com/stylus/ target=_blank rel=noopener>Stylus</a>. У меня все обычным css&rsquo;ом, но в скоре перепишу на stylus.</p><h3 id=давайте-теперь-создадим-наш-первый-и-основной-шаблон>Давайте теперь создадим наш первый и основной шаблон</h3><p>Обзавем его <code>src/layouts/default.html.eco</code>, я не буду выкладывать свой шаблон, выложу просто обычный html, этого вполне достаточно, создаётся он с использованием шаблонизатора <a class=link href=https://github.com/sstephenson/eco target=_blank rel=noopener>Eco</a>:</p><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;ru&quot;&gt;
 &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot; /&gt;
@@ -231,19 +66,12 @@
     &lt;%- @getBlock('scripts').add([&quot;/vendor/jquery.js&quot;,&quot;/vendor/bootstrap/js/bootstrap.min.js&quot;,&quot;/scripts/script.js&quot;]).toHTML() %&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</code></pre>
-<p>Шаблон основной страницы у нас теперь есть.</p>
-<h3 id="настало-время-самой-страницы-контента">Настало время самой страницы, контента.</h3>
-<p>Создаём файл <code>documents/index.html.eco</code>:</p>
-<pre><code>---
+</code></pre><p>Шаблон основной страницы у нас теперь есть.</p><h3 id=настало-время-самой-страницы-контента>Настало время самой страницы, контента.</h3><p>Создаём файл <code>documents/index.html.eco</code>:</p><pre><code>---
 layout: 'default'
 ---
 Внутренности страницы, тут могут быть и теги)
 И все, что угодно
-</code></pre>
-<p>Т.к. у нас шаблонизатор, наверняка у него должен быть конфиг, так оно и есть. Создаём файл <code>docpad.coffee</code> в корне (не внутри src, снаружи).</p>
-<h3 id="конфигурационный-файл-будет-выглядеть-так">Конфигурационный файл будет выглядеть так:</h3>
-<pre><code># The DocPad Configuration File
+</code></pre><p>Т.к. у нас шаблонизатор, наверняка у него должен быть конфиг, так оно и есть. Создаём файл <code>docpad.coffee</code> в корне (не внутри src, снаружи).</p><h3 id=конфигурационный-файл-будет-выглядеть-так>Конфигурационный файл будет выглядеть так:</h3><pre><code># The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
@@ -649,13 +477,7 @@ docpadConfig = {
 
 # Export our DocPad Configuration
 module.exports = docpadConfig
-</code></pre>
-<p>Извините, что такой большой) Но уж как получилось. На сайте у них есть <a class="link" href="http://docpad.org/docs/config"  title="configuration docpad"
-     target="_blank" rel="noopener"
-    >описание этого конфига</a>.</p>
-<p>После чего создаём файл <code>package.json</code>, в нем лежит вся информация о сайте и о том какие он &ldquo;плагины использует&rdquo;.</p>
-<h3 id="мой-packagejson">Мой package.json:</h3>
-<pre><code>{
+</code></pre><p>Извините, что такой большой) Но уж как получилось. На сайте у них есть <a class=link href=http://docpad.org/docs/config title="configuration docpad" target=_blank rel=noopener>описание этого конфига</a>.</p><p>После чего создаём файл <code>package.json</code>, в нем лежит вся информация о сайте и о том какие он &ldquo;плагины использует&rdquo;.</p><h3 id=мой-packagejson>Мой package.json:</h3><pre><code>{
   &quot;name&quot;: &quot;altyncev.ru&quot;,
   &quot;author&quot;: &quot;Vladislav Altyncev&quot;,
   &quot;description&quot;: &quot;Пишу о работе, жизни и всем что понравится. PS: А я чё? Я ничё. Другие вон чё, и ничё, а я чуть чё, и сразу вон чё!&quot;,
@@ -699,26 +521,10 @@ module.exports = docpadConfig
     &quot;start&quot;: &quot;node_modules/docpad/bin/docpad-server&quot;
   }
 }
-</code></pre>
-<p>После того как мы определили какие библиотеки нам нужны, в файле package.json, нам надо их установить.
-<strong>Установка библиотек</strong> делается командой</p>
-<pre><code>$ npm install
-</code></pre>
-<p>Пишем <strong>для запуска генерирования</strong>:</p>
-<pre><code>docpad run
-</code></pre>
-<p>И ждём успешного окончания сборки) Если все ОК, то идём по адресу <a class="link" href="http://localhost:9778/"  target="_blank" rel="noopener"
-    >http://localhost:9778</a> и наблюдаем наш сайт / блог. И да. Если при генерировании вылазят какие то ошибки, то обычно интуитивно понятно, что он не может сделать и как решить проблему.</p>
-<p>Итак, сайт должен работать, теперь у нас есть папки:</p>
-<ul>
-<li><code>node_modules</code> - где лежат установленные библиотеки</li>
-<li><code>out</code> - тут собственно сам сгенерированный сайт.</li>
-</ul>
-<p>Если у вас все заработало и вы смогли открыть страницу, то у вас наверняка сразу появится вопрос: &ldquo;Какого черта? Это же совсем не блог, а какая то не понятная страница. Да ну его&hellip; Опять обманули&hellip; Shift+Del / rt -fm&rdquo;.</p>
-<p>Ну дак давай те же создадим тогда наш блог) С выводом статей.</p>
-<h3 id="вывод-статей">Вывод статей</h3>
-<p>Создаём <code>layouts/post.html.eco</code> - здесь будет выводиться сама статья, не листинг, а конкретная, живая статья.</p>
-<pre><code>---
+</code></pre><p>После того как мы определили какие библиотеки нам нужны, в файле package.json, нам надо их установить.
+<strong>Установка библиотек</strong> делается командой</p><pre><code>$ npm install
+</code></pre><p>Пишем <strong>для запуска генерирования</strong>:</p><pre><code>docpad run
+</code></pre><p>И ждём успешного окончания сборки) Если все ОК, то идём по адресу <a class=link href=http://localhost:9778/ target=_blank rel=noopener>http://localhost:9778</a> и наблюдаем наш сайт / блог. И да. Если при генерировании вылазят какие то ошибки, то обычно интуитивно понятно, что он не может сделать и как решить проблему.</p><p>Итак, сайт должен работать, теперь у нас есть папки:</p><ul><li><code>node_modules</code> - где лежат установленные библиотеки</li><li><code>out</code> - тут собственно сам сгенерированный сайт.</li></ul><p>Если у вас все заработало и вы смогли открыть страницу, то у вас наверняка сразу появится вопрос: &ldquo;Какого черта? Это же совсем не блог, а какая то не понятная страница. Да ну его&mldr; Опять обманули&mldr; Shift+Del / rt -fm&rdquo;.</p><p>Ну дак давай те же создадим тогда наш блог) С выводом статей.</p><h3 id=вывод-статей>Вывод статей</h3><p>Создаём <code>layouts/post.html.eco</code> - здесь будет выводиться сама статья, не листинг, а конкретная, живая статья.</p><pre><code>---
 layout: 'defaultpost'
 ---
 &lt;div class=&quot;container well&quot;&gt;
@@ -751,10 +557,7 @@ layout: 'defaultpost'
         &lt;/section&gt;
         &lt;% end %&gt;
       &lt;/footer&gt;
-</code></pre>
-<p>Скажу сразу, у меня в выводе статьи есть еще вывод Похожих статей, за похоже отвечает плагин <code>docpad-plugin-related</code>.</p>
-<p>Далее создадим файл <code>documents/posts/post_1.html.md</code>. Это и будет <strong>наш первый пост</strong> (контент).</p>
-<pre><code>---
+</code></pre><p>Скажу сразу, у меня в выводе статьи есть еще вывод Похожих статей, за похоже отвечает плагин <code>docpad-plugin-related</code>.</p><p>Далее создадим файл <code>documents/posts/post_1.html.md</code>. Это и будет <strong>наш первый пост</strong> (контент).</p><pre><code>---
 title: Lorem ipsum
 layout: post
 date: '2013-02-16'
@@ -774,19 +577,10 @@ vehicula ipsum sit amet urna vehicula sodales. Proin ut
 tortor dui. Nam scelerisque eros enim, sit amet elementum
 turpis. Nunc sed viverra urna. Vestibulum bibendum semper
 varius. Nam aliquam mattis lorem.
-</code></pre>
-<p>Как видите, мы задали название (title) и используемый шаблон (post), также дату и тэги, что совсем не обязательно, но с ними гораздо лучше)</p>
-<p>Там же можно прописать <code>draft: true</code> это будет значит, что это всего лишь черновик и публиковать статью не нужно.</p>
-<p>Открываем <code>http://localhost:9778/posts/post_1</code> и смотрим, получилось ли у нас.</p>
-<p>И да, можно использовать не только <code>.html.md</code>, но и просто <code>.html</code>. Что такое <a class="link" href="http://ru.wikipedia.org/wiki/Markdown"  target="_blank" rel="noopener"
-    >md</a>, я надеюсь вы знаете)</p>
-<p>Настало время сделать нам сам <strong>листинг статей</strong>. Для этого в конфиге <code>docpad.coffee</code> объявляется коллекция <code>posts</code></p>
-<pre><code># This one, will fetch in all documents that have the tag &quot;post&quot; specified in their meta data
+</code></pre><p>Как видите, мы задали название (title) и используемый шаблон (post), также дату и тэги, что совсем не обязательно, но с ними гораздо лучше)</p><p>Там же можно прописать <code>draft: true</code> это будет значит, что это всего лишь черновик и публиковать статью не нужно.</p><p>Открываем <code>http://localhost:9778/posts/post_1</code> и смотрим, получилось ли у нас.</p><p>И да, можно использовать не только <code>.html.md</code>, но и просто <code>.html</code>. Что такое <a class=link href=http://ru.wikipedia.org/wiki/Markdown target=_blank rel=noopener>md</a>, я надеюсь вы знаете)</p><p>Настало время сделать нам сам <strong>листинг статей</strong>. Для этого в конфиге <code>docpad.coffee</code> объявляется коллекция <code>posts</code></p><pre><code># This one, will fetch in all documents that have the tag &quot;post&quot; specified in their meta data
         posts: (database) -&gt;
             database.findAllLive({relativeOutDirPath:'posts'},[date:-1])
-</code></pre>
-<p>Дальше перепишем наш <code>documents/index.html.eco</code>:</p>
-<pre><code>---
+</code></pre><p>Дальше перепишем наш <code>documents/index.html.eco</code>:</p><pre><code>---
 layout: 'default'
 isPaged: true
 pageOrder: 0
@@ -837,20 +631,14 @@ pageSize: 10
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-</code></pre>
-<p>На моем сайте сделано чуть чуть по другому, блог у меня перенесен на отдельную страницу, а не на index.html, и шаблон называется чуть чуть по другому.</p>
-<p>Теперь давайте разберемся, что же у нас написано там&hellip;</p>
-<pre><code>---
+</code></pre><p>На моем сайте сделано чуть чуть по другому, блог у меня перенесен на отдельную страницу, а не на index.html, и шаблон называется чуть чуть по другому.</p><p>Теперь давайте разберемся, что же у нас написано там&mldr;</p><pre><code>---
 layout: 'default'
 isPaged: true
 pageOrder: 0
 pagedCollection: 'posts'
 pageSize: 10
 ---
-</code></pre>
-<p>Тут думаю все понятно: указали какой шаблон, какую &ldquo;коллекцию смотреть&rdquo; и сколько выводить на странице статей. Кол-во статей нам нужно для пейджинга.</p>
-<p><strong>Пейджинг</strong> работает с помощью библиотеки <code>docpad-plugin-paged</code> и выводится:</p>
-<pre><code>&lt;% if @document.page.count &gt; 1: %&gt;
+</code></pre><p>Тут думаю все понятно: указали какой шаблон, какую &ldquo;коллекцию смотреть&rdquo; и сколько выводить на странице статей. Кол-во статей нам нужно для пейджинга.</p><p><strong>Пейджинг</strong> работает с помощью библиотеки <code>docpad-plugin-paged</code> и выводится:</p><pre><code>&lt;% if @document.page.count &gt; 1: %&gt;
 &lt;div class=&quot;pagination pull-right&quot;&gt;
     &lt;ul&gt;
         &lt;% if !@getDocument().hasPrevPage(): %&gt;
@@ -873,9 +661,7 @@ pageSize: 10
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;% end %&gt;
-</code></pre>
-<p>Чтобы не водить всю статью целиком на страницу будем использовать &ldquo;ReadMore - Читать далее&rdquo;. Для это в конфиге напишем</p>
-<pre><code>getCuttedContent: (content) -&gt;
+</code></pre><p>Чтобы не водить всю статью целиком на страницу будем использовать &ldquo;ReadMore - Читать далее&rdquo;. Для это в конфиге напишем</p><pre><code>getCuttedContent: (content) -&gt;
     i = content.search('&lt;!-- Read more --&gt;')
     if i &gt;= 0
         content[0..i-1]
@@ -884,19 +670,8 @@ pageSize: 10
 
 hasReadMore: (content) -&gt;
     content.search('&lt;!-- Read more --&gt;') &gt;= 0
-</code></pre>
-<p>Оно будет искать в тексте <code>&lt;!-- Read more --&gt;</code> и обрезать по этого &ldquo;тегу&rdquo;.</p>
-<p>Еще используется библиотека <code>moment</code>. Это все для того, чтобы даты выводились красиво, почитать о ней <a class="link" href="http://momentjs.com/"  target="_blank" rel="noopener"
-    >можно здесь</a>.</p>
-<p>Для стилизации кода используется библиотека <code>highlight.js</code> и <code>docpad-plugin-robotskirt</code>. Второй для markdown вроде как. Делает много чего полезного. <a class="link" href="https://github.com/benmills/robotskirt"  target="_blank" rel="noopener"
-    >Почитать про robotskirt можно тут</a>. А <a class="link" href="http://softwaremaniacs.org/soft/highlight/"  target="_blank" rel="noopener"
-    >про highlight здесь</a>.</p>
-<p>Под комментарии я использую <a class="link" href="http://hypercomments.com"  target="_blank" rel="noopener"
-    >hypercomments</a>, если вам больше нравится <a class="link" href="http://disqus.com/"  target="_blank" rel="noopener"
-    >Disqus</a>, это ваше право, можете использовать его.</p>
-<p>Вы наверно заметили, что где то проскакивало слово <strong>RSS</strong>, таки да, у нас еще генерируется страница rss.
-Создаём файл <code>documents/atom.xml.eco</code> и наполняем:</p>
-<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+</code></pre><p>Оно будет искать в тексте <code>&lt;!-- Read more --></code> и обрезать по этого &ldquo;тегу&rdquo;.</p><p>Еще используется библиотека <code>moment</code>. Это все для того, чтобы даты выводились красиво, почитать о ней <a class=link href=http://momentjs.com/ target=_blank rel=noopener>можно здесь</a>.</p><p>Для стилизации кода используется библиотека <code>highlight.js</code> и <code>docpad-plugin-robotskirt</code>. Второй для markdown вроде как. Делает много чего полезного. <a class=link href=https://github.com/benmills/robotskirt target=_blank rel=noopener>Почитать про robotskirt можно тут</a>. А <a class=link href=http://softwaremaniacs.org/soft/highlight/ target=_blank rel=noopener>про highlight здесь</a>.</p><p>Под комментарии я использую <a class=link href=http://hypercomments.com target=_blank rel=noopener>hypercomments</a>, если вам больше нравится <a class=link href=http://disqus.com/ target=_blank rel=noopener>Disqus</a>, это ваше право, можете использовать его.</p><p>Вы наверно заметили, что где то проскакивало слово <strong>RSS</strong>, таки да, у нас еще генерируется страница rss.
+Создаём файл <code>documents/atom.xml.eco</code> и наполняем:</p><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;feed xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;
     &lt;title&gt;&lt;%= @site.title %&gt;&lt;/title&gt;
     &lt;subtitle&gt;&lt;%= @site.description %&gt;&lt;/subtitle&gt;
@@ -924,18 +699,12 @@ hasReadMore: (content) -&gt;
         &lt;/entry&gt;
     &lt;% end %&gt;
 &lt;/feed&gt;
-</code></pre>
-<p>Теперь у нас есть настоящая RSS лента. PS: все как у взрослых.</p>
-<p>Для больше &ldquo;взрослости&rdquo; и улучшения seo, хотя может оно и не нужно, сделаем авто генерацию <strong>Карты сайта</strong>. Для этого служит плагин <code>docpad-plugin-sitemap</code> и в файле конфига настраивается все таким образом:</p>
-<pre><code>sitemap:
+</code></pre><p>Теперь у нас есть настоящая RSS лента. PS: все как у взрослых.</p><p>Для больше &ldquo;взрослости&rdquo; и улучшения seo, хотя может оно и не нужно, сделаем авто генерацию <strong>Карты сайта</strong>. Для этого служит плагин <code>docpad-plugin-sitemap</code> и в файле конфига настраивается все таким образом:</p><pre><code>sitemap:
     cachetime: 600000
     changefreq: 'weekly'
     priority: 0.5
-</code></pre>
-<p>Всё теперь можете посмотреть на свой sitemap.xml по http://адрес-сайта/sitemap.xml</p>
-<p>И да, посмотрите на файл <code>.gitignore</code>, ну не выкладывать же нам в интернеты все полностью, так ведь?
-Поэтому запретим ему:</p>
-<pre><code>node_modules/*
+</code></pre><p>Всё теперь можете посмотреть на свой sitemap.xml по http://адрес-сайта/sitemap.xml</p><p>И да, посмотрите на файл <code>.gitignore</code>, ну не выкладывать же нам в интернеты все полностью, так ведь?
+Поэтому запретим ему:</p><pre><code>node_modules/*
 _out/*
 out
 node_modules
@@ -962,331 +731,20 @@ npm-debug.log
 
 env.coffee
 .env
-</code></pre>
-<p>Вроде бы на этом все. Большинство этого текста, сплошной копипаст, но со своими конфигами. Далее для вас, при изучении будет сайт <a class="link" href="http://docpad.org"  target="_blank" rel="noopener"
-    >docpad</a> и чужой код :-)</p>
-<p>Почти забыл про самое главное рассказать) Нам надо выложить наш сайтик в интернеты, не будем же мы вечно смотреть на <code>http://localhost:9778</code>.</p>
-<h3 id="выкладываем-на-хостинг">Выкладываем на хостинг</h3>
-<p>Для хостинга я использую <a class="link" href="http://heroku.com/"  target="_blank" rel="noopener"
-    >heroku</a>, идём по ссылки и регистриуемся.</p>
-<p>Причины использования:</p>
-<ul>
-<li>Настройка хостинга максимально простая. Всего пара команд в консоли – и у вас есть стабильно работающий сайт. В дальнейшем выкладки сайта происходят в одну команду.</li>
-<li>Под сервером приложений привычный Ubuntu, поэтому если понадобится что-то помимо http-сервера — это легко будет ипользовать.</li>
-<li>Он бесплатен (для наших нужд).</li>
-</ul>
-<p>После регистрации нам скажут:</p>
-<p><figure 
-	>
-	<a href="https://altyncev.ru/images/blog/heroku-start.png" >
-		<img src="https://altyncev.ru/images/blog/heroku-start.png"
-			
-			
-			
-			loading="lazy"
-			alt="Heroku setup">
-	</a>
-	
-	<figcaption>Heroku setup</figcaption>
-	
-</figure></p>
-<p>Вам нужно сделать то, что на ней написано: <a class="link" href="https://devcenter.heroku.com/articles/quickstart"  target="_blank" rel="noopener"
-    >скачать и установить toolbelt</a>, после чего в консоли выполнить &ldquo;heroku login&rdquo;.</p>
-<p>Если по heroku возникнут вопросы, то <a class="link" href="https://help.heroku.com"  target="_blank" rel="noopener"
-    >просим сюда</a>.</p>
-<p>Заливаем наш сайт на heroku (это обычный git, так что у вас не должно быть проблем.)</p>
-<p>Как вы уже наверно прочитали выше, наше приложение создается командой:</p>
-<pre><code>heroku apps:create &lt;название вашего приложения&gt;
-</code></pre>
-<p>Название должно быть уникально среди всех приложений heroku. Можно использовать, например, адрес вашего будущего сайта.</p>
-<p>В ответ вы увидите что-то вроде этого:</p>
-<pre><code>Enter your Heroku credentials.
+</code></pre><p>Вроде бы на этом все. Большинство этого текста, сплошной копипаст, но со своими конфигами. Далее для вас, при изучении будет сайт <a class=link href=http://docpad.org target=_blank rel=noopener>docpad</a> и чужой код :-)</p><p>Почти забыл про самое главное рассказать) Нам надо выложить наш сайтик в интернеты, не будем же мы вечно смотреть на <code>http://localhost:9778</code>.</p><h3 id=выкладываем-на-хостинг>Выкладываем на хостинг</h3><p>Для хостинга я использую <a class=link href=http://heroku.com/ target=_blank rel=noopener>heroku</a>, идём по ссылки и регистриуемся.</p><p>Причины использования:</p><ul><li>Настройка хостинга максимально простая. Всего пара команд в консоли – и у вас есть стабильно работающий сайт. В дальнейшем выкладки сайта происходят в одну команду.</li><li>Под сервером приложений привычный Ubuntu, поэтому если понадобится что-то помимо http-сервера — это легко будет ипользовать.</li><li>Он бесплатен (для наших нужд).</li></ul><p>После регистрации нам скажут:</p><p><figure><a href=https://altyncev.ru/images/blog/heroku-start.png><img src=https://altyncev.ru/images/blog/heroku-start.png loading=lazy alt="Heroku setup"></a><figcaption>Heroku setup</figcaption></figure></p><p>Вам нужно сделать то, что на ней написано: <a class=link href=https://devcenter.heroku.com/articles/quickstart target=_blank rel=noopener>скачать и установить toolbelt</a>, после чего в консоли выполнить &ldquo;heroku login&rdquo;.</p><p>Если по heroku возникнут вопросы, то <a class=link href=https://help.heroku.com target=_blank rel=noopener>просим сюда</a>.</p><p>Заливаем наш сайт на heroku (это обычный git, так что у вас не должно быть проблем.)</p><p>Как вы уже наверно прочитали выше, наше приложение создается командой:</p><pre><code>heroku apps:create &lt;название вашего приложения&gt;
+</code></pre><p>Название должно быть уникально среди всех приложений heroku. Можно использовать, например, адрес вашего будущего сайта.</p><p>В ответ вы увидите что-то вроде этого:</p><pre><code>Enter your Heroku credentials.
 Email: example@gmail.com
 Password (typing will be hidden):
 Authentication successful.
 Creating altycev... done, stack is cedar
 http://altycev.herokuapp.com/ | git@heroku.com:altycev.git
 Git remote heroku added
-</code></pre>
-<p>Heroku поддерживает выкладку сайта простым пушем в его git-репозиторий. Набираем в консоли:</p>
-<pre><code>git push heroku master
-</code></pre>
-<p>Если не вывалилось ошибок, значит вы всё сделали правильно и ваш сайт доступен по адресу &lt;название вашего приложения&gt;.herokuapp.com (пример — <a class="link" href="http://altycev.herokuapp.com/"  target="_blank" rel="noopener"
-    >http://altycev.herokuapp.com</a>).</p>
-<p>Далее нам надо настроить свой домен, т.е. настроить DNS&rsquo;ы (какие именно можно <a class="link" href="https://devcenter.heroku.com/articles/custom-domains#naked-domains-mydomaincom"  target="_blank" rel="noopener"
-    >посмотреть здесь</a>) и все остальное. <a class="link" href="http://habrahabr.ru/post/59270/"  target="_blank" rel="noopener"
-    >Подробности читаем здесь</a>.</p>
-<p>После настройки домена идём в <a class="link" href="https://dashboard.heroku.com/apps/"  target="_blank" rel="noopener"
-    >настройки приложений</a> на heroku, заходим в созданное приложение, раздел &ldquo;Settings&rdquo;, в поле &ldquo;Domains&rdquo; вводим ваш будущий домен, нажимаем &ldquo;Add&rdquo;. Готово.</p>
-<p><figure 
-	>
-	<a href="https://altyncev.ru/images/blog/heroku-settings.jpg" >
-		<img src="https://altyncev.ru/images/blog/heroku-settings.jpg"
-			
-			
-			
-			loading="lazy"
-			alt="Heroku settings">
-	</a>
-	
-	<figcaption>Heroku settings</figcaption>
-	
-</figure></p>
-<p>Собственно все. Домен мы вроде как настроили.</p>
-<p>Теперь <strong>вашими основными командами будут</strong>:</p>
-<ul>
-<li><code>git add .</code></li>
-<li><code>git commit -a -m &quot;название коммита&quot;</code></li>
-<li><code>git push heroku master</code> - заливаем на хероку</li>
-<li><code>git push origin master</code> - заливаем на github</li>
-</ul>
-<p>Всё. Теперь ваш сайт должен открывать по вашему адресу, тому, что вы настроили.</p>
-
-</section>
-
-
-    <footer class="article-footer">
-    
-    <section class="article-tags">
-        
-            <a href="https://altyncev.ru/tags/docpad/">docpad</a>
-        
-    </section>
-
-
-    </footer>
-
-
-    
-</article>
-
-    <aside class="related-contents--wrapper">
-    
-    
-        <h2 class="section-title">Также рекомендуем</h2>
-        <div class="related-contents">
-            <div class="flex article-list--tile">
-                
-                    
-<article class="">
-    <a href="https://altyncev.ru/blog/2013-04-19-docpad_fast_site/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Docpad для разворачивания сайтиков</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="">
-    <a href="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Вопросы и ответы для собеседования на верстальщика</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="">
-    <a href="https://altyncev.ru/blog/2016-11-17-task_complited/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Точно сделал задачу?</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="">
-    <a href="https://altyncev.ru/blog/2016-10-25-task_complite/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Сделал таску</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="">
-    <a href="https://altyncev.ru/blog/2015-11-19-sublime_plugins/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Sublime Text 3 плагины для фронтэнд-разработчика</h2>
-        </div>
-    </a>
-</article>
-                
-            </div>
-        </div>
-    
-</aside>
-
-     
-    
-        
-    
-
-    <footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-            2012 - 
-        
-        2022 Altyncev Vladislav
-    </section>
-    
-    <section class="powerby">
-        Создано при помощи <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Тема <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b>, дизайн <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
-    </section>
-</footer>
-
-
-    
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    
-    <div class="pswp__bg"></div>
-
-    
-    <div class="pswp__scroll-wrap">
-
-        
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                
-                
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
-                defer="true"
-                >
-            </script><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
-                defer="true"
-                >
-            </script><link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
-            ><link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
-            >
-
-            </main>
-    
-        <aside class="sidebar right-sidebar sticky">
-            <section class="widget archives">
-                <div class="widget-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-                </div>
-                <h2 class="widget-title section-title">Содержание</h2>
-                
-                <div class="widget--toc">
-                    <nav id="TableOfContents">
-  <ol>
-    <li>
-      <ol>
-        <li><a href="#далее-создадим-структуру">Далее создадим структуру:</a></li>
-        <li><a href="#давайте-теперь-создадим-наш-первый-и-основной-шаблон">Давайте теперь создадим наш первый и основной шаблон</a></li>
-        <li><a href="#настало-время-самой-страницы-контента">Настало время самой страницы, контента.</a></li>
-        <li><a href="#конфигурационный-файл-будет-выглядеть-так">Конфигурационный файл будет выглядеть так:</a></li>
-        <li><a href="#мой-packagejson">Мой package.json:</a></li>
-        <li><a href="#вывод-статей">Вывод статей</a></li>
-        <li><a href="#выкладываем-на-хостинг">Выкладываем на хостинг</a></li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-                </div>
-            </section>
-        </aside>
-    
-
-        </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
-                defer="false"
-                >
-            </script><script type="text/javascript" src="https://altyncev.ru/ts/main.js" defer></script>
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
-
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    }());
-</script>
-
-    </body>
-</html>
+</code></pre><p>Heroku поддерживает выкладку сайта простым пушем в его git-репозиторий. Набираем в консоли:</p><pre><code>git push heroku master
+</code></pre><p>Если не вывалилось ошибок, значит вы всё сделали правильно и ваш сайт доступен по адресу &lt;название вашего приложения>.herokuapp.com (пример — <a class=link href=http://altycev.herokuapp.com/ target=_blank rel=noopener>http://altycev.herokuapp.com</a>).</p><p>Далее нам надо настроить свой домен, т.е. настроить DNS&rsquo;ы (какие именно можно <a class=link href=https://devcenter.heroku.com/articles/custom-domains#naked-domains-mydomaincom target=_blank rel=noopener>посмотреть здесь</a>) и все остальное. <a class=link href=http://habrahabr.ru/post/59270/ target=_blank rel=noopener>Подробности читаем здесь</a>.</p><p>После настройки домена идём в <a class=link href=https://dashboard.heroku.com/apps/ target=_blank rel=noopener>настройки приложений</a> на heroku, заходим в созданное приложение, раздел &ldquo;Settings&rdquo;, в поле &ldquo;Domains&rdquo; вводим ваш будущий домен, нажимаем &ldquo;Add&rdquo;. Готово.</p><p><figure><a href=https://altyncev.ru/images/blog/heroku-settings.jpg><img src=https://altyncev.ru/images/blog/heroku-settings.jpg loading=lazy alt="Heroku settings"></a><figcaption>Heroku settings</figcaption></figure></p><p>Собственно все. Домен мы вроде как настроили.</p><p>Теперь <strong>вашими основными командами будут</strong>:</p><ul><li><code>git add .</code></li><li><code>git commit -a -m "название коммита"</code></li><li><code>git push heroku master</code> - заливаем на хероку</li><li><code>git push origin master</code> - заливаем на github</li></ul><p>Всё. Теперь ваш сайт должен открывать по вашему адресу, тому, что вы настроили.</p></section><footer class=article-footer><section class=article-tags><a href=https://altyncev.ru/tags/docpad/>docpad</a></section></footer></article><aside class=related-contents--wrapper><h2 class=section-title>Также рекомендуем</h2><div class=related-contents><div class="flex article-list--tile"><article><a href=https://altyncev.ru/blog/2013-04-19-docpad_fast_site/><div class=article-details><h2 class=article-title>Docpad для разворачивания сайтиков</h2></div></a></article><article><a href=https://altyncev.ru/blog/2017-11-16-csslover-job-interview/><div class=article-details><h2 class=article-title>Вопросы и ответы для собеседования на верстальщика</h2></div></a></article><article><a href=https://altyncev.ru/blog/2016-11-17-task_complited/><div class=article-details><h2 class=article-title>Точно сделал задачу?</h2></div></a></article><article><a href=https://altyncev.ru/blog/2016-10-25-task_complite/><div class=article-details><h2 class=article-title>Сделал таску</h2></div></a></article><article><a href=https://altyncev.ru/blog/2015-11-19-sublime_plugins/><div class=article-details><h2 class=article-title>Sublime Text 3 плагины для фронтэнд-разработчика</h2></div></a></article></div></div></aside><footer class=site-footer><section class=copyright>&copy;
+2012 -
+2022 Altyncev Vladislav</section><section class=powerby>Создано при помощи <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>Тема <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.2.0>Stack</a></b>, дизайн <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous></main><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">Содержание</h2><div class=widget--toc><nav id=TableOfContents><ol><li><ol><li><a href=#далее-создадим-структуру>Далее создадим структуру:</a></li><li><a href=#давайте-теперь-создадим-наш-первый-и-основной-шаблон>Давайте теперь создадим наш первый и основной шаблон</a></li><li><a href=#настало-время-самой-страницы-контента>Настало время самой страницы, контента.</a></li><li><a href=#конфигурационный-файл-будет-выглядеть-так>Конфигурационный файл будет выглядеть так:</a></li><li><a href=#мой-packagejson>Мой package.json:</a></li><li><a href=#вывод-статей>Вывод статей</a></li><li><a href=#выкладываем-на-хостинг>Выкладываем на хостинг</a></li></ol></li></ol></nav></div></section></aside></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=https://altyncev.ru/ts/main.js defer></script>
+<script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>

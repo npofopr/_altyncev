@@ -1,80 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>it on Altyncev Vladislav</title>
-    <link>https://altyncev.ru/tags/it/</link>
-    <description>Recent content in it on Altyncev Vladislav</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 16 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/it/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Windows или Linux? Что меня держит на винде?</title>
-      <link>https://altyncev.ru/blog/2013-01-16-windows_or_linux/</link>
-      <pubDate>Wed, 16 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2013-01-16-windows_or_linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stylebot - Gmail - картинки</title>
-      <link>https://altyncev.ru/blog/2012-09-24-stylebot_gmail_picture/</link>
-      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-09-24-stylebot_gmail_picture/</guid>
-      <description>Окно с&amp;nbsp;gmail&amp;rsquo;ом у&amp;nbsp;меня всегда открыто и&amp;nbsp;открыто оно не&amp;nbsp;на&amp;nbsp;широкоформатке, поэтому все очень стиснуто.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>it on Altyncev Vladislav</title><link>https://altyncev.ru/tags/it/</link><description>Recent content in it on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 16 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/it/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows или Linux? Что меня держит на винде?</title><link>https://altyncev.ru/blog/2013-01-16-windows_or_linux/</link><pubDate>Wed, 16 Jan 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-01-16-windows_or_linux/</guid><description/></item><item><title>Stylebot - Gmail - картинки</title><link>https://altyncev.ru/blog/2012-09-24-stylebot_gmail_picture/</link><pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-09-24-stylebot_gmail_picture/</guid><description>Окно с&amp;nbsp;gmail&amp;rsquo;ом у&amp;nbsp;меня всегда открыто и&amp;nbsp;открыто оно не&amp;nbsp;на&amp;nbsp;широкоформатке, поэтому все очень стиснуто.
 К&amp;nbsp;тому&amp;nbsp;же я&amp;nbsp;пользуюсь разделением по&amp;nbsp;вертикали (Настройки&amp;nbsp;&amp;mdash; Лаборатория&amp;nbsp;&amp;mdash; Область просмотра).
 Проблема в&amp;nbsp;том, что порой в&amp;nbsp;тело письма вставляют большие картинки и&amp;nbsp;окно с&amp;nbsp;письмом разъезжается по&amp;nbsp;ширине, а&amp;nbsp;кнопка отправки письма у&amp;nbsp;нас справа с&amp;nbsp;краю, ну&amp;nbsp;и&amp;nbsp;конечно&amp;nbsp;же приходится скролить.
 Добавление в&amp;nbsp;Stylebot пару строк меня вроде пока что избавили от&amp;nbsp;этой проблемы.
 Возможно есть более &amp;laquo;элегантное&amp;raquo; решение, но&amp;nbsp;мне пока хватает такого. Лишнего оно вроде ничего не&amp;nbsp;ломает.
-.hx .ii img, img.</description>
-    </item>
-    
-    <item>
-      <title>15 полезных htaccess трюков для улучшения работы веб-сайта</title>
-      <link>https://altyncev.ru/blog/2012-08-27-15_pravil_htaccess/</link>
-      <pubDate>Mon, 27 Aug 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-08-27-15_pravil_htaccess/</guid>
-      <description>1. Защита от хотлинкинга &amp;nbsp;с&amp;nbsp;.htaccess Сайты, которые крадут ваш контент могут весьма и весьма раздражать. К тому&amp;nbsp;же они могут повредить рейтинг сайта, так как &amp;nbsp;создают дублируемый в интернете контент. Но есть &amp;nbsp;случаи и похуже&amp;nbsp;&amp;mdash; это сайты, которые не просто &amp;laquo;тырят&amp;raquo; ваш контент, но и&amp;nbsp;не утруждают себя перелинковкой и загрузкой изображений на собственный сервак. А это уж совсем нехорошо.&amp;nbsp;Загрузка изображений с вашего сервера называется хотлинкинг, &amp;nbsp;и это значит, что в таком случае сайт-вор украл часть вашего драгоценного&amp;nbsp;трафика.</description>
-    </item>
-    
-    <item>
-      <title>О гиках</title>
-      <link>https://altyncev.ru/blog/2012-08-22-about_geeks/</link>
-      <pubDate>Wed, 22 Aug 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-08-22-about_geeks/</guid>
-      <description>Слова не мои, ссылка на оригинал внизу. Этот текст я перепечатываю раз в год-два, для того, чтобы напомнить о нем людям. Если вы его сейчас наблюдаете &amp;mdash; значит я его опять перепечатал
+.hx .ii img, img.</description></item><item><title>15 полезных htaccess трюков для улучшения работы веб-сайта</title><link>https://altyncev.ru/blog/2012-08-27-15_pravil_htaccess/</link><pubDate>Mon, 27 Aug 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-08-27-15_pravil_htaccess/</guid><description>1. Защита от хотлинкинга &amp;nbsp;с&amp;nbsp;.htaccess Сайты, которые крадут ваш контент могут весьма и весьма раздражать. К тому&amp;nbsp;же они могут повредить рейтинг сайта, так как &amp;nbsp;создают дублируемый в интернете контент. Но есть &amp;nbsp;случаи и похуже&amp;nbsp;&amp;mdash; это сайты, которые не просто &amp;laquo;тырят&amp;raquo; ваш контент, но и&amp;nbsp;не утруждают себя перелинковкой и загрузкой изображений на собственный сервак. А это уж совсем нехорошо.&amp;nbsp;Загрузка изображений с вашего сервера называется хотлинкинг, &amp;nbsp;и это значит, что в таком случае сайт-вор украл часть вашего драгоценного&amp;nbsp;трафика.</description></item><item><title>О гиках</title><link>https://altyncev.ru/blog/2012-08-22-about_geeks/</link><pubDate>Wed, 22 Aug 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-08-22-about_geeks/</guid><description>Слова не мои, ссылка на оригинал внизу. Этот текст я перепечатываю раз в год-два, для того, чтобы напомнить о нем людям. Если вы его сейчас наблюдаете &amp;mdash; значит я его опять перепечатал
 Ах, этот волшебный гик...
-
-Его нужды необычны и тем самым привлекательны ему самому. В его голове существует прекрасный, правильный мир, к которому причастен он. Каждый гик знает &amp;mdash; он &amp;laquo;продвинутый пользователь&amp;raquo;, тем самым как бы опуская пользователя не продвинутого на уровень табуретки.</description>
-    </item>
-    
-    <item>
-      <title>Расшифровываем кракозяблы</title>
-      <link>https://altyncev.ru/blog/2012-07-22-rasshifrovka_krakozyabl/</link>
-      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-07-22-rasshifrovka_krakozyabl/</guid>
-      <description>Картинка кликабельна
-
-спасибо @habrahabr</description>
-    </item>
-    
-    <item>
-      <title>Google mail и пустое пространство</title>
-      <link>https://altyncev.ru/blog/2012-07-17-google-mail-and-pustota/</link>
-      <pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://altyncev.ru/blog/2012-07-17-google-mail-and-pustota/</guid>
-      <description>Начнем с&amp;nbsp;того, что на&amp;nbsp;широкоформатке в&amp;nbsp;google mail есть куча незанятого пространства. Вернее оно занято, но&amp;nbsp;та&amp;nbsp;информация, что там отображается мне совсем не&amp;nbsp;нужна. Я&amp;nbsp;даже толком не&amp;nbsp;помню, что там, у&amp;nbsp;меня видимо AdBlock содержимого &amp;laquo;вырезает&amp;raquo;. То&amp;nbsp;ли реклама там была, то&amp;nbsp;ли что-то про круги google+. Не&amp;nbsp;суть.
+Его нужды необычны и тем самым привлекательны ему самому. В его голове существует прекрасный, правильный мир, к которому причастен он. Каждый гик знает &amp;mdash; он &amp;laquo;продвинутый пользователь&amp;raquo;, тем самым как бы опуская пользователя не продвинутого на уровень табуретки.</description></item><item><title>Расшифровываем кракозяблы</title><link>https://altyncev.ru/blog/2012-07-22-rasshifrovka_krakozyabl/</link><pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-07-22-rasshifrovka_krakozyabl/</guid><description>Картинка кликабельна
+спасибо @habrahabr</description></item><item><title>Google mail и пустое пространство</title><link>https://altyncev.ru/blog/2012-07-17-google-mail-and-pustota/</link><pubDate>Tue, 17 Jul 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-07-17-google-mail-and-pustota/</guid><description>Начнем с&amp;nbsp;того, что на&amp;nbsp;широкоформатке в&amp;nbsp;google mail есть куча незанятого пространства. Вернее оно занято, но&amp;nbsp;та&amp;nbsp;информация, что там отображается мне совсем не&amp;nbsp;нужна. Я&amp;nbsp;даже толком не&amp;nbsp;помню, что там, у&amp;nbsp;меня видимо AdBlock содержимого &amp;laquo;вырезает&amp;raquo;. То&amp;nbsp;ли реклама там была, то&amp;nbsp;ли что-то про круги google+. Не&amp;nbsp;суть.
 В&amp;nbsp;общем у&amp;nbsp;меня выглядело это так:
-
 Справа куча пустоты. Из-за этого и&amp;nbsp;видео обрезается, если из&amp;nbsp;гмайла просматривать.
 Вылечить это можно так (пишу исключительно для Хрома):
-1. устанавливаем для хрома Stylebot из&amp;nbsp;WebStoreChrome.</description>
-    </item>
-    
-  </channel>
-</rss>
+1. устанавливаем для хрома Stylebot из&amp;nbsp;WebStoreChrome.</description></item></channel></rss>
