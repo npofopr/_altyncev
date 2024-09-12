@@ -1,19 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>web on Altyncev Vladislav</title><link>https://altyncev.ru/categories/web/</link><description>Recent content in web on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/categories/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
-&lt;p>&lt;figure
-class="gallery-image"
-style="
-flex-grow: 126;
-flex-basis: 303px"
->
-&lt;a href="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" data-size="450x356">
-&lt;img src="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif"
-width="450"
-height="356"
-srcset="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu278683c3ac01480bf2e3e16794b648c5_195215_480x0_resize_box.gif 480w, https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu278683c3ac01480bf2e3e16794b648c5_195215_1024x0_resize_box.gif 1024w"
-loading="lazy"
-alt="Когда на собеседовании тебе показали кто тут Senior">
-&lt;/a>
-&lt;figcaption>Когда на собеседовании тебе показали кто тут Senior&lt;/figcaption>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web on Altyncev Vladislav</title><link>https://altyncev.ru/categories/web/</link><description>Recent content in Web on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/categories/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
+&lt;p>&lt;figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 126; 
+			flex-basis: 303px"
+	>
+	&lt;a href="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" data-size="450x356">
+		&lt;img src="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif"
+			width="450"
+			height="356"
+			srcset="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu17214571098219265001.gif 480w, https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu6442386837037935783.gif 1024w"
+			loading="lazy"
+			alt="Когда на собеседовании тебе показали кто тут Senior">
+	&lt;/a>
+	
+	&lt;figcaption>Когда на собеседовании тебе показали кто тут Senior&lt;/figcaption>
+	
 &lt;/figure>&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;h2 id="вопросы">Вопросы&lt;/h2>
@@ -62,66 +65,589 @@ none
 &lt;p>Элемент отображается как строка таблицы (&lt;code>&amp;lt;tr&amp;gt;&lt;/code>).&lt;/p>
 &lt;h3 id="table-row-group">table-row-group&lt;/h3>
 &lt;p>Создаёт структурный блок, состоящий из нескольких строк таблицы, аналогично действию &lt;code>&amp;lt;tbody&amp;gt;&lt;/code>.&lt;/p>
-&lt;!-- raw HTML omitted --></description></item><item><title>Точно сделал задачу?</title><link>https://altyncev.ru/blog/2016-11-17-task_complited/</link><pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2016-11-17-task_complited/</guid><description>Лучший ответ на задачу
-task</description></item><item><title>Сделал таску</title><link>https://altyncev.ru/blog/2016-10-25-task_complite/</link><pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2016-10-25-task_complite/</guid><description>Сделал таску, отправил на code review и &amp;hellip; завернули обратно
-task</description></item><item><title>Sublime Text 3 плагины для фронтэнд-разработчика</title><link>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</link><pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</guid><description>Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.
-Package Control всея всего.
-AdvancedNewFile - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.
-Alignment - Для выравнивания
-AutoFileName - Автозаполнение имени файлов.
-Better CoffeeScript - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.
-Bootstrap 3 Jade Snippets - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться.</description></item><item><title>Лучшие (и бесплатные) онлайн-курсы по программированию</title><link>https://altyncev.ru/blog/2015-10-04-online_learn/</link><pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-10-04-online_learn/</guid><description>Список сайтов, на которых вы можете пройти бесплатные курсы по разным языкам программирования, и список книг, с которыми будет гораздо проще учиться.
-JavaScript hexlet Современный учебник JavaScript ArtSorax/videos JavaScript-Garden Code Academy Codewars Learn Street Khan Academy Code Combat Code Avengers Let’s Code: Test-Driven JavaScript udemy - HTML and CSS course Html Academy Code Academy Learn to Code Advanced - HTML &amp;amp; CSS Don’t Fear The Internet Tutsplus Learn Layout Dash Web Accessibility Цикл статей «jQuery для начинающих» Учебник: jQuery для начинающих Справка по API jQuery Code Academy Tutsplus Code School Питон на русском Code Academy Google Learn Street Python Tutor IHeartPY Code Academy TryRubyCode Learn Railscasts Rubymonk Learn Street Самые основы.</description></item><item><title>Руководство по оформлению HTML/CSS кода от Google</title><link>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</link><pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</guid><description>Введение Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры.
-Это относится к рабочим версиям файлов использующих HTML, CSS и GSS
-Разрешается использовать любые инструменты для минификации компиляции или обфускации кода, при условии, что общее качество кода будет сохранено.
-Общие правила оформления &amp;nbsp;
-Протокол Не указывайте протокол при включении ресурсов на страницу.</description></item><item><title>Знакомство с Gulp. Gulpfile.js</title><link>https://altyncev.ru/blog/2014-02-01-gulpfile/</link><pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2014-02-01-gulpfile/</guid><description>После статьи на Хабре, решил собрать свой простой gulpfile, для html и css.
-Как устанавливать node я вам не буду рассказывать, об этом уже много где сказано. И найти информацию об этом вас не затруднит.
-Перейду к самому главному. Мой &amp;ldquo;рабочий&amp;rdquo; проект, для сборки простенького сайта лежит здесь.
-А теперь, чуть чуть по подробнее :-)
-Основная задача этого gulpfile собирать html из jade шаблонов и css из stylus. Ну и разумеется обычные html и css тоже должно уметь.</description></item><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на medium.com
-See the Pen odJjA by npofopr (@npofopr) on CodePen
-HTML:
-Прописывать в вашем html это не надо, все сгенерирует js
-CSS:
-#progress { position: fixed; z-index: 2147483647; top: 0; left: -6px; width: 1%; height: 2px; background: #0088CC; -moz-border-radius: 1px; -webkit-border-radius: 1px; border-radius: 1px; -moz-transition: width 500ms ease-out,opacity 400ms linear; -ms-transition: width 500ms ease-out,opacity 400ms linear; -o-transition: width 500ms ease-out,opacity 400ms linear; -webkit-transition: width 500ms ease-out,opacity 400ms linear; transition: width 500ms ease-out,opacity 400ms linear; } #progress dd, #progress dt { position: absolute; top: 0; height: 2px; -moz-box-shadow: #0088CC 1px 0 6px 1px; -ms-box-shadow: #0088CC 1px 0 6px 1px; -webkit-box-shadow: #0088CC 1px 0 6px 1px; box-shadow: #0088CC 1px 0 6px 1px; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; } #progress dt { opacity: .</description></item><item><title>css вкусности на неделю</title><link>https://altyncev.ru/blog/2013-07-19-css_likes/</link><pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-19-css_likes/</guid><description>Всё то, что мне приглянулось и понравилось за текущую неделю
-Разнообразные css3 эффекты Всем смотреть обязательно, интересные эффекты, как для кнопок, так и для всей страницы, и всё это в одном css)
-Effeckt.css
-  Генератор тени Легким движением ползунков генерируем трендовые тенюшки)
-shadow
-  Выдержки из codepen.io, то, что я налайкал: Timeline Navigation Text Looping Transition Playful signup buttons Switches Minion Pure CSS Solar System   Сам делает ReadMore ссылку Задаётся высота, а всё что ниже будет попадать под ReadMore.</description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid><description>Расширяем свой reset.css и зарещаем масштабирование сайта.
-Расширьте reset.css
-К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив
-*:not(html) { -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0); } Запрещайте масштабирование
-Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.
-&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;</description></item><item><title>Как я стал верстальщиком</title><link>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</link><pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</guid><description>Как я до такого докатился?
-Я очень часто бываю на форуме htmlbook.ru, даже отслеживаю все новые сообщения, не ради того, чтобы скорее бежать помогать и набивать репутацию, а чтобы, возможно, найти решения, от своих проблем, которые иногда возникают, да и вообще, там много знающих людей и порой бывает интересно почитать их комментарии.
-Версткой я занялся, учась в колледже, то ли курсовую делал, то ли диплом, точно не помню. Но началось все именно от туда.</description></item><item><title>Коллекция полезных css-снипетов</title><link>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</link><pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</guid><description>Не начинайте ваш проект с пустой таблицы стилей. Есть много интересных сниппетов, которые могут облегчить вам жизнь и ускорить веб-разработку.
-Часто используемые классы Самые распространённые:
-.float-left /* прижимаем блок влево */ { float: left; } .float-right /* прижимаем блок вправо */ { float: right; } .hide /* прячем блок */ { display: none; } .show /* показываем блок */ { display: block; } Думаю, разъяснять тут ничего не надо. Это базовые стили, и их каждый должен знать и использовать.</description></item><item><title>Docpad для разворачивания сайтиков</title><link>https://altyncev.ru/blog/2013-04-19-docpad_fast_site/</link><pubDate>Fri, 19 Apr 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-04-19-docpad_fast_site/</guid><description>Наконец таки взял docpad, убрал все лишнее и вот&amp;hellip;
-При верстве больших сайтов, когда накапливается огромное количество страниц, порой бывает тяжко сделать изменения в тех же футере или шапке. У меня конечно все структурировано и обычно замена текста проходит удачно, но бывают исключения.
-Тут же от этого можно будет избавиться. Все стили и скрипты в одном месте.
-можно шаблончики сделать, страницы же часто однотипные есть. Ну и в скоре подключу дополнительные &amp;ldquo;плагинчики&amp;rdquo; и будет совсем все хорошо, надеюсь таким образом и с препроцессорами быстрее разберусь.</description></item><item><title>Визуальный css transition</title><link>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</guid><description>Смотрим css3 анимацию &amp;ldquo;online&amp;rdquo; на cssglue.com
-И еще пару ссылок с визуальным представлением css транформаций
-http://learn.shayhowe.com/advanced-html-css/transitions-animations http://darsa.in/motio/ http://leaverou.github.com/animatable/ http://www.jcsml.com http://maccman.github.com/gfx/</description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid><description>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.
-1. Google Chrome Frame Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, Google Chrome Frame стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий -тэг в тэге нашего сайта.</description></item><item><title>Блог на Docpad. Минимум усилий. Docpad blogging</title><link>https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/</link><pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/</guid><description>Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много. В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.
-И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox.</description></item><item><title>Мой user settings в sublime text</title><link>https://altyncev.ru/blog/2013-01-11-sublime_user_settings/</link><pubDate>Fri, 11 Jan 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-01-11-sublime_user_settings/</guid><description>Будучи в&amp;nbsp;интернете наткнулся на&amp;nbsp;настройки user конфига в&amp;nbsp;sublime text и&amp;nbsp;решил кое-что добавить в&amp;nbsp;свой user setting.
-Вот собственно мой:
-{ "color_scheme": "Packages/daylerees-themes/Darkside.tmTheme", "default_encoding": "Cyrillic (Windows 1251)", "detect_slow_plugins": false, "fallback_encoding": "Cyrillic (Windows 1251)", "font_face": "Consolas", "font_size": 8, "tab_size": 4, "translate_tabs_to_spaces": false, "ignored_packages": [ "Vintage" ], "soda_classic_tabs": true, "theme": "Soda Light.sublime-theme", "word_wrap": true, "caret_style": "phase", "highlight_line": true, "line_padding_bottom": 0, "line_padding_top": 0, "fade_fold_buttons": false, "bold_folder_labels": true } Немного описания (всего описывать не&amp;nbsp;буду, оно и&amp;nbsp;так понятно, да&amp;nbsp;и&amp;nbsp;при добавления в&amp;nbsp;свой user settings настройки ежесукундно начинают работать):</description></item><item><title>Масштабируемое видео</title><link>https://altyncev.ru/blog/2012-12-27-responsive_video/</link><pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-27-responsive_video/</guid><description> Очень простой CSS и&amp;nbsp;HTML, и&amp;nbsp;ваше embed-видео будет масштабироваться в&amp;nbsp;соответствии с&amp;nbsp;шириной страницы:
-css:
-.video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; } .video iframe, .video object, .video embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</description></item><item><title>Делаем «3D» ссылки</title><link>https://altyncev.ru/blog/2012-12-16-3d_links/</link><pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-16-3d_links/</guid><description>Сделать вот такую красивую ссылку достаточно просто.
-Скажу сразу, работает только в Chrome и FF, ну и почти в IE10, Opera отказалась.
-1. Делаем конструкцию &amp;lt;a&amp;gt;&amp;lt;span data-title=&amp;#34;название ссылки&amp;#34;&amp;gt;название ссылки&amp;lt;&amp;#47;span&amp;gt;&amp;lt;&amp;#47;a&amp;gt;
-2. Добавляем в css следущее:
-Для тега &amp;lt;a&amp;gt;:
-a { display: inline-block; overflow: hidden; vertical-align: top; -webkit-perspective: 600px; -moz-perspective: 600px; -ms-perspective: 600px; perspective: 600px; -webkit-perspective-origin: 50% 50%; -moz-perspective-origin: 50% 50%; -ms-perspective-origin: 50% 50%; perspective-origin: 50% 50%; } Для тега &amp;lt;span&amp;gt;:</description></item><item><title>Несколько ошибок и рекомендаций, которые должен знать веб-разработчик</title><link>https://altyncev.ru/blog/2012-12-13-error_web_development/</link><pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-13-error_web_development/</guid><description>5 встречающихся ошибок, которые должен знать разработчик.
-#1 Link outlines / highlights смещаются Kindle Fire Проблема:
-Fix:
-text-rendering: optimizeLegibility; position: relative; -webkit-box-sizing: border-box; #2 Баг с зумом при смене ориентации на iOS Решение: (function(a){function m(){d.setAttribute("content",g),h=!0}function n(){d.setAttribute("content",f),h=!1}function o(b){l=b.accelerationIncludingGravity,i=Math.abs(l.x),j=Math.abs(l.y),k=Math.abs(l.z),(!a.orientation||a.orientation===180)&amp;&amp;(i7||(k6&amp;&amp;j5)?h&amp;&amp;n():h||m()}var b=navigator.userAgent;if(!(/iPhone|iPad|iPod/.test(navigator.platform)&amp;&amp;/OS [1-5]_[0-9_]* like Mac OS X/i.test(b)&amp;&amp;b.indexOf("AppleWebKit")-1))return;var c=a.document;if(!c.querySelector)return;var d=c.querySelector("meta[name=viewport]"),e=d&amp;&amp;d.getAttribute("content"),f=e+",maximum-scale=1",g=e+",maximum-scale=10",h=!0,i,j,k,l;if(!d)return;a.addEventListener("orientationchange",m,!1),a.addEventListener("devicemotion",o,!1)})(this); #3 WebKit игнорирует цвет фона элемента при печати документа Решение:
--webkit-print-color-adjust: exact; Oтключить диалоги, которые появляются при нажатии на элемент слишком долго на мобильных браузеров Проблема:</description></item><item><title>Emmet</title><link>https://altyncev.ru/blog/2012-11-23-emmet/</link><pubDate>Fri, 23 Nov 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-11-23-emmet/</guid><description>
-&lt;p>Решил я тут взяться за &lt;a href="http://github.com/sergeche/emmet-sublime">Emmet&lt;/a>, это продолжатель Zen-Coding.&lt;/p>
-&lt;p>Хорошая штука в общем)&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>Точно сделал задачу?</title><link>https://altyncev.ru/blog/2016-11-17-task_complited/</link><pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2016-11-17-task_complited/</guid><description>&lt;p>Лучший ответ на задачу&lt;/p>
+&lt;p>&lt;figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 181; 
+			flex-basis: 436px"
+	>
+	&lt;a href="https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa.gif" data-size="400x220">
+		&lt;img src="https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa.gif"
+			width="400"
+			height="220"
+			srcset="https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa_hu2566472905395353670.gif 480w, https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa_hu3497771697629773619.gif 1024w"
+			loading="lazy"
+			alt="task">
+	&lt;/a>
+	
+	&lt;figcaption>task&lt;/figcaption>
+	
+&lt;/figure>&lt;/p></description></item><item><title>Сделал таску</title><link>https://altyncev.ru/blog/2016-10-25-task_complite/</link><pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2016-10-25-task_complite/</guid><description>&lt;p>Сделал таску, отправил на code review и &amp;hellip; завернули обратно&lt;/p>
+&lt;p>&lt;figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 129; 
+			flex-basis: 311px"
+	>
+	&lt;a href="https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431.gif" data-size="480x370">
+		&lt;img src="https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431.gif"
+			width="480"
+			height="370"
+			srcset="https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431_hu14653058449475510992.gif 480w, https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431_hu11081124011244043498.gif 1024w"
+			loading="lazy"
+			alt="task">
+	&lt;/a>
+	
+	&lt;figcaption>task&lt;/figcaption>
+	
+&lt;/figure>&lt;/p></description></item><item><title>Sublime Text 3 плагины для фронтэнд-разработчика</title><link>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</link><pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</guid><description>&lt;p>Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/installation" target="_blank" rel="noopener"
+ >Package Control&lt;/a> всея всего.&lt;/p>
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/packages/AdvancedNewFile" target="_blank" rel="noopener"
+ >AdvancedNewFile&lt;/a> - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.&lt;/p>
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/packages/Alignment" target="_blank" rel="noopener"
+ >Alignment&lt;/a> - Для выравнивания&lt;/p>
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/packages/AutoFileName" target="_blank" rel="noopener"
+ >AutoFileName&lt;/a> - Автозаполнение имени файлов.&lt;/p>
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/packages/Better%20CoffeeScript" target="_blank" rel="noopener"
+ >Better CoffeeScript&lt;/a> - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.&lt;/p></description></item><item><title>Лучшие (и бесплатные) онлайн-курсы по программированию</title><link>https://altyncev.ru/blog/2015-10-04-online_learn/</link><pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-10-04-online_learn/</guid><description>&lt;p>Список сайтов, на которых вы можете пройти бесплатные курсы по разным языкам программирования, и список книг, с которыми будет гораздо проще учиться.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="javascript">JavaScript&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://hexlet.org/course/javascript/" target="_blank" rel="noopener"
+ >hexlet&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://learn.javascript.ru/" target="_blank" rel="noopener"
+ >Современный учебник JavaScript&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.youtube.com/user/ArtSorax/videos" target="_blank" rel="noopener"
+ >ArtSorax/videos&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://bonsaiden.github.io/JavaScript-Garden/ru/#intro" target="_blank" rel="noopener"
+ >JavaScript-Garden&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/javascript" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codewars.com/?language=javascript" target="_blank" rel="noopener"
+ >Codewars&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.learnstreet.com/lessons/study/javascript" target="_blank" rel="noopener"
+ >Learn Street&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.khanacademy.org/computing/cs" target="_blank" rel="noopener"
+ >Khan Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codecombat.com/" target="_blank" rel="noopener"
+ >Code Combat&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codeavengers.com/javascript" target="_blank" rel="noopener"
+ >Code Avengers&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.letscodejavascript.com/" target="_blank" rel="noopener"
+ >Let’s Code: Test-Driven JavaScript&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://blog.udemy.com/learn-html-learn-the-foundations-of-html/" target="_blank" rel="noopener"
+ >udemy - HTML and CSS course&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://htmlacademy.ru" target="_blank" rel="noopener"
+ >Html Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/web" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://learn.shayhowe.com/advanced-html-css/" target="_blank" rel="noopener"
+ >Learn to Code Advanced - HTML &amp;amp; CSS&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.dontfeartheinternet.com/" target="_blank" rel="noopener"
+ >Don’t Fear The Internet&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://courses.tutsplus.com/courses/30-days-to-learn-html-css" target="_blank" rel="noopener"
+ >Tutsplus&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://learnlayout.com/" target="_blank" rel="noopener"
+ >Learn Layout&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://dash.generalassemb.ly/" target="_blank" rel="noopener"
+ >Dash&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://webaccessibility.withgoogle.com/course" target="_blank" rel="noopener"
+ >Web Accessibility&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://anton.shevchuk.name/jquery/" target="_blank" rel="noopener"
+ >Цикл статей «jQuery для начинающих»&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://anton.shevchuk.name/book/code/" target="_blank" rel="noopener"
+ >Учебник: jQuery для начинающих&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://jquery-docs.ru/" target="_blank" rel="noopener"
+ >Справка по API jQuery&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/jquery" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://courses.tutsplus.com/courses/30-days-to-learn-jquery" target="_blank" rel="noopener"
+ >Tutsplus&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://try.jquery.com/" target="_blank" rel="noopener"
+ >Code School&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://www.opennet.ru/docs/RUS/python/" target="_blank" rel="noopener"
+ >Питон на русском&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/python" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://developers.google.com/edu/python" target="_blank" rel="noopener"
+ >Google&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.learnstreet.com/lessons/study/python" target="_blank" rel="noopener"
+ >Learn Street&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://pythontutor.com/" target="_blank" rel="noopener"
+ >Python Tutor&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.iheartpy.com/" target="_blank" rel="noopener"
+ >IHeartPY&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/ruby" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://tryruby.org/" target="_blank" rel="noopener"
+ >TryRubyCode Learn&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://railscasts.com/" target="_blank" rel="noopener"
+ >Railscasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://rubymonk.com/" target="_blank" rel="noopener"
+ >Rubymonk&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.learnstreet.com/lessons/study/ruby" target="_blank" rel="noopener"
+ >Learn Street&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://phpfaq.ru/na_tanke" target="_blank" rel="noopener"
+ >Самые основы. Как работает PHP.&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/php" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://developers.google.com/apps-script/overview" target="_blank" rel="noopener"
+ >Getting Started&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.youtube.com/playlist?list=PL68F511F6E3C122EB" target="_blank" rel="noopener"
+ >Office Hours&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.labnol.org/internet/google-scripts/28281/" target="_blank" rel="noopener"
+ >Google Scripts Examples&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://gist.github.com/labnol/0b67f812a827fd9babc5" target="_blank" rel="noopener"
+ >Learning Apps Script&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://teamtreehouse.com/library/topic:wordpress" target="_blank" rel="noopener"
+ >Treehouse&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://wordpress.tv/" target="_blank" rel="noopener"
+ >WordPress TV&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=PracticalUnix" target="_blank" rel="noopener"
+ >Stanford.edu&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://explainshell.com/" target="_blank" rel="noopener"
+ >Explain Shell&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://learn.javascript.ru/nodejs-screencast" target="_blank" rel="noopener"
+ >Node.JS от А до Я&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://nodeguide.ru/doc/" target="_blank" rel="noopener"
+ >Руководства по Node.js&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.nodebeginner.ru/" target="_blank" rel="noopener"
+ >Node.js для начинающих&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://jsman.ru/express/" target="_blank" rel="noopener"
+ >Express: веб-фреймворк для Node.js. Руководство пользователя&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://nodetuts.com/" target="_blank" rel="noopener"
+ >Nodetuts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://nodeschool.io/" target="_blank" rel="noopener"
+ >Node School&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://git-scm.com/book/ru/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" target="_blank" rel="noopener"
+ >Git &amp;ndash;local-branching-on-the-cheap&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://try.github.io/" target="_blank" rel="noopener"
+ >Code School&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://gitimmersion.com/" target="_blank" rel="noopener"
+ >Git Immersion&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/user/GitHubGuides" target="_blank" rel="noopener"
+ >GitHub Training&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://tryobjectivec.codeschool.com/" target="_blank" rel="noopener"
+ >Code School&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550" target="_blank" rel="noopener"
+ >Stanford&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://itunes.apple.com/us/itunes-u/developing-apps-for-ios-hd/id395605774?mt=10" target="_blank" rel="noopener"
+ >iTunesU&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.codeschool.com/courses/discover-devtools" target="_blank" rel="noopener"
+ >Code School&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://devtoolsecrets.com/" target="_blank" rel="noopener"
+ >Dev Tools Secret&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.labnol.org/software/chrome-dev-tools-tutorial/28131/" target="_blank" rel="noopener"
+ >Chrome Dev Tools Tutorial&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://tour.golang.org/" target="_blank" rel="noopener"
+ >Golang.org&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.coursera.org/course/android" target="_blank" rel="noopener"
+ >Coursera&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://thenewboston.org/list.php?cat=6" target="_blank" rel="noopener"
+ >The New Boston&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://developers.google.com/university/courses/mobile" target="_blank" rel="noopener"
+ >Google University&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" target="_blank" rel="noopener"
+ >Data Visualization for the Web&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.dashingd3js.com/" target="_blank" rel="noopener"
+ >Dashing D3&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://leanpub.com/D3-Tips-and-Tricks" target="_blank" rel="noopener"
+ >D3 Tips &amp;amp; Tricks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.udacity.com/" target="_blank" rel="noopener"
+ >Udacity&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.edx.org/" target="_blank" rel="noopener"
+ >edX.org&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.coursera.org/" target="_blank" rel="noopener"
+ >Coursera&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.udemy.com/" target="_blank" rel="noopener"
+ >Udemy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.lynda.com/" target="_blank" rel="noopener"
+ >Lynda&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.pluralsight.com/training" target="_blank" rel="noopener"
+ >Pluralsight&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://teamtreehouse.com/" target="_blank" rel="noopener"
+ >Treehouse&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.oeconsortium.org/" target="_blank" rel="noopener"
+ >Open Consortium&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;p>Если вы хотите вырастить программиста, можно начать учить его с ранних лет. С приложениями &lt;a class="link" href="https://itunes.apple.com/us/app/tynker-learn-programming-visual/id805869467" target="_blank" rel="noopener"
+ >Tynker&lt;/a> и &lt;a class="link" href="https://itunes.apple.com/us/app/hopscotch-coding-for-kids/id617098629" target="_blank" rel="noopener"
+ >Hopscotch&lt;/a> для iPad ваш ребенок научится основам программирования через игры и пазлы.&lt;/p></description></item><item><title>Руководство по оформлению HTML/CSS кода от Google</title><link>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</link><pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</guid><description>&lt;h3>Введение&lt;/h3>
+&lt;p>Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры.&lt;/p>
+
 &lt;!-- Read more -->
+
+&lt;p>Это относится к рабочим версиям файлов использующих&lt;span>&lt;strong> HTML&lt;/strong>&lt;/span>, &lt;span>&lt;strong>CSS&lt;/strong>&lt;/span> и &lt;span>&lt;strong>GSS&lt;/strong>&lt;/span>&lt;/p>
+&lt;p>Разрешается использовать любые инструменты для минификации компиляции или обфускации кода, при условии, что общее качество кода будет сохранено. &lt;a name="habracut">&lt;/a>&lt;br />&lt;/p>
+&lt;h3>Общие правила оформления&lt;/h3>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;h4>Протокол&lt;/h4>
+&lt;p>&lt;strong> Не указывайте протокол при включении ресурсов на страницу. &lt;/strong>&lt;/p></description></item><item><title>Знакомство с Gulp. Gulpfile.js</title><link>https://altyncev.ru/blog/2014-02-01-gulpfile/</link><pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2014-02-01-gulpfile/</guid><description>&lt;p>После статьи на Хабре, решил собрать свой простой gulpfile, для html и css.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Как устанавливать node я вам не буду рассказывать, об этом уже много где сказано. И найти информацию об этом вас не затруднит.&lt;/p>
+&lt;p>Перейду к самому главному. Мой &amp;ldquo;рабочий&amp;rdquo; проект, для сборки простенького сайта лежит &lt;a class="link" href="https://github.com/npofopr/my-gulpfile" target="_blank" rel="noopener"
+ >здесь&lt;/a>.&lt;/p>
+&lt;p>А теперь, чуть чуть по подробнее :-)&lt;/p>
+&lt;p>Основная задача этого gulpfile собирать html из jade шаблонов и css из stylus. Ну и разумеется обычные html и css тоже должно уметь. Также оптимизация всех картинок. Т.к. на js я пока толком не умею ничего делать, то особого внимания я ему не прикладываю, поэтому с скриптами у меня практически ничего не делается, кроме &amp;ldquo;склейки&amp;rdquo; и минификации.&lt;/p></description></item><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>&lt;p>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на &lt;a href="https://medium.com/" rel="nofollow" target="_blank">medium.com&lt;/a>&lt;/p>
+&lt;!-- Read more -->
+
+&lt;p data-height="268" data-theme-id="0" data-slug-hash="odJjA" data-user="npofopr" data-default-tab="result" class='codepen'>See the Pen &lt;a href='http://codepen.io/npofopr/pen/odJjA'>odJjA&lt;/a> by npofopr (&lt;a href='http://codepen.io/npofopr'>@npofopr&lt;/a>) on &lt;a href='http://codepen.io'>CodePen&lt;/a>&lt;/p>
+&lt;script async src="http://codepen.io/assets/embed/ei.js">&lt;/script>
+
+&lt;p>&lt;strong>HTML:&lt;/strong>&lt;/p>
+&lt;p>Прописывать в вашем html это не надо, все сгенерирует js&lt;/p>
+
+&lt;pre>&lt;code>
+&lt;div>
+	&lt;dt>&lt;/dt>
+	&lt;dd>&lt;/dd>
+&lt;/div>
+&lt;/code>&lt;/pre>
+
+&lt;p>&lt;strong>CSS:&lt;/strong>&lt;/p>
+
+&lt;pre>&lt;code class="css">
+#progress {
+	position: fixed;
+	z-index: 2147483647;
+	top: 0;
+	left: -6px;
+	width: 1%;
+	height: 2px;
+	background: #0088CC;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	-moz-transition: width 500ms ease-out,opacity 400ms linear;
+	-ms-transition: width 500ms ease-out,opacity 400ms linear;
+	-o-transition: width 500ms ease-out,opacity 400ms linear;
+	-webkit-transition: width 500ms ease-out,opacity 400ms linear;
+	transition: width 500ms ease-out,opacity 400ms linear;
+}
+
+#progress dd, #progress dt {
+	position: absolute;
+	top: 0;
+	height: 2px;
+	-moz-box-shadow: #0088CC 1px 0 6px 1px;
+	-ms-box-shadow: #0088CC 1px 0 6px 1px;
+	-webkit-box-shadow: #0088CC 1px 0 6px 1px;
+	box-shadow: #0088CC 1px 0 6px 1px;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+
+#progress dt {
+	opacity: .6;
+	width: 180px;
+	right: -80px;
+	clip: rect(-6px,90px,14px,-6px);
+}
+
+#progress dd {
+	opacity: .6;
+	width: 20px;
+	right: 0;
+	clip: rect(-6px,22px,14px,10px);
+}
+&lt;/code>&lt;/pre>
+
+&lt;p>&lt;strong>И немного магии Javascript:&lt;/strong>&lt;/p></description></item><item><title>css вкусности на неделю</title><link>https://altyncev.ru/blog/2013-07-19-css_likes/</link><pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-19-css_likes/</guid><description>&lt;p>Всё то, что мне приглянулось и понравилось за текущую неделю&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://h5bp.github.io/Effeckt.css/dist/" title="Effeckt.css"
+ target="_blank" rel="noopener"
+ >&lt;strong>Разнообразные css3 эффекты&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Всем смотреть обязательно, интересные эффекты, как для кнопок, так и для всей страницы, и всё это в одном css)&lt;/p>
+&lt;p>&lt;figure 
+	>
+	&lt;a href="https://altyncev.ru/images/blog/effect.png" >
+		&lt;img src="https://altyncev.ru/images/blog/effect.png"
+			
+			
+			
+			loading="lazy"
+			alt="Effeckt.css">
+	&lt;/a>
+	
+	&lt;figcaption>Effeckt.css&lt;/figcaption>
+	
+&lt;/figure>&lt;/p>
+&lt;p> &lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://sandbox.juan-i.com/longshadows/" target="_blank" rel="noopener"
+ >&lt;strong>Генератор тени&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Легким движением ползунков генерируем трендовые тенюшки)&lt;/p>
+&lt;p>&lt;figure 
+	>
+	&lt;a href="https://altyncev.ru/images/blog/shadow.png" >
+		&lt;img src="https://altyncev.ru/images/blog/shadow.png"
+			
+			
+			
+			loading="lazy"
+			alt="shadow">
+	&lt;/a>
+	
+	&lt;figcaption>shadow&lt;/figcaption>
+	
+&lt;/figure>&lt;/p>
+&lt;p> &lt;/p>
+&lt;ul>
+&lt;li>Выдержки из &lt;a class="link" href="http://codepen.io/" target="_blank" rel="noopener"
+ >codepen.io&lt;/a>, то, что я налайкал:&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>&lt;a class="link" href="http://codepen.io/krnlde/pen/iIEgh" title="Интересная навигация, при скролле"
+ target="_blank" rel="noopener"
+ >Timeline Navigation&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/agelber/pen/AirsI" title="Слайдер, листается текст"
+ target="_blank" rel="noopener"
+ >Text Looping Transition&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/arronhunt/pen/jtsih" title="Отпадывающая кнопка)"
+ target="_blank" rel="noopener"
+ >Playful signup buttons&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/billycrist/pen/CHmiE" title="Чекбоксы"
+ target="_blank" rel="noopener"
+ >Switches&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/ezecafre89/pen/ojnKb" title="Minion"
+ target="_blank" rel="noopener"
+ >Minion Pure CSS&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/d4rkr00t/pen/hItgE" title="Солнечная система с возможностью добавить свои объекты"
+ target="_blank" rel="noopener"
+ >Solar System&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p> &lt;/p></description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid><description>&lt;p>Расширяем свой reset.css и зарещаем масштабирование сайта.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>Расширьте reset.css&lt;/strong>&lt;/p>
+&lt;p>К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив&lt;/p>
+&lt;pre>&lt;code>*:not(html) {
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ user-select: none;
+ -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Запрещайте масштабирование&lt;/strong>&lt;/p>
+&lt;p>Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.&lt;/p>
+&lt;pre>&lt;code>&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;
+&lt;/code>&lt;/pre></description></item><item><title>Как я стал верстальщиком</title><link>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</link><pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</guid><description>&lt;p>Как я до такого докатился?&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Я очень часто бываю на форуме &lt;a class="link" href="htmlbook.ru" >htmlbook.ru&lt;/a>, даже отслеживаю все новые сообщения, не ради того, чтобы скорее бежать помогать и набивать репутацию, а чтобы, возможно, найти решения, от своих проблем, которые иногда возникают, да и вообще, там много знающих людей и порой бывает интересно почитать их комментарии.&lt;/p>
+&lt;p>Версткой я занялся, учась в колледже, то ли курсовую делал, то ли диплом, точно не помню. Но началось все именно от туда. Был у нас там предмет, на котором мы как раз верстали сайты в ужасном Фронтпейдже, или как там его. На этих занятиях я обычно ничего не делал, &lt;del>потому как от этой программы у меня возникали рвотные позывы&lt;/del>. Делал обычно всегда все дома, в любимом тогда Dreamweaver. Да да, именно в нем родном. Как бы его не ругали, но он клевый) Тем более для новичка. Пробовал и другие редакторы, но все не то. Сидел и на Aptana и WebStorm пробовал (и даже недавно хотел на него перейти, но пока что мне это не к чему). Сейчас я конечно пользуюсь sublime text и меня все устраивает.&lt;/p></description></item><item><title>Коллекция полезных css-снипетов</title><link>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</link><pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</guid><description>&lt;p>Не начинайте ваш проект с пустой таблицы стилей. Есть много интересных сниппетов, которые могут облегчить вам жизнь и ускорить веб-разработку.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="часто-используемые-классы">Часто используемые классы&lt;/h2>
+&lt;p>Самые распространённые:&lt;/p>
+&lt;pre>&lt;code>.float-left /* прижимаем блок влево */ {
+ float: left;
+}
+.float-right /* прижимаем блок вправо */ {
+ float: right;
+}
+.hide /* прячем блок */ {
+ display: none;
+}
+.show /* показываем блок */ {
+ display: block;
+}
+&lt;/code>&lt;/pre>
+&lt;p>Думаю, разъяснять тут ничего не надо. Это базовые стили, и их каждый должен знать и использовать. Они даже в каждом фреймворке есть, только под другими именами.&lt;/p></description></item><item><title>Docpad для разворачивания сайтиков</title><link>https://altyncev.ru/blog/2013-04-19-docpad_fast_site/</link><pubDate>Fri, 19 Apr 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-04-19-docpad_fast_site/</guid><description>&lt;p>Наконец таки взял docpad, убрал все лишнее и вот&amp;hellip;&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>При верстве больших сайтов, когда накапливается огромное количество страниц, порой бывает тяжко сделать изменения в тех же футере или шапке. У меня конечно все структурировано и обычно замена текста проходит удачно, но бывают исключения.&lt;/p>
+&lt;p>Тут же от этого можно будет избавиться. Все стили и скрипты в одном месте.&lt;/p>
+&lt;ul>
+&lt;li>можно шаблончики сделать, страницы же часто однотипные есть.&lt;/li>
+&lt;/ul>
+&lt;p>Ну и в скоре подключу дополнительные &amp;ldquo;плагинчики&amp;rdquo; и будет совсем все хорошо, надеюсь таким образом и с препроцессорами быстрее разберусь.&lt;/p></description></item><item><title>Визуальный css transition</title><link>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</guid><description>&lt;p>Смотрим css3 анимацию &amp;ldquo;online&amp;rdquo; на &lt;a class="link" href="http://cssglue.com/cubic" title="Visualize and manipulate CSS transition functions"
+ target="_blank" rel="noopener"
+ >cssglue.com&lt;/a>&lt;/p>
+&lt;p>И еще пару ссылок с визуальным представлением css транформаций&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;ol>
+&lt;li>&lt;a class="link" href="http://learn.shayhowe.com/advanced-html-css/transitions-animations" title="Transitions &amp;amp; Animations - An Advanced Guide to HTML &amp;amp; CSS"
+ target="_blank" rel="noopener"
+ >http://learn.shayhowe.com/advanced-html-css/transitions-animations&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://darsa.in/motio/" title="Simple sprite based animations with jQuery"
+ target="_blank" rel="noopener"
+ >http://darsa.in/motio/&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://leaverou.github.com/animatable/" title="Animatable: One property, two values, endless possiblities"
+ target="_blank" rel="noopener"
+ >http://leaverou.github.com/animatable/&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.jcsml.com/pageshell.html?root=Tutorials&amp;amp;target=Movement&amp;amp;t=1" title="jCS Media Library"
+ target="_blank" rel="noopener"
+ >http://www.jcsml.com&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://maccman.github.com/gfx/" title="GFX - a 3D CSS3 animation library for jQuery"
+ target="_blank" rel="noopener"
+ >http://maccman.github.com/gfx/&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid><description>&lt;p>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="1-google-chrome-frame">1. &lt;strong>Google Chrome Frame&lt;/strong>&lt;/h2>
+&lt;p>Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, &lt;strong>Google Chrome Frame&lt;/strong> стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий &lt;!-- raw HTML omitted -->-тэг в тэге &lt;!-- raw HTML omitted --> нашего сайта.&lt;/p></description></item><item><title>Блог на Docpad. Минимум усилий. Docpad blogging</title><link>https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/</link><pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-02-16-how_i_made_this_site.html/</guid><description>&lt;p>Я всегда хотел иметь свой сайт/бложик. И было у меня их очень много.
+В большинстве случаев сайты я делал на популярных cms&amp;rsquo;ках: joomla или wordpress, и ещё были разные, вообще я люблю экспериментировать и пробовать все новое.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>И совсем недавно все больше стали появляться так называемые линкоблоги, которые в большинстве своём хранятся в каком нибудь облаке. Есть куча средств, с помощью которых можно сделать такой &amp;ldquo;сайтик&amp;rdquo;, а храниться он будет, допустим прямо в вашем dropbox. Очень круто и удобно я считаю. Но там особо не разбежишься с дизайном. Чаще всего вам предоставляют уже готовый шаблон. Но для кого то и это будет достаточно.&lt;/p></description></item><item><title>Мой user settings в sublime text</title><link>https://altyncev.ru/blog/2013-01-11-sublime_user_settings/</link><pubDate>Fri, 11 Jan 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-01-11-sublime_user_settings/</guid><description>&lt;p>Будучи в&amp;nbsp;интернете наткнулся на&amp;nbsp;настройки user конфига в&amp;nbsp;sublime text и&amp;nbsp;решил &lt;nobr>кое-что&lt;/nobr> добавить в&amp;nbsp;свой user setting.&lt;/p>
+&lt;!-- Read more -->
+&lt;p>Вот собственно мой:&lt;/p>
+&lt;pre>
+	&lt;code>
+{
+	"color_scheme": "Packages/daylerees-themes/Darkside.tmTheme",
+	"default_encoding": "Cyrillic (Windows 1251)",
+	"detect_slow_plugins": false,
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"font_face": "Consolas",
+	"font_size": 8,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"soda_classic_tabs": true,
+	"theme": "Soda Light.sublime-theme",
+	"word_wrap": true,
+	"caret_style": "phase",
+	"highlight_line": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"fade_fold_buttons": false,
+	"bold_folder_labels": true
+}
+	&lt;/code>
+&lt;/pre>
+&lt;p>Немного описания (всего описывать не&amp;nbsp;буду, оно и&amp;nbsp;так понятно, да&amp;nbsp;и&amp;nbsp;при добавления в&amp;nbsp;свой user settings настройки ежесукундно начинают работать):&lt;/p></description></item><item><title>Масштабируемое видео</title><link>https://altyncev.ru/blog/2012-12-27-responsive_video/</link><pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-27-responsive_video/</guid><description>&lt;p>Очень простой &lt;acronym title="Cascading Style Sheets" lang="en">CSS&lt;/acronym> и&amp;nbsp;&lt;acronym title="HyperText Markup Language" lang="en">HTML&lt;/acronym>, и&amp;nbsp;ваше &lt;nobr>embed-видео&lt;/nobr> будет масштабироваться в&amp;nbsp;соответствии с&amp;nbsp;шириной страницы:&lt;/p>
+&lt;!-- Read more -->
+&lt;pre>&lt;code class="html">
+&lt;div class="video">
+ &lt;iframe src="http://player.vimeo.com/video/6929537"frameborder="0">&lt;/iframe>
+&lt;/div>
+&lt;/code>&lt;/pre>
+&lt;p>&lt;acronym title="Cascading Style Sheets" lang="en">css&lt;/acronym>:&lt;/p>
+&lt;pre>&lt;code class="css">
+.video {
+ position: relative;
+ padding-bottom: 56.25%;
+ height: 0;
+ overflow: hidden;
+}
+.video iframe,
+.video object,
+.video embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+&lt;/code>&lt;/pre></description></item><item><title>Делаем «3D» ссылки</title><link>https://altyncev.ru/blog/2012-12-16-3d_links/</link><pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-16-3d_links/</guid><description>&lt;p>Сделать вот такую &lt;a class="roll_link" href="http://softwaremaniacs.org/soft/highlight/">&lt;span data-title="красивую ссылку">красивую ссылку&lt;/span>&lt;/a> достаточно просто.&lt;/p>
+
+&lt;!-- Read more -->
+
+&lt;p>Скажу сразу, работает только в Chrome и FF, ну и почти в IE10, Opera отказалась.&lt;/p>
+&lt;p>1. Делаем конструкцию &lt;code>&amp;lt;a&amp;gt;&amp;lt;span data-title=&amp;#34;название ссылки&amp;#34;&amp;gt;название ссылки&amp;lt;&amp;#47;span&amp;gt;&amp;lt;&amp;#47;a&amp;gt;&lt;/code>&lt;/p>
+&lt;p>2. Добавляем в css следущее:&lt;/p>
+&lt;p>Для тега &lt;span class="label label-info">&lt;strong>&amp;lt;a&amp;gt;&lt;/strong>&lt;/span>:&lt;/p>
+&lt;pre>&lt;code class="css">
+	a {
+		display: inline-block;
+		overflow: hidden;
+		vertical-align: top;
+		-webkit-perspective: 600px;
+		-moz-perspective: 600px;
+		-ms-perspective: 600px;
+		perspective: 600px;
+		-webkit-perspective-origin: 50% 50%;
+		-moz-perspective-origin: 50% 50%;
+		-ms-perspective-origin: 50% 50%;
+		perspective-origin: 50% 50%;
+	}
+&lt;/code>&lt;/pre>
+&lt;p>Для тега &lt;span class="label label-info">&lt;strong>&amp;lt;span&amp;gt;&lt;/strong>&lt;/span>:&lt;/p></description></item><item><title>Несколько ошибок и рекомендаций, которые должен знать веб-разработчик</title><link>https://altyncev.ru/blog/2012-12-13-error_web_development/</link><pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-13-error_web_development/</guid><description>&lt;p>5 встречающихся ошибок, которые должен знать разработчик.&lt;/p>
+
+&lt;!-- Read more -->
+
+&lt;h4>#1 Link outlines / highlights смещаются Kindle Fire&lt;/h4>
+&lt;p>&lt;strong>Проблема:&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://shadow.perm.ru/images/problem1.png">&lt;/p>
+&lt;p>&lt;strong>Fix:&lt;/strong>&lt;/p>
+&lt;pre>text-rendering: optimizeLegibility;
+position: relative;
+-webkit-box-sizing: border-box;&lt;/pre>
+&lt;hr>
+
+&lt;h4>#2 Баг с зумом при смене ориентации на iOS&lt;/h4>
+&lt;p>&lt;strong>Решение:&lt;/strong>
+&lt;pre>(function(a){function m(){d.setAttribute("content",g),h=!0}function n(){d.setAttribute("content",f),h=!1}function o(b){l=b.accelerationIncludingGravity,i=Math.abs(l.x),j=Math.abs(l.y),k=Math.abs(l.z),(!a.orientation||a.orientation===180)&amp;&amp;(i>7||(k>6&amp;&amp;j5)?h&amp;&amp;n():h||m()}var b=navigator.userAgent;if(!(/iPhone|iPad|iPod/.test(navigator.platform)&amp;&amp;/OS [1-5]_[0-9_]* like Mac OS X/i.test(b)&amp;&amp;b.indexOf("AppleWebKit")>-1))return;var c=a.document;if(!c.querySelector)return;var d=c.querySelector("meta[name=viewport]"),e=d&amp;&amp;d.getAttribute("content"),f=e+",maximum-scale=1",g=e+",maximum-scale=10",h=!0,i,j,k,l;if(!d)return;a.addEventListener("orientationchange",m,!1),a.addEventListener("devicemotion",o,!1)})(this);&lt;/pre>
+&lt;hr>
+
+&lt;h4>#3 WebKit игнорирует цвет фона элемента при печати документа&lt;/h4>
+&lt;p>&lt;strong>Решение:&lt;/strong>&lt;/p>
+&lt;pre>-webkit-print-color-adjust: exact;&lt;/pre>
+&lt;hr>
+
+&lt;h4>Oтключить диалоги, которые появляются при нажатии на элемент слишком долго на мобильных браузеров&lt;/h4>
+&lt;p>&lt;strong>Проблема:&lt;/strong>&lt;/p></description></item><item><title>Emmet</title><link>https://altyncev.ru/blog/2012-11-23-emmet/</link><pubDate>Fri, 23 Nov 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-11-23-emmet/</guid><description>&lt;p>Решил я тут взяться за &lt;a href="http://github.com/sergeche/emmet-sublime">Emmet&lt;/a>, это продолжатель Zen-Coding.&lt;/p>
+&lt;p>Хорошая штука в общем)&lt;/p>
+
+&lt;!-- Read more -->
+
 &lt;p>&lt;sub>PS: данный текст не служит мануалом или еще чем то, это просто черновик, для себя, чтобы не забыть.&lt;/sub>&lt;/p>
 &lt;h3>Горячие клавиши:&lt;/h3>
 &lt;ul>
@@ -140,16 +666,60 @@ text-rendering: optimizeLegibility; position: relative; -webkit-box-sizing: bord
 &lt;li>&lt;strong>Ctrl+'&lt;/strong> - переводим img в data:URL формат&lt;/li>
 &lt;li>&lt;strong>Shift+Ctrl+'&lt;/strong> - переименовываем тэг&lt;/li>
 &lt;/ul>
-&lt;div></description></item><item><title>Разные формы на CSS</title><link>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</link><pubDate>Mon, 08 Oct 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</guid><description>Рассмотрим следующий код, чтобы сделать формы на CSS.
-Браузеры, которые поддерживают: IE9, Chrome, Safari, Firefox, Opera.
-&amp;nbsp;
-Квадрат
-#square { width: 100px; height: 100px; background: #000; } Прямоугольник
-#rectangle { width: 200px; height: 100px; background: #000; } Круг
-#circle { width: 100px; height: 100px; background: #000; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; } &amp;nbsp;Овал
-#oval { width: 200px; height: 100px; background: #000; -moz-border-radius: 100px / 50px; -webkit-border-radius: 100px / 50px; border-radius: 100px / 50px; } Треугольник</description></item><item><title>Responsive fixed block</title><link>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</link><pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</guid><description>Ура ура! Как раз искал такое решение и оно нашлось :-)
-Суть такая: нужен был fixed sidebar, но если блок fixed, то при уменьшении экрана по высоте он начинает "съедаться", нужно было это как то решать.
-Есть 2 способа решения:
-С помощью @media screen; И с помощью jquery. C @media screen это будет примерно так:
-@media screen and (min-height: 768px) { } А с jquery так:
-jQuery(document).ready(function($) { $(document).</description></item></channel></rss>
+&lt;div></description></item><item><title>Разные формы на CSS</title><link>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</link><pubDate>Mon, 08 Oct 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</guid><description>&lt;p>Рассмотрим следующий код, чтобы сделать формы на CSS.&lt;/p>
+&lt;p>Браузеры, которые поддерживают: IE9, Chrome, Safari, Firefox, Opera.&lt;/p>
+
+&lt;!-- Read more -->
+
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p>&lt;strong>Квадрат&lt;/strong>&lt;/p>
+&lt;p>&lt;a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/10/square.jpg">&lt;img class="alignnone size-full wp-image-370" title="square" src="http://shadow.perm.ru/wp-content/uploads/2012/10/square.jpg" alt="Квадрат" width="102" height="102" />&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="css">#square {
+	width: 100px;
+	height: 100px;
+	background: #000;
+}&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Прямоугольник&lt;/strong>&lt;/p>
+&lt;p>&lt;a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/10/rectangle.jpg">&lt;img class="alignnone size-thumbnail wp-image-368" title="rectangle" src="http://shadow.perm.ru/wp-content/uploads/2012/10/rectangle-150x102.jpg" alt="Прямоугольник" width="150" height="102" />&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="css">#rectangle {
+	width: 200px;
+	height: 100px;
+	background: #000;
+}&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Круг&lt;/strong>&lt;/p>
+&lt;p>&lt;a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/10/circle.jpg">&lt;img class="alignnone size-full wp-image-353" title="circle" src="http://shadow.perm.ru/wp-content/uploads/2012/10/circle.jpg" alt="Круг" width="108" height="102" />&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="css">#circle {
+	width: 100px;
+	height: 100px;
+	background: #000;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}&lt;/code>&lt;/pre>
+&lt;p>&amp;nbsp;&lt;strong>Овал&lt;/strong>&lt;/p></description></item><item><title>Responsive fixed block</title><link>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</link><pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</guid><description>&lt;p>Ура ура! Как раз искал такое решение и оно нашлось :-)&lt;/p>
+&lt;p>Суть такая: нужен был fixed sidebar, но если блок fixed, то при уменьшении экрана по высоте он начинает "съедаться", нужно было это как то решать.&lt;/p>
+
+
+&lt;p>Есть 2 способа решения:&lt;/p>
+&lt;ol>
+&lt;li>С помощью @media screen;&lt;/li>
+&lt;li>И с помощью jquery.&lt;/li>
+&lt;/ol>
+&lt;p>C @media screen это будет примерно так:&lt;/p>
+&lt;pre>&lt;code class="css">@media screen and (min-height: 768px) { }&lt;/code>&lt;/pre>
+&lt;p>А с jquery так:&lt;/p>
+&lt;pre>&lt;code class="js">jQuery(document).ready(function($) {
+ $(document).ready(function () {
+ var setResponsive = function () {
+ if ($(window).height() > $(".sidebar").height() + 50) { // Is the window taller than the #adminmenuwrap by 50px or more?
+ $('.sidebar').css('position', 'fixed'); // ...if so, make the #adminmenuwrap position:fixed
+ }
+ else {
+ $('.sidebar').css('position', 'relative'); //...otherwise, leave it relative
+ }
+ }
+ $(window).resize(setResponsive);
+ setResponsive();
+ });
+ });&lt;/code>&lt;/pre>
+&lt;p>&amp;nbsp;&lt;/p></description></item></channel></rss>

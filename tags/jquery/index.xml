@@ -1,6 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>jquery on Altyncev Vladislav</title><link>https://altyncev.ru/tags/jquery/</link><description>Recent content in jquery on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/jquery/index.xml" rel="self" type="application/rss+xml"/><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на medium.com
-See the Pen odJjA by npofopr (@npofopr) on CodePen
-HTML:
-Прописывать в вашем html это не надо, все сгенерирует js
-CSS:
-#progress { position: fixed; z-index: 2147483647; top: 0; left: -6px; width: 1%; height: 2px; background: #0088CC; -moz-border-radius: 1px; -webkit-border-radius: 1px; border-radius: 1px; -moz-transition: width 500ms ease-out,opacity 400ms linear; -ms-transition: width 500ms ease-out,opacity 400ms linear; -o-transition: width 500ms ease-out,opacity 400ms linear; -webkit-transition: width 500ms ease-out,opacity 400ms linear; transition: width 500ms ease-out,opacity 400ms linear; } #progress dd, #progress dt { position: absolute; top: 0; height: 2px; -moz-box-shadow: #0088CC 1px 0 6px 1px; -ms-box-shadow: #0088CC 1px 0 6px 1px; -webkit-box-shadow: #0088CC 1px 0 6px 1px; box-shadow: #0088CC 1px 0 6px 1px; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; } #progress dt { opacity: .</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jquery on Altyncev Vladislav</title><link>https://altyncev.ru/tags/jquery/</link><description>Recent content in Jquery on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/jquery/index.xml" rel="self" type="application/rss+xml"/><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>&lt;p>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на &lt;a href="https://medium.com/" rel="nofollow" target="_blank">medium.com&lt;/a>&lt;/p>
+&lt;!-- Read more -->
+
+&lt;p data-height="268" data-theme-id="0" data-slug-hash="odJjA" data-user="npofopr" data-default-tab="result" class='codepen'>See the Pen &lt;a href='http://codepen.io/npofopr/pen/odJjA'>odJjA&lt;/a> by npofopr (&lt;a href='http://codepen.io/npofopr'>@npofopr&lt;/a>) on &lt;a href='http://codepen.io'>CodePen&lt;/a>&lt;/p>
+&lt;script async src="http://codepen.io/assets/embed/ei.js">&lt;/script>
+
+&lt;p>&lt;strong>HTML:&lt;/strong>&lt;/p>
+&lt;p>Прописывать в вашем html это не надо, все сгенерирует js&lt;/p>
+
+&lt;pre>&lt;code>
+&lt;div>
+	&lt;dt>&lt;/dt>
+	&lt;dd>&lt;/dd>
+&lt;/div>
+&lt;/code>&lt;/pre>
+
+&lt;p>&lt;strong>CSS:&lt;/strong>&lt;/p>
+
+&lt;pre>&lt;code class="css">
+#progress {
+	position: fixed;
+	z-index: 2147483647;
+	top: 0;
+	left: -6px;
+	width: 1%;
+	height: 2px;
+	background: #0088CC;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	-moz-transition: width 500ms ease-out,opacity 400ms linear;
+	-ms-transition: width 500ms ease-out,opacity 400ms linear;
+	-o-transition: width 500ms ease-out,opacity 400ms linear;
+	-webkit-transition: width 500ms ease-out,opacity 400ms linear;
+	transition: width 500ms ease-out,opacity 400ms linear;
+}
+
+#progress dd, #progress dt {
+	position: absolute;
+	top: 0;
+	height: 2px;
+	-moz-box-shadow: #0088CC 1px 0 6px 1px;
+	-ms-box-shadow: #0088CC 1px 0 6px 1px;
+	-webkit-box-shadow: #0088CC 1px 0 6px 1px;
+	box-shadow: #0088CC 1px 0 6px 1px;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+
+#progress dt {
+	opacity: .6;
+	width: 180px;
+	right: -80px;
+	clip: rect(-6px,90px,14px,-6px);
+}
+
+#progress dd {
+	opacity: .6;
+	width: 20px;
+	right: 0;
+	clip: rect(-6px,22px,14px,10px);
+}
+&lt;/code>&lt;/pre>
+
+&lt;p>&lt;strong>И немного магии Javascript:&lt;/strong>&lt;/p></description></item></channel></rss>

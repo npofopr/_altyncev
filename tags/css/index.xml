@@ -1,19 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>css on Altyncev Vladislav</title><link>https://altyncev.ru/tags/css/</link><description>Recent content in css on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
-&lt;p>&lt;figure
-class="gallery-image"
-style="
-flex-grow: 126;
-flex-basis: 303px"
->
-&lt;a href="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" data-size="450x356">
-&lt;img src="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif"
-width="450"
-height="356"
-srcset="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu278683c3ac01480bf2e3e16794b648c5_195215_480x0_resize_box.gif 480w, https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu278683c3ac01480bf2e3e16794b648c5_195215_1024x0_resize_box.gif 1024w"
-loading="lazy"
-alt="Когда на собеседовании тебе показали кто тут Senior">
-&lt;/a>
-&lt;figcaption>Когда на собеседовании тебе показали кто тут Senior&lt;/figcaption>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Css on Altyncev Vladislav</title><link>https://altyncev.ru/tags/css/</link><description>Recent content in Css on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
+&lt;p>&lt;figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 126; 
+			flex-basis: 303px"
+	>
+	&lt;a href="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" data-size="450x356">
+		&lt;img src="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif"
+			width="450"
+			height="356"
+			srcset="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu17214571098219265001.gif 480w, https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu6442386837037935783.gif 1024w"
+			loading="lazy"
+			alt="Когда на собеседовании тебе показали кто тут Senior">
+	&lt;/a>
+	
+	&lt;figcaption>Когда на собеседовании тебе показали кто тут Senior&lt;/figcaption>
+	
 &lt;/figure>&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;h2 id="вопросы">Вопросы&lt;/h2>
@@ -62,20 +65,153 @@ none
 &lt;p>Элемент отображается как строка таблицы (&lt;code>&amp;lt;tr&amp;gt;&lt;/code>).&lt;/p>
 &lt;h3 id="table-row-group">table-row-group&lt;/h3>
 &lt;p>Создаёт структурный блок, состоящий из нескольких строк таблицы, аналогично действию &lt;code>&amp;lt;tbody&amp;gt;&lt;/code>.&lt;/p>
-&lt;!-- raw HTML omitted --></description></item><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на medium.com
-See the Pen odJjA by npofopr (@npofopr) on CodePen
-HTML:
-Прописывать в вашем html это не надо, все сгенерирует js
-CSS:
-#progress { position: fixed; z-index: 2147483647; top: 0; left: -6px; width: 1%; height: 2px; background: #0088CC; -moz-border-radius: 1px; -webkit-border-radius: 1px; border-radius: 1px; -moz-transition: width 500ms ease-out,opacity 400ms linear; -ms-transition: width 500ms ease-out,opacity 400ms linear; -o-transition: width 500ms ease-out,opacity 400ms linear; -webkit-transition: width 500ms ease-out,opacity 400ms linear; transition: width 500ms ease-out,opacity 400ms linear; } #progress dd, #progress dt { position: absolute; top: 0; height: 2px; -moz-box-shadow: #0088CC 1px 0 6px 1px; -ms-box-shadow: #0088CC 1px 0 6px 1px; -webkit-box-shadow: #0088CC 1px 0 6px 1px; box-shadow: #0088CC 1px 0 6px 1px; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; } #progress dt { opacity: .</description></item><item><title>css вкусности на неделю</title><link>https://altyncev.ru/blog/2013-07-19-css_likes/</link><pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-19-css_likes/</guid><description>Всё то, что мне приглянулось и понравилось за текущую неделю
-Разнообразные css3 эффекты Всем смотреть обязательно, интересные эффекты, как для кнопок, так и для всей страницы, и всё это в одном css)
-Effeckt.css
-  Генератор тени Легким движением ползунков генерируем трендовые тенюшки)
-shadow
-  Выдержки из codepen.io, то, что я налайкал: Timeline Navigation Text Looping Transition Playful signup buttons Switches Minion Pure CSS Solar System   Сам делает ReadMore ссылку Задаётся высота, а всё что ниже будет попадать под ReadMore.</description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid><description>Расширяем свой reset.css и зарещаем масштабирование сайта.
-Расширьте reset.css
-К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив
-*:not(html) { -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0); } Запрещайте масштабирование
-Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.
-&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;</description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid><description>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.
-1. Google Chrome Frame Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, Google Chrome Frame стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий -тэг в тэге нашего сайта.</description></item></channel></rss>
+&lt;!-- raw HTML omitted --></description></item><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>&lt;p>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на &lt;a href="https://medium.com/" rel="nofollow" target="_blank">medium.com&lt;/a>&lt;/p>
+&lt;!-- Read more -->
+
+&lt;p data-height="268" data-theme-id="0" data-slug-hash="odJjA" data-user="npofopr" data-default-tab="result" class='codepen'>See the Pen &lt;a href='http://codepen.io/npofopr/pen/odJjA'>odJjA&lt;/a> by npofopr (&lt;a href='http://codepen.io/npofopr'>@npofopr&lt;/a>) on &lt;a href='http://codepen.io'>CodePen&lt;/a>&lt;/p>
+&lt;script async src="http://codepen.io/assets/embed/ei.js">&lt;/script>
+
+&lt;p>&lt;strong>HTML:&lt;/strong>&lt;/p>
+&lt;p>Прописывать в вашем html это не надо, все сгенерирует js&lt;/p>
+
+&lt;pre>&lt;code>
+&lt;div>
+	&lt;dt>&lt;/dt>
+	&lt;dd>&lt;/dd>
+&lt;/div>
+&lt;/code>&lt;/pre>
+
+&lt;p>&lt;strong>CSS:&lt;/strong>&lt;/p>
+
+&lt;pre>&lt;code class="css">
+#progress {
+	position: fixed;
+	z-index: 2147483647;
+	top: 0;
+	left: -6px;
+	width: 1%;
+	height: 2px;
+	background: #0088CC;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	-moz-transition: width 500ms ease-out,opacity 400ms linear;
+	-ms-transition: width 500ms ease-out,opacity 400ms linear;
+	-o-transition: width 500ms ease-out,opacity 400ms linear;
+	-webkit-transition: width 500ms ease-out,opacity 400ms linear;
+	transition: width 500ms ease-out,opacity 400ms linear;
+}
+
+#progress dd, #progress dt {
+	position: absolute;
+	top: 0;
+	height: 2px;
+	-moz-box-shadow: #0088CC 1px 0 6px 1px;
+	-ms-box-shadow: #0088CC 1px 0 6px 1px;
+	-webkit-box-shadow: #0088CC 1px 0 6px 1px;
+	box-shadow: #0088CC 1px 0 6px 1px;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+
+#progress dt {
+	opacity: .6;
+	width: 180px;
+	right: -80px;
+	clip: rect(-6px,90px,14px,-6px);
+}
+
+#progress dd {
+	opacity: .6;
+	width: 20px;
+	right: 0;
+	clip: rect(-6px,22px,14px,10px);
+}
+&lt;/code>&lt;/pre>
+
+&lt;p>&lt;strong>И немного магии Javascript:&lt;/strong>&lt;/p></description></item><item><title>css вкусности на неделю</title><link>https://altyncev.ru/blog/2013-07-19-css_likes/</link><pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-19-css_likes/</guid><description>&lt;p>Всё то, что мне приглянулось и понравилось за текущую неделю&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://h5bp.github.io/Effeckt.css/dist/" title="Effeckt.css"
+ target="_blank" rel="noopener"
+ >&lt;strong>Разнообразные css3 эффекты&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Всем смотреть обязательно, интересные эффекты, как для кнопок, так и для всей страницы, и всё это в одном css)&lt;/p>
+&lt;p>&lt;figure 
+	>
+	&lt;a href="https://altyncev.ru/images/blog/effect.png" >
+		&lt;img src="https://altyncev.ru/images/blog/effect.png"
+			
+			
+			
+			loading="lazy"
+			alt="Effeckt.css">
+	&lt;/a>
+	
+	&lt;figcaption>Effeckt.css&lt;/figcaption>
+	
+&lt;/figure>&lt;/p>
+&lt;p> &lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://sandbox.juan-i.com/longshadows/" target="_blank" rel="noopener"
+ >&lt;strong>Генератор тени&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Легким движением ползунков генерируем трендовые тенюшки)&lt;/p>
+&lt;p>&lt;figure 
+	>
+	&lt;a href="https://altyncev.ru/images/blog/shadow.png" >
+		&lt;img src="https://altyncev.ru/images/blog/shadow.png"
+			
+			
+			
+			loading="lazy"
+			alt="shadow">
+	&lt;/a>
+	
+	&lt;figcaption>shadow&lt;/figcaption>
+	
+&lt;/figure>&lt;/p>
+&lt;p> &lt;/p>
+&lt;ul>
+&lt;li>Выдержки из &lt;a class="link" href="http://codepen.io/" target="_blank" rel="noopener"
+ >codepen.io&lt;/a>, то, что я налайкал:&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>&lt;a class="link" href="http://codepen.io/krnlde/pen/iIEgh" title="Интересная навигация, при скролле"
+ target="_blank" rel="noopener"
+ >Timeline Navigation&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/agelber/pen/AirsI" title="Слайдер, листается текст"
+ target="_blank" rel="noopener"
+ >Text Looping Transition&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/arronhunt/pen/jtsih" title="Отпадывающая кнопка)"
+ target="_blank" rel="noopener"
+ >Playful signup buttons&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/billycrist/pen/CHmiE" title="Чекбоксы"
+ target="_blank" rel="noopener"
+ >Switches&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/ezecafre89/pen/ojnKb" title="Minion"
+ target="_blank" rel="noopener"
+ >Minion Pure CSS&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codepen.io/d4rkr00t/pen/hItgE" title="Солнечная система с возможностью добавить свои объекты"
+ target="_blank" rel="noopener"
+ >Solar System&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p> &lt;/p></description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid><description>&lt;p>Расширяем свой reset.css и зарещаем масштабирование сайта.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>Расширьте reset.css&lt;/strong>&lt;/p>
+&lt;p>К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив&lt;/p>
+&lt;pre>&lt;code>*:not(html) {
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ user-select: none;
+ -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Запрещайте масштабирование&lt;/strong>&lt;/p>
+&lt;p>Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.&lt;/p>
+&lt;pre>&lt;code>&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;
+&lt;/code>&lt;/pre></description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid><description>&lt;p>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="1-google-chrome-frame">1. &lt;strong>Google Chrome Frame&lt;/strong>&lt;/h2>
+&lt;p>Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, &lt;strong>Google Chrome Frame&lt;/strong> стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий &lt;!-- raw HTML omitted -->-тэг в тэге &lt;!-- raw HTML omitted --> нашего сайта.&lt;/p></description></item></channel></rss>

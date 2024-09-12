@@ -1,19 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>html on Altyncev Vladislav</title><link>https://altyncev.ru/tags/html/</link><description>Recent content in html on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/html/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
-&lt;p>&lt;figure
-class="gallery-image"
-style="
-flex-grow: 126;
-flex-basis: 303px"
->
-&lt;a href="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" data-size="450x356">
-&lt;img src="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif"
-width="450"
-height="356"
-srcset="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu278683c3ac01480bf2e3e16794b648c5_195215_480x0_resize_box.gif 480w, https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu278683c3ac01480bf2e3e16794b648c5_195215_1024x0_resize_box.gif 1024w"
-loading="lazy"
-alt="Когда на собеседовании тебе показали кто тут Senior">
-&lt;/a>
-&lt;figcaption>Когда на собеседовании тебе показали кто тут Senior&lt;/figcaption>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Html on Altyncev Vladislav</title><link>https://altyncev.ru/tags/html/</link><description>Recent content in Html on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/html/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
+&lt;p>&lt;figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 126; 
+			flex-basis: 303px"
+	>
+	&lt;a href="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" data-size="450x356">
+		&lt;img src="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif"
+			width="450"
+			height="356"
+			srcset="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu17214571098219265001.gif 480w, https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu6442386837037935783.gif 1024w"
+			loading="lazy"
+			alt="Когда на собеседовании тебе показали кто тут Senior">
+	&lt;/a>
+	
+	&lt;figcaption>Когда на собеседовании тебе показали кто тут Senior&lt;/figcaption>
+	
 &lt;/figure>&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;h2 id="вопросы">Вопросы&lt;/h2>
@@ -62,37 +65,150 @@ none
 &lt;p>Элемент отображается как строка таблицы (&lt;code>&amp;lt;tr&amp;gt;&lt;/code>).&lt;/p>
 &lt;h3 id="table-row-group">table-row-group&lt;/h3>
 &lt;p>Создаёт структурный блок, состоящий из нескольких строк таблицы, аналогично действию &lt;code>&amp;lt;tbody&amp;gt;&lt;/code>.&lt;/p>
-&lt;!-- raw HTML omitted --></description></item><item><title>Руководство по оформлению HTML/CSS кода от Google</title><link>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</link><pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</guid><description>Введение Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры.
-Это относится к рабочим версиям файлов использующих HTML, CSS и GSS
-Разрешается использовать любые инструменты для минификации компиляции или обфускации кода, при условии, что общее качество кода будет сохранено.
-Общие правила оформления &amp;nbsp;
-Протокол Не указывайте протокол при включении ресурсов на страницу.</description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid><description>Расширяем свой reset.css и зарещаем масштабирование сайта.
-Расширьте reset.css
-К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив
-*:not(html) { -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0); } Запрещайте масштабирование
-Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.
-&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;</description></item><item><title>Как я стал верстальщиком</title><link>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</link><pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</guid><description>Как я до такого докатился?
-Я очень часто бываю на форуме htmlbook.ru, даже отслеживаю все новые сообщения, не ради того, чтобы скорее бежать помогать и набивать репутацию, а чтобы, возможно, найти решения, от своих проблем, которые иногда возникают, да и вообще, там много знающих людей и порой бывает интересно почитать их комментарии.
-Версткой я занялся, учась в колледже, то ли курсовую делал, то ли диплом, точно не помню. Но началось все именно от туда.</description></item><item><title>Коллекция полезных css-снипетов</title><link>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</link><pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</guid><description>Не начинайте ваш проект с пустой таблицы стилей. Есть много интересных сниппетов, которые могут облегчить вам жизнь и ускорить веб-разработку.
-Часто используемые классы Самые распространённые:
-.float-left /* прижимаем блок влево */ { float: left; } .float-right /* прижимаем блок вправо */ { float: right; } .hide /* прячем блок */ { display: none; } .show /* показываем блок */ { display: block; } Думаю, разъяснять тут ничего не надо. Это базовые стили, и их каждый должен знать и использовать.</description></item><item><title>Визуальный css transition</title><link>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</guid><description>Смотрим css3 анимацию &amp;ldquo;online&amp;rdquo; на cssglue.com
-И еще пару ссылок с визуальным представлением css транформаций
-http://learn.shayhowe.com/advanced-html-css/transitions-animations http://darsa.in/motio/ http://leaverou.github.com/animatable/ http://www.jcsml.com http://maccman.github.com/gfx/</description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid><description>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.
-1. Google Chrome Frame Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, Google Chrome Frame стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий -тэг в тэге нашего сайта.</description></item><item><title>Масштабируемое видео</title><link>https://altyncev.ru/blog/2012-12-27-responsive_video/</link><pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-27-responsive_video/</guid><description> Очень простой CSS и&amp;nbsp;HTML, и&amp;nbsp;ваше embed-видео будет масштабироваться в&amp;nbsp;соответствии с&amp;nbsp;шириной страницы:
-css:
-.video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; } .video iframe, .video object, .video embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</description></item><item><title>Делаем «3D» ссылки</title><link>https://altyncev.ru/blog/2012-12-16-3d_links/</link><pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-16-3d_links/</guid><description>Сделать вот такую красивую ссылку достаточно просто.
-Скажу сразу, работает только в Chrome и FF, ну и почти в IE10, Opera отказалась.
-1. Делаем конструкцию &amp;lt;a&amp;gt;&amp;lt;span data-title=&amp;#34;название ссылки&amp;#34;&amp;gt;название ссылки&amp;lt;&amp;#47;span&amp;gt;&amp;lt;&amp;#47;a&amp;gt;
-2. Добавляем в css следущее:
-Для тега &amp;lt;a&amp;gt;:
-a { display: inline-block; overflow: hidden; vertical-align: top; -webkit-perspective: 600px; -moz-perspective: 600px; -ms-perspective: 600px; perspective: 600px; -webkit-perspective-origin: 50% 50%; -moz-perspective-origin: 50% 50%; -ms-perspective-origin: 50% 50%; perspective-origin: 50% 50%; } Для тега &amp;lt;span&amp;gt;:</description></item><item><title>Несколько ошибок и рекомендаций, которые должен знать веб-разработчик</title><link>https://altyncev.ru/blog/2012-12-13-error_web_development/</link><pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-13-error_web_development/</guid><description>5 встречающихся ошибок, которые должен знать разработчик.
-#1 Link outlines / highlights смещаются Kindle Fire Проблема:
-Fix:
-text-rendering: optimizeLegibility; position: relative; -webkit-box-sizing: border-box; #2 Баг с зумом при смене ориентации на iOS Решение: (function(a){function m(){d.setAttribute("content",g),h=!0}function n(){d.setAttribute("content",f),h=!1}function o(b){l=b.accelerationIncludingGravity,i=Math.abs(l.x),j=Math.abs(l.y),k=Math.abs(l.z),(!a.orientation||a.orientation===180)&amp;&amp;(i7||(k6&amp;&amp;j5)?h&amp;&amp;n():h||m()}var b=navigator.userAgent;if(!(/iPhone|iPad|iPod/.test(navigator.platform)&amp;&amp;/OS [1-5]_[0-9_]* like Mac OS X/i.test(b)&amp;&amp;b.indexOf("AppleWebKit")-1))return;var c=a.document;if(!c.querySelector)return;var d=c.querySelector("meta[name=viewport]"),e=d&amp;&amp;d.getAttribute("content"),f=e+",maximum-scale=1",g=e+",maximum-scale=10",h=!0,i,j,k,l;if(!d)return;a.addEventListener("orientationchange",m,!1),a.addEventListener("devicemotion",o,!1)})(this); #3 WebKit игнорирует цвет фона элемента при печати документа Решение:
--webkit-print-color-adjust: exact; Oтключить диалоги, которые появляются при нажатии на элемент слишком долго на мобильных браузеров Проблема:</description></item><item><title>Emmet</title><link>https://altyncev.ru/blog/2012-11-23-emmet/</link><pubDate>Fri, 23 Nov 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-11-23-emmet/</guid><description>
-&lt;p>Решил я тут взяться за &lt;a href="http://github.com/sergeche/emmet-sublime">Emmet&lt;/a>, это продолжатель Zen-Coding.&lt;/p>
-&lt;p>Хорошая штука в общем)&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>Руководство по оформлению HTML/CSS кода от Google</title><link>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</link><pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-05-09-oformlenie-html-css-ot-google/</guid><description>&lt;h3>Введение&lt;/h3>
+&lt;p>Это руководство описывает правила для оформления и форматирования HTML и CSS кода. Его цель — повысить качество кода и облегчить совместную работу и поддержку инфраструктуры.&lt;/p>
+
 &lt;!-- Read more -->
+
+&lt;p>Это относится к рабочим версиям файлов использующих&lt;span>&lt;strong> HTML&lt;/strong>&lt;/span>, &lt;span>&lt;strong>CSS&lt;/strong>&lt;/span> и &lt;span>&lt;strong>GSS&lt;/strong>&lt;/span>&lt;/p>
+&lt;p>Разрешается использовать любые инструменты для минификации компиляции или обфускации кода, при условии, что общее качество кода будет сохранено. &lt;a name="habracut">&lt;/a>&lt;br />&lt;/p>
+&lt;h3>Общие правила оформления&lt;/h3>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;h4>Протокол&lt;/h4>
+&lt;p>&lt;strong> Не указывайте протокол при включении ресурсов на страницу. &lt;/strong>&lt;/p></description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid><description>&lt;p>Расширяем свой reset.css и зарещаем масштабирование сайта.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;strong>Расширьте reset.css&lt;/strong>&lt;/p>
+&lt;p>К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив&lt;/p>
+&lt;pre>&lt;code>*:not(html) {
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ user-select: none;
+ -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Запрещайте масштабирование&lt;/strong>&lt;/p>
+&lt;p>Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.&lt;/p>
+&lt;pre>&lt;code>&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;
+&lt;/code>&lt;/pre></description></item><item><title>Как я стал верстальщиком</title><link>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</link><pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-05-08-how_i_became_a_makeup/</guid><description>&lt;p>Как я до такого докатился?&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Я очень часто бываю на форуме &lt;a class="link" href="htmlbook.ru" >htmlbook.ru&lt;/a>, даже отслеживаю все новые сообщения, не ради того, чтобы скорее бежать помогать и набивать репутацию, а чтобы, возможно, найти решения, от своих проблем, которые иногда возникают, да и вообще, там много знающих людей и порой бывает интересно почитать их комментарии.&lt;/p>
+&lt;p>Версткой я занялся, учась в колледже, то ли курсовую делал, то ли диплом, точно не помню. Но началось все именно от туда. Был у нас там предмет, на котором мы как раз верстали сайты в ужасном Фронтпейдже, или как там его. На этих занятиях я обычно ничего не делал, &lt;del>потому как от этой программы у меня возникали рвотные позывы&lt;/del>. Делал обычно всегда все дома, в любимом тогда Dreamweaver. Да да, именно в нем родном. Как бы его не ругали, но он клевый) Тем более для новичка. Пробовал и другие редакторы, но все не то. Сидел и на Aptana и WebStorm пробовал (и даже недавно хотел на него перейти, но пока что мне это не к чему). Сейчас я конечно пользуюсь sublime text и меня все устраивает.&lt;/p></description></item><item><title>Коллекция полезных css-снипетов</title><link>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</link><pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-04-24-a_collection_of_handy_css_snippets/</guid><description>&lt;p>Не начинайте ваш проект с пустой таблицы стилей. Есть много интересных сниппетов, которые могут облегчить вам жизнь и ускорить веб-разработку.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="часто-используемые-классы">Часто используемые классы&lt;/h2>
+&lt;p>Самые распространённые:&lt;/p>
+&lt;pre>&lt;code>.float-left /* прижимаем блок влево */ {
+ float: left;
+}
+.float-right /* прижимаем блок вправо */ {
+ float: right;
+}
+.hide /* прячем блок */ {
+ display: none;
+}
+.show /* показываем блок */ {
+ display: block;
+}
+&lt;/code>&lt;/pre>
+&lt;p>Думаю, разъяснять тут ничего не надо. Это базовые стили, и их каждый должен знать и использовать. Они даже в каждом фреймворке есть, только под другими именами.&lt;/p></description></item><item><title>Визуальный css transition</title><link>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-visualize_and_manipulate_css_transition/</guid><description>&lt;p>Смотрим css3 анимацию &amp;ldquo;online&amp;rdquo; на &lt;a class="link" href="http://cssglue.com/cubic" title="Visualize and manipulate CSS transition functions"
+ target="_blank" rel="noopener"
+ >cssglue.com&lt;/a>&lt;/p>
+&lt;p>И еще пару ссылок с визуальным представлением css транформаций&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;ol>
+&lt;li>&lt;a class="link" href="http://learn.shayhowe.com/advanced-html-css/transitions-animations" title="Transitions &amp;amp; Animations - An Advanced Guide to HTML &amp;amp; CSS"
+ target="_blank" rel="noopener"
+ >http://learn.shayhowe.com/advanced-html-css/transitions-animations&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://darsa.in/motio/" title="Simple sprite based animations with jQuery"
+ target="_blank" rel="noopener"
+ >http://darsa.in/motio/&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://leaverou.github.com/animatable/" title="Animatable: One property, two values, endless possiblities"
+ target="_blank" rel="noopener"
+ >http://leaverou.github.com/animatable/&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.jcsml.com/pageshell.html?root=Tutorials&amp;amp;target=Movement&amp;amp;t=1" title="jCS Media Library"
+ target="_blank" rel="noopener"
+ >http://www.jcsml.com&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://maccman.github.com/gfx/" title="GFX - a 3D CSS3 animation library for jQuery"
+ target="_blank" rel="noopener"
+ >http://maccman.github.com/gfx/&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid><description>&lt;p>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="1-google-chrome-frame">1. &lt;strong>Google Chrome Frame&lt;/strong>&lt;/h2>
+&lt;p>Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, &lt;strong>Google Chrome Frame&lt;/strong> стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий &lt;!-- raw HTML omitted -->-тэг в тэге &lt;!-- raw HTML omitted --> нашего сайта.&lt;/p></description></item><item><title>Масштабируемое видео</title><link>https://altyncev.ru/blog/2012-12-27-responsive_video/</link><pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-27-responsive_video/</guid><description>&lt;p>Очень простой &lt;acronym title="Cascading Style Sheets" lang="en">CSS&lt;/acronym> и&amp;nbsp;&lt;acronym title="HyperText Markup Language" lang="en">HTML&lt;/acronym>, и&amp;nbsp;ваше &lt;nobr>embed-видео&lt;/nobr> будет масштабироваться в&amp;nbsp;соответствии с&amp;nbsp;шириной страницы:&lt;/p>
+&lt;!-- Read more -->
+&lt;pre>&lt;code class="html">
+&lt;div class="video">
+ &lt;iframe src="http://player.vimeo.com/video/6929537"frameborder="0">&lt;/iframe>
+&lt;/div>
+&lt;/code>&lt;/pre>
+&lt;p>&lt;acronym title="Cascading Style Sheets" lang="en">css&lt;/acronym>:&lt;/p>
+&lt;pre>&lt;code class="css">
+.video {
+ position: relative;
+ padding-bottom: 56.25%;
+ height: 0;
+ overflow: hidden;
+}
+.video iframe,
+.video object,
+.video embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+&lt;/code>&lt;/pre></description></item><item><title>Делаем «3D» ссылки</title><link>https://altyncev.ru/blog/2012-12-16-3d_links/</link><pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-16-3d_links/</guid><description>&lt;p>Сделать вот такую &lt;a class="roll_link" href="http://softwaremaniacs.org/soft/highlight/">&lt;span data-title="красивую ссылку">красивую ссылку&lt;/span>&lt;/a> достаточно просто.&lt;/p>
+
+&lt;!-- Read more -->
+
+&lt;p>Скажу сразу, работает только в Chrome и FF, ну и почти в IE10, Opera отказалась.&lt;/p>
+&lt;p>1. Делаем конструкцию &lt;code>&amp;lt;a&amp;gt;&amp;lt;span data-title=&amp;#34;название ссылки&amp;#34;&amp;gt;название ссылки&amp;lt;&amp;#47;span&amp;gt;&amp;lt;&amp;#47;a&amp;gt;&lt;/code>&lt;/p>
+&lt;p>2. Добавляем в css следущее:&lt;/p>
+&lt;p>Для тега &lt;span class="label label-info">&lt;strong>&amp;lt;a&amp;gt;&lt;/strong>&lt;/span>:&lt;/p>
+&lt;pre>&lt;code class="css">
+	a {
+		display: inline-block;
+		overflow: hidden;
+		vertical-align: top;
+		-webkit-perspective: 600px;
+		-moz-perspective: 600px;
+		-ms-perspective: 600px;
+		perspective: 600px;
+		-webkit-perspective-origin: 50% 50%;
+		-moz-perspective-origin: 50% 50%;
+		-ms-perspective-origin: 50% 50%;
+		perspective-origin: 50% 50%;
+	}
+&lt;/code>&lt;/pre>
+&lt;p>Для тега &lt;span class="label label-info">&lt;strong>&amp;lt;span&amp;gt;&lt;/strong>&lt;/span>:&lt;/p></description></item><item><title>Несколько ошибок и рекомендаций, которые должен знать веб-разработчик</title><link>https://altyncev.ru/blog/2012-12-13-error_web_development/</link><pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-13-error_web_development/</guid><description>&lt;p>5 встречающихся ошибок, которые должен знать разработчик.&lt;/p>
+
+&lt;!-- Read more -->
+
+&lt;h4>#1 Link outlines / highlights смещаются Kindle Fire&lt;/h4>
+&lt;p>&lt;strong>Проблема:&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://shadow.perm.ru/images/problem1.png">&lt;/p>
+&lt;p>&lt;strong>Fix:&lt;/strong>&lt;/p>
+&lt;pre>text-rendering: optimizeLegibility;
+position: relative;
+-webkit-box-sizing: border-box;&lt;/pre>
+&lt;hr>
+
+&lt;h4>#2 Баг с зумом при смене ориентации на iOS&lt;/h4>
+&lt;p>&lt;strong>Решение:&lt;/strong>
+&lt;pre>(function(a){function m(){d.setAttribute("content",g),h=!0}function n(){d.setAttribute("content",f),h=!1}function o(b){l=b.accelerationIncludingGravity,i=Math.abs(l.x),j=Math.abs(l.y),k=Math.abs(l.z),(!a.orientation||a.orientation===180)&amp;&amp;(i>7||(k>6&amp;&amp;j5)?h&amp;&amp;n():h||m()}var b=navigator.userAgent;if(!(/iPhone|iPad|iPod/.test(navigator.platform)&amp;&amp;/OS [1-5]_[0-9_]* like Mac OS X/i.test(b)&amp;&amp;b.indexOf("AppleWebKit")>-1))return;var c=a.document;if(!c.querySelector)return;var d=c.querySelector("meta[name=viewport]"),e=d&amp;&amp;d.getAttribute("content"),f=e+",maximum-scale=1",g=e+",maximum-scale=10",h=!0,i,j,k,l;if(!d)return;a.addEventListener("orientationchange",m,!1),a.addEventListener("devicemotion",o,!1)})(this);&lt;/pre>
+&lt;hr>
+
+&lt;h4>#3 WebKit игнорирует цвет фона элемента при печати документа&lt;/h4>
+&lt;p>&lt;strong>Решение:&lt;/strong>&lt;/p>
+&lt;pre>-webkit-print-color-adjust: exact;&lt;/pre>
+&lt;hr>
+
+&lt;h4>Oтключить диалоги, которые появляются при нажатии на элемент слишком долго на мобильных браузеров&lt;/h4>
+&lt;p>&lt;strong>Проблема:&lt;/strong>&lt;/p></description></item><item><title>Emmet</title><link>https://altyncev.ru/blog/2012-11-23-emmet/</link><pubDate>Fri, 23 Nov 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-11-23-emmet/</guid><description>&lt;p>Решил я тут взяться за &lt;a href="http://github.com/sergeche/emmet-sublime">Emmet&lt;/a>, это продолжатель Zen-Coding.&lt;/p>
+&lt;p>Хорошая штука в общем)&lt;/p>
+
+&lt;!-- Read more -->
+
 &lt;p>&lt;sub>PS: данный текст не служит мануалом или еще чем то, это просто черновик, для себя, чтобы не забыть.&lt;/sub>&lt;/p>
 &lt;h3>Горячие клавиши:&lt;/h3>
 &lt;ul>
@@ -111,16 +227,60 @@ text-rendering: optimizeLegibility; position: relative; -webkit-box-sizing: bord
 &lt;li>&lt;strong>Ctrl+'&lt;/strong> - переводим img в data:URL формат&lt;/li>
 &lt;li>&lt;strong>Shift+Ctrl+'&lt;/strong> - переименовываем тэг&lt;/li>
 &lt;/ul>
-&lt;div></description></item><item><title>Разные формы на CSS</title><link>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</link><pubDate>Mon, 08 Oct 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</guid><description>Рассмотрим следующий код, чтобы сделать формы на CSS.
-Браузеры, которые поддерживают: IE9, Chrome, Safari, Firefox, Opera.
-&amp;nbsp;
-Квадрат
-#square { width: 100px; height: 100px; background: #000; } Прямоугольник
-#rectangle { width: 200px; height: 100px; background: #000; } Круг
-#circle { width: 100px; height: 100px; background: #000; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; } &amp;nbsp;Овал
-#oval { width: 200px; height: 100px; background: #000; -moz-border-radius: 100px / 50px; -webkit-border-radius: 100px / 50px; border-radius: 100px / 50px; } Треугольник</description></item><item><title>Responsive fixed block</title><link>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</link><pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</guid><description>Ура ура! Как раз искал такое решение и оно нашлось :-)
-Суть такая: нужен был fixed sidebar, но если блок fixed, то при уменьшении экрана по высоте он начинает "съедаться", нужно было это как то решать.
-Есть 2 способа решения:
-С помощью @media screen; И с помощью jquery. C @media screen это будет примерно так:
-@media screen and (min-height: 768px) { } А с jquery так:
-jQuery(document).ready(function($) { $(document).</description></item></channel></rss>
+&lt;div></description></item><item><title>Разные формы на CSS</title><link>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</link><pubDate>Mon, 08 Oct 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-10-08-raznii_formi_na_css/</guid><description>&lt;p>Рассмотрим следующий код, чтобы сделать формы на CSS.&lt;/p>
+&lt;p>Браузеры, которые поддерживают: IE9, Chrome, Safari, Firefox, Opera.&lt;/p>
+
+&lt;!-- Read more -->
+
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p>&lt;strong>Квадрат&lt;/strong>&lt;/p>
+&lt;p>&lt;a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/10/square.jpg">&lt;img class="alignnone size-full wp-image-370" title="square" src="http://shadow.perm.ru/wp-content/uploads/2012/10/square.jpg" alt="Квадрат" width="102" height="102" />&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="css">#square {
+	width: 100px;
+	height: 100px;
+	background: #000;
+}&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Прямоугольник&lt;/strong>&lt;/p>
+&lt;p>&lt;a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/10/rectangle.jpg">&lt;img class="alignnone size-thumbnail wp-image-368" title="rectangle" src="http://shadow.perm.ru/wp-content/uploads/2012/10/rectangle-150x102.jpg" alt="Прямоугольник" width="150" height="102" />&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="css">#rectangle {
+	width: 200px;
+	height: 100px;
+	background: #000;
+}&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Круг&lt;/strong>&lt;/p>
+&lt;p>&lt;a class="fancybox" href="http://shadow.perm.ru/wp-content/uploads/2012/10/circle.jpg">&lt;img class="alignnone size-full wp-image-353" title="circle" src="http://shadow.perm.ru/wp-content/uploads/2012/10/circle.jpg" alt="Круг" width="108" height="102" />&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="css">#circle {
+	width: 100px;
+	height: 100px;
+	background: #000;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}&lt;/code>&lt;/pre>
+&lt;p>&amp;nbsp;&lt;strong>Овал&lt;/strong>&lt;/p></description></item><item><title>Responsive fixed block</title><link>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</link><pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-08-29-responsive_fixed_block/</guid><description>&lt;p>Ура ура! Как раз искал такое решение и оно нашлось :-)&lt;/p>
+&lt;p>Суть такая: нужен был fixed sidebar, но если блок fixed, то при уменьшении экрана по высоте он начинает "съедаться", нужно было это как то решать.&lt;/p>
+
+
+&lt;p>Есть 2 способа решения:&lt;/p>
+&lt;ol>
+&lt;li>С помощью @media screen;&lt;/li>
+&lt;li>И с помощью jquery.&lt;/li>
+&lt;/ol>
+&lt;p>C @media screen это будет примерно так:&lt;/p>
+&lt;pre>&lt;code class="css">@media screen and (min-height: 768px) { }&lt;/code>&lt;/pre>
+&lt;p>А с jquery так:&lt;/p>
+&lt;pre>&lt;code class="js">jQuery(document).ready(function($) {
+ $(document).ready(function () {
+ var setResponsive = function () {
+ if ($(window).height() > $(".sidebar").height() + 50) { // Is the window taller than the #adminmenuwrap by 50px or more?
+ $('.sidebar').css('position', 'fixed'); // ...if so, make the #adminmenuwrap position:fixed
+ }
+ else {
+ $('.sidebar').css('position', 'relative'); //...otherwise, leave it relative
+ }
+ }
+ $(window).resize(setResponsive);
+ setResponsive();
+ });
+ });&lt;/code>&lt;/pre>
+&lt;p>&amp;nbsp;&lt;/p></description></item></channel></rss>

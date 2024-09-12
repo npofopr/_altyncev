@@ -1,2 +1,213 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>learn on Altyncev Vladislav</title><link>https://altyncev.ru/tags/learn/</link><description>Recent content in learn on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 04 Oct 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/learn/index.xml" rel="self" type="application/rss+xml"/><item><title>Лучшие (и бесплатные) онлайн-курсы по программированию</title><link>https://altyncev.ru/blog/2015-10-04-online_learn/</link><pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-10-04-online_learn/</guid><description>Список сайтов, на которых вы можете пройти бесплатные курсы по разным языкам программирования, и список книг, с которыми будет гораздо проще учиться.
-JavaScript hexlet Современный учебник JavaScript ArtSorax/videos JavaScript-Garden Code Academy Codewars Learn Street Khan Academy Code Combat Code Avengers Let’s Code: Test-Driven JavaScript udemy - HTML and CSS course Html Academy Code Academy Learn to Code Advanced - HTML &amp;amp; CSS Don’t Fear The Internet Tutsplus Learn Layout Dash Web Accessibility Цикл статей «jQuery для начинающих» Учебник: jQuery для начинающих Справка по API jQuery Code Academy Tutsplus Code School Питон на русском Code Academy Google Learn Street Python Tutor IHeartPY Code Academy TryRubyCode Learn Railscasts Rubymonk Learn Street Самые основы.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learn on Altyncev Vladislav</title><link>https://altyncev.ru/tags/learn/</link><description>Recent content in Learn on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 04 Oct 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/learn/index.xml" rel="self" type="application/rss+xml"/><item><title>Лучшие (и бесплатные) онлайн-курсы по программированию</title><link>https://altyncev.ru/blog/2015-10-04-online_learn/</link><pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-10-04-online_learn/</guid><description>&lt;p>Список сайтов, на которых вы можете пройти бесплатные курсы по разным языкам программирования, и список книг, с которыми будет гораздо проще учиться.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="javascript">JavaScript&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://hexlet.org/course/javascript/" target="_blank" rel="noopener"
+ >hexlet&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://learn.javascript.ru/" target="_blank" rel="noopener"
+ >Современный учебник JavaScript&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.youtube.com/user/ArtSorax/videos" target="_blank" rel="noopener"
+ >ArtSorax/videos&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://bonsaiden.github.io/JavaScript-Garden/ru/#intro" target="_blank" rel="noopener"
+ >JavaScript-Garden&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/javascript" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codewars.com/?language=javascript" target="_blank" rel="noopener"
+ >Codewars&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.learnstreet.com/lessons/study/javascript" target="_blank" rel="noopener"
+ >Learn Street&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.khanacademy.org/computing/cs" target="_blank" rel="noopener"
+ >Khan Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://codecombat.com/" target="_blank" rel="noopener"
+ >Code Combat&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codeavengers.com/javascript" target="_blank" rel="noopener"
+ >Code Avengers&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.letscodejavascript.com/" target="_blank" rel="noopener"
+ >Let’s Code: Test-Driven JavaScript&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://blog.udemy.com/learn-html-learn-the-foundations-of-html/" target="_blank" rel="noopener"
+ >udemy - HTML and CSS course&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://htmlacademy.ru" target="_blank" rel="noopener"
+ >Html Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/web" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://learn.shayhowe.com/advanced-html-css/" target="_blank" rel="noopener"
+ >Learn to Code Advanced - HTML &amp;amp; CSS&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.dontfeartheinternet.com/" target="_blank" rel="noopener"
+ >Don’t Fear The Internet&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://courses.tutsplus.com/courses/30-days-to-learn-html-css" target="_blank" rel="noopener"
+ >Tutsplus&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://learnlayout.com/" target="_blank" rel="noopener"
+ >Learn Layout&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://dash.generalassemb.ly/" target="_blank" rel="noopener"
+ >Dash&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://webaccessibility.withgoogle.com/course" target="_blank" rel="noopener"
+ >Web Accessibility&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://anton.shevchuk.name/jquery/" target="_blank" rel="noopener"
+ >Цикл статей «jQuery для начинающих»&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://anton.shevchuk.name/book/code/" target="_blank" rel="noopener"
+ >Учебник: jQuery для начинающих&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://jquery-docs.ru/" target="_blank" rel="noopener"
+ >Справка по API jQuery&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/jquery" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://courses.tutsplus.com/courses/30-days-to-learn-jquery" target="_blank" rel="noopener"
+ >Tutsplus&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://try.jquery.com/" target="_blank" rel="noopener"
+ >Code School&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://www.opennet.ru/docs/RUS/python/" target="_blank" rel="noopener"
+ >Питон на русском&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/python" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://developers.google.com/edu/python" target="_blank" rel="noopener"
+ >Google&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.learnstreet.com/lessons/study/python" target="_blank" rel="noopener"
+ >Learn Street&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://pythontutor.com/" target="_blank" rel="noopener"
+ >Python Tutor&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.iheartpy.com/" target="_blank" rel="noopener"
+ >IHeartPY&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/ruby" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://tryruby.org/" target="_blank" rel="noopener"
+ >TryRubyCode Learn&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://railscasts.com/" target="_blank" rel="noopener"
+ >Railscasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://rubymonk.com/" target="_blank" rel="noopener"
+ >Rubymonk&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.learnstreet.com/lessons/study/ruby" target="_blank" rel="noopener"
+ >Learn Street&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://phpfaq.ru/na_tanke" target="_blank" rel="noopener"
+ >Самые основы. Как работает PHP.&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.codecademy.com/tracks/php" target="_blank" rel="noopener"
+ >Code Academy&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://developers.google.com/apps-script/overview" target="_blank" rel="noopener"
+ >Getting Started&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.youtube.com/playlist?list=PL68F511F6E3C122EB" target="_blank" rel="noopener"
+ >Office Hours&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.labnol.org/internet/google-scripts/28281/" target="_blank" rel="noopener"
+ >Google Scripts Examples&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://gist.github.com/labnol/0b67f812a827fd9babc5" target="_blank" rel="noopener"
+ >Learning Apps Script&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://teamtreehouse.com/library/topic:wordpress" target="_blank" rel="noopener"
+ >Treehouse&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://wordpress.tv/" target="_blank" rel="noopener"
+ >WordPress TV&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=PracticalUnix" target="_blank" rel="noopener"
+ >Stanford.edu&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://explainshell.com/" target="_blank" rel="noopener"
+ >Explain Shell&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://learn.javascript.ru/nodejs-screencast" target="_blank" rel="noopener"
+ >Node.JS от А до Я&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://nodeguide.ru/doc/" target="_blank" rel="noopener"
+ >Руководства по Node.js&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.nodebeginner.ru/" target="_blank" rel="noopener"
+ >Node.js для начинающих&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://jsman.ru/express/" target="_blank" rel="noopener"
+ >Express: веб-фреймворк для Node.js. Руководство пользователя&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://nodetuts.com/" target="_blank" rel="noopener"
+ >Nodetuts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://nodeschool.io/" target="_blank" rel="noopener"
+ >Node School&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://git-scm.com/book/ru/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" target="_blank" rel="noopener"
+ >Git &amp;ndash;local-branching-on-the-cheap&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://try.github.io/" target="_blank" rel="noopener"
+ >Code School&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://gitimmersion.com/" target="_blank" rel="noopener"
+ >Git Immersion&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/user/GitHubGuides" target="_blank" rel="noopener"
+ >GitHub Training&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://tryobjectivec.codeschool.com/" target="_blank" rel="noopener"
+ >Code School&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550" target="_blank" rel="noopener"
+ >Stanford&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://itunes.apple.com/us/itunes-u/developing-apps-for-ios-hd/id395605774?mt=10" target="_blank" rel="noopener"
+ >iTunesU&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.codeschool.com/courses/discover-devtools" target="_blank" rel="noopener"
+ >Code School&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://devtoolsecrets.com/" target="_blank" rel="noopener"
+ >Dev Tools Secret&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.labnol.org/software/chrome-dev-tools-tutorial/28131/" target="_blank" rel="noopener"
+ >Chrome Dev Tools Tutorial&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://tour.golang.org/" target="_blank" rel="noopener"
+ >Golang.org&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.coursera.org/course/android" target="_blank" rel="noopener"
+ >Coursera&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://thenewboston.org/list.php?cat=6" target="_blank" rel="noopener"
+ >The New Boston&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://developers.google.com/university/courses/mobile" target="_blank" rel="noopener"
+ >Google University&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" target="_blank" rel="noopener"
+ >Data Visualization for the Web&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.dashingd3js.com/" target="_blank" rel="noopener"
+ >Dashing D3&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://leanpub.com/D3-Tips-and-Tricks" target="_blank" rel="noopener"
+ >D3 Tips &amp;amp; Tricks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.udacity.com/" target="_blank" rel="noopener"
+ >Udacity&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.edx.org/" target="_blank" rel="noopener"
+ >edX.org&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.coursera.org/" target="_blank" rel="noopener"
+ >Coursera&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.udemy.com/" target="_blank" rel="noopener"
+ >Udemy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.lynda.com/" target="_blank" rel="noopener"
+ >Lynda&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.pluralsight.com/training" target="_blank" rel="noopener"
+ >Pluralsight&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://teamtreehouse.com/" target="_blank" rel="noopener"
+ >Treehouse&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.oeconsortium.org/" target="_blank" rel="noopener"
+ >Open Consortium&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;p>Если вы хотите вырастить программиста, можно начать учить его с ранних лет. С приложениями &lt;a class="link" href="https://itunes.apple.com/us/app/tynker-learn-programming-visual/id805869467" target="_blank" rel="noopener"
+ >Tynker&lt;/a> и &lt;a class="link" href="https://itunes.apple.com/us/app/hopscotch-coding-for-kids/id617098629" target="_blank" rel="noopener"
+ >Hopscotch&lt;/a> для iPad ваш ребенок научится основам программирования через игры и пазлы.&lt;/p></description></item></channel></rss>

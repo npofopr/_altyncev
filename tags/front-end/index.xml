@@ -1,9 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>front-end on Altyncev Vladislav</title><link>https://altyncev.ru/tags/front-end/</link><description>Recent content in front-end on Altyncev Vladislav</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 17 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/front-end/index.xml" rel="self" type="application/rss+xml"/><item><title>Точно сделал задачу?</title><link>https://altyncev.ru/blog/2016-11-17-task_complited/</link><pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2016-11-17-task_complited/</guid><description>Лучший ответ на задачу
-task</description></item><item><title>Сделал таску</title><link>https://altyncev.ru/blog/2016-10-25-task_complite/</link><pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2016-10-25-task_complite/</guid><description>Сделал таску, отправил на code review и &amp;hellip; завернули обратно
-task</description></item><item><title>Sublime Text 3 плагины для фронтэнд-разработчика</title><link>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</link><pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</guid><description>Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.
-Package Control всея всего.
-AdvancedNewFile - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.
-Alignment - Для выравнивания
-AutoFileName - Автозаполнение имени файлов.
-Better CoffeeScript - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.
-Bootstrap 3 Jade Snippets - Может пригодится, тем кто использует Jade, но насколько помню, плагин плохо работал, могу ошибаться.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Front-End on Altyncev Vladislav</title><link>https://altyncev.ru/tags/front-end/</link><description>Recent content in Front-End on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 17 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/front-end/index.xml" rel="self" type="application/rss+xml"/><item><title>Точно сделал задачу?</title><link>https://altyncev.ru/blog/2016-11-17-task_complited/</link><pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2016-11-17-task_complited/</guid><description>&lt;p>Лучший ответ на задачу&lt;/p>
+&lt;p>&lt;figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 181; 
+			flex-basis: 436px"
+	>
+	&lt;a href="https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa.gif" data-size="400x220">
+		&lt;img src="https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa.gif"
+			width="400"
+			height="220"
+			srcset="https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa_hu2566472905395353670.gif 480w, https://altyncev.ru/blog/2016-11-17-task_complited/db425257-823b-4d4b-8472-0cef0d43c6aa_hu3497771697629773619.gif 1024w"
+			loading="lazy"
+			alt="task">
+	&lt;/a>
+	
+	&lt;figcaption>task&lt;/figcaption>
+	
+&lt;/figure>&lt;/p></description></item><item><title>Сделал таску</title><link>https://altyncev.ru/blog/2016-10-25-task_complite/</link><pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2016-10-25-task_complite/</guid><description>&lt;p>Сделал таску, отправил на code review и &amp;hellip; завернули обратно&lt;/p>
+&lt;p>&lt;figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 129; 
+			flex-basis: 311px"
+	>
+	&lt;a href="https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431.gif" data-size="480x370">
+		&lt;img src="https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431.gif"
+			width="480"
+			height="370"
+			srcset="https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431_hu14653058449475510992.gif 480w, https://altyncev.ru/blog/2016-10-25-task_complite/9764c1c4-b2d1-4e3c-a97b-b933b5368431_hu11081124011244043498.gif 1024w"
+			loading="lazy"
+			alt="task">
+	&lt;/a>
+	
+	&lt;figcaption>task&lt;/figcaption>
+	
+&lt;/figure>&lt;/p></description></item><item><title>Sublime Text 3 плагины для фронтэнд-разработчика</title><link>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</link><pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-11-19-sublime_plugins/</guid><description>&lt;p>Решил написать свой список плагинов, которые использую в редакторе. Может полезно будет кому нибудь.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/installation" target="_blank" rel="noopener"
+ >Package Control&lt;/a> всея всего.&lt;/p>
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/packages/AdvancedNewFile" target="_blank" rel="noopener"
+ >AdvancedNewFile&lt;/a> - Этот плагин позволяет быстрее создавать файлы в проекте. Возможно он уже есть изначально, во всяком случае, настроек для него я никаких не вносил.&lt;/p>
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/packages/Alignment" target="_blank" rel="noopener"
+ >Alignment&lt;/a> - Для выравнивания&lt;/p>
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/packages/AutoFileName" target="_blank" rel="noopener"
+ >AutoFileName&lt;/a> - Автозаполнение имени файлов.&lt;/p>
+&lt;p>&lt;a class="link" href="https://packagecontrol.io/packages/Better%20CoffeeScript" target="_blank" rel="noopener"
+ >Better CoffeeScript&lt;/a> - Устанавливал только для подсветки синтаксиса. Но вообще умеет много чего.&lt;/p></description></item></channel></rss>
