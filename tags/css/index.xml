@@ -1,71 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Css on Altyncev Vladislav</title><link>https://altyncev.ru/tags/css/</link><description>Recent content in Css on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
-&lt;p>&lt;figure 
-	
-		class="gallery-image" 
-		style="
-			flex-grow: 126; 
-			flex-basis: 303px"
-	>
-	&lt;a href="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" data-size="450x356">
-		&lt;img src="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif"
-			width="450"
-			height="356"
-			srcset="https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu17214571098219265001.gif 480w, https://altyncev.ru/blog/2017-11-16-csslover-job-interview/45332139-5e21-4c69-8a4a-f8741a7cfd8c_hu6442386837037935783.gif 1024w"
-			loading="lazy"
-			alt="Когда на собеседовании тебе показали кто тут Senior">
-	&lt;/a>
-	
-	&lt;figcaption>Когда на собеседовании тебе показали кто тут Senior&lt;/figcaption>
-	
-&lt;/figure>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Css on Altyncev Vladislav</title><link>https://altyncev.ru/tags/css/</link><description>Recent content in Css on Altyncev Vladislav</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Вопросы и ответы для собеседования на верстальщика</title><link>https://altyncev.ru/post/2017-11-16-csslover-job-interview/</link><pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2017-11-16-csslover-job-interview/</guid><description>&lt;p>Попробую ответить на вопросы, который у Вас могут спросить на собеседовании, на должность верстальщика.&lt;/p>
+&lt;p>&lt;img src="45332139-5e21-4c69-8a4a-f8741a7cfd8c.gif" alt="Когда на собеседовании тебе показали кто тут Senior">&lt;/p>
 &lt;!-- raw HTML omitted -->
-&lt;h2 id="вопросы">Вопросы&lt;/h2>
+&lt;h2 id="вопросы">
+ Вопросы
+ &lt;a class="heading-link" href="#%d0%b2%d0%be%d0%bf%d1%80%d0%be%d1%81%d1%8b">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;blockquote>
 &lt;p>Какие бывают значения display? Расскажите как ведёт себя каждое свойство.&lt;/p>
 &lt;/blockquote>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">block&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline-block&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">inline-table&lt;/span> &lt;span class="o">|&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">inline-flex&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">flex&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">list-item&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">none&lt;/span> &lt;span class="o">|&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">run-in&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-caption&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-cell&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-column-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-column&lt;/span> &lt;span class="o">|&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">table-footer-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-header-group&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-row&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nt">table-row-group&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#7ee787">display&lt;/span>&lt;span style="color:#ff7b72;font-weight:bold">:&lt;/span> &lt;span style="color:#7ee787">block&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">inline&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">inline-block&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">inline-table&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#7ee787">inline-flex&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">flex&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">list-item&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">none&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#7ee787">run-in&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">table&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">table-caption&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">table-cell&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">table-column-group&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">table-column&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#7ee787">table-footer-group&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">table-header-group&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">table-row&lt;/span> &lt;span style="color:#ff7b72;font-weight:bold">|&lt;/span> &lt;span style="color:#7ee787">table-row-group&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;!-- raw HTML omitted -->Подробнее&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;!-- raw HTML omitted -->
-&lt;h3 id="block">block&lt;/h3>
+&lt;h3 id="block">
+ block
+ &lt;a class="heading-link" href="#block">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Элемент показывается как блочный. Применение этого значения для строчных элементов, например &lt;code>&amp;lt;span&amp;gt;&lt;/code>, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого.&lt;/p>
-&lt;h3 id="inline">inline&lt;/h3>
+&lt;h3 id="inline">
+ inline
+ &lt;a class="heading-link" href="#inline">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Элемент отображается как строчный. Использование блочных элементов, таких, как &lt;code>&amp;lt;div&amp;gt;&lt;/code> и &lt;code>&amp;lt;p&amp;gt;&lt;/code>, автоматически создаёт перенос и показывает их содержимое с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.&lt;/p>
-&lt;h3 id="inline-block">inline-block&lt;/h3>
+&lt;h3 id="inline-block">
+ inline-block
+ &lt;a class="heading-link" href="#inline-block">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно строчному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде &lt;code>&amp;lt;img&amp;gt;&lt;/code>). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как строчный.&lt;/p>
-&lt;h3 id="inline-table">inline-table&lt;/h3>
+&lt;h3 id="inline-table">
+ inline-table
+ &lt;a class="heading-link" href="#inline-table">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Определяет, что элемент является таблицей, как при использовании &lt;code>&amp;lt;table&amp;gt;&lt;/code>, но при этом таблица является строчным элементом и происходит её обтекание другими элементами, например, текстом.&lt;/p>
-&lt;h3 id="inline-flex">inline-flex&lt;/h3>
+&lt;h3 id="inline-flex">
+ inline-flex
+ &lt;a class="heading-link" href="#inline-flex">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Элемент ведёт себя как строчный и выкладывает содержимое согласно флекс-модели.&lt;/p>
-&lt;h3 id="flex">flex&lt;/h3>
+&lt;h3 id="flex">
+ flex
+ &lt;a class="heading-link" href="#flex">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.&lt;/p>
-&lt;h3 id="list-item">list-item&lt;/h3>
+&lt;h3 id="list-item">
+ list-item
+ &lt;a class="heading-link" href="#list-item">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Элемент выводится как блочный и добавляется маркер списка.
 none
 Временно удаляет элемент из документа. Занимаемое им место не резервируется, и веб-страница формируется так, словно элемента и не было. Изменить значение и сделать вновь видимым элемент можно с помощью скриптов, обращаясь к свойствам через объектную модель. В этом случае происходит переформатирование данных на странице с учётом вновь добавленного элемента.&lt;/p>
-&lt;h3 id="run-in">run-in&lt;/h3>
+&lt;h3 id="run-in">
+ run-in
+ &lt;a class="heading-link" href="#run-in">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Устанавливает элемент как блочный или строчный, в зависимости от контекста.&lt;/p>
-&lt;h3 id="table">table&lt;/h3>
+&lt;h3 id="table">
+ table
+ &lt;a class="heading-link" href="#table">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Определяет, что элемент является блочной таблицей, подобно использованию &lt;code>&amp;lt;table&amp;gt;&lt;/code>.&lt;/p>
-&lt;h3 id="table-caption">table-caption&lt;/h3>
+&lt;h3 id="table-caption">
+ table-caption
+ &lt;a class="heading-link" href="#table-caption">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Задаёт заголовок таблицы, подобно применению &lt;code>&amp;lt;caption&amp;gt;&lt;/code>.&lt;/p>
-&lt;h3 id="table-cell">table-cell&lt;/h3>
+&lt;h3 id="table-cell">
+ table-cell
+ &lt;a class="heading-link" href="#table-cell">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Указывает, что элемент представляет собой ячейку таблицы (&lt;code>&amp;lt;td&amp;gt;&lt;/code> или &lt;code>&amp;lt;th&amp;gt;&lt;/code>).&lt;/p>
-&lt;h3 id="table-column">table-column&lt;/h3>
+&lt;h3 id="table-column">
+ table-column
+ &lt;a class="heading-link" href="#table-column">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Назначает элемент колонкой таблицы, словно был добавлен &lt;code>&amp;lt;col&amp;gt;&lt;/code>.&lt;/p>
-&lt;h3 id="table-column-group">table-column-group&lt;/h3>
+&lt;h3 id="table-column-group">
+ table-column-group
+ &lt;a class="heading-link" href="#table-column-group">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Определяет, что элемент является группой одной или более колонок таблицы, как при использовании &lt;code>&amp;lt;colgroup&amp;gt;&lt;/code>.&lt;/p>
-&lt;h3 id="table-footer-group">table-footer-group&lt;/h3>
+&lt;h3 id="table-footer-group">
+ table-footer-group
+ &lt;a class="heading-link" href="#table-footer-group">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Используется для хранения одной или нескольких строк ячеек, которые отображаются в самом низу таблицы. По своему действию сходно с работой &lt;code>&amp;lt;tfoot&amp;gt;&lt;/code>.&lt;/p>
-&lt;h3 id="table-header-group">table-header-group&lt;/h3>
+&lt;h3 id="table-header-group">
+ table-header-group
+ &lt;a class="heading-link" href="#table-header-group">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Элемент предназначен для хранения одной или нескольких строк ячеек, которые представлены вверху таблицы. По своему действию сходно с работой &lt;code>&amp;lt;thead&amp;gt;&lt;/code>.&lt;/p>
-&lt;h4 id="table-row">table-row&lt;/h4>
+&lt;h4 id="table-row">
+ table-row
+ &lt;a class="heading-link" href="#table-row">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h4>
 &lt;p>Элемент отображается как строка таблицы (&lt;code>&amp;lt;tr&amp;gt;&lt;/code>).&lt;/p>
-&lt;h3 id="table-row-group">table-row-group&lt;/h3>
+&lt;h3 id="table-row-group">
+ table-row-group
+ &lt;a class="heading-link" href="#table-row-group">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;p>Создаёт структурный блок, состоящий из нескольких строк таблицы, аналогично действию &lt;code>&amp;lt;tbody&amp;gt;&lt;/code>.&lt;/p>
-&lt;!-- raw HTML omitted --></description></item><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>&lt;p>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на &lt;a href="https://medium.com/" rel="nofollow" target="_blank">medium.com&lt;/a>&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>Делаем прогресс бар как на YouTube с помощью jQuery</title><link>https://altyncev.ru/post/2013-08-21-rebuild-youtubes-progress-bar/</link><pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2013-08-21-rebuild-youtubes-progress-bar/</guid><description>&lt;p>Несколько дней, а может уже и недель, на YouTube при загрузке страницы появился прогресс бар, этой самой загрузки. Вполне привлекательно выглядит. Тоже самое реализовали и на &lt;a href="https://medium.com/" rel="nofollow" target="_blank">medium.com&lt;/a>&lt;/p>
 &lt;!-- Read more -->
 
 &lt;p data-height="268" data-theme-id="0" data-slug-hash="odJjA" data-user="npofopr" data-default-tab="result" class='codepen'>See the Pen &lt;a href='http://codepen.io/npofopr/pen/odJjA'>odJjA&lt;/a> by npofopr (&lt;a href='http://codepen.io/npofopr'>@npofopr&lt;/a>) on &lt;a href='http://codepen.io'>CodePen&lt;/a>&lt;/p>
@@ -130,74 +220,32 @@ none
 }
 &lt;/code>&lt;/pre>
 
-&lt;p>&lt;strong>И немного магии Javascript:&lt;/strong>&lt;/p></description></item><item><title>css вкусности на неделю</title><link>https://altyncev.ru/blog/2013-07-19-css_likes/</link><pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-19-css_likes/</guid><description>&lt;p>Всё то, что мне приглянулось и понравилось за текущую неделю&lt;/p>
+&lt;p>&lt;strong>И немного магии Javascript:&lt;/strong>&lt;/p></description></item><item><title>css вкусности на неделю</title><link>https://altyncev.ru/post/2013-07-19-css_likes/</link><pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2013-07-19-css_likes/</guid><description>&lt;p>Всё то, что мне приглянулось и понравилось за текущую неделю&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;ul>
-&lt;li>&lt;a class="link" href="http://h5bp.github.io/Effeckt.css/dist/" title="Effeckt.css"
- target="_blank" rel="noopener"
- >&lt;strong>Разнообразные css3 эффекты&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://h5bp.github.io/Effeckt.css/dist/" title="Effeckt.css" class="external-link" target="_blank" rel="noopener">&lt;strong>Разнообразные css3 эффекты&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Всем смотреть обязательно, интересные эффекты, как для кнопок, так и для всей страницы, и всё это в одном css)&lt;/p>
-&lt;p>&lt;figure 
-	>
-	&lt;a href="https://altyncev.ru/images/blog/effect.png" >
-		&lt;img src="https://altyncev.ru/images/blog/effect.png"
-			
-			
-			
-			loading="lazy"
-			alt="Effeckt.css">
-	&lt;/a>
-	
-	&lt;figcaption>Effeckt.css&lt;/figcaption>
-	
-&lt;/figure>&lt;/p>
+&lt;p>&lt;img src="https://altyncev.ru/images/blog/effect.png" alt="Effeckt.css">&lt;/p>
 &lt;p> &lt;/p>
 &lt;ul>
-&lt;li>&lt;a class="link" href="http://sandbox.juan-i.com/longshadows/" target="_blank" rel="noopener"
- >&lt;strong>Генератор тени&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://sandbox.juan-i.com/longshadows/" class="external-link" target="_blank" rel="noopener">&lt;strong>Генератор тени&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Легким движением ползунков генерируем трендовые тенюшки)&lt;/p>
-&lt;p>&lt;figure 
-	>
-	&lt;a href="https://altyncev.ru/images/blog/shadow.png" >
-		&lt;img src="https://altyncev.ru/images/blog/shadow.png"
-			
-			
-			
-			loading="lazy"
-			alt="shadow">
-	&lt;/a>
-	
-	&lt;figcaption>shadow&lt;/figcaption>
-	
-&lt;/figure>&lt;/p>
+&lt;p>&lt;img src="https://altyncev.ru/images/blog/shadow.png" alt="shadow">&lt;/p>
 &lt;p> &lt;/p>
 &lt;ul>
-&lt;li>Выдержки из &lt;a class="link" href="http://codepen.io/" target="_blank" rel="noopener"
- >codepen.io&lt;/a>, то, что я налайкал:&lt;/li>
+&lt;li>Выдержки из &lt;a href="http://codepen.io/" class="external-link" target="_blank" rel="noopener">codepen.io&lt;/a>, то, что я налайкал:&lt;/li>
 &lt;/ul>
 &lt;ol>
-&lt;li>&lt;a class="link" href="http://codepen.io/krnlde/pen/iIEgh" title="Интересная навигация, при скролле"
- target="_blank" rel="noopener"
- >Timeline Navigation&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="http://codepen.io/agelber/pen/AirsI" title="Слайдер, листается текст"
- target="_blank" rel="noopener"
- >Text Looping Transition&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="http://codepen.io/arronhunt/pen/jtsih" title="Отпадывающая кнопка)"
- target="_blank" rel="noopener"
- >Playful signup buttons&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="http://codepen.io/billycrist/pen/CHmiE" title="Чекбоксы"
- target="_blank" rel="noopener"
- >Switches&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="http://codepen.io/ezecafre89/pen/ojnKb" title="Minion"
- target="_blank" rel="noopener"
- >Minion Pure CSS&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="http://codepen.io/d4rkr00t/pen/hItgE" title="Солнечная система с возможностью добавить свои объекты"
- target="_blank" rel="noopener"
- >Solar System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://codepen.io/krnlde/pen/iIEgh" title="Интересная навигация, при скролле" class="external-link" target="_blank" rel="noopener">Timeline Navigation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://codepen.io/agelber/pen/AirsI" title="Слайдер, листается текст" class="external-link" target="_blank" rel="noopener">Text Looping Transition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://codepen.io/arronhunt/pen/jtsih" title="Отпадывающая кнопка)" class="external-link" target="_blank" rel="noopener">Playful signup buttons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://codepen.io/billycrist/pen/CHmiE" title="Чекбоксы" class="external-link" target="_blank" rel="noopener">Switches&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://codepen.io/ezecafre89/pen/ojnKb" title="Minion" class="external-link" target="_blank" rel="noopener">Minion Pure CSS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://codepen.io/d4rkr00t/pen/hItgE" title="Солнечная система с возможностью добавить свои объекты" class="external-link" target="_blank" rel="noopener">Solar System&lt;/a>&lt;/li>
 &lt;/ol>
-&lt;p> &lt;/p></description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/blog/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-07-10-min_css_note/</guid><description>&lt;p>Расширяем свой reset.css и зарещаем масштабирование сайта.&lt;/p>
+&lt;p> &lt;/p></description></item><item><title>Небольшая записка css. Чтобы помнить</title><link>https://altyncev.ru/post/2013-07-10-min_css_note/</link><pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2013-07-10-min_css_note/</guid><description>&lt;p>Расширяем свой reset.css и зарещаем масштабирование сайта.&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;p>&lt;strong>Расширьте reset.css&lt;/strong>&lt;/p>
 &lt;p>К стандартному reset.css будет полезно добавить стиль переопределяющий выделение елементов при тапах. Это выглядит не кравсиво и не нейтив&lt;/p>
@@ -211,7 +259,13 @@ none
 &lt;p>&lt;strong>Запрещайте масштабирование&lt;/strong>&lt;/p>
 &lt;p>Вставив в тег head следующий тег вы запретите масштабирование и получите возможность трекать жесты.&lt;/p>
 &lt;pre>&lt;code>&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&amp;quot;&amp;gt;
-&lt;/code>&lt;/pre></description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-03-05-html_css_js_tehniki/</guid><description>&lt;p>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.&lt;/p>
+&lt;/code>&lt;/pre></description></item><item><title>Полезные техники HTML, CSS</title><link>https://altyncev.ru/post/2013-03-05-html_css_js_tehniki/</link><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2013-03-05-html_css_js_tehniki/</guid><description>&lt;p>Несколько заметок, для себя. Всё это вы наверняка видели и сможете в легкую найти на хабре.&lt;/p>
 &lt;!-- raw HTML omitted -->
-&lt;h2 id="1-google-chrome-frame">1. &lt;strong>Google Chrome Frame&lt;/strong>&lt;/h2>
+&lt;h2 id="1-google-chrome-frame">
+ 1. &lt;strong>Google Chrome Frame&lt;/strong>
+ &lt;a class="heading-link" href="#1-google-chrome-frame">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Ссылка на заголовок">&lt;/i>
+ &lt;span class="sr-only">Ссылка на заголовок&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;p>Появилась возможность обходить сложности связанные с Internet Explorer, благодаря Google Chrome Frame. С тех пор, как Google ввел его в 2010 году, &lt;strong>Google Chrome Frame&lt;/strong> стал популярнейшим дополнением для поддержки HTML5 в браузере Internet Explorer. Во всех версиях IE можно добавить Chrome Frame для чего достаточно добавить следующий &lt;!-- raw HTML omitted -->-тэг в тэге &lt;!-- raw HTML omitted --> нашего сайта.&lt;/p></description></item></channel></rss>

@@ -1,54 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Site on Altyncev Vladislav</title><link>https://altyncev.ru/categories/site/</link><description>Recent content in Site on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 11 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/categories/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Мыши плакали, кололись, но продолжали грызть кактус</title><link>https://altyncev.ru/blog/2017-04-11-hugo-update/</link><pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2017-04-11-hugo-update/</guid><description>&lt;p>Теперь бложик оживает благодаря &lt;!-- raw HTML omitted -->Hugo&lt;!-- raw HTML omitted --> &amp;#x1f525;&lt;/p>
-&lt;p>А собирается и деплоится во имя &lt;!-- raw HTML omitted -->Wercker&lt;!-- raw HTML omitted --> &amp;#x1f611;&lt;/p>
-&lt;p>И всё также всё лежит на &lt;!-- raw HTML omitted -->Гитхабе&lt;!-- raw HTML omitted --> &amp;#x270a;&lt;/p>
-&lt;p>&lt;figure 
-	
-		class="gallery-image" 
-		style="
-			flex-grow: 177; 
-			flex-basis: 427px"
-	>
-	&lt;a href="https://altyncev.ru/blog/2017-04-11-hugo-update/73db630c-a223-4464-a936-1258f09a4911.gif" data-size="500x281">
-		&lt;img src="https://altyncev.ru/blog/2017-04-11-hugo-update/73db630c-a223-4464-a936-1258f09a4911.gif"
-			width="500"
-			height="281"
-			srcset="https://altyncev.ru/blog/2017-04-11-hugo-update/73db630c-a223-4464-a936-1258f09a4911_hu13591512785455806324.gif 480w, https://altyncev.ru/blog/2017-04-11-hugo-update/73db630c-a223-4464-a936-1258f09a4911_hu6956528067804658417.gif 1024w"
-			loading="lazy"
-			alt="Мыши плакали, кололись, но продолжали грызть кактус">
-	&lt;/a>
-	
-	&lt;figcaption>Мыши плакали, кололись, но продолжали грызть кактус&lt;/figcaption>
-	
-&lt;/figure>&lt;/p>
-&lt;p>Хвала лунной магии! &amp;#x1f4a5;&lt;/p></description></item><item><title>Как самому сделать сайт</title><link>https://altyncev.ru/blog/2013-10-13-how_made_site/</link><pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-10-13-how_made_site/</guid><description>&lt;p>Постараюсь описать процесс создания сайта. Как магазина, так и обычного информационного.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Site on Altyncev Vladislav</title><link>https://altyncev.ru/categories/site/</link><description>Recent content in Site on Altyncev Vladislav</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/categories/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Мыши плакали, кололись, но продолжали грызть кактус</title><link>https://altyncev.ru/post/2017-04-11-hugo-update/</link><pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2017-04-11-hugo-update/</guid><description>&lt;p>Теперь бложик оживает благодаря &lt;!-- raw HTML omitted -->Hugo&lt;!-- raw HTML omitted --> :fire:&lt;/p>
+&lt;p>А собирается и деплоится во имя &lt;!-- raw HTML omitted -->Wercker&lt;!-- raw HTML omitted --> :expressionless:&lt;/p>
+&lt;p>И всё также всё лежит на &lt;!-- raw HTML omitted -->Гитхабе&lt;!-- raw HTML omitted --> :fist:&lt;/p>
+&lt;p>&lt;img src="73db630c-a223-4464-a936-1258f09a4911.gif" alt="Мыши плакали, кололись, но продолжали грызть кактус">&lt;/p>
+&lt;p>Хвала лунной магии! :boom:&lt;/p></description></item><item><title>Как самому сделать сайт</title><link>https://altyncev.ru/post/2013-10-13-how_made_site/</link><pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2013-10-13-how_made_site/</guid><description>&lt;p>Постараюсь описать процесс создания сайта. Как магазина, так и обычного информационного.&lt;/p>
 &lt;!-- raw HTML omitted -->
-&lt;p>&lt;figure 
-	>
-	&lt;a href="http://risovach.ru/upload/2012/12/mem/nelzya-prosto-tak-vzyat-i-boromir-mem_6084466_orig_.jpg" >
-		&lt;img src="http://risovach.ru/upload/2012/12/mem/nelzya-prosto-tak-vzyat-i-boromir-mem_6084466_orig_.jpg"
-			
-			
-			
-			loading="lazy"
-			alt="сделать сайт">
-	&lt;/a>
-	
-	&lt;figcaption>сделать сайт&lt;/figcaption>
-	
-&lt;/figure>&lt;/p>
+&lt;p>&lt;img src="http://risovach.ru/upload/2012/12/mem/nelzya-prosto-tak-vzyat-i-boromir-mem_6084466_orig_.jpg" alt="сделать сайт">&lt;/p>
 &lt;p>Самое первое, с чего стоит начать, это задаться вопросом: &lt;strong>А надо ли мне оно вообще?&lt;/strong>. Если вы всё хорошо обдумали и оно того стоит, то для начала всегда стоит смотреть в сторону &amp;ldquo;уже готового&amp;rdquo;.&lt;/p>
-&lt;p>Я не буду здесь описывать такие &amp;ldquo;генераторы&amp;rdquo; как ucoz и тому подобное. Люди и там делают, вполне вменяемые сайты, но меня от таких чуть-чуть подташнивает :-)&lt;/p></description></item><item><title>Небольшие обновления сайта</title><link>https://altyncev.ru/blog/2013-04-13-update_site/</link><pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-04-13-update_site/</guid><description>&lt;p>Убрал много личнего js и куча стилей.&lt;/p>
+&lt;p>Я не буду здесь описывать такие &amp;ldquo;генераторы&amp;rdquo; как ucoz и тому подобное. Люди и там делают, вполне вменяемые сайты, но меня от таких чуть-чуть подташнивает :-)&lt;/p></description></item><item><title>Небольшие обновления сайта</title><link>https://altyncev.ru/post/2013-04-13-update_site/</link><pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2013-04-13-update_site/</guid><description>&lt;p>Убрал много личнего js и куча стилей.&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;p>Есть конечно еще куда расти и что чистить&amp;hellip; Но грузиться должно чуточку быстрее.&lt;/p>
 &lt;p>В очередной раз пересортировал статьи. Теперь все лежит по папочкам, а не в куче, как раньше. По-моему так удобнее.&lt;/p>
-&lt;p>И самое важное :-) Сделал еще один бложик &lt;a class="link" href="http://oleg.altyncev.ru" title="Жизнь маленького человека, глазами очевидцев"
- target="_blank" rel="noopener"
- >oleg.altyncev.ru&lt;/a>. Сделан, исключительно для того, чтобы потом было, что вспомнить :-)&lt;/p>
+&lt;p>И самое важное :-) Сделал еще один бложик &lt;a href="http://oleg.altyncev.ru" title="Жизнь маленького человека, глазами очевидцев" class="external-link" target="_blank" rel="noopener">oleg.altyncev.ru&lt;/a>. Сделан, исключительно для того, чтобы потом было, что вспомнить :-)&lt;/p>
 &lt;p>Что предвидится:&lt;/p>
 &lt;ul>
 &lt;li>добавление тегов&lt;/li>
 &lt;li>возможно легкий редизайн.&lt;/li>
-&lt;/ul></description></item><item><title>Обновление сайта</title><link>https://altyncev.ru/blog/2013-01-25-update_site_2/</link><pubDate>Fri, 25 Jan 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-01-25-update_site_2/</guid><description>&lt;p>Внёс &lt;nobr>кое-какие&lt;/nobr> правки, в&amp;nbsp;основном в&amp;nbsp;&lt;acronym title="Cascading Style Sheets" lang="en">css&lt;/acronym>.&lt;/p>
+&lt;/ul></description></item><item><title>Обновление сайта</title><link>https://altyncev.ru/post/2013-01-25-update_site_2/</link><pubDate>Fri, 25 Jan 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2013-01-25-update_site_2/</guid><description>&lt;p>Внёс &lt;nobr>кое-какие&lt;/nobr> правки, в&amp;nbsp;основном в&amp;nbsp;&lt;acronym title="Cascading Style Sheets" lang="en">css&lt;/acronym>.&lt;/p>
 &lt;p>&lt;!-- Read more -->&lt;/p>
 &lt;ul>&lt;li>Добавил ссылку на&amp;nbsp;свой гитхаб, сверху, справа. Дабы вдруг, кто захочет форкнуть или того больше зафоловить :D&lt;/li>&lt;li>Переоформил вывод статей в&amp;nbsp;бложике. Теперь вроде посимпотичнее выглядит. И&amp;nbsp;вроде не&amp;nbsp;тормозит.&lt;/li>&lt;/ul>
 &lt;p>Задачи на&amp;nbsp;будущее:&lt;/p>
@@ -57,7 +24,7 @@
 &amp;mdash;&amp;nbsp;Посмотреть на&amp;nbsp;всевозможные шрифты, дабы стало четабельнее, и&amp;nbsp;текст чтобы различался. Дата, заголовок, анонс.&lt;br />
 &amp;mdash;&amp;nbsp;добавить к&amp;nbsp;ФИ&amp;nbsp;ссылочку и&amp;nbsp;линк на&amp;nbsp;главную.&lt;br />
 &amp;mdash;&amp;nbsp;Фотографию добавить вертящуюся&lt;br />
-&amp;mdash;&amp;nbsp;Попробовать препроцессоры &lt;acronym title="Cascading Style Sheets" lang="en">css&lt;/acronym>, stylus например, ну&amp;nbsp;и&amp;nbsp;scss &lt;nobr>все-таки&lt;/nobr> попробовать подключить.&lt;/p></description></item><item><title>Update сайта</title><link>https://altyncev.ru/blog/2013-01-08-update_site/</link><pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2013-01-08-update_site/</guid><description>&lt;p>**Поздравляю всех** с&amp;nbsp;наступившим Новым Годом, годом змеи) Посмотрим, что он&amp;nbsp;нам подкинет&amp;hellip;&lt;/p>
+&amp;mdash;&amp;nbsp;Попробовать препроцессоры &lt;acronym title="Cascading Style Sheets" lang="en">css&lt;/acronym>, stylus например, ну&amp;nbsp;и&amp;nbsp;scss &lt;nobr>все-таки&lt;/nobr> попробовать подключить.&lt;/p></description></item><item><title>Update сайта</title><link>https://altyncev.ru/post/2013-01-08-update_site/</link><pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2013-01-08-update_site/</guid><description>&lt;p>**Поздравляю всех** с&amp;nbsp;наступившим Новым Годом, годом змеи) Посмотрим, что он&amp;nbsp;нам подкинет&amp;hellip;&lt;/p>
 &lt;p>&lt;!-- Read more -->&lt;/p>
 &lt;p>Добавил на&amp;nbsp;сайтик:&lt;/p>
 &lt;p>&amp;mdash;&amp;nbsp;sitemap&lt;br />
@@ -65,7 +32,7 @@
 &amp;mdash;&amp;nbsp;цвяточек аленькой&lt;br />
 &amp;mdash;&amp;nbsp;хотел поиск, но&amp;nbsp;не&amp;nbsp;вышло&lt;br />
 &amp;mdash;&amp;nbsp;вникся в&amp;nbsp;гугл / яндекс вебмастеры их&lt;/p>
-&lt;p>Зима скоро закончится, поэтому сменил счётчик на&amp;nbsp;весну) Будем ждать теперь весны.&lt;/p></description></item><item><title>Под Новый Год добавил подсветку синтаксиса</title><link>https://altyncev.ru/blog/2012-12-31-add_highlight_to_post/</link><pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-31-add_highlight_to_post/</guid><description>&lt;p>Подключил &lt;a class="roll_link" href="http://softwaremaniacs.org/soft/highlight/">&lt;span data-title="библиотеку">библиотеку&lt;/span>&lt;/a> отечественного производства для подсветки синтаксиса.&lt;/p>
+&lt;p>Зима скоро закончится, поэтому сменил счётчик на&amp;nbsp;весну) Будем ждать теперь весны.&lt;/p></description></item><item><title>Под Новый Год добавил подсветку синтаксиса</title><link>https://altyncev.ru/post/2012-12-31-add_highlight_to_post/</link><pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2012-12-31-add_highlight_to_post/</guid><description>&lt;p>Подключил &lt;a class="roll_link" href="http://softwaremaniacs.org/soft/highlight/">&lt;span data-title="библиотеку">библиотеку&lt;/span>&lt;/a> отечественного производства для подсветки синтаксиса.&lt;/p>
 &lt;!-- Read more -->
 &lt;p>Не&amp;nbsp;все статьи подсвечены, но&amp;nbsp;будущие обязательно будут.&lt;/p>
 &lt;p>Немного ReadMe:&lt;/p>
@@ -74,7 +41,7 @@
 подсвечивать блоки кода динамически, читайте &amp;laquo;Инициализацию вручную&amp;raquo; ниже.&lt;/p>
 &lt;ul>	&lt;li>Вы&amp;nbsp;можете скачать собственную версию &amp;laquo;highlight.pack.js&amp;raquo; или сослаться на&amp;nbsp;захостенный файл, как описано на&amp;nbsp;&lt;a class="roll_link" href="http://softwaremaniacs.org/soft/highlight/download/">&lt;span data-title="странице загрузки">странице загрузки&lt;/span>&lt;/a>&lt;/li>	&lt;li>Стилевые темы можно найти в&amp;nbsp;загруженном архиве или также использовать захостенные. Чтобы сделать собственный стиль для своего сайта, вам будет полезен справочник классов в&amp;nbsp;файле &lt;a class="roll_link" href="http://github.com/isagalaev/highlight.js/blob/master/classref.txt">&lt;span data-title="classref.txt">classref.txt&lt;/span>&lt;/a>, который тоже есть в&amp;nbsp;архиве.&lt;/li>
 &lt;/ul>
-&lt;p>Подобрнее на&amp;nbsp;сайте разработчиков.&lt;/p></description></item><item><title>Markdown? Нет не слышал</title><link>https://altyncev.ru/blog/2012-12-28-markdown/</link><pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-28-markdown/</guid><description>&lt;h3>Примеры синтаксиса&lt;/h3>
+&lt;p>Подобрнее на&amp;nbsp;сайте разработчиков.&lt;/p></description></item><item><title>Markdown? Нет не слышал</title><link>https://altyncev.ru/post/2012-12-28-markdown/</link><pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2012-12-28-markdown/</guid><description>&lt;h3>Примеры синтаксиса&lt;/h3>
 &lt;p>Это не&amp;nbsp;полное руководство, а&amp;nbsp;всего лишь выдержка из&amp;nbsp;википедии. Полное руководство можете найти на&amp;nbsp;&lt;a href="http://daringfireball.net/projects/markdown/syntax" class="roll_link">&lt;span data-title="офф. сайте">офф. сайте&lt;/span>&lt;/a>&lt;/p>
 &lt;!-- Read more -->
 &lt;p>&lt;strong>Текст с&amp;nbsp;выделением или логическим ударением:&lt;/strong>&lt;/p>
@@ -96,8 +63,8 @@
 2. Элемент №2 того же списка
 9. Элемент №3 списка — элементы нумеруются по порядку, цифра в начале строки не имеет значения
 &lt;/pre>
-&lt;p>&lt;strong>Заголовки:&lt;/strong>&lt;/p></description></item><item><title>Обновления сайта на 28.12.2012</title><link>https://altyncev.ru/blog/2012-12-28-update_site_2/</link><pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-28-update_site_2/</guid><description>&lt;ol>	&lt;li>Закрыл от&amp;nbsp;индексации &lt;nobr>кое-какие&lt;/nobr> ссылки&lt;/li>	&lt;li>Добавил в&amp;nbsp;блок &amp;laquo;Спасибо&amp;raquo; ссылку на&amp;nbsp;автора самого &amp;laquo;ядра&amp;raquo;&lt;/li>	&lt;li>Добавил статью&lt;/li>	&lt;li>Сделал экспорт своих закладок по&amp;nbsp;&lt;acronym title="Cascading Style Sheets" lang="en">css&lt;/acronym>/html, пусть будут)&lt;/li>	&lt;li>Обновил само ядрышко&lt;/li>	&lt;li>Добавил rss (осталось только красиво стилизовать)&lt;/li>
-&lt;/ol></description></item><item><title>Переезд complited</title><link>https://altyncev.ru/blog/2012-12-04-update_site/</link><pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2012-12-04-update_site/</guid><description>&lt;p>Ура, ура, ура!&lt;br />
+&lt;p>&lt;strong>Заголовки:&lt;/strong>&lt;/p></description></item><item><title>Обновления сайта на 28.12.2012</title><link>https://altyncev.ru/post/2012-12-28-update_site_2/</link><pubDate>Fri, 28 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2012-12-28-update_site_2/</guid><description>&lt;ol>	&lt;li>Закрыл от&amp;nbsp;индексации &lt;nobr>кое-какие&lt;/nobr> ссылки&lt;/li>	&lt;li>Добавил в&amp;nbsp;блок &amp;laquo;Спасибо&amp;raquo; ссылку на&amp;nbsp;автора самого &amp;laquo;ядра&amp;raquo;&lt;/li>	&lt;li>Добавил статью&lt;/li>	&lt;li>Сделал экспорт своих закладок по&amp;nbsp;&lt;acronym title="Cascading Style Sheets" lang="en">css&lt;/acronym>/html, пусть будут)&lt;/li>	&lt;li>Обновил само ядрышко&lt;/li>	&lt;li>Добавил rss (осталось только красиво стилизовать)&lt;/li>
+&lt;/ol></description></item><item><title>Переезд complited</title><link>https://altyncev.ru/post/2012-12-04-update_site/</link><pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2012-12-04-update_site/</guid><description>&lt;p>Ура, ура, ура!&lt;br />
 Переехал в&amp;nbsp;облака:-)&lt;/p>
 &lt;!-- Read more -->
 &lt;p>Теперь сайтик весит на&amp;nbsp;github и&amp;nbsp;крутится с&amp;nbsp;благословения heroku.&lt;/p>

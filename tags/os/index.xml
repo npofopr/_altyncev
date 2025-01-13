@@ -1,42 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Os on Altyncev Vladislav</title><link>https://altyncev.ru/tags/os/</link><description>Recent content in Os on Altyncev Vladislav</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/os/index.xml" rel="self" type="application/rss+xml"/><item><title>Борьба с вирусами</title><link>https://altyncev.ru/blog/2015-04-12-antivirus/</link><pubDate>Sun, 12 Apr 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/blog/2015-04-12-antivirus/</guid><description>&lt;p>Очень часто многие спрашивают, какой антивирусник поставить. Да в общем то и я сам иногда интересуюсь, кто чем пользуется.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Os on Altyncev Vladislav</title><link>https://altyncev.ru/tags/os/</link><description>Recent content in Os on Altyncev Vladislav</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 12 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://altyncev.ru/tags/os/index.xml" rel="self" type="application/rss+xml"/><item><title>Борьба с вирусами</title><link>https://altyncev.ru/post/2015-04-12-antivirus/</link><pubDate>Sun, 12 Apr 2015 00:00:00 +0000</pubDate><guid>https://altyncev.ru/post/2015-04-12-antivirus/</guid><description>&lt;p>Очень часто многие спрашивают, какой антивирусник поставить. Да в общем то и я сам иногда интересуюсь, кто чем пользуется.&lt;/p>
 &lt;!-- raw HTML omitted -->
-&lt;p>Для начала рекомендую ознакомиться с &lt;a class="link" href="http://habrahabr.ru/post/219023/" target="_blank" rel="noopener"
- >этой&lt;/a> статьей. Там как раз тестируются несколько бесплатных антивирусников. Если статья не открывается, то собственно вот результат:&lt;/p>
-&lt;p>&lt;figure 
-	
-		class="gallery-image" 
-		style="
-			flex-grow: 121; 
-			flex-basis: 291px"
-	>
-	&lt;a href="https://altyncev.ru/blog/2015-04-12-antivirus/895e1c5adeb59bf195446609c2eacb6d.png" data-size="1006x828">
-		&lt;img src="https://altyncev.ru/blog/2015-04-12-antivirus/895e1c5adeb59bf195446609c2eacb6d.png"
-			width="1006"
-			height="828"
-			srcset="https://altyncev.ru/blog/2015-04-12-antivirus/895e1c5adeb59bf195446609c2eacb6d_hu3622852002651548574.png 480w, https://altyncev.ru/blog/2015-04-12-antivirus/895e1c5adeb59bf195446609c2eacb6d_hu13236063105750332069.png 1024w"
-			loading="lazy"
-			alt="Обнаружено зараженных файлов">
-	&lt;/a>
-	
-	&lt;figcaption>Обнаружено зараженных файлов&lt;/figcaption>
-	
-&lt;/figure>&lt;/p>
-&lt;p>&lt;figure 
-	
-		class="gallery-image" 
-		style="
-			flex-grow: 284; 
-			flex-basis: 683px"
-	>
-	&lt;a href="https://altyncev.ru/blog/2015-04-12-antivirus/35c658c0da3b16d102f397df6e4ca8db.png" data-size="983x345">
-		&lt;img src="https://altyncev.ru/blog/2015-04-12-antivirus/35c658c0da3b16d102f397df6e4ca8db.png"
-			width="983"
-			height="345"
-			srcset="https://altyncev.ru/blog/2015-04-12-antivirus/35c658c0da3b16d102f397df6e4ca8db_hu2403162583429103346.png 480w, https://altyncev.ru/blog/2015-04-12-antivirus/35c658c0da3b16d102f397df6e4ca8db_hu8197080499321855078.png 1024w"
-			loading="lazy"
-			alt="Итог тестирования антивирусов">
-	&lt;/a>
-	
-	&lt;figcaption>Итог тестирования антивирусов&lt;/figcaption>
-	
-&lt;/figure>&lt;/p></description></item></channel></rss>
+&lt;p>Для начала рекомендую ознакомиться с &lt;a href="http://habrahabr.ru/post/219023/" class="external-link" target="_blank" rel="noopener">этой&lt;/a> статьей. Там как раз тестируются несколько бесплатных антивирусников. Если статья не открывается, то собственно вот результат:&lt;/p>
+&lt;p>&lt;img src="895e1c5adeb59bf195446609c2eacb6d.png" alt="Обнаружено зараженных файлов" title="Обнаружено зараженных файлов">&lt;/p>
+&lt;p>&lt;img src="35c658c0da3b16d102f397df6e4ca8db.png" alt="Итог тестирования антивирусов" title="Итог тестирования антивирусов">&lt;/p>
+&lt;p>Все антивирусы имели последние обновления программы и баз, настройки по умолчанию. Использовались найденные старые паки вирусов за 2010-2012 года в количестве 8983, и 944 которых удалось скачать по списку за 2012-2014 года с malwaredomainlist.&lt;/p></description></item></channel></rss>
