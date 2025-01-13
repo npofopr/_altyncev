@@ -1,0 +1,79 @@
+baseurl = "https://altyncev.ru"
+title = "Altyncev Vladislav"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "ru"
+
+# GA Tracking ID
+# googleAnalytics: UA-2789259-4
+googleAnalytics = "287374258"
+YandexMetrika = "17143639"
+domainVerification = "Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M"
+googleVerification = "Zlo3LpLuAc13baEPecZMFGiRGwIyip_MGbS9NCQT17M"
+yandexVerification = "496c60b178050fff"
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "npofopr"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Altyncev Vladislav"
+  info = "Жизнь, работа, открытия"
+  description = "Altyncev Vladislav's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "/images/profile.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2012
+
+  enableTwemoji = true
+  enableRobotsTXT = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/npofopr"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa-brands fa-telegram fa-2x"
+  weight = 3
+  url = "https://t.me/npofopr"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Handmade"
+  weight = 2
+  url = "categories/cottage/"
